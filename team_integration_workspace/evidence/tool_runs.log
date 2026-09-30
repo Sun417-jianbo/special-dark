@@ -1,0 +1,4 @@
+FROZEN CORE INTACT
+--- validate_response.py on deliberately weak generic response ---
+VALIDATION PASSED
+--- new_agent.py + build_prompt.py exercised (prompt packet saved as evidence/prompt_packet_demo.txt) ---
