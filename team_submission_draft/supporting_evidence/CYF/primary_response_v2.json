@@ -1,0 +1,122 @@
+{
+  "agent": {
+    "name": "Business Chart Improvement Agent",
+    "specialty": "evidence-preserving business visualization improvement",
+    "version": "0.2-student"
+  },
+  "business_question": "What do the Titanic passenger records show about the relationship between sex and survival, and how should a New York Times editor communicate that result without treating association as proof of an evacuation policy?",
+  "business_answer_shown": "Female passengers had 339 survivors among 466 passengers, a 72.7% survival rate. Male passengers had 161 survivors among 843 passengers, a 19.1% survival rate. The female rate was 53.6 percentage points higher and 3.81 times the male rate. This is an observed association, not proof that a policy or evacuation order caused the difference.",
+  "baseline_chart_assessment": [
+    {
+      "issue": "The title names the variables but does not state the editorial finding.",
+      "why_it_matters": "The editor must infer the answer instead of receiving it immediately.",
+      "related_principle": "Story and Method - clear business point and conclusion-oriented title",
+      "priority": "high"
+    },
+    {
+      "issue": "The baseline displays rates but not survivor counts, the percentage-point gap, or the relative survival rate.",
+      "why_it_matters": "The requested numerical evidence is incomplete in the visual itself.",
+      "related_principle": "Purpose - answer the framed analytical question",
+      "priority": "high"
+    },
+    {
+      "issue": "The blue and orange category colors do not carry a documented meaning.",
+      "why_it_matters": "Unnecessary color contrast can distract from the magnitude comparison.",
+      "related_principle": "Method - use color judiciously and sparsely",
+      "priority": "medium"
+    },
+    {
+      "issue": "The baseline provides no visible association-not-causation qualification.",
+      "why_it_matters": "Readers could interpret the chart as proof of a specific evacuation policy.",
+      "related_principle": "Purpose - audience, framing, and decision context",
+      "priority": "high"
+    }
+  ],
+  "data_fidelity_checks": [
+    {
+      "check": "Passenger totals by sex",
+      "result": "pass",
+      "notes": "466 female and 843 male passenger records; total 1,309."
+    },
+    {
+      "check": "Survivor counts and rates",
+      "result": "pass",
+      "notes": "Female: 339/466 = 72.7468%; male: 161/843 = 19.0985%."
+    },
+    {
+      "check": "Derived comparison metrics",
+      "result": "pass",
+      "notes": "Female-minus-male difference is 53.6483 percentage points; relative rate is 3.8090."
+    },
+    {
+      "check": "Causal evidence",
+      "result": "not_verified",
+      "notes": "The spreadsheet has no policy, order, timing, compliance, or causal-identification evidence."
+    }
+  ],
+  "principles_applied": [
+    {
+      "principle": "Visual Story and Title",
+      "change_made": "Replaced the generic title with the rounded, evidence-supported 53.6-point takeaway.",
+      "expected_communication_benefit": "The editor can identify the principal result immediately and reconcile it to the labels."
+    },
+    {
+      "principle": "Right Chart and Perception",
+      "change_made": "Used a common-baseline horizontal bar comparison with direct labels for rate, survivors, and group totals.",
+      "expected_communication_benefit": "Direction, magnitude, and denominators can be checked without a legend or second artifact."
+    },
+    {
+      "principle": "Purpose and Frame",
+      "change_made": "Added a compact 53.6 percentage-point and 3.81x relative-rate summary.",
+      "expected_communication_benefit": "The chart directly answers every numerical part of the editorial question."
+    },
+    {
+      "principle": "Color and Chart Junk",
+      "change_made": "Used one emphasis color and one neutral color with restrained gridlines and no decorative border.",
+      "expected_communication_benefit": "Attention remains on the evidence rather than decoration."
+    },
+    {
+      "principle": "Audience and Responsible Qualification",
+      "change_made": "Placed the association-not-causation limitation directly below the chart.",
+      "expected_communication_benefit": "The artifact is less likely to be misread as proof of policy causation."
+    }
+  ],
+  "improved_chart": {
+    "artifact_created": true,
+    "filename": "improved_chart_v2.png",
+    "chart_type": "Horizontal bar chart",
+    "title": "Female passengers had a 53.6-point higher survival rate",
+    "accessibility_notes": "Uses a zero baseline, direct text labels, redundant numeric encoding, large type, high contrast, and a blue-gray palette that does not require color discrimination."
+  },
+  "baseline_to_improved_comparison": [
+    {
+      "dimension": "Story",
+      "baseline": "Generic variable-based title",
+      "improved": "Title states the observed 53.6-point result"
+    },
+    {
+      "dimension": "Purpose",
+      "baseline": "Only two rates are shown",
+      "improved": "Rates, survivor counts, denominators, percentage-point gap, and relative rate are shown"
+    },
+    {
+      "dimension": "Perception",
+      "baseline": "Vertical bars with two unrelated emphasis colors and prominent gridlines",
+      "improved": "Directly labeled horizontal bars with one emphasis color, one neutral color, and restrained gridlines"
+    },
+    {
+      "dimension": "Responsible interpretation",
+      "baseline": "No visible causal qualification",
+      "improved": "Visible statement that the records show association rather than proof of policy causation"
+    }
+  ],
+  "remaining_limitations": [
+    "The two-category comparison does not evaluate age, class, access, family grouping, or evacuation timing and cannot establish a children-first result.",
+    "The dataset cannot establish whether a policy or evacuation order caused the observed association.",
+    "The chart reports descriptive population values in the supplied file and does not estimate uncertainty for a broader population."
+  ],
+  "abstention_or_more_information_needed": [
+    "Policy or causal claims require external evidence about evacuation orders, timing, implementation, and relevant confounding factors.",
+    "A claim specifically about children requires a defined age threshold and a separate age-by-survival analysis."
+  ]
+}
