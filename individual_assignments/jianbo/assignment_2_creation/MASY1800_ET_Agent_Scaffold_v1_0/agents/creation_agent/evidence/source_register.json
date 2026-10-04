@@ -1,0 +1,46 @@
+[
+  {
+    "id": "S1",
+    "title": "A Neural Probabilistic Language Model",
+    "authors": "Bengio et al.",
+    "date": "2003-02",
+    "url": "https://www.jmlr.org/papers/v3/bengio03a.html",
+    "verified": "2026-10-04",
+    "location": "Abstract",
+    "finding": "Learning word representations and word-sequence probabilities jointly helped neural language models generalize beyond observed sequences.",
+    "limit": "An early predecessor, not the sole origin of generative AI."
+  },
+  {
+    "id": "S2",
+    "title": "Attention Is All You Need",
+    "authors": "Vaswani et al.",
+    "date": "2017-06-12",
+    "url": "https://arxiv.org/abs/1706.03762",
+    "verified": "2026-10-04",
+    "location": "Abstract",
+    "finding": "The Transformer replaced recurrent sequence processing with attention and demonstrated more parallelizable training on translation tasks.",
+    "limit": "Translation experiments do not establish business-report accuracy."
+  },
+  {
+    "id": "S3",
+    "title": "Language Models are Few-Shot Learners",
+    "authors": "Brown et al.",
+    "date": "2020-05-28",
+    "url": "https://arxiv.org/html/2005.14165v4",
+    "verified": "2026-10-04",
+    "location": "Abstract and sections 2.2 and 2.3",
+    "finding": "GPT-3 combined scaled autoregressive modeling, large curated text mixtures and GPU-cluster training, and demonstrated few-shot task performance with limitations.",
+    "limit": "Historical benchmarks do not measure this organization or a current vendor model."
+  },
+  {
+    "id": "S4",
+    "title": "Training language models to follow instructions with human feedback",
+    "authors": "Ouyang et al.",
+    "date": "2022-03-04",
+    "url": "https://arxiv.org/abs/2203.02155",
+    "verified": "2026-10-04",
+    "location": "Abstract",
+    "finding": "Supervised demonstrations and human preference feedback improved instruction following; the resulting models still made mistakes.",
+    "limit": "Better alignment with user intent is not a factual-accuracy guarantee."
+  }
+]

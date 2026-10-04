@@ -1,0 +1,12 @@
+{
+  "date": "2026-10-04",
+  "runtime": "Interactive ChatGPT with Codex in this conversation",
+  "method": "The assistant generated structured responses from the supplied common contract, specialist instructions, cases and verified source notes. Outputs were saved through local scripts; no OpenAI API call or separate independent agent was used. Shared historical wording is deliberately retained for a controlled contrast.",
+  "limitations": "One same-session response per final case. Not a blinded, independent or repeatability benchmark.",
+  "prompts": {
+    "contrast_2_v0.2.txt": "76f7f7e3af8aa8e7809126fa7f57708c1ab65ab6d488615477abedd43f4be858",
+    "contrast_1_v0.2.txt": "46aeeb033a24d9b459064634eb26d167f587fbe6c3420b8fd09b75c3b8b35b5b",
+    "primary_v0.1.txt": "eaa0f6b358782326c276702a33c3500bbfd52486cdc34a1f2bf8e7fa3ba7dd48",
+    "primary_v0.2.txt": "c1934a57e00400813ccd68f5ab54aa66903480af8f5835e4fb1d189cb7a321bc"
+  }
+}
