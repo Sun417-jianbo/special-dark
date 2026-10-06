@@ -1,0 +1,297 @@
+{
+  "checked_on": "2026-10-06",
+  "scope": "Saved-artifact structural and regression checks; not model reliability or team approval",
+  "checks": [
+    {
+      "check": "frozen core",
+      "passed": true,
+      "detail": "FROZEN CORE INTACT"
+    },
+    {
+      "check": "primary input schema",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "primary strict output schema",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "primary course validator",
+      "passed": true,
+      "detail": "VALIDATION PASSED"
+    },
+    {
+      "check": "primary metadata",
+      "passed": true,
+      "detail": "Response metadata must exactly match agent_metadata.json"
+    },
+    {
+      "check": "primary source linkage",
+      "passed": true,
+      "detail": "All six registered source URLs appear; support requires human inspection"
+    },
+    {
+      "check": "primary case reference",
+      "passed": true,
+      "detail": "agents/creation_agent/cases/primary.json"
+    },
+    {
+      "check": "primary five category coverage",
+      "passed": true,
+      "detail": "Coverage only; labels do not prove causality or completeness"
+    },
+    {
+      "check": "primary prompt construction",
+      "passed": true,
+      "detail": "Build only, not a model invocation"
+    },
+    {
+      "check": "contrast input schema",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "contrast strict output schema",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "contrast course validator",
+      "passed": true,
+      "detail": "VALIDATION PASSED"
+    },
+    {
+      "check": "contrast metadata",
+      "passed": true,
+      "detail": "Response metadata must exactly match agent_metadata.json"
+    },
+    {
+      "check": "contrast source linkage",
+      "passed": true,
+      "detail": "All six registered source URLs appear; support requires human inspection"
+    },
+    {
+      "check": "contrast case reference",
+      "passed": true,
+      "detail": "agents/creation_agent/cases/contrast.json"
+    },
+    {
+      "check": "contrast five category coverage",
+      "passed": true,
+      "detail": "Coverage only; labels do not prove causality or completeness"
+    },
+    {
+      "check": "contrast prompt construction",
+      "passed": true,
+      "detail": "Build only, not a model invocation"
+    },
+    {
+      "check": "missing_context input schema",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "missing_context strict output schema",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "missing_context course validator",
+      "passed": true,
+      "detail": "VALIDATION PASSED"
+    },
+    {
+      "check": "missing_context metadata",
+      "passed": true,
+      "detail": "Response metadata must exactly match agent_metadata.json"
+    },
+    {
+      "check": "missing_context source linkage",
+      "passed": true,
+      "detail": "All six registered source URLs appear; support requires human inspection"
+    },
+    {
+      "check": "missing_context case reference",
+      "passed": true,
+      "detail": "agents/creation_agent/cases/missing_context.json"
+    },
+    {
+      "check": "missing_context five category coverage",
+      "passed": true,
+      "detail": "Coverage only; labels do not prove causality or completeness"
+    },
+    {
+      "check": "missing_context prompt construction",
+      "passed": true,
+      "detail": "Build only, not a model invocation"
+    },
+    {
+      "check": "unsupported_claims input schema",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "unsupported_claims strict output schema",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "unsupported_claims course validator",
+      "passed": true,
+      "detail": "VALIDATION PASSED"
+    },
+    {
+      "check": "unsupported_claims metadata",
+      "passed": true,
+      "detail": "Response metadata must exactly match agent_metadata.json"
+    },
+    {
+      "check": "unsupported_claims source linkage",
+      "passed": true,
+      "detail": "All six registered source URLs appear; support requires human inspection"
+    },
+    {
+      "check": "unsupported_claims case reference",
+      "passed": true,
+      "detail": "agents/creation_agent/cases/unsupported_claims.json"
+    },
+    {
+      "check": "unsupported_claims five category coverage",
+      "passed": true,
+      "detail": "Coverage only; labels do not prove causality or completeness"
+    },
+    {
+      "check": "unsupported_claims prompt construction",
+      "passed": true,
+      "detail": "Build only, not a model invocation"
+    },
+    {
+      "check": "matched primary contrast inputs",
+      "passed": true,
+      "detail": [
+        "emerging_technology",
+        "intended_application",
+        "business_need",
+        "management_question",
+        "time_horizon"
+      ]
+    },
+    {
+      "check": "controlled historical finding",
+      "passed": true,
+      "detail": "Intentionally reused history; NOT independent repeatability"
+    },
+    {
+      "check": "contextual finding changes",
+      "passed": true,
+      "detail": "Read field contents for substantive meaning"
+    },
+    {
+      "check": "missing context regression",
+      "passed": true,
+      "detail": "Presence assertion only; not an independent semantic assessment"
+    },
+    {
+      "check": "unsupported premise regression",
+      "passed": true,
+      "detail": "Three explicit rejected premises in saved example"
+    },
+    {
+      "check": "candidate snapshot integrity",
+      "passed": true,
+      "detail": {
+        "files_checked": 56,
+        "mismatches": []
+      }
+    },
+    {
+      "check": "extra key negative control",
+      "passed": true,
+      "detail": "Basic validator accepts extra key; strict frozen-schema validation rejects it. Frozen tool intentionally unchanged."
+    },
+    {
+      "check": "missing key negative control",
+      "passed": true,
+      "detail": "Both validators reject missing required history field"
+    },
+    {
+      "check": "wrong evidence type negative control",
+      "passed": true,
+      "detail": "Strict validator rejects numeric evidence claim"
+    },
+    {
+      "check": "yufei_cai primary comparison prompt",
+      "passed": true,
+      "detail": "Packet for same-assistant controlled walkthrough; not an independent invocation"
+    },
+    {
+      "check": "yufei_cai primary comparison schema",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "yufei_cai primary comparison metadata",
+      "passed": true,
+      "detail": "Candidate design identifier, not authorship of this new response"
+    },
+    {
+      "check": "yufei_cai contrast comparison prompt",
+      "passed": true,
+      "detail": "Packet for same-assistant controlled walkthrough; not an independent invocation"
+    },
+    {
+      "check": "yufei_cai contrast comparison schema",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "yufei_cai contrast comparison metadata",
+      "passed": true,
+      "detail": "Candidate design identifier, not authorship of this new response"
+    },
+    {
+      "check": "chutong_wang primary comparison prompt",
+      "passed": true,
+      "detail": "Packet for same-assistant controlled walkthrough; not an independent invocation"
+    },
+    {
+      "check": "chutong_wang primary comparison schema",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "chutong_wang primary comparison metadata",
+      "passed": true,
+      "detail": "Candidate design identifier, not authorship of this new response"
+    },
+    {
+      "check": "chutong_wang contrast comparison prompt",
+      "passed": true,
+      "detail": "Packet for same-assistant controlled walkthrough; not an independent invocation"
+    },
+    {
+      "check": "chutong_wang contrast comparison schema",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "chutong_wang contrast comparison metadata",
+      "passed": true,
+      "detail": "Candidate design identifier, not authorship of this new response"
+    },
+    {
+      "check": "yufei_cai controlled contrast",
+      "passed": true,
+      "detail": "Deliberately controlled history with distinct organizational findings; no repeatability claim"
+    },
+    {
+      "check": "chutong_wang controlled contrast",
+      "passed": true,
+      "detail": "Deliberately controlled history with distinct organizational findings; no repeatability claim"
+    }
+  ],
+  "passed": 56,
+  "total": 56
+}

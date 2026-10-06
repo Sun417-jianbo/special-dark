@@ -1,0 +1,24 @@
+Verification date: 2026-10-04
+Scope: course validator plus required/type/additional-field checks for the supplied schemas. Semantic review is separate.
+Environment note: jsonschema package unavailable; no claim of full JSON Schema standards conformance.
+$ /opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python tools/check_frozen_core.py
+FROZEN CORE INTACT
+$ /opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python tools/validate_response.py agents/creation_agent/responses/contrast_1_response.json
+VALIDATION PASSED
+$ /opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python tools/validate_response.py agents/creation_agent/responses/contrast_2_response.json
+VALIDATION PASSED
+$ /opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python tools/validate_response.py agents/creation_agent/responses/primary_response.json
+VALIDATION PASSED
+$ /opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python tools/validate_response.py agents/creation_agent/responses/primary_response_v0.1.json
+VALIDATION PASSED
+DEFINED CONTRACT CHECK PASS: agents/creation_agent/cases/contrast_1.json
+DEFINED CONTRACT CHECK PASS: agents/creation_agent/cases/contrast_2.json
+DEFINED CONTRACT CHECK PASS: agents/creation_agent/cases/primary.json
+DEFINED CONTRACT CHECK PASS: agents/creation_agent/responses/contrast_1_response.json
+DEFINED CONTRACT CHECK PASS: agents/creation_agent/responses/contrast_2_response.json
+DEFINED CONTRACT CHECK PASS: agents/creation_agent/responses/primary_response.json
+DEFINED CONTRACT CHECK PASS: agents/creation_agent/responses/primary_response_v0.1.json
+ORIGINAL PACKAGE BYTE CHECK PASS: 32 original files unchanged; additions only.
+GENERAL FINDING: identical across final cases by controlled design, not independent stability evidence.
+CONTEXT FINDING: different between retail and bank.
+MISSING CONTEXT: organizational finding withheld; inspected in semantic review.

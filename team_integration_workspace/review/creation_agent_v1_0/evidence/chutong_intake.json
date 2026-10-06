@@ -1,0 +1,10 @@
+{
+  "source_zip": "masy1800-emerging-technology-creation-agent-assignment-2-creation-agent.zip",
+  "sha256": "d1319b5c36d4f12424b7053e8b9b93e456fb4dc2f032f85ac10be23a98203b0b",
+  "identity_source": "agents/creation_agent/records/agent_record.md identifies Chutong Wang",
+  "repository": "https://github.com/Chutong0702/masy1800-emerging-technology-creation-agent",
+  "reported_commit": "2d4165966848db47787c6ecdf0a8dc94808704a6",
+  "commit_status": "As reported in supplied record, not independently matched to the ZIP",
+  "files": "Unmodified candidate subtree, excluding macOS resource forks and empty placeholders",
+  "contrasts": "Primary and contrast_1 have responses; contrast_2 is only an unfilled scaffold case, not a third executed test."
+}
