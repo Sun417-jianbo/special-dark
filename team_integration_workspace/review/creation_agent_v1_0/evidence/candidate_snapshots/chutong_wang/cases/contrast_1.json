@@ -1,0 +1,14 @@
+{
+  "emerging_technology": "Generative AI based on large language models",
+  "intended_application": "AI-assisted drafting of first versions of blog posts, social-media captions, and promotional copy using public product information. All content must be reviewed and approved by a human before publication.",
+  "organization": "A hypothetical small U.S. direct-to-consumer travel startup",
+  "industry_sector": "Online travel services and digital marketing in the United States",
+  "business_need": "Produce more marketing content with a small team, test multiple campaign ideas quickly, and reduce first-draft writing time",
+  "users_stakeholders": "Marketing staff, content reviewers, company founders, customers, brand partners, and the startup’s legal or compliance adviser",
+  "adoption_posture": "Aggressive and experimentation-oriented, but with mandatory human approval before publication",
+  "capabilities_constraints": "The startup has a small budget and limited technical staff but can use approved commercial AI tools. Inputs are restricted to public or approved marketing information. The company requires brand guidelines, basic access controls, fact-checking, copyright review, and human approval.",
+  "risk_consequence_context": "Inaccurate claims, inconsistent brand voice, copyright or attribution concerns, offensive content, customer confusion, and reputational harm. The application does not make audit conclusions, financial approvals, legal decisions, or safety-critical decisions.",
+  "management_question": "Should the startup begin a three-month controlled pilot of generative AI for first-draft marketing content, and what minimum review controls should be required?",
+  "time_horizon": "The next 3 months",
+  "additional_context": "The pilot would cover a limited number of campaigns, use only public or approved information, measure time saved and revision rates, and require a named employee to approve every item before publication."
+}

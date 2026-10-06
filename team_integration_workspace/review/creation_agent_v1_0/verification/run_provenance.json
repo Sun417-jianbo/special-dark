@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-06",
+  "runtime": "Current interactive ChatGPT/Codex conversation; no separate model/API invocation",
+  "team_examples": "Four saved examples revised to version 1.0 after the Chutong enabling-condition audit; local Python serializes assistant-authored content and executes checks.",
+  "candidate_comparison": "Four current-assistant controlled walkthroughs, two designs times primary/contrast. Original candidate instructions are preserved; cases, schemas and source packet are shared. Evidence arrays and common contract fields reuse a shared scaffold; design-specific history and contextual findings are written separately.",
+  "independence": "Same assistant generated and reviewed all examples with shared history; no blind trials, student-run attribution or statistical reliability claim.",
+  "selection": "Assistant selected the implementation at Yufei Cai's explicit request. This does not attest consent or human verification by all members.",
+  "not_tested": [
+    "Live chart tools",
+    "Actual business outcomes",
+    "Independent model repeatability",
+    "Classroom participation"
+  ],
+  "classroom_record": "User stated there are no classroom discussion results; no such discussion or 90-percent in-class completion is claimed."
+}

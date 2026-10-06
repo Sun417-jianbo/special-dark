@@ -1,0 +1,14 @@
+{
+  "emerging_technology": "Generative AI based on large language models",
+  "intended_application": "AI-assisted review of audit workpapers to identify missing documentation, inconsistent evidence, unusual items, and areas requiring auditor follow-up. The system is advisory only and cannot approve audit conclusions or sign off on workpapers.",
+  "organization": "A hypothetical mid-sized U.S. public accounting firm that serves both private-company and public-company audit clients",
+  "industry_sector": "Public accounting and external auditing in the United States",
+  "business_need": "Reduce repetitive manual review time, improve review consistency, and identify potential audit issues earlier without replacing professional auditor judgment",
+  "users_stakeholders": "Audit associates, senior auditors, audit managers, engagement partners, quality-control reviewers, clients, the firm’s IT and information-security teams, and relevant regulators",
+  "adoption_posture": "Moderate and risk-conscious; willing to run a limited controlled pilot but not permit autonomous audit judgments",
+  "capabilities_constraints": "The firm has experienced auditors and digital workpapers but limited AI-governance experience and budget. It requires secure access controls, confidentiality protections, integration with existing workpaper systems, human review, audit trails, and restrictions against placing confidential client information into public AI systems.",
+  "risk_consequence_context": "Incorrect or missed flags, hallucinated explanations, disclosure of confidential client information, automation bias, inconsistent performance, weakened audit quality, regulatory consequences, reputational damage, and unclear professional accountability",
+  "management_question": "Should the firm launch a controlled pilot of generative AI for audit workpaper review within the next 12 months, and what conditions must be met before doing so?",
+  "time_horizon": "The next 12 months",
+  "additional_context": "The proposed pilot would use a limited set of approved engagements, secure data handling, documented human review, measurable quality criteria, and no autonomous approval or audit sign-off."
+}

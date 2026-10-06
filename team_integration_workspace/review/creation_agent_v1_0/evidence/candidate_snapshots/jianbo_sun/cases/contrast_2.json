@@ -1,0 +1,14 @@
+{
+  "emerging_technology": "Transformer-based generative AI language models",
+  "intended_application": "Draft weekly internal sales-report narratives from analyst-verified tables. Calculations remain in SQL or spreadsheets.",
+  "organization": "Not supplied",
+  "industry_sector": "Retail and e-commerce",
+  "business_need": "Reduce repetitive drafting while keeping figures and explanations traceable. No measured savings are supplied.",
+  "users_stakeholders": "Business analysts, sales managers and the operations director",
+  "adoption_posture": "Not supplied",
+  "capabilities_constraints": "Not supplied",
+  "risk_consequence_context": "Not supplied",
+  "management_question": "Can this organization deploy the technology now?",
+  "time_horizon": "A proposed four-week evaluation; no pilot has been run",
+  "additional_context": "Missing-context robustness test. No organizational readiness evidence has been supplied.\n\n[S1] Bengio et al. (2003-02). A Neural Probabilistic Language Model. https://www.jmlr.org/papers/v3/bengio03a.html\nChecked 2026-10-04, Abstract. Evidence: Learning word representations and word-sequence probabilities jointly helped neural language models generalize beyond observed sequences. Limitation: An early predecessor, not the sole origin of generative AI.\n\n[S2] Vaswani et al. (2017-06-12). Attention Is All You Need. https://arxiv.org/abs/1706.03762\nChecked 2026-10-04, Abstract. Evidence: The Transformer replaced recurrent sequence processing with attention and demonstrated more parallelizable training on translation tasks. Limitation: Translation experiments do not establish business-report accuracy.\n\n[S3] Brown et al. (2020-05-28). Language Models are Few-Shot Learners. https://arxiv.org/html/2005.14165v4\nChecked 2026-10-04, Abstract and sections 2.2 and 2.3. Evidence: GPT-3 combined scaled autoregressive modeling, large curated text mixtures and GPU-cluster training, and demonstrated few-shot task performance with limitations. Limitation: Historical benchmarks do not measure this organization or a current vendor model.\n\n[S4] Ouyang et al. (2022-03-04). Training language models to follow instructions with human feedback. https://arxiv.org/abs/2203.02155\nChecked 2026-10-04, Abstract. Evidence: Supervised demonstrations and human preference feedback improved instruction following; the resulting models still made mistakes. Limitation: Better alignment with user intent is not a factual-accuracy guarantee."
+}
