@@ -1,0 +1,24 @@
+COMMAND: tools/check_frozen_core.py
+FROZEN CORE INTACT
+EXIT: 0
+COMMAND: tools/validate_response.py /workspace/scratch/923583c37629/assignment3/working/MASY1800_ET_Agent_Scaffold_v1_0/agents/innovation_disruption_agent/responses/contrast_1_response.json
+VALIDATION PASSED
+EXIT: 0
+COMMAND: tools/validate_response.py /workspace/scratch/923583c37629/assignment3/working/MASY1800_ET_Agent_Scaffold_v1_0/agents/innovation_disruption_agent/responses/contrast_1_response_v0.1.json
+VALIDATION PASSED
+EXIT: 0
+COMMAND: tools/validate_response.py /workspace/scratch/923583c37629/assignment3/working/MASY1800_ET_Agent_Scaffold_v1_0/agents/innovation_disruption_agent/responses/contrast_2_response.json
+VALIDATION PASSED
+EXIT: 0
+COMMAND: tools/validate_response.py /workspace/scratch/923583c37629/assignment3/working/MASY1800_ET_Agent_Scaffold_v1_0/agents/innovation_disruption_agent/responses/primary_response.json
+VALIDATION PASSED
+EXIT: 0
+CONTRACT SUBSET PASS: cases/contrast_1.json
+CONTRACT SUBSET PASS: cases/contrast_2.json
+CONTRACT SUBSET PASS: cases/primary.json
+CONTRACT SUBSET PASS: responses/contrast_1_response.json
+CONTRACT SUBSET PASS: responses/contrast_1_response_v0.1.json
+CONTRACT SUBSET PASS: responses/contrast_2_response.json
+CONTRACT SUBSET PASS: responses/primary_response.json
+ORIGINAL FILE BYTE COMPARISON PASS: 32 files unchanged
+Semantic review is recorded separately; schema checks do not validate truth, classification quality, or independent repeatability.

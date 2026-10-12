@@ -1,0 +1,7 @@
+F. Self-Reflection
+
+I understand the difference between technical progress and business-model change more clearly after comparing these cases. Using AI to draft an internal sales report changes a supporting activity, while using it to produce a report that customers pay for could affect the product and its price. The technology is the same, but its role in creating revenue is different.
+
+The case involving proprietary survey data also made me question a simple assumption that AI will replace all report-writing businesses. If customers pay for information they cannot get elsewhere and for accountable advice, faster writing may support the business instead of removing its value. I need to ask what customers actually pay for before describing a technology as disruptive.
+
+The initial response was a useful reminder that a clear label such as High still needs a clear reason. I would want to know why Moderate is less convincing and what evidence could change the judgment. AI helped produce the instructions, comparisons and checks, but those outputs do not replace my responsibility to examine the evidence. In future work, I would focus more on customer demand and review costs, and check the rubric alongside the final files so that my own reasoning and reflection are visible.
