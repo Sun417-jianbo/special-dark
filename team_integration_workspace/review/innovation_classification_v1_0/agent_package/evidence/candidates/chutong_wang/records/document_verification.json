@@ -1,0 +1,9 @@
+{
+  "source_template_sha256": "5275ea28e66a27d5ddfae3c0541ce7cf7711655a450da7eecb4d36b0ced7e802",
+  "final_record_sha256": "d0b15d9cdd9a0b3e4d5a49924d587947a6f7d1f4da7249162b7cc1c057dea57f",
+  "rendered_pages": 4,
+  "visual_review": "All four final page images inspected; no clipping or table splitting. Source page geometry and template style retained.",
+  "package_fidelity": "All original template parts byte-identical except word/document.xml; only record content, reflection and deliberate section breaks changed.",
+  "student_reflection_input": "Student identified organizational context comparison as the main authentic takeaway; English wording drafted with Codex.",
+  "verified_agent_commit_in_record": "0da36a4c6dd6826254fd66d9c67c60078ce6dad4"
+}

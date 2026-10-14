@@ -1,0 +1,64 @@
+[
+  {
+    "member": "chutong_wang",
+    "input": "/Users/cyf/Documents/NYU/2026fall/1800/Team Workshop/TW4/组员作业/Chutong/Chutong_Wang_Assignment3_Submission.zip",
+    "sha256": "d6550ec8386b0f55cb771711ac83aa64c0827e1cb4e64daffcb975bd630facbf",
+    "source": "Supplied ZIP; selected specialist bytes retained without modification",
+    "version": {
+      "name": "Innovation and Disruption Agent",
+      "specialty": "Innovation classification and business-model disruption",
+      "version": "0.2-student"
+    }
+  },
+  {
+    "member": "jianbo_sun",
+    "input": "/Users/cyf/Documents/NYU/2026fall/1800/Team Workshop/TW4/组员作业/Jianbo/Jianbo_Sun_Assignment_3_Complete_Package.zip",
+    "sha256": "d6f1fa8992872b021e6e17514c3ab329be6e1e1110a62b586d3b7d568a993f12",
+    "source": "Supplied ZIP; selected specialist bytes retained without modification",
+    "version": {
+      "name": "Innovation and Disruption Agent",
+      "specialty": "Innovation classification and business-model disruption",
+      "version": "0.2"
+    }
+  },
+  {
+    "member": "yufei_cai",
+    "input": "https://github.com/caiyf17/masy1800-assignment2-creation-agent/tree/assignment-3-innovation-disruption-agent/assignments/assignment3/agent_package",
+    "source": "Final personal Lab3 package retrieved read-only from its GitHub branch because the earlier local output folder is no longer present",
+    "implementation_commit": "092f66a585094a5f09b330ac5d8960d508ca7702",
+    "retrieved_branch_head": "f6892e0ba25d8ac3f769a9a4cc8c182848404887",
+    "version": {
+      "name": "Innovation and Disruption Agent",
+      "specialty": "Innovation classification and contextual business-model disruption",
+      "version": "1.0-student"
+    }
+  },
+  {
+    "member": "minghan_liu",
+    "input": "https://github.com/lmh04250425/MASY1800-agents",
+    "branch": "assignment-3-innovation-disruption",
+    "implementation_commit": "4cdf07c1a6eb2cbaf10f44423393bd9d5e87c24b",
+    "retrieved_branch_head": "3104c5ca0adc1a0bcd1aedb746acb6910a744888",
+    "source": "GitHub commit named in supplied Word; specialist, metadata, cases and current responses match the later branch head",
+    "version": {
+      "name": "Innovation and Disruption Agent",
+      "specialty": "Innovation classification and business-model disruption",
+      "version": "1.1"
+    }
+  },
+  {
+    "report": "/Users/cyf/Documents/NYU/2026fall/1800/Team Workshop/TW4/组员作业/Chutong/Chutong_Wang_Assignment3_Agent_Record.docx",
+    "sha256": "d0b15d9cdd9a0b3e4d5a49924d587947a6f7d1f4da7249162b7cc1c057dea57f",
+    "source": "Supplied candidate report inspected; original left unchanged, not duplicated as a submission draft"
+  },
+  {
+    "report": "/Users/cyf/Documents/NYU/2026fall/1800/Team Workshop/TW4/组员作业/Jianbo/Jianbo_Sun_Assignment_3_Agent_Record.pdf",
+    "sha256": "fbbafd9b3c2a8a963d473762ba00a6d24e883d193f636177c80b4785709cf146",
+    "source": "Supplied candidate report inspected; original left unchanged, not duplicated as a submission draft"
+  },
+  {
+    "report": "/Users/cyf/Documents/NYU/2026fall/1800/Team Workshop/TW4/组员作业/Minghan/Assignment_3_Agent_Record_Minghan_Liu (1).docx",
+    "sha256": "8bc28004fe3c235b15099d9714264e302746e94f706ac218da061df7064a1d40",
+    "source": "Supplied candidate report inspected; original left unchanged, not duplicated as a submission draft"
+  }
+]

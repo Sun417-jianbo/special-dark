@@ -1,0 +1,74 @@
+[
+  {
+    "id": "S1",
+    "title": "Oslo Manual 2018, Chapter 3",
+    "author": "OECD/Eurostat",
+    "date": "2018-10-22",
+    "url": "https://www.oecd.org/en/publications/oslo-manual-2018_9789264304604-en/full-report/component-9.html",
+    "type": "measurement standard",
+    "locator": "Sections 3.9-3.12 and 3.34-3.36",
+    "supports": "Innovation requires meaningful difference and implementation; organizational novelty need not be world novelty.",
+    "does_not_support": "A specific SPS deployment or a universal breakthrough threshold.",
+    "verified_on": "2026-10-11"
+  },
+  {
+    "id": "S2",
+    "title": "Building effective agents",
+    "author": "Anthropic",
+    "date": "2024-12-19; living page accessed 2026-10-11",
+    "url": "https://www.anthropic.com/engineering/building-effective-agents",
+    "type": "vendor engineering guidance",
+    "locator": "What are agents; When and when not to use agents; Agents",
+    "supports": "Separates model-directed tool use from fixed workflows; discusses complexity and compounding errors.",
+    "does_not_support": "Independent proof of superiority, reliability or savings at SPS; current tooling completeness.",
+    "verified_on": "2026-10-11"
+  },
+  {
+    "id": "S3",
+    "title": "Salesforce’s Agentforce Is Here",
+    "author": "Salesforce",
+    "date": "2024-10-29",
+    "url": "https://www.salesforce.com/news/press-releases/2024/10/29/agentforce-general-availability-announcement/",
+    "type": "vendor announcement",
+    "locator": "Dated opening announcement",
+    "supports": "Commercial availability of an enterprise agent offering was announced in 2024.",
+    "does_not_support": "Verified customer ROI, broad adoption, current price, or SPS procurement.",
+    "verified_on": "2026-10-11"
+  },
+  {
+    "id": "S4",
+    "title": "Graduate Admissions",
+    "author": "NYU School of Professional Studies",
+    "date": "Undated live page; accessed 2026-10-11",
+    "url": "https://www.sps.nyu.edu/join/graduate-admissions.html",
+    "type": "organization primary source",
+    "locator": "General Inquiries; admissions appointments; tuition and financial aid",
+    "supports": "Public admissions information and staff appointment channels exist.",
+    "does_not_support": "Internal CRM, response delays, staff costs, AI deployment, lost applicants, or adoption posture.",
+    "verified_on": "2026-10-11"
+  },
+  {
+    "id": "S5",
+    "title": "How an Artificially Intelligent Virtual Assistant Helps Students Navigate the Road to College",
+    "author": "Lindsay C. Page and Hunter Gehlbach",
+    "date": "2017",
+    "url": "https://journals.sagepub.com/doi/pdf/10.1177/2332858417749220",
+    "type": "primary field experiment",
+    "locator": "Abstract and study setting; AERA Open 3(4), DOI 10.1177/2332858417749220",
+    "supports": "A pre-LLM conversational assistant was tested for pre-enrollment support at Georgia State.",
+    "does_not_support": "Agentic-LLM superiority, NYU graduate applicant results, or transfer of effect sizes.",
+    "verified_on": "2026-10-11"
+  },
+  {
+    "id": "S6",
+    "title": "Artificial Intelligence Risk Management Framework Generative Artificial Intelligence Profile",
+    "author": "NIST",
+    "date": "2024-07-26",
+    "url": "https://doi.org/10.6028/NIST.AI.600-1",
+    "type": "public risk framework",
+    "locator": "NIST AI 600-1; confabulation and human-AI configuration risk categories",
+    "supports": "Generated misinformation and human oversight require explicit controls.",
+    "does_not_support": "Legal clearance, a guaranteed safe deployment, or quantified business disruption.",
+    "verified_on": "2026-10-11"
+  }
+]

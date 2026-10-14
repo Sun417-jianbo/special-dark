@@ -10,7 +10,7 @@
     "Minghan Liu"
   ],
   "repository": "https://github.com/Sun417-jianbo/special-dark",
-  "branch": "codex/tw3-creation-agent-20261006",
+  "branch": "tw3-creation-agent-20261006",
   "repository_path": "team_integration_workspace/review/creation_agent_v1_0",
   "decision_authority": "Yufei Cai explicitly asked the assistant to choose after supplying the fourth candidate.",
   "limitations": [

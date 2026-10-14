@@ -1,0 +1,15 @@
+PASS: FROZEN CORE INTACT
+PASS: Common input schema: primary
+PASS: Common input schema: contrast_1
+PASS: Common input schema: contrast_2
+PASS: Cycle 1 primary: frozen validator, strict schema, versions, input and archive hashes
+PASS: Cycle 1 contrast_1: frozen validator, strict schema, versions, input and archive hashes
+PASS: Cycle 1 contrast_2: frozen validator, strict schema, versions, input and archive hashes
+PASS: Cycle 1: general technology finding remains identical across contexts
+PASS: Cycle 2 primary: frozen validator, strict schema, versions, input and archive hashes
+PASS: Cycle 2 contrast_1: frozen validator, strict schema, versions, input and archive hashes
+PASS: Cycle 2 contrast_2: frozen validator, strict schema, versions, input and archive hashes
+PASS: Cycle 2: general technology finding remains identical across contexts
+PASS: Primary and contrast hold technology constant
+
+13 structural/integrity checks passed. These do not prove factual validity or business performance. See the qualitative review separately.

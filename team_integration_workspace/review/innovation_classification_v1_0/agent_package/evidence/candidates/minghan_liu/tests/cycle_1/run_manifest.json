@@ -1,0 +1,23 @@
+{
+  "cycle": 1,
+  "version": "1.0",
+  "saved_at": "2026-10-11T23:36:31.504321+00:00",
+  "runtime": "Active Codex conversational model, same session; prompt packets read and responses generated in this session, not external API calls or independently blinded runs.",
+  "cases": [
+    {
+      "case": "primary",
+      "prompt_sha256": "38204a6c1c2fd73e0e7d379fca650c7bf382afa5147231c68c1b52c283ea4022",
+      "response_sha256": "5f539cf968c0ae39f39c2161b34826eeca1c48f564a33041488b858c5c3c9ac3"
+    },
+    {
+      "case": "contrast_1",
+      "prompt_sha256": "58e5669889243c214b013acb8fa926bfd5b1474f91fd345aaac9f7c99b353716",
+      "response_sha256": "6fb3f3a5dfb0a98f2cf102d46e28168dc8d0992bd897e308b288fc07892fc326"
+    },
+    {
+      "case": "contrast_2",
+      "prompt_sha256": "f1d1e553ee55fa8d940cfe791802a99b4f42ff2a97c7632afe115ec54a1e9ffb",
+      "response_sha256": "2e345a8e6a2bee1f6f227cd84cc5f7f250d6706044e92c7d89894139582fc229"
+    }
+  ]
+}

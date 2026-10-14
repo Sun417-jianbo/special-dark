@@ -1,0 +1,8 @@
+{
+  "downloaded_publication_commit": "1c438677ec2bec78953fcc37ffde2c485599b2ab",
+  "verified_agent_content_commit": "6d8ce54be0d5a5c64cef219cc1fd34cf00e1eb72",
+  "comparison": "Every file was present. 53 files matched bytes exactly; 15 JSON files differed only by one appended LF and parsed identically. Canonical frozen files were byte-identical.",
+  "checker_update": "After observing GitHub editor final-newline insertion, records/verify_package.py was changed to accept only that single-byte serialization difference when the execution hash otherwise matches. Original hashes and analytical outputs remain unchanged.",
+  "remote_recheck": "Downloaded candidate with the updated checker passes six course validators, schema checks, prompt/case comparisons and original execution hashes after the explicit newline normalization.",
+  "limits": "No claim of independent human source verification or real chart-system performance."
+}
