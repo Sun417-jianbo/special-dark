@@ -453,13 +453,13 @@
     "owner": "yufei_cai",
     "path": "evidence/candidates/yufei_cai/supporting/source_register.json",
     "sha256": "dbcc487f22735aa172e28117c1a1839ed414bdc2494bdd47c5f1f9283d6bf438",
-    "original_relative_path": "agents/innovation_disruption_agent/supporting/source_register.json"
+    "original_relative_path": "evidence/source_register.json"
   },
   {
     "owner": "yufei_cai",
     "path": "evidence/candidates/yufei_cai/supporting/run_provenance.json",
     "sha256": "777a1c0fbf1264b2b9d34918d6929fa34e09a98e146bb0b75f97c69a254fc977",
-    "original_relative_path": "agents/innovation_disruption_agent/supporting/run_provenance.json"
+    "original_relative_path": "verification/run_provenance.json"
   },
   {
     "owner": "minghan_liu",
