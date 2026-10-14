@@ -34,7 +34,7 @@ Reopen when new original evidence changes an origin claim, human review identifi
 ## Shared workspace and acceptance
 
 Repository: https://github.com/Sun417-jianbo/special-dark
-Branch: `codex/tw3-creation-agent-20261006`
+Branch: `tw3-creation-agent-20261006`
 Package path: `team_integration_workspace/review/creation_agent_v1_0/`
 
 The repository separates candidates from approved components. This package goes in a review area rather than being silently declared approved. Existing approved content and prior submissions are not overwritten. The pull request and commit provide a versioned handoff; `verification/repository_handoff.json` records actual remote state. Promotion into `approved/` requires a separate team acceptance entry. The complete canonical scaffold is retained; individual snapshots are evidence, not replacements for the frozen core.

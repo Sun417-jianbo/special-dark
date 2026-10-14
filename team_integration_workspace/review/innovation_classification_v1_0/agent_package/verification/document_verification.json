@@ -3,7 +3,7 @@
   "version": "1.0",
   "pages": 6,
   "rendered_with": "Bundled documents skill render_docx.py",
-  "visual_review": "All six final release page PNGs inspected; no clipping, overlap, unwanted blank pages or title border. QA render files are not included.",
+  "visual_review": "All six final page PNGs inspected after branch and PR link updates; no clipping, overlap, unwanted blank pages or title border. QA render files are not included.",
   "accessibility_audit": {
     "high": 0,
     "medium": 0,

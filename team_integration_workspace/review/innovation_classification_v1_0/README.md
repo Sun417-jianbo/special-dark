@@ -5,7 +5,7 @@ This folder contains the final Team Agent Record and a traceable Innovation Clas
 Recommended submission: the Word record plus the ZIP if Brightspace accepts supporting files. The ZIP already includes the same final Word record and the complete agent_package, so it is self-contained. Follow the actual Brightspace upload fields and deadline; this package does not assume a Word-only requirement.
 
 Team repository: https://github.com/Sun417-jianbo/special-dark
-Review branch: codex/tw4-innovation-classification-20261013
+Review branch: tw4-innovation-classification-20261013
 Review path: team_integration_workspace/review/innovation_classification_v1_0
 See repository_handoff.json for verified GitHub status and URLs.
 
