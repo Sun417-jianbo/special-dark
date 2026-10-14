@@ -1,6 +1,6 @@
 # Current team specialist
 
-Open the final Team Agent Record in the parent folder, then read team_records/synthesis_decision.md and the four current responses in agents/innovation_classification_agent/responses. That is the single current TW4 specialist. Its status is 1.0-review, pending human team acceptance.
+Open the final Team Agent Record in the parent folder, then read team_records/synthesis_decision.md and the four current responses in agents/innovation_classification_agent/responses. That is the single current TW4 specialist. Its status is team-approved final version 1.0, as confirmed by the user on 2026-10-13. See team_records/team_acceptance.json. The existing PR remains open unless separately merged.
 
 The original scaffold guide, _template and toy example remain as instructor reference material. Candidate snapshots include historical revisions because TW4 requires traceable comparison and a failure or borderline record; do not treat them as alternative team submissions.
 

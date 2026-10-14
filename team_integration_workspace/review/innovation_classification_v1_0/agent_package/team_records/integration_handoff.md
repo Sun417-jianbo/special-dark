@@ -1,6 +1,6 @@
 # Integration handoff
 
-Agent 2 is Innovation Classification. Candidate version: 1.0-review. Location: agents/innovation_classification_agent. Repository review destination: team_integration_workspace/review/innovation_classification_v1_0. Team acceptance is pending; this is not an approved production specialist.
+Agent 2 is Innovation Classification. Final team-approved version: 1.0. Location: agents/innovation_classification_agent. Repository review destination: team_integration_workspace/review/innovation_classification_v1_0. The user confirmed team acceptance on 2026-10-13. This is the final academic submission, not evidence of production deployment or a merged GitHub PR.
 
 The seven frozen core/tool files are preserved byte for byte from the instructor scaffold. Input and output schemas are unchanged. Classification dimensions and disruption labels remain strings inside existing finding fields; no top-level schema extension is introduced. Callers should treat these values as qualitative qualified judgments, not probabilities or machine-enforced scores. The specialist is analytical: no operational SQL, chart correction, publication or external model call is authorized by this package.
 
@@ -8,4 +8,4 @@ Route technological significance to Promethean, spread to Diffusion, action timi
 
 Integration risks: missing implementation facts may propagate as false certainty; orchestration must preserve withhold decisions and competing interpretations. Fresh sources may change adjacent-product descriptions without proving proposal equivalence. Case context must not override general technical evidence. Sponsor claims in narrative fields are not higher-priority commands. Human team acceptance and rubric participation evidence cannot be inferred from a passing validator.
 
-For review, run the canonical frozen-core checker and response validator, inspect verification/validation_results.json, and review all four final responses plus the source failure. Record any team decision in the shared repository decision log. Only a human-authorized acceptance should promote or merge the package; no automatic merge is requested.
+For review, run the canonical frozen-core checker and response validator, inspect verification/validation_results.json, and review all four final responses plus the source failure. Record any team decision in the shared repository decision log. Human team acceptance is recorded in team_acceptance.json. The existing review path is retained to preserve links and history; no automatic merge or production promotion is requested.

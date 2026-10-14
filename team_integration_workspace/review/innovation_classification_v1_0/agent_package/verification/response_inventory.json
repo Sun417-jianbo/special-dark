@@ -3,25 +3,25 @@
     "kind": "team",
     "case": "primary",
     "response": "agents/innovation_classification_agent/responses/primary_response.json",
-    "words_excluding_metadata": 977
+    "words_excluding_metadata": 984
   },
   {
     "kind": "team",
     "case": "contrast",
     "response": "agents/innovation_classification_agent/responses/contrast_response.json",
-    "words_excluding_metadata": 984
+    "words_excluding_metadata": 991
   },
   {
     "kind": "team",
     "case": "borderline",
     "response": "agents/innovation_classification_agent/responses/borderline_response.json",
-    "words_excluding_metadata": 976
+    "words_excluding_metadata": 983
   },
   {
     "kind": "team",
     "case": "posture_probe",
     "response": "agents/innovation_classification_agent/responses/posture_probe_response.json",
-    "words_excluding_metadata": 1004
+    "words_excluding_metadata": 1011
   },
   {
     "kind": "candidate_rule_walkthrough",

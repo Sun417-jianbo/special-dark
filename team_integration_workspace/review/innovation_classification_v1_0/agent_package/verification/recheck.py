@@ -71,9 +71,9 @@ check('stable technical classification under posture-only change',rr['primary'][
 check('borderline explicitly withholds scope and impact','withheld' in rr['borderline']['organization_specific_finding'] and 'unverified' in rr['borderline']['application_finding'])
 check('contrast preserves missing-economics branch','withheld' in rr['contrast']['organization_specific_finding'] and 'Low-to-Moderate' in rr['contrast']['organization_specific_finding'])
 original=read(P/'evidence/input_integrity.json')
-available=[x for x in original if Path(x['path']).exists()]
+available=[x for x in original if Path(x['path']).exists() and Path(x['path']).name!='.DS_Store']
 bad=[x['path'] for x in available if hashlib.sha256(Path(x['path']).read_bytes()).hexdigest()!=x['sha256']]
-check('available original input files unchanged',not bad,f'{len(available)}/{len(original)} available; mismatches: {bad}')
+check('available original input files unchanged',not bad,f'{len(available)} available source files checked; Finder .DS_Store metadata excluded, original baseline retained; mismatches: {bad}')
 summary={'passed':sum(x['passed'] for x in results),'failed':sum(not x['passed'] for x in results),'checks':results,'limits':'Contracts and transparent fixture assertions, not independent model performance, factual truth, student learning or human team approval. The schema checker covers every keyword used by these supplied schemas, not arbitrary JSON Schema.'}
 (P/'verification/validation_results.json').write_text(json.dumps(summary,indent=2)+'\n')
 print(json.dumps({k:v for k,v in summary.items() if k!='checks'},indent=2))

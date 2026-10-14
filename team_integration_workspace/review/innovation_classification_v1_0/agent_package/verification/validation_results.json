@@ -85,7 +85,7 @@
     {
       "check": "target response length agents/innovation_classification_agent/responses/primary_response.json",
       "passed": true,
-      "detail": "977"
+      "detail": "984"
     },
     {
       "check": "question matches agents/innovation_classification_agent/responses/primary_response.json",
@@ -115,7 +115,7 @@
     {
       "check": "target response length agents/innovation_classification_agent/responses/contrast_response.json",
       "passed": true,
-      "detail": "984"
+      "detail": "991"
     },
     {
       "check": "question matches agents/innovation_classification_agent/responses/contrast_response.json",
@@ -145,7 +145,7 @@
     {
       "check": "target response length agents/innovation_classification_agent/responses/borderline_response.json",
       "passed": true,
-      "detail": "976"
+      "detail": "983"
     },
     {
       "check": "question matches agents/innovation_classification_agent/responses/borderline_response.json",
@@ -175,7 +175,7 @@
     {
       "check": "target response length agents/innovation_classification_agent/responses/posture_probe_response.json",
       "passed": true,
-      "detail": "1004"
+      "detail": "1011"
     },
     {
       "check": "question matches agents/innovation_classification_agent/responses/posture_probe_response.json",
@@ -405,7 +405,7 @@
     {
       "check": "available original input files unchanged",
       "passed": true,
-      "detail": "10/10 available; mismatches: []"
+      "detail": "8 available source files checked; Finder .DS_Store metadata excluded, original baseline retained; mismatches: []"
     }
   ],
   "limits": "Contracts and transparent fixture assertions, not independent model performance, factual truth, student learning or human team approval. The schema checker covers every keyword used by these supplied schemas, not arbitrary JSON Schema."

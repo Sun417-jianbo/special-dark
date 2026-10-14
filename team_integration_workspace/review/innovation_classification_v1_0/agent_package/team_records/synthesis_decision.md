@@ -1,7 +1,7 @@
 # Synthesis decision
 
-## Recommendation and status
-Recommend Special Dark Innovation Classification Agent 1.0-review. Use Chutong Wang's v0.2 scope, implementation and multidimensional classification structure as the base. Add Jianbo Sun's explicit grade boundaries and adjacent alternatives, Yufei Cai's controlled general/application/organization separation and full-cost mechanisms, and Minghan Liu's simpler-alternative comparison and owner-specific monitoring. This is a synthesis proposal, not a vote or an approved team decision. The user reports no TW4 classroom discussion record.
+## Team decision and status
+The team adopts Special Dark Innovation Classification Agent 1.0, as confirmed by the user on 2026-10-13. Use Chutong Wang's v0.2 scope, implementation and multidimensional classification structure as the base. Add Jianbo Sun's explicit grade boundaries and adjacent alternatives, Yufei Cai's controlled general/application/organization separation and full-cost mechanisms, and Minghan Liu's simpler-alternative comparison and owner-specific monitoring. The user's confirmation closes the earlier pending-acceptance status without changing the analytical rules. No individual votes, signatures or classroom discussion log were supplied.
 
 ## Candidate comparison
 | Candidate | Distinctive evidence in supplied work | Retain or change and why |
@@ -18,5 +18,5 @@ Two complete finalist rule sets, Chutong and Jianbo, are applied by the current 
 
 Rejected shortcuts: majority vote without analysis; concatenating four prompts; classifying all agentic systems as breakthrough; copying a High grade across distinct revenue models; treating missing economics as Low; and claiming unanimous approval or classroom work without records. We retain compatible rules rather than force artificial disagreement.
 
-## Open acceptance
-The team must review the substantive choice and record acceptance or revision in the shared decision log. If the team changes a rule, rerun the unchanged common cases and preserve the result before promoting this candidate to approved. Do not merge or claim the classroom participation criterion on the assistant's authority.
+## Acceptance and change control
+Team completion and acceptance of the existing synthesis were confirmed by the user on 2026-10-13 and are recorded in team_acceptance.json and the shared decision log. Later rule changes require rerunning unchanged common cases and retaining results. Classroom participation evidence is separate and has not been supplied. The existing PR is updated, not automatically merged.
