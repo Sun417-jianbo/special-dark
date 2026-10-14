@@ -1,0 +1,74 @@
+[
+  {
+    "kind": "team",
+    "case": "primary",
+    "response": "agents/innovation_classification_agent/responses/primary_response.json",
+    "words_excluding_metadata": 977
+  },
+  {
+    "kind": "team",
+    "case": "contrast",
+    "response": "agents/innovation_classification_agent/responses/contrast_response.json",
+    "words_excluding_metadata": 984
+  },
+  {
+    "kind": "team",
+    "case": "borderline",
+    "response": "agents/innovation_classification_agent/responses/borderline_response.json",
+    "words_excluding_metadata": 976
+  },
+  {
+    "kind": "team",
+    "case": "posture_probe",
+    "response": "agents/innovation_classification_agent/responses/posture_probe_response.json",
+    "words_excluding_metadata": 1004
+  },
+  {
+    "kind": "candidate_rule_walkthrough",
+    "candidate": "chutong_wang",
+    "case": "primary",
+    "response": "comparison_responses/chutong_wang_primary.json",
+    "words_excluding_metadata": 992,
+    "source": "New same-assistant application of retained candidate rules, not a student-authored or independent model run"
+  },
+  {
+    "kind": "candidate_rule_walkthrough",
+    "candidate": "chutong_wang",
+    "case": "contrast",
+    "response": "comparison_responses/chutong_wang_contrast.json",
+    "words_excluding_metadata": 999,
+    "source": "New same-assistant application of retained candidate rules, not a student-authored or independent model run"
+  },
+  {
+    "kind": "candidate_rule_walkthrough",
+    "candidate": "chutong_wang",
+    "case": "borderline",
+    "response": "comparison_responses/chutong_wang_borderline.json",
+    "words_excluding_metadata": 991,
+    "source": "New same-assistant application of retained candidate rules, not a student-authored or independent model run"
+  },
+  {
+    "kind": "candidate_rule_walkthrough",
+    "candidate": "jianbo_sun",
+    "case": "primary",
+    "response": "comparison_responses/jianbo_sun_primary.json",
+    "words_excluding_metadata": 998,
+    "source": "New same-assistant application of retained candidate rules, not a student-authored or independent model run"
+  },
+  {
+    "kind": "candidate_rule_walkthrough",
+    "candidate": "jianbo_sun",
+    "case": "contrast",
+    "response": "comparison_responses/jianbo_sun_contrast.json",
+    "words_excluding_metadata": 1005,
+    "source": "New same-assistant application of retained candidate rules, not a student-authored or independent model run"
+  },
+  {
+    "kind": "candidate_rule_walkthrough",
+    "candidate": "jianbo_sun",
+    "case": "borderline",
+    "response": "comparison_responses/jianbo_sun_borderline.json",
+    "words_excluding_metadata": 997,
+    "source": "New same-assistant application of retained candidate rules, not a student-authored or independent model run"
+  }
+]

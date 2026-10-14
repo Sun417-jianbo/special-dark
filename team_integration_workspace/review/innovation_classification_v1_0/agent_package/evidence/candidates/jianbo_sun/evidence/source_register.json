@@ -1,0 +1,50 @@
+[
+  {
+    "id": "S1",
+    "title": "OECD/Eurostat, Oslo Manual 2018, Chapter 2",
+    "date": "2018",
+    "url": "https://www.oecd.org/en/publications/oslo-manual-2018_9789264304604-en/full-report/component-7.html",
+    "location": "Sections 2.2.3-2.2.5, paragraphs 2.17-2.25",
+    "type": "Intergovernmental measurement framework",
+    "supports": "Innovation requires implementation; novelty is relative to a reference context; realized value is uncertain.",
+    "does_not_support": "A universal breakthrough threshold or a prediction of firm profitability.",
+    "verified_on": "2026-10-11",
+    "verification": "Original web page retrieved and indicated sections inspected by Codex; not independently checked by student yet."
+  },
+  {
+    "id": "S2",
+    "title": "Brown et al., Language Models are Few-Shot Learners",
+    "date": "2020-05-28; v4 2020-07-22",
+    "url": "https://arxiv.org/abs/2005.14165",
+    "location": "Abstract",
+    "type": "Original technical research",
+    "supports": "Large language models demonstrated broad few-shot capabilities alongside task-specific weaknesses.",
+    "does_not_support": "Universal reliability, current model performance, or commercial success in either case.",
+    "verified_on": "2026-10-11",
+    "verification": "Original web page retrieved and indicated sections inspected by Codex; not independently checked by student yet."
+  },
+  {
+    "id": "S3",
+    "title": "OpenAI, Introducing APIs for GPT-3.5 Turbo and Whisper",
+    "date": "Page updated 2024-04-24",
+    "url": "https://openai.com/index/introducing-chatgpt-and-whisper-apis/",
+    "location": "Opening, update note, and GPT-3.5 API section",
+    "type": "Original vendor announcement",
+    "supports": "Documented historical commercial API offering and app integration route.",
+    "does_not_support": "Independent proof of ROI, current prices, current terms, or market-wide adoption.",
+    "verified_on": "2026-10-11",
+    "verification": "Original web page retrieved and indicated sections inspected by Codex; not independently checked by student yet."
+  },
+  {
+    "id": "S4",
+    "title": "Dell'Acqua et al., Navigating the Jagged Technological Frontier, Organization Science 37(2), 403-423",
+    "date": "2026-03-11 online; study first circulated 2023",
+    "url": "https://doi.org/10.1287/orsc.2025.21838",
+    "location": "Abstract; outside-the-frontier results; discussion",
+    "type": "Original randomized experiment",
+    "supports": "AI improved some consulting-task outcomes but reduced correctness on a task outside its capability frontier.",
+    "does_not_support": "Measured performance for retail reporting, current models, or market-research customer substitution.",
+    "verified_on": "2026-10-11",
+    "verification": "Original web page retrieved and indicated sections inspected by Codex; not independently checked by student yet."
+  }
+]

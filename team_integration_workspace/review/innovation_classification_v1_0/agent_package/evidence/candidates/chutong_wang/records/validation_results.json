@@ -1,0 +1,64 @@
+{
+  "status": "PASSED",
+  "frozen_core": "checked including frozen tools",
+  "runs": [
+    {
+      "cycle": 1,
+      "case": "primary",
+      "course_validator": "VALIDATION PASSED",
+      "schema": "checked",
+      "provenance": "checked"
+    },
+    {
+      "cycle": 1,
+      "case": "contrast_1",
+      "course_validator": "VALIDATION PASSED",
+      "schema": "checked",
+      "provenance": "checked"
+    },
+    {
+      "cycle": 1,
+      "case": "contrast_2",
+      "course_validator": "VALIDATION PASSED",
+      "schema": "checked",
+      "provenance": "checked"
+    },
+    {
+      "cycle": 2,
+      "case": "primary",
+      "course_validator": "VALIDATION PASSED",
+      "schema": "checked",
+      "provenance": "checked"
+    },
+    {
+      "cycle": 2,
+      "case": "contrast_1",
+      "course_validator": "VALIDATION PASSED",
+      "schema": "checked",
+      "provenance": "checked"
+    },
+    {
+      "cycle": 2,
+      "case": "contrast_2",
+      "course_validator": "VALIDATION PASSED",
+      "schema": "checked",
+      "provenance": "checked"
+    }
+  ],
+  "errors": [],
+  "serialization_normalizations": [
+    "responses/cycle_1/primary_response.json: one appended final newline; original execution hash matches before that byte",
+    "cases/primary.json: one appended final newline; original execution hash matches before that byte",
+    "responses/cycle_1/contrast_1_response.json: one appended final newline; original execution hash matches before that byte",
+    "cases/contrast_1.json: one appended final newline; original execution hash matches before that byte",
+    "responses/cycle_1/contrast_2_response.json: one appended final newline; original execution hash matches before that byte",
+    "cases/contrast_2.json: one appended final newline; original execution hash matches before that byte",
+    "responses/cycle_2/primary_response.json: one appended final newline; original execution hash matches before that byte",
+    "cases/primary.json: one appended final newline; original execution hash matches before that byte",
+    "responses/cycle_2/contrast_1_response.json: one appended final newline; original execution hash matches before that byte",
+    "cases/contrast_1.json: one appended final newline; original execution hash matches before that byte",
+    "responses/cycle_2/contrast_2_response.json: one appended final newline; original execution hash matches before that byte",
+    "cases/contrast_2.json: one appended final newline; original execution hash matches before that byte"
+  ],
+  "limits": "Structural integrity and evidence-chain checks only. No claim of factual correctness, chart-tool execution, business outcomes or model reliability."
+}

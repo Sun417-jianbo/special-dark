@@ -1,0 +1,14 @@
+{
+  "additional_context": "Continuity with Assignment 2. Proposed design only: no SPS deployment or financial evidence has been supplied. Baseline is staff plus public information and existing fixed workflows. Compare with a simpler FAQ/retrieval workflow. The business-model question concerns recruitment support, not replacement of teaching or credentials. Use the dated source register as bounded evidence.",
+  "adoption_posture": "Moderate / fast-follower is a course-case assumption, not an official NYU policy.",
+  "business_need": "Scenario hypothesis: reduce repetitive inquiry handling and improve timely guidance. Actual demand, response time, applicant losses and business benefits have not been measured.",
+  "capabilities_constraints": "Scenario assumptions: existing staff, approved information and potential CRM integration. Integration permission, IT capacity, cost and internal workflow are NOT verified. Public admissions channels are verified in S4.",
+  "emerging_technology": "Agentic AI built on large language models (LLM-based agents that plan, use tools, and complete multi-step tasks)",
+  "industry_sector": "Higher education; applicant trust, privacy, accessibility and accuracy matter. Exact legal obligations require specialist review.",
+  "intended_application": "Proposed bounded applicant-support workflow: retrieve approved program information, ask clarifying questions, plan next steps, and request a counselor appointment through a permission-limited tool. Staff approve outbound messages and any record changes. Excludes admission, scholarship, visa and eligibility decisions.",
+  "management_question": "What innovation type and business-model disruption would this proposed workflow represent, and which evidence should management request before considering a pilot?",
+  "organization": "NYU School of Professional Studies (SPS)",
+  "risk_consequence_context": "Wrong deadlines or promises can harm applicants; unauthorized actions can expose data. No applicant records are used in this assignment. No legal compliance determination is made.",
+  "time_horizon": "12 months: pilot decision now, evaluation within one admissions cycle",
+  "users_stakeholders": "Prospective students, admissions counselors, marketing/enrollment staff, university IT and compliance officers"
+}

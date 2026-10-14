@@ -1,0 +1,14 @@
+{
+  "additional_context": "Synthetic contrast for analytical testing, not a factual claim about a named provider. Same technology, function, adoption posture and 12-month horizon as primary; economic position and baseline revenue model differ. No guaranteed replacement, savings or insolvency may be inferred.",
+  "adoption_posture": "Moderate / fast-follower (held constant to isolate business-model exposure)",
+  "business_need": "Scenario assumption: routine inquiry-handling hours are the core billable service, and clients could replace part of that service with direct software purchases.",
+  "capabilities_constraints": "Hypothetical assumptions: revenue mainly depends on billed routine counselor hours; limited proprietary assets; clients can switch. No measured revenue shares, costs, contracts or switching rates are supplied.",
+  "emerging_technology": "Agentic AI built on large language models (LLM-based agents that plan, use tools, and complete multi-step tasks)",
+  "industry_sector": "Business services supporting higher-education recruitment",
+  "intended_application": "The SAME proposed tool-using applicant-support design: an agent retrieves approved program information, gathers clarification and requests appointments; people handle exceptions and approve consequential messages.",
+  "management_question": "How does direct client access to agentic tools change the value of a labor-hour service model, and what would support a different service offering?",
+  "organization": "Hypothetical small outsourced applicant-engagement provider (not NYU and not an observed company)",
+  "risk_consequence_context": "Loss of trust from incorrect answers plus possible loss of billable volume. Business failure is not established by the scenario.",
+  "time_horizon": "12 months: pilot decision now, evaluation within one admissions cycle",
+  "users_stakeholders": "University clients, prospective applicants, service counselors, provider owners and platform suppliers"
+}

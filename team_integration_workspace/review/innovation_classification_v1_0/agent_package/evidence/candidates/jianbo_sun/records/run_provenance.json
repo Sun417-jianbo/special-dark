@@ -1,0 +1,26 @@
+{
+  "date_local": "2026-10-11",
+  "timezone": "America/New_York",
+  "runtime": "ChatGPT/Codex in this conversation; local Python for scaffolding and validation",
+  "generation": "Assistant read the assembled v0.1 packet and authored the saved baseline. v0.2 outputs were authored in this same conversation from the revised instructions and cases; local save scripts only serialized model-authored text.",
+  "calls": "No external model API, no separately isolated conversations or independent evaluators.",
+  "sequence": [
+    "Build v0.1 contrast packet",
+    "Generate and save v0.1 contrast response",
+    "Run validator",
+    "Diagnose grade boundary/timing-risk weakness",
+    "Revise to v0.2 and build three packets",
+    "Generate and save three v0.2 responses",
+    "Validate all four outputs and compare all original files"
+  ],
+  "general_finding": "Final case general findings use different wording; semantic consistency was reviewed. Text equality was not used as evidence of robustness.",
+  "cases": "Three hypothetical cases; no real company deployment or performance experiment.",
+  "source_check": "Codex retrieved original sources. Student source verification and personal judgment not yet confirmed.",
+  "reflection": "AI-assisted reflection draft requires student review; no student testing or classroom actions asserted.",
+  "limits": [
+    "same-session carryover",
+    "small selected case set",
+    "no current competitor scan or customer evidence",
+    "custom schema-subset checks, not general standards certification"
+  ]
+}

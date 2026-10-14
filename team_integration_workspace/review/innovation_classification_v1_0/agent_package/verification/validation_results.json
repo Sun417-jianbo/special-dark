@@ -1,0 +1,412 @@
+{
+  "passed": 81,
+  "failed": 0,
+  "checks": [
+    {
+      "check": "canonical frozen-core checker",
+      "passed": true,
+      "detail": "FROZEN CORE INTACT"
+    },
+    {
+      "check": "seven frozen files present",
+      "passed": true,
+      "detail": "['core/common_instructions.md', 'core/input_schema.json', 'core/output_schema.json', 'tools/build_prompt.py', 'tools/check_frozen_core.py', 'tools/new_agent.py', 'tools/validate_response.py']"
+    },
+    {
+      "check": "candidate snapshot integrity",
+      "passed": true,
+      "detail": "117 retained files; mismatches: []"
+    },
+    {
+      "check": "all four candidate owners",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "unchanged shared case primary",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "unchanged shared case contrast",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "unchanged shared case borderline",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "input schema borderline",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "input schema contrast",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "input schema posture_probe",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "input schema primary",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "organization contrast holds shared context fixed",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "posture probe changes one field",
+      "passed": true,
+      "detail": "['adoption_posture']"
+    },
+    {
+      "check": "full schema agents/innovation_classification_agent/responses/primary_response.json",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "canonical validator agents/innovation_classification_agent/responses/primary_response.json",
+      "passed": true,
+      "detail": "VALIDATION PASSED"
+    },
+    {
+      "check": "metadata matches agents/innovation_classification_agent/responses/primary_response.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "target response length agents/innovation_classification_agent/responses/primary_response.json",
+      "passed": true,
+      "detail": "977"
+    },
+    {
+      "check": "question matches agents/innovation_classification_agent/responses/primary_response.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "prompt contains exact case and frozen instructions agents/innovation_classification_agent/responses/primary_response.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "full schema agents/innovation_classification_agent/responses/contrast_response.json",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "canonical validator agents/innovation_classification_agent/responses/contrast_response.json",
+      "passed": true,
+      "detail": "VALIDATION PASSED"
+    },
+    {
+      "check": "metadata matches agents/innovation_classification_agent/responses/contrast_response.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "target response length agents/innovation_classification_agent/responses/contrast_response.json",
+      "passed": true,
+      "detail": "984"
+    },
+    {
+      "check": "question matches agents/innovation_classification_agent/responses/contrast_response.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "prompt contains exact case and frozen instructions agents/innovation_classification_agent/responses/contrast_response.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "full schema agents/innovation_classification_agent/responses/borderline_response.json",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "canonical validator agents/innovation_classification_agent/responses/borderline_response.json",
+      "passed": true,
+      "detail": "VALIDATION PASSED"
+    },
+    {
+      "check": "metadata matches agents/innovation_classification_agent/responses/borderline_response.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "target response length agents/innovation_classification_agent/responses/borderline_response.json",
+      "passed": true,
+      "detail": "976"
+    },
+    {
+      "check": "question matches agents/innovation_classification_agent/responses/borderline_response.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "prompt contains exact case and frozen instructions agents/innovation_classification_agent/responses/borderline_response.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "full schema agents/innovation_classification_agent/responses/posture_probe_response.json",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "canonical validator agents/innovation_classification_agent/responses/posture_probe_response.json",
+      "passed": true,
+      "detail": "VALIDATION PASSED"
+    },
+    {
+      "check": "metadata matches agents/innovation_classification_agent/responses/posture_probe_response.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "target response length agents/innovation_classification_agent/responses/posture_probe_response.json",
+      "passed": true,
+      "detail": "1004"
+    },
+    {
+      "check": "question matches agents/innovation_classification_agent/responses/posture_probe_response.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "prompt contains exact case and frozen instructions agents/innovation_classification_agent/responses/posture_probe_response.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "full schema comparison_responses/chutong_wang_primary.json",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "canonical validator comparison_responses/chutong_wang_primary.json",
+      "passed": true,
+      "detail": "VALIDATION PASSED"
+    },
+    {
+      "check": "metadata matches comparison_responses/chutong_wang_primary.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "target response length comparison_responses/chutong_wang_primary.json",
+      "passed": true,
+      "detail": "992"
+    },
+    {
+      "check": "question matches comparison_responses/chutong_wang_primary.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "prompt contains exact case and frozen instructions comparison_responses/chutong_wang_primary.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "full schema comparison_responses/chutong_wang_contrast.json",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "canonical validator comparison_responses/chutong_wang_contrast.json",
+      "passed": true,
+      "detail": "VALIDATION PASSED"
+    },
+    {
+      "check": "metadata matches comparison_responses/chutong_wang_contrast.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "target response length comparison_responses/chutong_wang_contrast.json",
+      "passed": true,
+      "detail": "999"
+    },
+    {
+      "check": "question matches comparison_responses/chutong_wang_contrast.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "prompt contains exact case and frozen instructions comparison_responses/chutong_wang_contrast.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "full schema comparison_responses/chutong_wang_borderline.json",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "canonical validator comparison_responses/chutong_wang_borderline.json",
+      "passed": true,
+      "detail": "VALIDATION PASSED"
+    },
+    {
+      "check": "metadata matches comparison_responses/chutong_wang_borderline.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "target response length comparison_responses/chutong_wang_borderline.json",
+      "passed": true,
+      "detail": "991"
+    },
+    {
+      "check": "question matches comparison_responses/chutong_wang_borderline.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "prompt contains exact case and frozen instructions comparison_responses/chutong_wang_borderline.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "full schema comparison_responses/jianbo_sun_primary.json",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "canonical validator comparison_responses/jianbo_sun_primary.json",
+      "passed": true,
+      "detail": "VALIDATION PASSED"
+    },
+    {
+      "check": "metadata matches comparison_responses/jianbo_sun_primary.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "target response length comparison_responses/jianbo_sun_primary.json",
+      "passed": true,
+      "detail": "998"
+    },
+    {
+      "check": "question matches comparison_responses/jianbo_sun_primary.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "prompt contains exact case and frozen instructions comparison_responses/jianbo_sun_primary.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "full schema comparison_responses/jianbo_sun_contrast.json",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "canonical validator comparison_responses/jianbo_sun_contrast.json",
+      "passed": true,
+      "detail": "VALIDATION PASSED"
+    },
+    {
+      "check": "metadata matches comparison_responses/jianbo_sun_contrast.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "target response length comparison_responses/jianbo_sun_contrast.json",
+      "passed": true,
+      "detail": "1005"
+    },
+    {
+      "check": "question matches comparison_responses/jianbo_sun_contrast.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "prompt contains exact case and frozen instructions comparison_responses/jianbo_sun_contrast.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "full schema comparison_responses/jianbo_sun_borderline.json",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "canonical validator comparison_responses/jianbo_sun_borderline.json",
+      "passed": true,
+      "detail": "VALIDATION PASSED"
+    },
+    {
+      "check": "metadata matches comparison_responses/jianbo_sun_borderline.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "target response length comparison_responses/jianbo_sun_borderline.json",
+      "passed": true,
+      "detail": "997"
+    },
+    {
+      "check": "question matches comparison_responses/jianbo_sun_borderline.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "prompt contains exact case and frozen instructions comparison_responses/jianbo_sun_borderline.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "negative control extra top-level field rejected",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "negative control nested type rejected",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "negative control required field rejected",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "stable general evidence across organization contrast",
+      "passed": true,
+      "detail": "Intentional text equality is not an independent reliability estimate."
+    },
+    {
+      "check": "stable technical classification under posture-only change",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "borderline explicitly withholds scope and impact",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "contrast preserves missing-economics branch",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "available original input files unchanged",
+      "passed": true,
+      "detail": "10/10 available; mismatches: []"
+    }
+  ],
+  "limits": "Contracts and transparent fixture assertions, not independent model performance, factual truth, student learning or human team approval. The schema checker covers every keyword used by these supplied schemas, not arbitrary JSON Schema."
+}

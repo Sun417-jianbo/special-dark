@@ -1,0 +1,14 @@
+{
+  "date": "2026-10-13",
+  "environment": "Current ChatGPT/Codex conversation; local Python constructs packets, saves assistant-authored responses and validates artifacts. No model API was called.",
+  "human_input": "User supplied the other three Lab3 submissions and asked for completion; user confirms no TW4 discussion record.",
+  "candidate_inspection": "All four supplied designs, saved outputs, criteria and failure records inspected; Minghan implementation retrieved at the report-named commit.",
+  "comparison_design": "Chutong and Jianbo final designs receive the identical primary, contrast and borderline cases. Six new same-assistant walkthroughs use their retained instructions and metadata; they are not responses authored by the candidate students or independent benchmark calls.",
+  "team_tests": "Four assistant-authored team examples: unchanged primary/contrast/borderline source cases and a single-field adoption-posture probe.",
+  "limits": [
+    "The same assistant knows the designs, generates and reviews the new examples.",
+    "Candidate-specific source scopes and time horizons differ in the original submissions, so original labels are not accuracy scores.",
+    "Chutong archives report separate ChatGPT web conversations; that provenance is retained as a source claim, not independently authenticated.",
+    "No live chart tool, company trial, customer experiment, human classroom activity or unanimous acceptance is invented."
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "additional_context": "Boundary case, not a verified NYU system. The technology under discussion remains agentic AI, but the concrete proposal may not instantiate it. Its difference from the existing FAQ workflow is unknown; no before/after performance evidence. Do not accept the vendor label as a technical fact.",
+  "adoption_posture": "Moderate / fast-follower is a course-case assumption, not an official NYU policy.",
+  "business_need": "Scenario hypothesis: reduce repetitive inquiry handling and improve timely guidance. Actual demand, response time, applicant losses and business benefits have not been measured.",
+  "capabilities_constraints": "Scenario assumptions: existing staff, approved information and potential CRM integration. Integration permission, IT capacity, cost and internal workflow are NOT verified. Public admissions channels are verified in S4.",
+  "emerging_technology": "Agentic AI built on large language models (LLM-based agents that plan, use tools, and complete multi-step tasks)",
+  "industry_sector": "Higher education; applicant trust, privacy, accessibility and accuracy matter. Exact legal obligations require specialist review.",
+  "intended_application": "Ambiguous proposal marketed as an agent: an LLM answers FAQs from a fixed approved document set, with no model-selected tools, no action execution, and every response reviewed by a counselor. It has not been implemented.",
+  "management_question": "What innovation type and business-model disruption would this proposed workflow represent, and which evidence should management request before considering a pilot?",
+  "organization": "NYU School of Professional Studies (SPS)",
+  "risk_consequence_context": "Wrong deadlines or promises can harm applicants; unauthorized actions can expose data. No applicant records are used in this assignment. No legal compliance determination is made.",
+  "time_horizon": "12 months: pilot decision now, evaluation within one admissions cycle",
+  "users_stakeholders": "Prospective students, admissions counselors, marketing/enrollment staff, university IT and compliance officers"
+}

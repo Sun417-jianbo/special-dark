@@ -1,0 +1,66 @@
+{
+  "agent": {
+    "name": "Innovation and Disruption Agent",
+    "specialty": "Innovation classification and business-model disruption",
+    "version": "0.2"
+  },
+  "analytical_question": "How would an AI-assisted subscription change a publisher dependent on paid public-source briefs, and how severe is the prospective business-model exposure?",
+  "general_et_finding": "At the general technology level, language models combine enabling technical advances with documented commercial deployment routes (S2, S3). Broad few-shot performance can be interpreted as a capability breakthrough compared with task-specific models, while cumulative development supports a competing incremental account. This classification does not depend on the publisher being aggressive. Innovation requires implementation in the relevant unit (S1), and commercialization is not evidence of durable customer value.",
+  "application_finding": "The proposed on-demand brief service has not launched. It combines potential product/service and process innovation, plus a shift in value capture from per-report fees to subscription access. Existing language models are being applied, so this is not a new technical invention. Relative to this firm, a service redesign may be substantial; a demonstrated breakthrough in customer outcomes is unproven. Resource commitments and market delivery would be needed to establish the proposed entrepreneurial commercialization.",
+  "organization_specific_finding": "Business-Model Disruption Judgment: High conditional scenario exposure for the core public-source brief business over six months; low confidence in actual substitution probability or timing. Product: manually prepared briefs -> AI-assisted on-demand briefs. Process: manual synthesis -> automated drafting plus editorial checks. Capability: routine prose becomes less differentiating while verification and client interpretation matter. Customer value: convenient curated summaries -> faster tailored access. Channel: per-report delivery -> proposed self-service subscription. Revenue/cost: per-report fees face possible price pressure; subscriptions and lower drafting cost are opportunities, with unknown review and acquisition costs. Intermediary: the publisher as summarizer of public information could be bypassed by clients using tools directly. Advantage: editorial trust and relationships may persist, but no exclusive dataset is assumed. Capability -> easier public-source synthesis -> client self-service -> weaker willingness to pay is a plausible mechanism, not observed behavior. High rather than Moderate reflects direct exposure of the assumed core revenue source; Potentially Existential is unsupported without viability and adaptation evidence.",
+  "evidence": [
+    {
+      "claim": "Innovation requires implementation; novelty is relative to a reference context; realized value is uncertain.",
+      "source_or_reference": "S1 https://www.oecd.org/en/publications/oslo-manual-2018_9789264304604-en/full-report/component-7.html",
+      "date_or_recency": "2018; checked 2026-10-11",
+      "evidence_type": "Intergovernmental measurement framework",
+      "notes": "Checked location: Sections 2.2.3-2.2.5, paragraphs 2.17-2.25. Does not establish: A universal breakthrough threshold or a prediction of firm profitability."
+    },
+    {
+      "claim": "Large language models demonstrated broad few-shot capabilities alongside task-specific weaknesses.",
+      "source_or_reference": "S2 https://arxiv.org/abs/2005.14165",
+      "date_or_recency": "2020-05-28; v4 2020-07-22; checked 2026-10-11",
+      "evidence_type": "Original technical research",
+      "notes": "Checked location: Abstract. Does not establish: Universal reliability, current model performance, or commercial success in either case."
+    },
+    {
+      "claim": "Documented historical commercial API offering and app integration route.",
+      "source_or_reference": "S3 https://openai.com/index/introducing-chatgpt-and-whisper-apis/",
+      "date_or_recency": "Page updated 2024-04-24; checked 2026-10-11",
+      "evidence_type": "Original vendor announcement",
+      "notes": "Checked location: Opening, update note, and GPT-3.5 API section. Does not establish: Independent proof of ROI, current prices, current terms, or market-wide adoption."
+    },
+    {
+      "claim": "AI improved some consulting-task outcomes but reduced correctness on a task outside its capability frontier.",
+      "source_or_reference": "S4 https://doi.org/10.1287/orsc.2025.21838",
+      "date_or_recency": "2026-03-11 online; study first circulated 2023; checked 2026-10-11",
+      "evidence_type": "Original randomized experiment",
+      "notes": "Checked location: Abstract; outside-the-frontier results; discussion. Does not establish: Measured performance for retail reporting, current models, or market-research customer substitution."
+    },
+    {
+      "claim": "Organization, proposed workflow and revenue structure are supplied assumptions; exposure ratings are analyst inferences.",
+      "source_or_reference": "cases/contrast_1.json",
+      "date_or_recency": "Teaching scenario 2026-10-11",
+      "evidence_type": "Synthetic case assumptions plus inference",
+      "notes": "No actual company deployment, customer survey, measured loss or ROI."
+    }
+  ],
+  "contrary_evidence_or_limitations": [
+    "The strongest limited-disruption interpretation is Moderate: clients may pay for trusted selection, accountability and decision support even when raw drafting is cheap. Client interviews, renewal behavior and comparative willingness-to-pay would distinguish this interpretation.",
+    "A subscription may cannibalize fees without attracting enough demand; it is not automatically an improvement.",
+    "No actual competitor, churn, revenue percentage, margin or cost measurements support a prediction of collapse."
+  ],
+  "confidence_and_uncertainty": "High describes severity under supplied assumptions, not inevitability. Moderate confidence in the exposure mechanism; low confidence in realization within six months. General technical progress and firm-level viability require different evidence.",
+  "value_opportunity_implication": "Could create faster customized access and recurring service revenue while commoditizing routine public-source synthesis and weakening standalone brief pricing. Evidence gathering, quality assurance and advice may gain value. Task displacement does not establish layoffs.",
+  "risk_governance_implication": "Both timing risks matter: early launch could damage trust or dilute fees; inaction could leave a substitutable offering exposed. The supplied data cannot rank these risks quantitatively. Preserve editorial accountability and test customer value before asserting a transition is worthwhile.",
+  "recommendation_management_implication": "Prioritize evidence about what customers pay for, whether they can replace the service, and the economics of reviewed subscription delivery. Preserve High conditional exposure with Moderate as a serious alternative. Adoption and readiness specialists decide whether and how to proceed; Landscape verifies live substitutes, Diffusion evaluates spread, and Promethean evaluates wider significance.",
+  "change_monitoring_triggers": [
+    "Raise toward Potentially Existential only with evidence of core-revenue substitution, unsustainable economics and inadequate adaptation options within the horizon.",
+    "Lower to Moderate if customers demonstrably renew for differentiated expertise and review-inclusive economics remain viable.",
+    "Revisit the proposed service classification after verified market introduction; sustained demand requires separate evidence."
+  ],
+  "abstention_or_more_information_needed": [
+    "Request customer willingness-to-pay and switching evidence, segment revenue dependence, margins, competitor comparisons, editorial costs and adaptation options.",
+    "Do not claim observed disruption, an exact loss forecast or existential risk from these synthetic assumptions."
+  ]
+}
