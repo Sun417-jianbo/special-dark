@@ -1,0 +1,31 @@
+COMMAND: tools/check_frozen_core.py
+FROZEN CORE INTACT
+EXIT: 0
+COMMAND: tools/validate_response.py /workspace/scratch/923583c37629/assignment4/working/MASY1800_ET_Agent_Scaffold_v1_0/agents/promethean_agent/responses/contrast_1_v0.2.json
+VALIDATION PASSED
+EXIT: 0
+COMMAND: tools/validate_response.py /workspace/scratch/923583c37629/assignment4/working/MASY1800_ET_Agent_Scaffold_v1_0/agents/promethean_agent/responses/contrast_2_v0.2.json
+VALIDATION PASSED
+EXIT: 0
+COMMAND: tools/validate_response.py /workspace/scratch/923583c37629/assignment4/working/MASY1800_ET_Agent_Scaffold_v1_0/agents/promethean_agent/responses/hype_challenge_v0.2.json
+VALIDATION PASSED
+EXIT: 0
+COMMAND: tools/validate_response.py /workspace/scratch/923583c37629/assignment4/working/MASY1800_ET_Agent_Scaffold_v1_0/agents/promethean_agent/responses/primary_v0.1.json
+VALIDATION PASSED
+EXIT: 0
+COMMAND: tools/validate_response.py /workspace/scratch/923583c37629/assignment4/working/MASY1800_ET_Agent_Scaffold_v1_0/agents/promethean_agent/responses/primary_v0.2.json
+VALIDATION PASSED
+EXIT: 0
+CONTRACT SUBSET PASS: cases/contrast_1.json
+CONTRACT SUBSET PASS: cases/contrast_2.json
+CONTRACT SUBSET PASS: cases/hype_challenge.json
+CONTRACT SUBSET PASS: cases/primary.json
+CONTRACT SUBSET PASS: responses/contrast_1_v0.2.json
+CONTRACT SUBSET PASS: responses/contrast_2_v0.2.json
+CONTRACT SUBSET PASS: responses/hype_challenge_v0.2.json
+CONTRACT SUBSET PASS: responses/primary_v0.1.json
+CONTRACT SUBSET PASS: responses/primary_v0.2.json
+POSTURE CONTRAST PASS: only adoption_posture differs
+HYPE CONTRAST PASS: only additional_context has appended promotional claim
+ORIGINAL FILE BYTE COMPARISON PASS: 32 files unchanged
+Schema-subset validator covers only keywords used here; not a general JSON Schema certification. Semantic review is separate, same-session and non-independent.

@@ -1,0 +1,62 @@
+[
+  {
+    "id": "S0",
+    "title": "Fortino, Chapter 11 Identifying Promethean Technologies",
+    "date": "August 2026, draft rev 0.1",
+    "reference": "Chapter11_Identifying_Promethean_Technologies_v0.1_WITH_FIGURES.docx",
+    "location": "Sections 11.2, 11.5, 11.7-11.9",
+    "kind": "Instructor framework, not academic consensus",
+    "supports": "System gate, categorical-barrier and suppression tests, multiple human-life tiers, six criteria, prospective ceiling.",
+    "limit": "The chapter calibrates generative AI as Potential Promethean; that interpretive judgment is not independent empirical proof. Chapter is not redistributed.",
+    "checked_on": "2026-10-18",
+    "verified_by": "Codex; student verification not yet confirmed"
+  },
+  {
+    "id": "S1",
+    "title": "Brown et al. Language Models are Few-Shot Learners",
+    "date": "2020, arXiv v4 July 22",
+    "reference": "https://arxiv.org/abs/2005.14165",
+    "location": "Abstract",
+    "kind": "Original technical research",
+    "supports": "Broad few-shot language capabilities and remaining task weaknesses.",
+    "limit": "Not evidence of current reliability, economy-wide dependence, or a tenfold business improvement.",
+    "checked_on": "2026-10-18",
+    "verified_by": "Codex; student verification not yet confirmed"
+  },
+  {
+    "id": "S2",
+    "title": "Brynjolfsson, Li and Raymond, Generative AI at Work",
+    "date": "2025, QJE 140(2), 889-942",
+    "reference": "https://doi.org/10.1093/qje/qjae044",
+    "location": "Abstract; introduction, study scope",
+    "kind": "Original workplace study",
+    "supports": "Study of 5,172 customer-support agents reports 15% average productivity improvement, with heterogeneous effects.",
+    "limit": "Single-firm assisted work; does not prove tenfold gains, elimination of expertise, or aggregate employment effects.",
+    "checked_on": "2026-10-18",
+    "verified_by": "Codex; student verification not yet confirmed"
+  },
+  {
+    "id": "S3",
+    "title": "Dell'Acqua et al., Navigating the Jagged Technological Frontier",
+    "date": "2026, Organization Science 37(2), 403-423",
+    "reference": "https://doi.org/10.1287/orsc.2025.21838",
+    "location": "Abstract; outside-frontier results and discussion",
+    "kind": "Original randomized experiment",
+    "supports": "AI helps some consulting tasks and reduces correctness on a tested outside-frontier task.",
+    "limit": "Task-specific evidence from an earlier model, not a universal present-day failure rate.",
+    "checked_on": "2026-10-18",
+    "verified_by": "Codex; student verification not yet confirmed"
+  },
+  {
+    "id": "S4",
+    "title": "Bick, Blandin and Deming, The Rapid Adoption of Generative AI",
+    "date": "NBER WP 32966, September 2024; revised February 2025",
+    "reference": "https://www.nber.org/papers/w32966",
+    "location": "Original NBER abstract retrieved through search; direct open failed",
+    "kind": "Original U.S. survey research",
+    "supports": "Late-2024 surveys show broad uptake, with workday use lower than any recent use.",
+    "limit": "Dated U.S. self-reports, not an October 2026 global estimate, causal welfare evidence or infrastructure dependence.",
+    "checked_on": "2026-10-18",
+    "verified_by": "Codex; student verification not yet confirmed"
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "date": "2026-10-18",
+  "environment": "ChatGPT/Codex; local Python scaffold tools",
+  "generation": "Baseline response authored from assembled v0.1 prompt. Revised responses authored in this same conversation using v0.2 instructions and the four cases. Serialization scripts do not call an inference API.",
+  "sequence": [
+    "Build baseline packet",
+    "Author/save baseline",
+    "Validate format",
+    "Diagnose unresolved gate and implicit criteria",
+    "Revise specialist instructions",
+    "Build four v0.2 packets",
+    "Author/save four v0.2 examples",
+    "Run supplied validators and contract-subset checks",
+    "Review semantic contrasts"
+  ],
+  "independence": "No isolated runs, no independent evaluator, no business pilot. Shared-context carryover may inflate consistency.",
+  "verification": "Codex inspected listed original-source locations and ran local scripts. Student review is not yet confirmed.",
+  "scope": "One baseline plus four revised responses; four synthetic inputs. No team approval or Brightspace submission claimed."
+}
