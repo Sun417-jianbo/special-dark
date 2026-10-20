@@ -1,0 +1,19 @@
+{
+  "team": "Special Dark",
+  "members": [
+    "Yufei Cai",
+    "Chutong Wang",
+    "Jianbo Sun",
+    "Minghan Liu"
+  ],
+  "workshop": 5,
+  "specialist": 3,
+  "version": "1.0",
+  "status": "Team-accepted academic submission",
+  "date": "2026-10-20",
+  "repository": "https://github.com/Sun417-jianbo/special-dark",
+  "branch": "tw5-promethean-classification-20261020",
+  "path": "team_integration_workspace/review/promethean_classification",
+  "canonical_scaffold": "MASY1800_ET_Agent_Scaffold_v1_0",
+  "approved": true
+}

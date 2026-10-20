@@ -1,0 +1,86 @@
+[
+  {
+    "id": "S0",
+    "title": "Chapter 11 Identifying Promethean Technologies",
+    "author": "Andres Fortino",
+    "date": "August 2026 draft v0.1 per supplied chapter; inspected 2026-10-20",
+    "url": "Local instructor chapter",
+    "location": "Sections 11.2, 11.5, 11.7 and 11.9",
+    "claim": "System, barrier and suppression gates; formal six-criterion assessment after dissolution; two distinct human-life tiers; prospective and retrospective modes.",
+    "limit": "Instructor working framework, not academic consensus or empirical proof about this agent. The generative-AI calibration is not inherited. The full chapter is not redistributed.",
+    "checked_on": "2026-10-20",
+    "verification": "Current assistant inspected named original source location. No new student personal verification is attested."
+  },
+  {
+    "id": "S1",
+    "title": "ReAct Synergizing Reasoning and Acting in Language Models",
+    "author": "Yao et al.",
+    "date": "2022 preprint; 2023 ICLR v3",
+    "url": "https://arxiv.org/abs/2210.03629v3",
+    "location": "Abstract and task scope",
+    "claim": "Demonstrates interleaved reasoning/action on bounded tasks with stated baselines.",
+    "limit": "Not current chart-review performance, global novelty, tenfold full-workflow benefit or civilizational dependence.",
+    "checked_on": "2026-10-20",
+    "verification": "Current assistant inspected named original source location. No new student personal verification is attested."
+  },
+  {
+    "id": "S2",
+    "title": "Building effective agents",
+    "author": "Anthropic",
+    "date": "2024-12-19; live page checked 2026-10-20",
+    "url": "https://www.anthropic.com/research/building-effective-agents",
+    "location": "What are agents; When and when not to use agents",
+    "claim": "Distinguishes model-directed tool processes from predefined workflows and identifies complexity tradeoffs.",
+    "limit": "Vendor guidance, not independent validation. The page warns that tooling has changed.",
+    "checked_on": "2026-10-20",
+    "verification": "Current assistant inspected named original source location. No new student personal verification is attested."
+  },
+  {
+    "id": "S3",
+    "title": "GAIA a benchmark for General AI Assistants",
+    "author": "Mialon et al.",
+    "date": "2023-11-21 version 1",
+    "url": "https://arxiv.org/abs/2311.12983v1",
+    "location": "Abstract",
+    "claim": "Documents a historical gap on tool-using assistant questions.",
+    "limit": "The tested older setup is not an October 2026 frontier estimate, chart QA or universal failure rate.",
+    "checked_on": "2026-10-20",
+    "verification": "Current assistant inspected named original source location. No new student personal verification is attested."
+  },
+  {
+    "id": "S4",
+    "title": "Task-Completion Time Horizons of Frontier AI Models",
+    "author": "METR",
+    "date": "Last updated 2026-09-08; inspected 2026-10-20",
+    "url": "https://metr.org/time-horizons/",
+    "location": "Methodological details and FAQs",
+    "claim": "Horizon measures difficulty indexed by human task time at a specified success probability.",
+    "limit": "Not AI runtime, a speed ratio or general job coverage. Predominantly software/ML/cyber tasks; page no longer actively updated.",
+    "checked_on": "2026-10-20",
+    "verification": "Current assistant inspected named original source location. No new student personal verification is attested."
+  },
+  {
+    "id": "S5",
+    "title": "We are Changing our Developer Productivity Experiment Design",
+    "author": "METR",
+    "date": "2026-02-24",
+    "url": "https://metr.org/blog/2026-02-24-uplift-update/",
+    "location": "Study interpretation and selection effects",
+    "claim": "Later developer productivity estimates have selection and measurement limitations.",
+    "limit": "Historical slowdown does not establish current universal failure; later uncertainty does not prove a tenfold gain.",
+    "checked_on": "2026-10-20",
+    "verification": "Current assistant inspected named original source location. No new student personal verification is attested."
+  },
+  {
+    "id": "S6",
+    "title": "Generative AI at Work",
+    "author": "Brynjolfsson, Li and Raymond",
+    "date": "2025 final QJE article 140(2) 889-942",
+    "url": "https://academic.oup.com/qje/article/140/2/889/7990658",
+    "location": "Abstract and sample description",
+    "claim": "Final article reports 15% mean productivity gain among 5,172 human support workers.",
+    "limit": "Single-firm human assistance, not autonomous software agents, chart-review evidence or tenfold gain. Do not combine earlier working-paper counts with this final version.",
+    "checked_on": "2026-10-20",
+    "verification": "Current assistant inspected named original source location. No new student personal verification is attested."
+  }
+]

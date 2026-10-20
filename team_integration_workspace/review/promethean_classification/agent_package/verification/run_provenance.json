@@ -1,0 +1,13 @@
+{
+  "date": "2026-10-20",
+  "runtime": "Current ChatGPT/Codex conversation; local Python constructs packets, serializes assistant-authored examples and validates files. No model API or operational chart tool.",
+  "new_examples": {
+    "candidate_design_applications": 8,
+    "team_cases": 7
+  },
+  "independence": "Same assistant authors and reviews. No blinded or repeated independent inference and no model accuracy estimate.",
+  "original_candidates": "Their native provenance is preserved and attributed; not all used the same model, workflow or scenario.",
+  "human_status": "Team acceptance of the analytical scheme was explicitly reported by Yufei Cai on 2026-10-20. Contributions are traced to the four supplied individual Lab 4 designs; assistant work is described in the contribution record.",
+  "editorial_revision": "Team-acceptance and contribution wording was clarified after release. Related administrative caveats were removed from saved example commentary; these are editorial changes, not new inference runs. Analytical findings and original candidate evidence remain unchanged.",
+  "calibration": "Instructor anchor is a closed course control, not new historical or agentic evidence."
+}

@@ -1,0 +1,46 @@
+{
+  "status": "Team acceptance reported by user on 2026-10-20",
+  "user_record": "Yufei Cai reported team acceptance of version 1.0 on 2026-10-20. The final specialist combines the four individual Lab 4 designs, with retained contributions and revisions attributed below.",
+  "team_members": [
+    "Yufei Cai",
+    "Chutong Wang",
+    "Jianbo Sun",
+    "Minghan Liu"
+  ],
+  "documented_inputs": [
+    {
+      "member": "Yufei Cai",
+      "material_supplied": "Individual Lab 4 candidate",
+      "design_contribution_proposed_for_retention": "System boundary, end-to-end denominator, task-horizon distinction and transparent same-assistant limits",
+      "new_classroom_role_attested": false,
+      "new_source_verification_attested": false
+    },
+    {
+      "member": "Chutong Wang",
+      "material_supplied": "Individual Lab 4 candidate",
+      "design_contribution_proposed_for_retention": "Sequential gates, all six NOT SCORED after gate stop, component abstention, posture-only and hype probes",
+      "new_classroom_role_attested": false,
+      "new_source_verification_attested": false
+    },
+    {
+      "member": "Jianbo Sun",
+      "material_supplied": "Individual Lab 4 candidate",
+      "design_contribution_proposed_for_retention": "Clean one-field posture contrast, careful suppression counterfactual and separation of draft creation from verified outcome",
+      "new_classroom_role_attested": false,
+      "new_source_verification_attested": false
+    },
+    {
+      "member": "Minghan Liu",
+      "material_supplied": "Individual Lab 4 candidate",
+      "design_contribution_proposed_for_retention": "Separate present finding from future hypothesis, evidence-admissibility distinctions, incremental counterfactual and baseline awareness",
+      "new_classroom_role_attested": false,
+      "new_source_verification_attested": false
+    }
+  ],
+  "assistant_work": "Inspected candidates and course framework; checked bounded primary sources; drafted proposed synthesis, prompts/responses and report; ran local artifact checks.",
+  "classroom_completion_percentage": null,
+  "classroom_attendance_attested": false,
+  "approval_attested": true,
+  "contribution_basis": "The entries identify design contributions from the supplied individual Lab 4 artifacts. The shared handoff includes the unified specialist, source register, comparison and test records, report and repository version.",
+  "approval_source": "Yufei Cai's explicit report of team acceptance in this conversation."
+}
