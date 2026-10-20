@@ -1,6 +1,6 @@
-# Proposed synthesis decision
+# Team synthesis decision
 
-Status: technical review version 1.0, accepted through the user's explicit team-acceptance report. The user reported no classroom discussion, team decision or role record on 2026-10-20. No unanimous vote, attendance, classroom completion percentage or personal verification is inferred.
+Status: team-accepted academic version 1.0, based on the user's explicit report. Before that confirmation, no classroom discussion, decision or role record was available. No separate unanimous vote, attendance, classroom completion percentage or personal verification is inferred.
 
 ## Recommended analytical position
 Use a narrowly qualified breakthrough capability interpretation for demonstrated bounded agentic systems, with moderate confidence. Do not endorse a Promethean label on the packet. Preserve Yufei's alternative of withholding the incremental/breakthrough distinction until a closer comparator is supplied; it is a substantive evidentiary disagreement, not an error to erase. The label is not a 10X claim and not a forecast of universal current ability.
@@ -14,7 +14,7 @@ Combine Chutong's sequential gate stop with Yufei's measurement caution, Jianbo'
 Long-term importance may change attention, learning and reassessment. It cannot independently authorize near-term adoption, waive local correctness/cost evidence or data permission, remove accountable review, or override Adoption and Organizational Readiness. The incremental counterfactual exposes local steps justified only by hype. It does not imply strategic attention can never respond to real technological change.
 
 ## What reopens the choice
-A matched, quality-adjusted capability comparison may strengthen or weaken breakthrough. Evidence of actually reorganized dependent systems across distinct tiers may strengthen a prospective Promethean pathway. No local advantage over simpler checks weakens the application case without rewriting the general evidence. Team acceptance and contrary views must be recorded before calling this the approved team version.
+A matched, quality-adjusted capability comparison may strengthen or weaken breakthrough. Evidence of actually reorganized dependent systems across distinct tiers may strengthen a prospective Promethean pathway. No local advantage over simpler checks weakens the application case without rewriting the general evidence. Acceptance is recorded in team_acceptance.json; the contrary views remain in this decision and comparison record.
 
 
 Release status 2026-10-20: the user explicitly reported team acceptance of the proposed scheme. Version 1.0 records that decision, not proof of 90% in-class completion, individual source checking or production permission. The earlier lack of discussion/role records remains disclosed.

@@ -11,5 +11,15 @@ Branch: tw5-promethean-classification-20261020
 Directory: team_integration_workspace/review/promethean_classification
 No automatic merge or Brightspace submission is performed. Follow the actual upload fields and deadline. The local material does not establish a Word-only submission requirement.
 
+## Working with the specialist
+
+From agent_package, build a packet with:
+`python3 tools/build_prompt.py --agent agents/promethean_classification_agent --case agents/promethean_classification_agent/cases/primary.json --out work/promethean_primary_prompt.txt`
+
+Use that packet in ChatGPT/Codex and save the structured response. Validate a saved example with:
+`python3 tools/validate_response.py agents/promethean_classification_agent/responses/primary_response.json`
+
+Run `python3 verification/recheck.py` for the packaged contract/integrity fixtures. The preserved failed artifacts are required test history, not alternative final reports.
+
 
 Release status 2026-10-20: the user explicitly reported team acceptance of the proposed scheme. Version 1.0 records that decision, not proof of 90% in-class completion, individual source checking or production permission. The earlier lack of discussion/role records remains disclosed.

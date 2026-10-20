@@ -1,0 +1,19 @@
+{
+  "repository": "https://github.com/Sun417-jianbo/special-dark",
+  "branch": "tw5-promethean-classification-20261020",
+  "repository_path": "team_integration_workspace/review/promethean_classification",
+  "review_url": "https://github.com/Sun417-jianbo/special-dark/tree/tw5-promethean-classification-20261020/team_integration_workspace/review/promethean_classification",
+  "pull_request": "https://github.com/Sun417-jianbo/special-dark/pull/5",
+  "implementation_commit": "b80e6f864f22200e7ae1c5c9c3e96bdb7d831bd7",
+  "implementation_commit_url": "https://github.com/Sun417-jianbo/special-dark/commit/b80e6f864f22200e7ae1c5c9c3e96bdb7d831bd7",
+  "version": "1.0",
+  "status": "Team-accepted academic version; Word visually checked; final ZIP and report accompany a following commit on this branch.",
+  "team_acceptance": "Explicit user report on 2026-10-20; source in agent_package/team_records/team_acceptance.json.",
+  "classroom_history": "Not supplied or certified; no 90% completion claim.",
+  "author": "Yufei Cai <caiyf17@users.noreply.github.com>",
+  "automatic_merge": false,
+  "brightspace_submission": false,
+  "report": "Special_Dark_TW5_Team_Agent_Record.docx",
+  "report_sha256": "eb2d5fc07b095076cc882e9887169d97aed0cfc729fb816dd81344b6a76e06da",
+  "final_commit_location": "The branch history identifies the final delivery commit without a self-referential embedded hash."
+}

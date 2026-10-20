@@ -1,0 +1,34 @@
+{
+  "team": "Special Dark",
+  "version": "1.0",
+  "report": "Special_Dark_TW5_Team_Agent_Record.docx",
+  "report_sha256": "eb2d5fc07b095076cc882e9887169d97aed0cfc729fb816dd81344b6a76e06da",
+  "pages": 6,
+  "visual_review": "All six final page PNGs inspected. No clipping, orphan rows or broken tables. QA renders are outside deliverables.",
+  "template_preservation": {
+    "source": "/Users/cyf/Documents/NYU/2026fall/1800/Lab/Lab 4/Lab 4 -  SubAgent 3 Promethean attached files Oct 19, 2026 549 PM/Emerging_Technologies_Agent_Record_Template.docx",
+    "output": "/Users/cyf/Documents/NYU/2026fall/1800/Team Workshop/TW5/Special_Dark_TW5_Promethean_Classification_Agent/Special_Dark_TW5_Team_Agent_Record.docx",
+    "changed_parts": [
+      "docProps/core.xml",
+      "word/document.xml",
+      "word/_rels/document.xml.rels",
+      "word/styles.xml",
+      "word/footer1.xml"
+    ],
+    "preserved_parts": 14,
+    "native_hyperlinks": 7
+  },
+  "original_relationships_preserved": true,
+  "original_scaffold_files_retained": 32,
+  "frozen_files_unchanged": 7,
+  "original_inputs_unchanged": 13,
+  "candidate_core_checks": "All four candidates match all seven canonical frozen files.",
+  "validation": {
+    "passed": 82,
+    "failed": 0,
+    "scope": "Contracts, integrity and transparent saved-content fixtures; not independent model accuracy, team approval, class participation or a rubric score."
+  },
+  "team_acceptance": "User explicitly reported team acceptance on 2026-10-20; see team_acceptance.json.",
+  "classroom_history": "No classroom discussion/role/attendance or 90% completion record supplied; not fabricated.",
+  "draft_discipline": "One final authored Word. Supplied instructor references and required preserved test failures are not alternate final drafts."
+}
