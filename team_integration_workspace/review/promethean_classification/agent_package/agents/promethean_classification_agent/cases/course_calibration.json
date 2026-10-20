@@ -1,0 +1,14 @@
+{
+  "emerging_technology": "Electricity as an integrated infrastructure system in the instructor's retrospective calibration",
+  "intended_application": "Proposed chart-review assistant: compare business charts with approved source tables, use read-only SQL/spreadsheet tools, and draft correction notes. Human approval is required; no autonomous publication.",
+  "business_need": "Investigate whether chart-review effort can be reduced while retaining traceability and analyst accountability.",
+  "management_question": "What significance classification is defensible for this defined system, with what confidence, and how much should it influence this organization's present chart-review decision?",
+  "time_horizon": "Four-week feasibility investigation; twelve-month organizational review; separate long-range societal question without a realization date.",
+  "additional_context": "Course-calibration control only, not a new historical evaluation: accept S0 Chapter 11's electricity example as the given retrospective anchor, including dependent systems and multi-tier dissolution. Exercise the eligible six-criterion path under that supplied calibration. Do not infer any facts about agentic AI or approve the proposed chart application from this anchor.",
+  "organization": "Hypothetical mid-sized US financial-services firm",
+  "industry_sector": "Financial services; internal management reporting",
+  "users_stakeholders": "Business analysts, managers, security staff and named report owners",
+  "adoption_posture": "Conservative; investigation only",
+  "capabilities_constraints": "Approved BI tables and manual analyst checks exist. Sensitive data; no approved external model environment. Financial products and relationship services earn revenue; chart review is an internal support activity, not a sold service. Before environment authorization use only public or synthetic material; no sensitive-data trial is authorized.",
+  "risk_consequence_context": "Misleading reports may harm decisions; unauthorized data disclosure is consequential. Synthetic draft examples are reversible. Human report ownership stays in place."
+}

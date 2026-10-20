@@ -1,0 +1,8 @@
+{
+  "source_bundle": "evidence/candidates/chutong_wang.json",
+  "source_key": "responses/cycle_1/primary_response.json",
+  "sha256": "1f3035426bf2ccbb7b52c4b1a0f768a4e9a399f80eff91f57f67015a40577baa",
+  "source_claim": "Candidate provenance attributes its cycle to ordinary ChatGPT in a shared conversation. Not independently replayed or audited here.",
+  "diagnosis": "Potential Promethean significance was mentioned while dissolution was unestablished. Retained as a supplied weakness; later qualification and explicit gate stop address it.",
+  "not_claimed": "No team-created independent failure, failure rate or classroom observation is asserted."
+}

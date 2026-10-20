@@ -1,0 +1,46 @@
+{
+  "status": "Team acceptance reported by user on 2026-10-20",
+  "user_record": "User replied 暂无 (none available) when asked for TW5 discussion, decisions and actual division of work.",
+  "team_members": [
+    "Yufei Cai",
+    "Chutong Wang",
+    "Jianbo Sun",
+    "Minghan Liu"
+  ],
+  "documented_inputs": [
+    {
+      "member": "Yufei Cai",
+      "material_supplied": "Individual Lab 4 candidate",
+      "design_contribution_proposed_for_retention": "System boundary, end-to-end denominator, task-horizon distinction and transparent same-assistant limits",
+      "new_classroom_role_attested": false,
+      "new_source_verification_attested": false
+    },
+    {
+      "member": "Chutong Wang",
+      "material_supplied": "Individual Lab 4 candidate",
+      "design_contribution_proposed_for_retention": "Sequential gates, all six NOT SCORED after gate stop, component abstention, posture-only and hype probes",
+      "new_classroom_role_attested": false,
+      "new_source_verification_attested": false
+    },
+    {
+      "member": "Jianbo Sun",
+      "material_supplied": "Individual Lab 4 candidate",
+      "design_contribution_proposed_for_retention": "Clean one-field posture contrast, careful suppression counterfactual and separation of draft creation from verified outcome",
+      "new_classroom_role_attested": false,
+      "new_source_verification_attested": false
+    },
+    {
+      "member": "Minghan Liu",
+      "material_supplied": "Individual Lab 4 candidate",
+      "design_contribution_proposed_for_retention": "Separate present finding from future hypothesis, evidence-admissibility distinctions, incremental counterfactual and baseline awareness",
+      "new_classroom_role_attested": false,
+      "new_source_verification_attested": false
+    }
+  ],
+  "assistant_work": "Inspected candidates and course framework; checked bounded primary sources; drafted proposed synthesis, prompts/responses and report; ran local artifact checks.",
+  "classroom_completion_percentage": null,
+  "classroom_attendance_attested": false,
+  "approval_attested": true,
+  "limitation": "No human workshop participation or final consensus is fabricated. Team members must confirm the decision and explain the artifact.",
+  "approval_source": "Explicit user report of team acceptance; not separate signatures or newly attested classroom history."
+}

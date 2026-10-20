@@ -1,0 +1,417 @@
+{
+  "passed": 82,
+  "failed": 0,
+  "scope": "Contracts, integrity and transparent saved-content fixtures; not independent model accuracy, team approval, class participation or a rubric score.",
+  "checks": [
+    {
+      "check": "seven frozen files unchanged",
+      "passed": true,
+      "detail": "FROZEN CORE INTACT"
+    },
+    {
+      "check": "contrast input contract",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "contrast output contract",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "contrast supplied validator",
+      "passed": true,
+      "detail": "VALIDATION PASSED"
+    },
+    {
+      "check": "contrast metadata and question",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "contrast complete prompt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "course_calibration input contract",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "course_calibration output contract",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "course_calibration supplied validator",
+      "passed": true,
+      "detail": "VALIDATION PASSED"
+    },
+    {
+      "check": "course_calibration metadata and question",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "course_calibration complete prompt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "hype_probe input contract",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "hype_probe output contract",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "hype_probe supplied validator",
+      "passed": true,
+      "detail": "VALIDATION PASSED"
+    },
+    {
+      "check": "hype_probe metadata and question",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "hype_probe complete prompt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "incremental_control input contract",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "incremental_control output contract",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "incremental_control supplied validator",
+      "passed": true,
+      "detail": "VALIDATION PASSED"
+    },
+    {
+      "check": "incremental_control metadata and question",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "incremental_control complete prompt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "posture_probe input contract",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "posture_probe output contract",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "posture_probe supplied validator",
+      "passed": true,
+      "detail": "VALIDATION PASSED"
+    },
+    {
+      "check": "posture_probe metadata and question",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "posture_probe complete prompt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "primary input contract",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "primary output contract",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "primary supplied validator",
+      "passed": true,
+      "detail": "VALIDATION PASSED"
+    },
+    {
+      "check": "primary metadata and question",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "primary complete prompt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "scope_probe input contract",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "scope_probe output contract",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "scope_probe supplied validator",
+      "passed": true,
+      "detail": "VALIDATION PASSED"
+    },
+    {
+      "check": "scope_probe metadata and question",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "scope_probe complete prompt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "context contrast holds general inputs fixed",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "posture changes exactly one input",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "hype changes narrative only",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "general finding invariant across shared unit",
+      "passed": true,
+      "detail": "Deliberate same-assistant fixture reuse, not measured reliability."
+    },
+    {
+      "check": "context implications differ",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "primary no positive Promethean label",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "primary six criteria not scored",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "withholding alternative preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "hype rejects override and unsafe launch",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "component gate stops",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "scope decision fields agree with abstention",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "incremental control stays incremental",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "incremental decision fields agree",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "eligible calibration is explicitly bounded",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "calibration decision not generic agent classification",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "criterion rule uses two tiers",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "yufei_cai captured candidate hashes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "yufei_cai primary comparison contract",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "yufei_cai primary common input preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "yufei_cai hype_probe comparison contract",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "yufei_cai hype_probe common input preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "chutong_wang captured candidate hashes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "chutong_wang primary comparison contract",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "chutong_wang primary common input preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "chutong_wang hype_probe comparison contract",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "chutong_wang hype_probe common input preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "jianbo_sun captured candidate hashes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "jianbo_sun primary comparison contract",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "jianbo_sun primary common input preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "jianbo_sun hype_probe comparison contract",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "jianbo_sun hype_probe common input preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "minghan_liu captured candidate hashes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "minghan_liu primary comparison contract",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "minghan_liu primary common input preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "minghan_liu hype_probe comparison contract",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "minghan_liu hype_probe common input preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "all four inputs shape explicit synthesis",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "supplied failure retained without rewriting",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "class history not fabricated",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "approval status explicit",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "provenance distinguishes same-assistant tests",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "sources dated and bounded",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "available original inputs unchanged",
+      "passed": true,
+      "detail": "13/13 inputs available; missing local paths are not verified."
+    },
+    {
+      "check": "negative control required field",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "negative control extra field",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "negative control nested type",
+      "passed": true,
+      "detail": ""
+    }
+  ]
+}
