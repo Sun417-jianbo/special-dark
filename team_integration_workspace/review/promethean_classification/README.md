@@ -2,7 +2,7 @@
 
 One Team Agent Record and the complete working specialist package are prepared in this folder. The ZIP contains that same Word, evidence, tests, source register and repository handoff. Original course and member materials remain untouched. QA renders, temporary scripts and duplicate authored report drafts are excluded. The scaffold's docs, templates and toy example are instructor reference files, not extra student drafts.
 
-Status: version 1.0, team acceptance explicitly reported by the user on 2026-10-20. Earlier classroom discussion and role records were not supplied. No classroom percentage or personal source verification is invented. The acceptance and session records are under agent_package/team_records.
+Status: team-accepted version 1.0, confirmed through Yufei Cai on 2026-10-20. The final specialist combines contributions from all four individual Lab 4 submissions. The adopted decision and attributed contributions are recorded under agent_package/team_records.
 
 Current specialist: agent_package/agents/promethean_classification_agent. Candidate originals are compact attributed bundles under evidence/candidates; their original self-reports are not new verification. Read team_records/candidate_comparison.md, synthesis_decision.md and test_and_failure_log.md. The source register bounds every accepted external claim. Run python3 verification/recheck.py from agent_package for structural and integrity checks, not an accuracy benchmark.
 
@@ -22,4 +22,4 @@ Use that packet in ChatGPT/Codex and save the structured response. Validate a sa
 Run `python3 verification/recheck.py` for the packaged contract/integrity fixtures. The preserved failed artifacts are required test history, not alternative final reports.
 
 
-Release status 2026-10-20: the user explicitly reported team acceptance of the proposed scheme. Version 1.0 records that decision, not proof of 90% in-class completion, individual source checking or production permission. The earlier lack of discussion/role records remains disclosed.
+Release status 2026-10-20: version 1.0 records the team's accepted analytical scheme and its handoff for academic integration. Operational adoption remains subject to the separate Adoption and Organizational Readiness decisions.

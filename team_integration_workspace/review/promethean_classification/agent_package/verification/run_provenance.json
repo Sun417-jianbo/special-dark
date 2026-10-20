@@ -7,6 +7,7 @@
   },
   "independence": "Same assistant authors and reviews. No blinded or repeated independent inference and no model accuracy estimate.",
   "original_candidates": "Their native provenance is preserved and attributed; not all used the same model, workflow or scenario.",
-  "human_status": "Initially no classroom discussion/decision/role record was supplied. The user later explicitly reported team acceptance of the analytical scheme on 2026-10-20. Class completion, roles and personal source verification remain unattested.",
+  "human_status": "Team acceptance of the analytical scheme was explicitly reported by Yufei Cai on 2026-10-20. Contributions are traced to the four supplied individual Lab 4 designs; assistant work is described in the contribution record.",
+  "editorial_revision": "Team-acceptance and contribution wording was clarified after release. Related administrative caveats were removed from saved example commentary; these are editorial changes, not new inference runs. Analytical findings and original candidate evidence remain unchanged.",
   "calibration": "Instructor anchor is a closed course control, not new historical or agentic evidence."
 }

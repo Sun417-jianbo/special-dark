@@ -1,6 +1,6 @@
 # Team synthesis decision
 
-Status: team-accepted academic version 1.0, based on the user's explicit report. Before that confirmation, no classroom discussion, decision or role record was available. No separate unanimous vote, attendance, classroom completion percentage or personal verification is inferred.
+Status: team-accepted academic version 1.0, confirmed through Yufei Cai on 2026-10-20. The decision below combines the four individual Lab 4 designs while preserving the strongest alternative interpretation.
 
 ## Recommended analytical position
 Use a narrowly qualified breakthrough capability interpretation for demonstrated bounded agentic systems, with moderate confidence. Do not endorse a Promethean label on the packet. Preserve Yufei's alternative of withholding the incremental/breakthrough distinction until a closer comparator is supplied; it is a substantive evidentiary disagreement, not an error to erase. The label is not a 10X claim and not a forecast of universal current ability.
@@ -17,4 +17,4 @@ Long-term importance may change attention, learning and reassessment. It cannot 
 A matched, quality-adjusted capability comparison may strengthen or weaken breakthrough. Evidence of actually reorganized dependent systems across distinct tiers may strengthen a prospective Promethean pathway. No local advantage over simpler checks weakens the application case without rewriting the general evidence. Acceptance is recorded in team_acceptance.json; the contrary views remain in this decision and comparison record.
 
 
-Release status 2026-10-20: the user explicitly reported team acceptance of the proposed scheme. Version 1.0 records that decision, not proof of 90% in-class completion, individual source checking or production permission. The earlier lack of discussion/role records remains disclosed.
+Release status 2026-10-20: version 1.0 records the team's accepted analytical scheme and its handoff for academic integration. Operational adoption remains subject to the separate Adoption and Organizational Readiness decisions.
