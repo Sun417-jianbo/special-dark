@@ -1,6 +1,6 @@
 {
   "status": "passed",
-  "report_sha256": "33fbddfa39247c4a1d8fd61bb7fc4236bbe85c1b2573ae5cf75e9432fc7d9498",
+  "report_sha256": "e25cdcd55a3dab3b78f73402998aa6be16bc6853e9b679c3218ed83f3feccc66",
   "pages": 6,
   "all_final_pages_visually_reviewed": true,
   "reference_sha256": "5275ea28e66a27d5ddfae3c0541ce7cf7711655a450da7eecb4d36b0ced7e802",
@@ -20,5 +20,9 @@
   "comments_or_tracked_changes": false,
   "extra_report_drafts_or_render_files_in_output": false,
   "local_contract_checks": 216,
-  "limit": "No independent model benchmark, team acceptance, real pilot or classroom percentage is inferred."
+  "limit": "Team acceptance is explicitly recorded from the user; no independent model benchmark, real pilot or classroom percentage is inferred.",
+  "release": "1.0 team-accepted",
+  "narrow_release_edit_preserved_parts": 15,
+  "team_acceptance_reported_by": "Yufei Cai",
+  "public_release_authorized": true
 }
