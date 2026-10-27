@@ -1,0 +1,14 @@
+{
+  "emerging_technology": "Agentic AI built on large language models (LLM-based agents that plan, use tools, and complete multi-step tasks)",
+  "intended_application": "Proposed bounded applicant-support workflow: retrieve approved program information, ask clarifying questions, plan next steps, and request a counselor appointment through a permission-limited tool. Staff approve outbound messages and any record changes. Excludes admission, scholarship, visa and eligibility decisions.",
+  "organization": "NYU School of Professional Studies (SPS)",
+  "industry_sector": "Higher education - graduate and professional/continuing education recruitment. Peer group: professional and continuing education schools of research universities. Applicant trust, privacy, accessibility and accuracy matter; exact legal obligations require specialist review.",
+  "business_need": "Scenario hypothesis: reduce repetitive inquiry handling and improve timely guidance. Actual demand, response time and benefits have not been measured.",
+  "users_stakeholders": "Prospective students, admissions counselors, marketing/enrollment staff, university IT and compliance officers",
+  "adoption_posture": "Moderate / fast-follower is a course-case assumption, not an official NYU policy.",
+  "capabilities_constraints": "Scenario assumptions: existing staff and approved content; potential CRM integration not verified. SPS's public admissions page already offers a chatbot named Violet (D18); its design is not disclosed.",
+  "risk_consequence_context": "Wrong deadlines or promises can harm applicants; unauthorized actions can expose data. No applicant records are used. No legal determination is made.",
+  "management_question": "How far have agentic AI and agent-based applicant support diffused, what is accelerating or inhibiting that diffusion, and what timing implication follows for SPS (without making the adoption decision)?",
+  "time_horizon": "12 months: decision on next evaluation step now, review within one admissions cycle",
+  "additional_context": "Continuity with Assignments 2-4 (same technology, application and organization). A3: proposed incremental, sustaining process innovation; compare staff-only, simple retrieval and the proposed agent first. A4: agentic AI is a Breakthrough with an unresolved Potential-Promethean candidacy; Low weight on SPS's present decision (C3). Use the dated source register."
+}

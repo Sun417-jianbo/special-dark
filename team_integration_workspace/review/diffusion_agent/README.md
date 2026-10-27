@@ -1,0 +1,19 @@
+# Special Dark TW6 Diffusion Agent
+
+Version 0.9-proposed, prepared for team review on October 27, 2026.
+
+## Files
+
+- `Special_Dark_TW6_Team_Agent_Record.docx` is the English report.
+- `Special_Dark_TW6_Diffusion_Agent_Submission.zip` contains the report, agent package and shared-record updates.
+- `agent_package/agents/diffusion_agent/` contains the specialist rules, seven cases, reproducible prompt packets and saved response examples.
+- `agent_package/records/` contains the comparison, five-factor assessment, recommendation, dissent and Adoption handoff.
+- `agent_package/evidence/` preserves selected original candidate bytes, dated source metadata and input hashes. Historical weak outputs are evidence, not alternate submission drafts.
+- `shared_records/` contains the slot 4 inventory update and appended team decision log.
+
+The recommendation is complete as a review version. Team acceptance is not recorded. All four native packages and reports contribute to the comparison. No independent model benchmark, actual chart-review pilot, classroom percentage or deployment approval is claimed. No Brightspace upload or main-branch merge has been performed.
+
+Repository: https://github.com/Sun417-jianbo/special-dark
+Branch: tw6-diffusion-20261027
+
+From `agent_package`, run `python verification/recheck.py` for local structural and semantic-contract checks. Only standard-library Python is required; no API key is needed. To use the prompt-based agent, open a saved prompt from `agents/diffusion_agent/prompts/` in a model session and save/validate its JSON separately. Current saved examples were authored and reviewed by the same assistant.

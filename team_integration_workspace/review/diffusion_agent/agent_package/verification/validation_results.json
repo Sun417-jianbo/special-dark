@@ -1,0 +1,872 @@
+{
+  "passed": 216,
+  "total": 216,
+  "all_passed": true,
+  "scope": "Portable structural, byte-integrity and declared semantic-contract checks; not an independent model evaluation",
+  "checks": [
+    {
+      "check": "frozen core/common_instructions.md",
+      "passed": true
+    },
+    {
+      "check": "frozen core/input_schema.json",
+      "passed": true
+    },
+    {
+      "check": "frozen core/output_schema.json",
+      "passed": true
+    },
+    {
+      "check": "frozen tools/build_prompt.py",
+      "passed": true
+    },
+    {
+      "check": "frozen tools/check_frozen_core.py",
+      "passed": true
+    },
+    {
+      "check": "frozen tools/new_agent.py",
+      "passed": true
+    },
+    {
+      "check": "frozen tools/validate_response.py",
+      "passed": true
+    },
+    {
+      "check": "original scaffold .gitignore",
+      "passed": true
+    },
+    {
+      "check": "original scaffold CHATGPT_CODEX_WORKFLOW.md",
+      "passed": true
+    },
+    {
+      "check": "original scaffold FROZEN_CORE_SHA256.txt",
+      "passed": true
+    },
+    {
+      "check": "original scaffold GITHUB_WORKING_COPY.md",
+      "passed": true
+    },
+    {
+      "check": "original scaffold PACKAGE_SHA256.txt",
+      "passed": true
+    },
+    {
+      "check": "original scaffold README.md",
+      "passed": true
+    },
+    {
+      "check": "original scaffold START_HERE.md",
+      "passed": true
+    },
+    {
+      "check": "original scaffold VERSION.txt",
+      "passed": true
+    },
+    {
+      "check": "original scaffold agents/_template/README.md",
+      "passed": true
+    },
+    {
+      "check": "original scaffold agents/_template/agent_metadata.json",
+      "passed": true
+    },
+    {
+      "check": "original scaffold agents/_template/cases/contrast_1.json",
+      "passed": true
+    },
+    {
+      "check": "original scaffold agents/_template/cases/contrast_2.json",
+      "passed": true
+    },
+    {
+      "check": "original scaffold agents/_template/cases/primary.json",
+      "passed": true
+    },
+    {
+      "check": "original scaffold agents/_template/records/agent_record.md",
+      "passed": true
+    },
+    {
+      "check": "original scaffold agents/_template/responses/.gitkeep",
+      "passed": true
+    },
+    {
+      "check": "original scaffold agents/_template/specialist_instructions.md",
+      "passed": true
+    },
+    {
+      "check": "original scaffold core/common_instructions.md",
+      "passed": true
+    },
+    {
+      "check": "original scaffold core/input_schema.json",
+      "passed": true
+    },
+    {
+      "check": "original scaffold core/output_schema.json",
+      "passed": true
+    },
+    {
+      "check": "original scaffold docs/Emerging_Technologies_Agent_Record_Template.docx",
+      "passed": true
+    },
+    {
+      "check": "original scaffold docs/Emerging_Technologies_Common_Agent_Scaffold_Student_Guide_v2.docx",
+      "passed": true
+    },
+    {
+      "check": "original scaffold examples/toy_agent/agent_metadata.json",
+      "passed": true
+    },
+    {
+      "check": "original scaffold examples/toy_agent/cases/primary.json",
+      "passed": true
+    },
+    {
+      "check": "original scaffold examples/toy_agent/responses/primary_response.json",
+      "passed": true
+    },
+    {
+      "check": "original scaffold examples/toy_agent/specialist_instructions.md",
+      "passed": true
+    },
+    {
+      "check": "original scaffold requirements.txt",
+      "passed": true
+    },
+    {
+      "check": "original scaffold tools/build_prompt.py",
+      "passed": true
+    },
+    {
+      "check": "original scaffold tools/check_frozen_core.py",
+      "passed": true
+    },
+    {
+      "check": "original scaffold tools/new_agent.py",
+      "passed": true
+    },
+    {
+      "check": "original scaffold tools/validate_response.py",
+      "passed": true
+    },
+    {
+      "check": "original scaffold work/.gitkeep",
+      "passed": true
+    },
+    {
+      "check": "original scaffold work/toy_agent_primary_prompt.txt",
+      "passed": true
+    },
+    {
+      "check": "candidate bytes evidence/candidates/chutong_wang/agent_metadata.json",
+      "passed": true
+    },
+    {
+      "check": "candidate bytes evidence/candidates/chutong_wang/cases/claim_probe.json",
+      "passed": true
+    },
+    {
+      "check": "candidate bytes evidence/candidates/chutong_wang/cases/contrast_1.json",
+      "passed": true
+    },
+    {
+      "check": "candidate bytes evidence/candidates/chutong_wang/cases/primary.json",
+      "passed": true
+    },
+    {
+      "check": "candidate bytes evidence/candidates/chutong_wang/cases/stale_probe.json",
+      "passed": true
+    },
+    {
+      "check": "candidate bytes evidence/candidates/chutong_wang/evidence/source_register.json",
+      "passed": true
+    },
+    {
+      "check": "candidate bytes evidence/candidates/chutong_wang/records/diffusion_factor_assessment.md",
+      "passed": true
+    },
+    {
+      "check": "candidate bytes evidence/candidates/chutong_wang/records/run_provenance.json",
+      "passed": true
+    },
+    {
+      "check": "candidate bytes evidence/candidates/chutong_wang/records/test_and_revision_log.md",
+      "passed": true
+    },
+    {
+      "check": "candidate bytes evidence/candidates/chutong_wang/records/weak_claim_review.md",
+      "passed": true
+    },
+    {
+      "check": "candidate bytes evidence/candidates/chutong_wang/responses/cycle_1/claim_probe_response.json",
+      "passed": true
+    },
+    {
+      "check": "candidate bytes evidence/candidates/chutong_wang/responses/cycle_1/primary_response.json",
+      "passed": true
+    },
+    {
+      "check": "candidate bytes evidence/candidates/chutong_wang/responses/cycle_2/claim_probe_response.json",
+      "passed": true
+    },
+    {
+      "check": "candidate bytes evidence/candidates/chutong_wang/responses/cycle_2/contrast_1_response.json",
+      "passed": true
+    },
+    {
+      "check": "candidate bytes evidence/candidates/chutong_wang/responses/cycle_2/primary_response.json",
+      "passed": true
+    },
+    {
+      "check": "candidate bytes evidence/candidates/chutong_wang/responses/cycle_2/stale_probe_response.json",
+      "passed": true
+    },
+    {
+      "check": "candidate bytes evidence/candidates/chutong_wang/revisions/diagnosis.md",
+      "passed": true
+    },
+    {
+      "check": "candidate bytes evidence/candidates/chutong_wang/specialist_instructions.md",
+      "passed": true
+    },
+    {
+      "check": "candidate bytes evidence/candidates/minghan_liu/agent_metadata.json",
+      "passed": true
+    },
+    {
+      "check": "candidate bytes evidence/candidates/minghan_liu/cases/contrast_1.json",
+      "passed": true
+    },
+    {
+      "check": "candidate bytes evidence/candidates/minghan_liu/cases/contrast_2.json",
+      "passed": true
+    },
+    {
+      "check": "candidate bytes evidence/candidates/minghan_liu/cases/evidence_probe.json",
+      "passed": true
+    },
+    {
+      "check": "candidate bytes evidence/candidates/minghan_liu/cases/primary.json",
+      "passed": true
+    },
+    {
+      "check": "candidate bytes evidence/candidates/minghan_liu/evidence/source_register.json",
+      "passed": true
+    },
+    {
+      "check": "candidate bytes evidence/candidates/minghan_liu/records/diffusion_factor_assessment.md",
+      "passed": true
+    },
+    {
+      "check": "candidate bytes evidence/candidates/minghan_liu/records/weak_claim.md",
+      "passed": true
+    },
+    {
+      "check": "candidate bytes evidence/candidates/minghan_liu/responses/contrast_1_response.json",
+      "passed": true
+    },
+    {
+      "check": "candidate bytes evidence/candidates/minghan_liu/responses/contrast_2_response.json",
+      "passed": true
+    },
+    {
+      "check": "candidate bytes evidence/candidates/minghan_liu/responses/evidence_probe_response.json",
+      "passed": true
+    },
+    {
+      "check": "candidate bytes evidence/candidates/minghan_liu/responses/primary_response.json",
+      "passed": true
+    },
+    {
+      "check": "candidate bytes evidence/candidates/minghan_liu/specialist_instructions.md",
+      "passed": true
+    },
+    {
+      "check": "candidate bytes evidence/candidates/minghan_liu/tests/cycle_1/evidence_probe_response.json",
+      "passed": true
+    },
+    {
+      "check": "candidate bytes evidence/candidates/minghan_liu/tests/cycle_1/primary_response.json",
+      "passed": true
+    },
+    {
+      "check": "candidate bytes evidence/candidates/minghan_liu/tests/cycle_2/run_manifest.json",
+      "passed": true
+    },
+    {
+      "check": "candidate bytes evidence/candidates/jianbo_sun/agent_metadata.json",
+      "passed": true
+    },
+    {
+      "check": "candidate bytes evidence/candidates/jianbo_sun/cases/contrast_1.json",
+      "passed": true
+    },
+    {
+      "check": "candidate bytes evidence/candidates/jianbo_sun/cases/contrast_2.json",
+      "passed": true
+    },
+    {
+      "check": "candidate bytes evidence/candidates/jianbo_sun/cases/primary.json",
+      "passed": true
+    },
+    {
+      "check": "candidate bytes evidence/candidates/jianbo_sun/cases/scope_challenge.json",
+      "passed": true
+    },
+    {
+      "check": "candidate bytes evidence/candidates/jianbo_sun/evidence/derived_comparisons.json",
+      "passed": true
+    },
+    {
+      "check": "candidate bytes evidence/candidates/jianbo_sun/evidence/source_register.json",
+      "passed": true
+    },
+    {
+      "check": "candidate bytes evidence/candidates/jianbo_sun/records/preserved_weakness.md",
+      "passed": true
+    },
+    {
+      "check": "candidate bytes evidence/candidates/jianbo_sun/records/run_provenance.json",
+      "passed": true
+    },
+    {
+      "check": "candidate bytes evidence/candidates/jianbo_sun/records/test_comparison.md",
+      "passed": true
+    },
+    {
+      "check": "candidate bytes evidence/candidates/jianbo_sun/responses/contrast_1_v0.2.json",
+      "passed": true
+    },
+    {
+      "check": "candidate bytes evidence/candidates/jianbo_sun/responses/contrast_2_v0.2.json",
+      "passed": true
+    },
+    {
+      "check": "candidate bytes evidence/candidates/jianbo_sun/responses/primary_v0.1.json",
+      "passed": true
+    },
+    {
+      "check": "candidate bytes evidence/candidates/jianbo_sun/responses/primary_v0.2.json",
+      "passed": true
+    },
+    {
+      "check": "candidate bytes evidence/candidates/jianbo_sun/responses/scope_challenge_v0.2.json",
+      "passed": true
+    },
+    {
+      "check": "candidate bytes evidence/candidates/jianbo_sun/specialist_instructions.md",
+      "passed": true
+    },
+    {
+      "check": "candidate bytes evidence/candidates/yufei_cai/specialist_instructions.md",
+      "passed": true
+    },
+    {
+      "check": "candidate bytes evidence/candidates/yufei_cai/agent_metadata.json",
+      "passed": true
+    },
+    {
+      "check": "candidate bytes evidence/candidates/yufei_cai/README.md",
+      "passed": true
+    },
+    {
+      "check": "candidate bytes evidence/candidates/yufei_cai/responses/missing_scope_response.json",
+      "passed": true
+    },
+    {
+      "check": "candidate bytes evidence/candidates/yufei_cai/responses/posture_contrast_response.json",
+      "passed": true
+    },
+    {
+      "check": "candidate bytes evidence/candidates/yufei_cai/responses/primary_response.json",
+      "passed": true
+    },
+    {
+      "check": "candidate bytes evidence/candidates/yufei_cai/responses/hype_probe_response.json",
+      "passed": true
+    },
+    {
+      "check": "candidate bytes evidence/candidates/yufei_cai/responses/weak_packet_response.json",
+      "passed": true
+    },
+    {
+      "check": "candidate bytes evidence/candidates/yufei_cai/responses/context_contrast_response.json",
+      "passed": true
+    },
+    {
+      "check": "candidate bytes evidence/candidates/yufei_cai/cases/missing_scope.json",
+      "passed": true
+    },
+    {
+      "check": "candidate bytes evidence/candidates/yufei_cai/cases/hype_probe.json",
+      "passed": true
+    },
+    {
+      "check": "candidate bytes evidence/candidates/yufei_cai/cases/weak_packet.json",
+      "passed": true
+    },
+    {
+      "check": "candidate bytes evidence/candidates/yufei_cai/cases/context_contrast.json",
+      "passed": true
+    },
+    {
+      "check": "candidate bytes evidence/candidates/yufei_cai/cases/primary.json",
+      "passed": true
+    },
+    {
+      "check": "candidate bytes evidence/candidates/yufei_cai/cases/posture_contrast.json",
+      "passed": true
+    },
+    {
+      "check": "candidate bytes evidence/candidates/yufei_cai/evidence/source_register.json",
+      "passed": true
+    },
+    {
+      "check": "candidate bytes evidence/candidates/yufei_cai/verification/run_provenance.json",
+      "passed": true
+    },
+    {
+      "check": "candidate bytes evidence/candidates/yufei_cai/evidence/preserved_weakness/cycle1_review_and_outputs.json",
+      "passed": true
+    },
+    {
+      "check": "candidate bytes evidence/candidates/jianbo_sun/Jianbo_Sun_Assignment_5_Agent_Record.pdf",
+      "passed": true
+    },
+    {
+      "check": "candidate core Chutong core/common_instructions.md",
+      "passed": true
+    },
+    {
+      "check": "candidate core Chutong core/input_schema.json",
+      "passed": true
+    },
+    {
+      "check": "candidate core Chutong core/output_schema.json",
+      "passed": true
+    },
+    {
+      "check": "candidate core Chutong tools/build_prompt.py",
+      "passed": true
+    },
+    {
+      "check": "candidate core Chutong tools/check_frozen_core.py",
+      "passed": true
+    },
+    {
+      "check": "candidate core Chutong tools/new_agent.py",
+      "passed": true
+    },
+    {
+      "check": "candidate core Chutong tools/validate_response.py",
+      "passed": true
+    },
+    {
+      "check": "candidate core Minghan core/common_instructions.md",
+      "passed": true
+    },
+    {
+      "check": "candidate core Minghan core/input_schema.json",
+      "passed": true
+    },
+    {
+      "check": "candidate core Minghan core/output_schema.json",
+      "passed": true
+    },
+    {
+      "check": "candidate core Minghan tools/build_prompt.py",
+      "passed": true
+    },
+    {
+      "check": "candidate core Minghan tools/check_frozen_core.py",
+      "passed": true
+    },
+    {
+      "check": "candidate core Minghan tools/new_agent.py",
+      "passed": true
+    },
+    {
+      "check": "candidate core Minghan tools/validate_response.py",
+      "passed": true
+    },
+    {
+      "check": "candidate core Jianbo core/common_instructions.md",
+      "passed": true
+    },
+    {
+      "check": "candidate core Jianbo core/input_schema.json",
+      "passed": true
+    },
+    {
+      "check": "candidate core Jianbo core/output_schema.json",
+      "passed": true
+    },
+    {
+      "check": "candidate core Jianbo tools/build_prompt.py",
+      "passed": true
+    },
+    {
+      "check": "candidate core Jianbo tools/check_frozen_core.py",
+      "passed": true
+    },
+    {
+      "check": "candidate core Jianbo tools/new_agent.py",
+      "passed": true
+    },
+    {
+      "check": "candidate core Jianbo tools/validate_response.py",
+      "passed": true
+    },
+    {
+      "check": "candidate core Yufei core/common_instructions.md",
+      "passed": true
+    },
+    {
+      "check": "candidate core Yufei core/input_schema.json",
+      "passed": true
+    },
+    {
+      "check": "candidate core Yufei core/output_schema.json",
+      "passed": true
+    },
+    {
+      "check": "candidate core Yufei tools/build_prompt.py",
+      "passed": true
+    },
+    {
+      "check": "candidate core Yufei tools/check_frozen_core.py",
+      "passed": true
+    },
+    {
+      "check": "candidate core Yufei tools/new_agent.py",
+      "passed": true
+    },
+    {
+      "check": "candidate core Yufei tools/validate_response.py",
+      "passed": true
+    },
+    {
+      "check": "context_contrast intake schema",
+      "passed": true
+    },
+    {
+      "check": "context_contrast output schema",
+      "passed": true
+    },
+    {
+      "check": "context_contrast canonical validator",
+      "passed": true
+    },
+    {
+      "check": "context_contrast prompt exists",
+      "passed": true
+    },
+    {
+      "check": "context_contrast version matches",
+      "passed": true
+    },
+    {
+      "check": "context_contrast adoption handoff",
+      "passed": true
+    },
+    {
+      "check": "hype_probe intake schema",
+      "passed": true
+    },
+    {
+      "check": "hype_probe output schema",
+      "passed": true
+    },
+    {
+      "check": "hype_probe canonical validator",
+      "passed": true
+    },
+    {
+      "check": "hype_probe prompt exists",
+      "passed": true
+    },
+    {
+      "check": "hype_probe version matches",
+      "passed": true
+    },
+    {
+      "check": "hype_probe adoption handoff",
+      "passed": true
+    },
+    {
+      "check": "matched_peer_control intake schema",
+      "passed": true
+    },
+    {
+      "check": "matched_peer_control output schema",
+      "passed": true
+    },
+    {
+      "check": "matched_peer_control canonical validator",
+      "passed": true
+    },
+    {
+      "check": "matched_peer_control prompt exists",
+      "passed": true
+    },
+    {
+      "check": "matched_peer_control version matches",
+      "passed": true
+    },
+    {
+      "check": "matched_peer_control adoption handoff",
+      "passed": true
+    },
+    {
+      "check": "permission_contrast intake schema",
+      "passed": true
+    },
+    {
+      "check": "permission_contrast output schema",
+      "passed": true
+    },
+    {
+      "check": "permission_contrast canonical validator",
+      "passed": true
+    },
+    {
+      "check": "permission_contrast prompt exists",
+      "passed": true
+    },
+    {
+      "check": "permission_contrast version matches",
+      "passed": true
+    },
+    {
+      "check": "permission_contrast adoption handoff",
+      "passed": true
+    },
+    {
+      "check": "posture_contrast intake schema",
+      "passed": true
+    },
+    {
+      "check": "posture_contrast output schema",
+      "passed": true
+    },
+    {
+      "check": "posture_contrast canonical validator",
+      "passed": true
+    },
+    {
+      "check": "posture_contrast prompt exists",
+      "passed": true
+    },
+    {
+      "check": "posture_contrast version matches",
+      "passed": true
+    },
+    {
+      "check": "posture_contrast adoption handoff",
+      "passed": true
+    },
+    {
+      "check": "primary intake schema",
+      "passed": true
+    },
+    {
+      "check": "primary output schema",
+      "passed": true
+    },
+    {
+      "check": "primary canonical validator",
+      "passed": true
+    },
+    {
+      "check": "primary prompt exists",
+      "passed": true
+    },
+    {
+      "check": "primary version matches",
+      "passed": true
+    },
+    {
+      "check": "primary adoption handoff",
+      "passed": true
+    },
+    {
+      "check": "weak_packet intake schema",
+      "passed": true
+    },
+    {
+      "check": "weak_packet output schema",
+      "passed": true
+    },
+    {
+      "check": "weak_packet canonical validator",
+      "passed": true
+    },
+    {
+      "check": "weak_packet prompt exists",
+      "passed": true
+    },
+    {
+      "check": "weak_packet version matches",
+      "passed": true
+    },
+    {
+      "check": "weak_packet adoption handoff",
+      "passed": true
+    },
+    {
+      "check": "posture_contrast changes only adoption_posture",
+      "passed": true
+    },
+    {
+      "check": "posture_contrast general invariant",
+      "passed": true
+    },
+    {
+      "check": "posture_contrast evidence invariant",
+      "passed": true
+    },
+    {
+      "check": "posture_contrast local changes",
+      "passed": true
+    },
+    {
+      "check": "permission_contrast changes only capabilities_constraints",
+      "passed": true
+    },
+    {
+      "check": "permission_contrast general invariant",
+      "passed": true
+    },
+    {
+      "check": "permission_contrast evidence invariant",
+      "passed": true
+    },
+    {
+      "check": "permission_contrast local changes",
+      "passed": true
+    },
+    {
+      "check": "posture permissions invariant",
+      "passed": true
+    },
+    {
+      "check": "posture timing changes",
+      "passed": true
+    },
+    {
+      "check": "context ET invariant",
+      "passed": true
+    },
+    {
+      "check": "context application invariant",
+      "passed": true
+    },
+    {
+      "check": "context general invariant",
+      "passed": true
+    },
+    {
+      "check": "context support complexity",
+      "passed": true
+    },
+    {
+      "check": "permission relative advantage priority",
+      "passed": true
+    },
+    {
+      "check": "primary factor relative advantage",
+      "passed": true
+    },
+    {
+      "check": "primary factor compatibility",
+      "passed": true
+    },
+    {
+      "check": "primary factor complexity",
+      "passed": true
+    },
+    {
+      "check": "primary factor trialability",
+      "passed": true
+    },
+    {
+      "check": "primary factor observability",
+      "passed": true
+    },
+    {
+      "check": "explicit category innovators",
+      "passed": true
+    },
+    {
+      "check": "explicit category early adopters",
+      "passed": true
+    },
+    {
+      "check": "explicit category early majority",
+      "passed": true
+    },
+    {
+      "check": "explicit category late majority",
+      "passed": true
+    },
+    {
+      "check": "explicit category laggards",
+      "passed": true
+    },
+    {
+      "check": "unknown not zero",
+      "passed": true
+    },
+    {
+      "check": "local process not market",
+      "passed": true
+    },
+    {
+      "check": "hype memo rejected",
+      "passed": true
+    },
+    {
+      "check": "hype unsafe instruction rejected",
+      "passed": true
+    },
+    {
+      "check": "weak closed source IDs",
+      "passed": true
+    },
+    {
+      "check": "weak agent general abstention",
+      "passed": true
+    },
+    {
+      "check": "positive matched arithmetic",
+      "passed": true
+    },
+    {
+      "check": "positive synthetic bound",
+      "passed": true
+    },
+    {
+      "check": "positive general invariant",
+      "passed": true
+    },
+    {
+      "check": "seven cases",
+      "passed": true
+    },
+    {
+      "check": "eight qualitative common walkthroughs",
+      "passed": true
+    },
+    {
+      "check": "four material contributors",
+      "passed": true
+    },
+    {
+      "check": "release remains honestly proposed",
+      "passed": true
+    }
+  ]
+}

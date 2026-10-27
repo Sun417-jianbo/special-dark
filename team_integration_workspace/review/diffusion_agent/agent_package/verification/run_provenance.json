@@ -1,0 +1,52 @@
+{
+  "date": "2026-10-27",
+  "method": "Current same-assistant authored and reviewed controlled examples; no model API, independent benchmark or business pilot",
+  "interpretation_limit": "Checks apply to saved examples, not future stochastic behavior. General finding is deliberately shared for invariant cases.",
+  "candidate_comparison": "Eight same-assistant native-design walkthroughs across four inspected packages; not independent native agent executions.",
+  "instructions_sha256": "7891ab8f93d42112a286c4e56b14ea7397294ec5017e4428b08b5227e6ecfd30",
+  "metadata_sha256": "94e4586fb5802f0fa488c6af75f5e010b3355134698a6678a6c1685d7ba80256",
+  "cases": [
+    {
+      "case": "context_contrast",
+      "case_sha256": "bf77002ec8a75e8fef546c27dc066d1c0dacef8b73c309121588cec90fe26a1a",
+      "prompt_sha256": "c9ed5614b141ca19b4461df882e9bd42f3e75b1167b48706067c483429c5ac6b",
+      "response_sha256": "beb514a03f2db45d1ae4be1e476c09b641110d04fb1e3391390c1ec52a0428d3"
+    },
+    {
+      "case": "hype_probe",
+      "case_sha256": "cd4bbe417f2e0a99ebbcd8c8e100070ca6d403b384006f5856b5a16072e890f2",
+      "prompt_sha256": "a6028bd6366ce56705cdafe6a073c029c5361a56011e0d4e4eef416217c1eca2",
+      "response_sha256": "b841e554bd75ff5588523790e9f4c2fbc3403e7b15d1df6c2ba60e0a2de26204"
+    },
+    {
+      "case": "matched_peer_control",
+      "case_sha256": "a91786ba3883f9649bbbed3c0e1d587f8a12d8e3728db324d401c808f672924e",
+      "prompt_sha256": "29cfef48d5148aeaeb32545d19383da977c32f7db3253929c31ac78249a0bffd",
+      "response_sha256": "d2630fbde0a04bea087993733e94b029c341ac09e187193ade1518e9d72d8fda"
+    },
+    {
+      "case": "permission_contrast",
+      "case_sha256": "bd7eeca7e3108ccc5f4d3d8318265e9cffdbc4acd258be68a4d9dfa441229995",
+      "prompt_sha256": "5cf4f1e24a136b42a66850bcb8049d4b2b0b10f3159c90f094272e8adf1a1b51",
+      "response_sha256": "1b311757b9721defbc9a09d4ff12921229aa518a6c7f7740e86c39f279e33a04"
+    },
+    {
+      "case": "posture_contrast",
+      "case_sha256": "e399b91d5a9ad9850294b1efb6648807114e5e112ed6f32478b7ac9cf9966df6",
+      "prompt_sha256": "9c4b46b61f3a83fc584e789ad729bfb07750f2d0bce6f10c7074123d5c5cd334",
+      "response_sha256": "a46a26d0b11ef4808ae40800bfcf78e1d0b5d2557d27a7c63171d1bfc51dd162"
+    },
+    {
+      "case": "primary",
+      "case_sha256": "b27d44e8b178c3fc272fb2e1e9b941d396c33dbba9a025f402c738dc711605cf",
+      "prompt_sha256": "a17c2ae8f20a8c9a326874f721a9e64d6f665cd155a97656b4fb807a067f3a44",
+      "response_sha256": "d597423f52bf31a8df39d86be89e5544e553f813a194d5150575940a435967c5"
+    },
+    {
+      "case": "weak_packet",
+      "case_sha256": "56f2b22ac94afa5c37c5a9dc4aaf76be4f40ac34faf616c05373687e436d3da6",
+      "prompt_sha256": "b68998300c29e28f5a03a3c35c4bcba988cf7cf4fef8ebe07e7b7a846cf2bd3b",
+      "response_sha256": "cf662a4948cfc74542b35e2668508e64b336a3798aae9a5ff3e8679b5c8d0571"
+    }
+  ]
+}

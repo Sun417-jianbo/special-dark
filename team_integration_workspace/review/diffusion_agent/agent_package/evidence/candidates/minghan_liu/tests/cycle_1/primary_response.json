@@ -1,0 +1,121 @@
+{
+  "agent": {
+    "name": "Emerging Technology Diffusion Agent",
+    "specialty": "Diffusion stage, Rogers factors and peer position, and the timing implication for an organization (not the adoption decision)",
+    "version": "1.0"
+  },
+  "analytical_question": "How far have agentic AI and agent-based applicant support diffused, what is accelerating or inhibiting diffusion, and what timing implication follows for this organization?",
+  "general_et_finding": "Diffusion stage: early majority - agentic AI has crossed the chasm. Generative AI is used by about 34-40% of U.S. adults (D1, D2), and adoption has been faster than PCs or the internet (D2). Among organizations, 88% use AI in at least one function and 23% are already scaling an agentic AI system (D5), above the course's roughly 16% take-off threshold (C1). Among developers, the lead users, 31% already use agents (D8). Accelerators: major vendors and platforms act as change agents (D15); open standards for tool access and agent-to-agent communication (MCP with 10,000+ public servers, D9; A2A with 100+ supporting companies, D10) lower integration costs; costs keep falling. Inhibitors: trust and accuracy concerns (46% of developers distrust AI output, D8), forecast cancellations of over 40% of agentic projects (D7), and privacy and data readiness. Placement: early majority; take-off reached. This general finding does not change with the organization.",
+  "application_finding": "AI in admissions is already widely diffused: 56% of schools use AI in admissions and 82% expected to by 2024 (D20); 36% of marketing, admissions and enrollment staff use chatbots (D11); NYU Admissions launched a generative AI bot (D17) and SPS offers Violet (D18). Vendors now sell pre-built recruitment agents (D15), and early deployments such as Unity Environmental University expect to save $800 per inquiry (D14). In the professional-education peer group, 79% expect chatbots to transform enrollment within two years (D13). Five characteristics for the application: relative advantage High (24/7 answers; $800 saved per inquiry, D14); compatibility Medium (CRM integration and privacy review needed); complexity Medium; trialability High (pre-built skills, D15); observability Medium (peer launches are visible, D16, D17). Application stage: early majority.",
+  "organization_specific_finding": "Adopter posture: fast follower. The course rule is that fast followers track adoption patterns and adopt after the technology has crossed the chasm (C1). Both the technology and the application have now crossed, so SPS should move now rather than wait: 36% of peer institutions already feel behind (D13), and NYU's own undergraduate admissions office has launched a bot (D17). Timing implication: begin an applicant-facing agent pilot during this admissions cycle.",
+  "evidence": [
+    {
+      "claim": "Rogers' categories, 16% take-off/chasm, five characteristics, adopter rules.",
+      "source_or_reference": "[C1] Fortino, Module 6 Diffusion deck, slides 18-54",
+      "date_or_recency": "FA25; inspected 2026-10-25",
+      "evidence_type": "course framework",
+      "notes": "Framework."
+    },
+    {
+      "claim": "34% of U.S. adults have used ChatGPT.",
+      "source_or_reference": "[D1] Pew Research Center. https://www.pewresearch.org/short-reads/2025/06/25/34-of-us-adults-have-used-chatgpt-about-double-the-share-in-2023/",
+      "date_or_recency": "2025-06-25",
+      "evidence_type": "survey",
+      "notes": ""
+    },
+    {
+      "claim": "Nearly 40% of U.S. adults use generative AI; faster than PCs and internet.",
+      "source_or_reference": "[D2] Bick, Blandin, Deming, NBER WP 32966. https://www.nber.org/papers/w32966",
+      "date_or_recency": "2024-09; rev. 2025-02",
+      "evidence_type": "survey",
+      "notes": ""
+    },
+    {
+      "claim": "88% of organizations use AI in at least one function; 23% scaling agentic AI; 39% experimenting.",
+      "source_or_reference": "[D5] McKinsey, The state of AI in 2025. https://www.mckinsey.com/capabilities/tech-and-ai/our-insights/the-state-of-ai-2025",
+      "date_or_recency": "2025-11-05",
+      "evidence_type": "survey",
+      "notes": ""
+    },
+    {
+      "claim": "31% of developers use AI agents.",
+      "source_or_reference": "[D8] Stack Overflow 2025 Developer Survey. https://stackoverflow.co/company/press/archive/stack-overflow-2025-developer-survey/",
+      "date_or_recency": "2025-07-29",
+      "evidence_type": "survey",
+      "notes": ""
+    },
+    {
+      "claim": "MCP: 10,000+ public servers; A2A supported by 100+ companies.",
+      "source_or_reference": "[D9] Anthropic; [D10] Linux Foundation",
+      "date_or_recency": "2025-12-09; 2025-06-23",
+      "evidence_type": "announcements",
+      "notes": ""
+    },
+    {
+      "claim": "Over 40% of agentic AI projects forecast to be cancelled by 2027.",
+      "source_or_reference": "[D7] Gartner. https://www.gartner.com/en/newsroom/press-releases/2025-06-25-gartner-predicts-over-40-percent-of-agentic-ai-projects-will-be-canceled-by-end-of-2027.",
+      "date_or_recency": "2025-06-25",
+      "evidence_type": "analyst forecast",
+      "notes": ""
+    },
+    {
+      "claim": "56% of schools use AI in admissions; 82% by 2024.",
+      "source_or_reference": "[D20] eCampus News / Intelligent.com. https://www.ecampusnews.com/campus-leadership/2023/10/13/colleges-use-ai-admissions/",
+      "date_or_recency": "2023",
+      "evidence_type": "survey",
+      "notes": ""
+    },
+    {
+      "claim": "36% of marketing/admissions/enrollment respondents use chatbots for FAQs.",
+      "source_or_reference": "[D11] Ellucian 2026 AI report",
+      "date_or_recency": "survey 2025-09/11",
+      "evidence_type": "survey",
+      "notes": ""
+    },
+    {
+      "claim": "NYU Admissions launched a generative AI admissions bot.",
+      "source_or_reference": "[D17] https://meet.nyu.edu/advice/meet-the-nyuadmissionsbot/",
+      "date_or_recency": "2025-11-21",
+      "evidence_type": "organization source",
+      "notes": ""
+    },
+    {
+      "claim": "SPS offers a chatbot named Violet.",
+      "source_or_reference": "[D18] https://www.sps.nyu.edu/join/graduate-admissions.html",
+      "date_or_recency": "verified 2026-10-18",
+      "evidence_type": "organization source",
+      "notes": ""
+    },
+    {
+      "claim": "Pre-built recruitment and admissions agents are available; a university expects to save $800 per inquiry.",
+      "source_or_reference": "[D15] Salesforce; [D14] Salesforce / Unity Environmental University",
+      "date_or_recency": "2025-10; 2024-11-20",
+      "evidence_type": "vendor",
+      "notes": ""
+    },
+    {
+      "claim": "79% of professional-education marketing/enrollment staff expect chatbots to transform enrollment within two years; 36% feel behind peers.",
+      "source_or_reference": "[D13] UPCEA-EducationDynamics 2025",
+      "date_or_recency": "2025",
+      "evidence_type": "survey",
+      "notes": ""
+    }
+  ],
+  "contrary_evidence_or_limitations": [
+    "Trust and accuracy concerns could slow diffusion (D8).",
+    "Analyst forecasts of project cancellations (D7).",
+    "Privacy and data-readiness barriers in higher education (D11, D12).",
+    "Weak claim: the UAE's 64% adoption (D3) is geographically narrow and does not show U.S. diffusion."
+  ],
+  "confidence_and_uncertainty": "Moderate-high confidence in the early-majority placement; moderate confidence in application-level evidence.",
+  "value_opportunity_implication": "Early movement could improve applicant response times and protect SPS's competitive position.",
+  "risk_governance_implication": "Wrong guidance and privacy exposure remain risks; keep staff approval.",
+  "recommendation_management_implication": "Begin an applicant-facing agent pilot this cycle; the Adoption specialist can set the scale.",
+  "change_monitoring_triggers": [
+    "Track peer launches quarterly.",
+    "Reassess if trust or accuracy problems grow."
+  ],
+  "abstention_or_more_information_needed": [
+    "Violet's design and SPS's internal workflow are unknown."
+  ]
+}

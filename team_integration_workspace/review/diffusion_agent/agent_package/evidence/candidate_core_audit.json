@@ -1,0 +1,170 @@
+[
+  {
+    "member": "Chutong",
+    "path": "core/common_instructions.md",
+    "available": true,
+    "matches_canonical": true
+  },
+  {
+    "member": "Chutong",
+    "path": "core/input_schema.json",
+    "available": true,
+    "matches_canonical": true
+  },
+  {
+    "member": "Chutong",
+    "path": "core/output_schema.json",
+    "available": true,
+    "matches_canonical": true
+  },
+  {
+    "member": "Chutong",
+    "path": "tools/build_prompt.py",
+    "available": true,
+    "matches_canonical": true
+  },
+  {
+    "member": "Chutong",
+    "path": "tools/check_frozen_core.py",
+    "available": true,
+    "matches_canonical": true
+  },
+  {
+    "member": "Chutong",
+    "path": "tools/new_agent.py",
+    "available": true,
+    "matches_canonical": true
+  },
+  {
+    "member": "Chutong",
+    "path": "tools/validate_response.py",
+    "available": true,
+    "matches_canonical": true
+  },
+  {
+    "member": "Minghan",
+    "path": "core/common_instructions.md",
+    "available": true,
+    "matches_canonical": true
+  },
+  {
+    "member": "Minghan",
+    "path": "core/input_schema.json",
+    "available": true,
+    "matches_canonical": true
+  },
+  {
+    "member": "Minghan",
+    "path": "core/output_schema.json",
+    "available": true,
+    "matches_canonical": true
+  },
+  {
+    "member": "Minghan",
+    "path": "tools/build_prompt.py",
+    "available": true,
+    "matches_canonical": true
+  },
+  {
+    "member": "Minghan",
+    "path": "tools/check_frozen_core.py",
+    "available": true,
+    "matches_canonical": true
+  },
+  {
+    "member": "Minghan",
+    "path": "tools/new_agent.py",
+    "available": true,
+    "matches_canonical": true
+  },
+  {
+    "member": "Minghan",
+    "path": "tools/validate_response.py",
+    "available": true,
+    "matches_canonical": true
+  },
+  {
+    "member": "Jianbo",
+    "path": "core/common_instructions.md",
+    "available": true,
+    "matches_canonical": true
+  },
+  {
+    "member": "Jianbo",
+    "path": "core/input_schema.json",
+    "available": true,
+    "matches_canonical": true
+  },
+  {
+    "member": "Jianbo",
+    "path": "core/output_schema.json",
+    "available": true,
+    "matches_canonical": true
+  },
+  {
+    "member": "Jianbo",
+    "path": "tools/build_prompt.py",
+    "available": true,
+    "matches_canonical": true
+  },
+  {
+    "member": "Jianbo",
+    "path": "tools/check_frozen_core.py",
+    "available": true,
+    "matches_canonical": true
+  },
+  {
+    "member": "Jianbo",
+    "path": "tools/new_agent.py",
+    "available": true,
+    "matches_canonical": true
+  },
+  {
+    "member": "Jianbo",
+    "path": "tools/validate_response.py",
+    "available": true,
+    "matches_canonical": true
+  },
+  {
+    "member": "Yufei",
+    "path": "core/common_instructions.md",
+    "available": true,
+    "matches_canonical": true
+  },
+  {
+    "member": "Yufei",
+    "path": "core/input_schema.json",
+    "available": true,
+    "matches_canonical": true
+  },
+  {
+    "member": "Yufei",
+    "path": "core/output_schema.json",
+    "available": true,
+    "matches_canonical": true
+  },
+  {
+    "member": "Yufei",
+    "path": "tools/build_prompt.py",
+    "available": true,
+    "matches_canonical": true
+  },
+  {
+    "member": "Yufei",
+    "path": "tools/check_frozen_core.py",
+    "available": true,
+    "matches_canonical": true
+  },
+  {
+    "member": "Yufei",
+    "path": "tools/new_agent.py",
+    "available": true,
+    "matches_canonical": true
+  },
+  {
+    "member": "Yufei",
+    "path": "tools/validate_response.py",
+    "available": true,
+    "matches_canonical": true
+  }
+]

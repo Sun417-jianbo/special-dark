@@ -1,0 +1,93 @@
+[
+  {
+    "id": "C1",
+    "title": "Course Module 6 The Diffusion of Emerging Technologies",
+    "url": "course://Slides/ET Module 6 - The Diffusion of Emerging Technologies FA25.pptx",
+    "publication": "FA25 course file",
+    "measurement": "Conceptual framework, not a field observation",
+    "population": "No measured adoption population",
+    "definition": "Rogers five attributes and categories; local innovation decision stages; communication channels; chasm teaching heuristic",
+    "claim": "Use the five attributes and named categories explicitly; a conceptual 16% line is not a universal empirical takeoff law.",
+    "admissible": "Framework only",
+    "limit": "Cannot establish actual current stage, saturation or inevitability.",
+    "checked": "2026-10-26"
+  },
+  {
+    "id": "S1",
+    "title": "The state of AI in 2026 On the road to ROI",
+    "url": "https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai",
+    "publication": "2026-08-25",
+    "measurement": "2026-05-04 to 2026-06-08",
+    "population": "1,719 survey participants in 97 nations; country GDP weighting; respondent organizations grouped by revenue",
+    "definition": "Reported scaling of agents in at least one function",
+    "claim": "40% in the above USD1 billion revenue subgroup; 22% in the smaller subgroup.",
+    "admissible": "General agent-scaling signal within this survey",
+    "limit": "Not a census of firms, not enterprise-wide use or finance chart-review penetration. Case revenue unknown. No October fieldwork.",
+    "checked": "2026-10-27"
+  },
+  {
+    "id": "S2",
+    "title": "Large Firms With at Least 20 Employees Biggest AI Users",
+    "url": "https://www.census.gov/library/stories/2026/05/ai-use-businesses.html",
+    "publication": "2026-05-26",
+    "measurement": "Period ending 2026-05-03; comparison starts 2025-12-14",
+    "population": "US employer businesses in BTOS; sector and national estimates",
+    "definition": "Any AI in any business function during prior two weeks",
+    "claim": "Finance and Insurance 33.9%; all sectors 19.8%.",
+    "admissible": "Dated broad-AI background and denominator counterexample",
+    "limit": "Not an agent or chart-review measure, nor the latest October release. Wording broadened November 17, 2025; do not splice with the old production-only series.",
+    "checked": "2026-10-27"
+  },
+  {
+    "id": "S3",
+    "title": "MCP joins the Agentic AI Foundation",
+    "url": "https://blog.modelcontextprotocol.io/posts/2025-12-09-mcp-joins-agentic-ai-foundation/",
+    "publication": "2025-12-09",
+    "measurement": "Dated governance event",
+    "population": "Protocol ecosystem, not an eligible adopter population",
+    "definition": "MCP becomes a founding AAIF project under Linux Foundation",
+    "claim": "Vendor-neutral protocol governance provides an ecosystem complement.",
+    "admissible": "Potential compatibility mechanism",
+    "limit": "Availability, server counts and SDK downloads are not unique organizations, sustained use, security certification or local value.",
+    "checked": "2026-10-27"
+  },
+  {
+    "id": "S4",
+    "title": "RPS Generative AI Usage Share Work",
+    "url": "https://fred.stlouisfed.org/series/RPSGENAIUSAGESHAREWORK",
+    "publication": "Updated 2026-10-20 at 10:40 AM CDT",
+    "measurement": "Q3 2026; quarterly not seasonally adjusted",
+    "population": "Employed US adults aged 18 to 64 in the nationally representative Real-Time Population Survey",
+    "definition": "Share reporting generative AI use for their job",
+    "claim": "Q3 2026 40.54550%; Q2 45.19932%.",
+    "admissible": "Broader individual-work GenAI context introduced by Jianbo",
+    "limit": "Not firms, not chart-review agents, not repeated use in a longitudinal cohort. Revisions possible; no uncertainty interval in this packet. Cite Bick, Blandin and Deming via FRED.",
+    "checked": "2026-10-27"
+  },
+  {
+    "id": "S5",
+    "title": "RPS Generative AI Usage Share Last Week Work",
+    "url": "https://fred.stlouisfed.org/series/RPSGENAIUSAGESHARELWWORK",
+    "publication": "Updated 2026-10-20 at 10:37 AM CDT",
+    "measurement": "Q3 2026; quarterly not seasonally adjusted",
+    "population": "Employed US adults aged 18 to 64, same RPS as S4",
+    "definition": "Share using generative AI on at least one workday in the prior week",
+    "claim": "Q3 2026 34.84421%; Q2 39.23370%.",
+    "admissible": "Distinguish reported job use from recent intensity",
+    "limit": "Same source population as S4, not independent corroboration; no causal explanation or chart-agent prevalence follows.",
+    "checked": "2026-10-27"
+  },
+  {
+    "id": "S6",
+    "title": "Building effective agents",
+    "url": "https://www.anthropic.com/research/building-effective-agents",
+    "publication": "2024-12-19",
+    "measurement": "Engineering experience, not a diffusion survey",
+    "population": "Publisher experience with customer implementations",
+    "definition": "Distinguishes model-directed agents from fixed workflows; discusses complexity, latency and cost",
+    "claim": "Agentic complexity can create a performance versus cost tradeoff.",
+    "admissible": "Dated mechanism and baseline design support",
+    "limit": "Publisher page warns that much tooling has changed. Do not use it to establish current market share or current recommended library versions.",
+    "checked": "2026-10-27"
+  }
+]

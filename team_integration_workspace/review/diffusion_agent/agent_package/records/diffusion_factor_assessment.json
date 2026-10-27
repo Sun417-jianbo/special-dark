@@ -1,0 +1,46 @@
+{
+  "status": "0.9-proposed",
+  "factors": [
+    {
+      "factor": "Relative advantage",
+      "assessment": "Potentially fewer reconciliation steps; full quality-adjusted benefit over manual and deterministic checks is unmeasured.",
+      "basis": "Case mechanism inference, C1 and S6; no local outcomes",
+      "accelerator": "Repeatable source-linked gains that remain after review and support costs",
+      "inhibitor": "False corrections and exception work erase apparent savings",
+      "test": "Log correct findings, missed material errors, false corrections and total minutes for all three baselines."
+    },
+    {
+      "factor": "Compatibility",
+      "assessment": "Permission and accountable report ownership are the baseline finance constraint; MCP is a potential integration complement, not approval.",
+      "basis": "Stipulated case permissions; S3 ecosystem observation; mechanism inference",
+      "accelerator": "Authorized environment, stable BI/source lineage and named human release",
+      "inhibitor": "Sensitive data and absent approved external model handling",
+      "test": "Check allowed data, read-only access, owner and publication boundary before any scoped study."
+    },
+    {
+      "factor": "Complexity",
+      "assessment": "Connectors, evaluations and exception review can dominate, especially for a small studio with limited support.",
+      "basis": "Case-based inference; dated S6 engineering mechanism",
+      "accelerator": "Documented tools and support capacity",
+      "inhibitor": "Hidden maintenance, chained errors, skills and monitoring effort",
+      "test": "Include setup, correction and support time; compare with a simpler deterministic workflow."
+    },
+    {
+      "factor": "Trialability",
+      "assessment": "Public/synthetic material supports reversible study design; only the permission contrast stipulates an approved isolated learning sandbox.",
+      "basis": "Case premise, not measured trial outcome",
+      "accelerator": "Bounded read-only shadow tasks with reversible drafts",
+      "inhibitor": "A demo does not establish authorized production use or transferability",
+      "test": "Keep live records and autonomous publication out; stop on a permission mismatch."
+    },
+    {
+      "factor": "Observability",
+      "assessment": "Source-linked discrepancy logs could show effects; no actual repeated chart-review results or matched peer cohort is supplied in the baseline.",
+      "basis": "Missing local/peer outcome evidence; inference about future measurement",
+      "accelerator": "Comparable independently reviewed results and repeat participation",
+      "inhibitor": "Polished demos, vendor promises and missing denominators",
+      "test": "Record four proposed review cycles, discontinuance and peer definition; four is a study choice, not a takeoff rule."
+    }
+  ],
+  "conditional_priority": "Compatibility in the baseline unapproved finance environment; observable relative advantage after isolated learning permission; complexity may bind under limited support. No measured universal causal ranking."
+}

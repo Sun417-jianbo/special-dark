@@ -1,0 +1,74 @@
+[
+  {
+    "id": "S0",
+    "title": "Rogers, Diffusion of Innovations, third edition",
+    "date": "1983",
+    "url": "https://teddykw2.wordpress.com/wp-content/uploads/2012/07/everett-m-rogers-diffusion-of-innovations.pdf",
+    "location": "Chapter 1 attributes and actor definitions; Chapter 7, printed pp. 245-247, adopter categorization and incomplete adoption",
+    "kind": "Original theoretical work, accessed as a third-party-hosted scan",
+    "supports": "Five perceived attributes; adopter timing within a social system; opinion leadership and change-agent roles.",
+    "limits": "Theory is not current adoption evidence. Percentages are idealized categories; they do not prove current market stage or inevitable growth.",
+    "checked_on": "2026-10-25",
+    "checked_by": "Codex inspected listed original-source locations; student independent check not asserted"
+  },
+  {
+    "id": "S1",
+    "title": "Bick, Blandin and Deming, RPS work adoption series via FRED",
+    "date": "Updated 20 October 2026; Q3 2025-Q3 2026 observations",
+    "url": "https://fred.stlouisfed.org/series/RPSGENAIUSAGESHAREWORK",
+    "location": "Observations table and Notes",
+    "kind": "Original survey series",
+    "supports": "U.S. employed adults aged 18-64 reporting generative AI use for work: Q3 2025 37.35947%; Q2 2026 45.19932%; Q3 2026 40.54550%.",
+    "limits": "Self-report, not seasonally adjusted. Individuals, not firms; use for work, not a specific retail task, cumulative first adoption or retention.",
+    "checked_on": "2026-10-25",
+    "checked_by": "Codex inspected listed original-source locations; student independent check not asserted"
+  },
+  {
+    "id": "S2",
+    "title": "Bick, Blandin and Deming, RPS use last week for work via FRED",
+    "date": "Updated 20 October 2026; Q3 2025-Q3 2026 observations",
+    "url": "https://fred.stlouisfed.org/series/RPSGENAIUSAGESHARELWWORK",
+    "location": "Observations table and Notes",
+    "kind": "Original survey series",
+    "supports": "Same U.S. employed-adult population; at least one workday of use in the previous week: Q3 2025 32.01161%; Q2 2026 39.23370%; Q3 2026 34.84421%.",
+    "limits": "One-week active-use prevalence, not cohort retention or cumulative adoption. No uncertainty intervals are supplied in this evidence packet.",
+    "checked_on": "2026-10-25",
+    "checked_by": "Codex inspected listed original-source locations; student independent check not asserted"
+  },
+  {
+    "id": "S3",
+    "title": "U.S. Census Bureau, Large Firms With at Least 20 Employees Biggest AI Users",
+    "date": "Published 26 May 2026; observations 14 December 2025-3 May 2026",
+    "url": "https://www.census.gov/library/stories/2026/05/ai-use-businesses.html",
+    "location": "Survey questions and U.S. Business AI Use sections",
+    "kind": "Original statistical agency report",
+    "supports": "Past-two-week use of any AI in business functions ranged around 17%-20% during the stated window. Question scope broadened in November 2025.",
+    "limits": "AI is broader than generative AI; denominator is businesses, not people. Expectations are separate from actual use. This historical snapshot is not the latest October 2026 rate or the retail-reporting adoption rate.",
+    "checked_on": "2026-10-25",
+    "checked_by": "Codex inspected listed original-source locations; student independent check not asserted"
+  },
+  {
+    "id": "S4",
+    "title": "Gutkowski, Gascon and Silvanus, New Survey Findings on AI Adoption and Its Effects on Employment and Productivity",
+    "date": "Published 16 July 2026; May 2026 Eighth District business survey",
+    "url": "https://www.stlouisfed.org/on-the-economy/2026/jul/new-survey-findings-ai-adoption-eighth-district",
+    "location": "Early Stages; Reasons for Limited or No Adoption",
+    "kind": "Original regional survey report",
+    "supports": "Respondents described experimental or limited AI use; skill, data, infrastructure and perceived usefulness gaps inhibit use.",
+    "limits": "Regional business contacts, broad AI, and self-reports. Not a representative national retail-reporting rate or proof of the case firm's main barrier.",
+    "checked_on": "2026-10-25",
+    "checked_by": "Codex inspected listed original-source locations; student independent check not asserted"
+  },
+  {
+    "id": "C0",
+    "title": "Course assignment memo and The Diffusion of Emerging Technologies: Patterns, Actors, and Strategic Market Adoption",
+    "date": "Course material; publication date not stated",
+    "url": "Provided Assignment 5 memo and Prep Lab 6 reading",
+    "location": "What to Do; Determinants of Successful Adoption; Rogers categories; Chasm and Maloney rule",
+    "kind": "Supplied course framework",
+    "supports": "Required three-level diffusion analysis, five factors, actors and bounded timing handoff.",
+    "limits": "The reading's 16% chasm shorthand is treated as a heuristic, not an empirical guarantee or a threshold applicable to a differently defined denominator. Full reading is not redistributed.",
+    "checked_on": "2026-10-25",
+    "checked_by": "Codex inspected listed original-source locations; student independent check not asserted"
+  }
+]

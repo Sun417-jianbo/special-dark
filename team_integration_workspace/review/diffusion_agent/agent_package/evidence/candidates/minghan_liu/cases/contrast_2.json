@@ -1,0 +1,14 @@
+{
+  "emerging_technology": "Agentic AI built on large language models (LLM-based agents that plan, use tools, and complete multi-step tasks)",
+  "intended_application": "Proposed bounded applicant-support workflow: retrieve approved program information, ask clarifying questions, plan next steps, and request a counselor appointment through a permission-limited tool. Staff approve outbound messages and any record changes. Excludes admission, scholarship, visa and eligibility decisions.",
+  "organization": "Hypothetical small, tuition-dependent private liberal arts college (synthetic; not an observed institution)",
+  "industry_sector": "Higher education - undergraduate and small graduate admissions. Peer group: small private colleges. Applicant trust, privacy and accessibility matter; exact legal obligations require specialist review.",
+  "business_need": "Scenario hypothesis: reduce repetitive inquiry handling and improve timely guidance. Actual demand, response time and benefits have not been measured.",
+  "users_stakeholders": "Prospective students, admissions counselors, marketing/enrollment staff, university IT and compliance officers",
+  "adoption_posture": "Conservative / risk-averse: adopts only after peers demonstrate stable, low-risk use (scenario assumption).",
+  "capabilities_constraints": "Scenario assumptions: two-person IT team, no in-house AI staff, limited budget, CRM vendor features only, small admissions office. No existing chatbot is specified.",
+  "risk_consequence_context": "A visible error could damage the college's reputation in a small applicant market; unauthorized actions can expose data. No legal determination is made.",
+  "management_question": "How far have agentic AI and agent-based applicant support diffused, what is accelerating or inhibiting that diffusion, and what timing implication follows for this college (without making the adoption decision)?",
+  "time_horizon": "18 months",
+  "additional_context": "Synthetic posture contrast. Technology and application held constant; posture, capabilities and peer group differ. General diffusion evidence should not move; the timing implication should."
+}
