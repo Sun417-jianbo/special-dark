@@ -76,12 +76,12 @@ record('seven cases',len(cases)==7)
 record('eight qualitative common walkthroughs',len(list((ROOT/'comparison/walkthroughs').glob('*.json')))==8)
 record('four material contributors',len(load('records/candidate_comparison.json'))==4)
 release=load('records/team_release.json')
-record('release remains honestly proposed',release['accepted_by_team'] is False and release['status']=='proposed_for_team_review')
+record('release matches recorded human acceptance',release['accepted_by_team'] is True and release['status']=='team_accepted' and release['version']=='1.0' and release['public_release_authorized'] is True)
 
 manifest=[]
 for name in sorted(cases):
     manifest.append({'case':name,'case_sha256':h(agent/'cases'/f'{name}.json'),'prompt_sha256':h(agent/'prompts'/f'{name}_prompt.txt'),'response_sha256':h(agent/'responses'/f'{name}_response.json')})
-provenance={'date':'2026-10-27','method':'Current same-assistant authored and reviewed controlled examples; no model API, independent benchmark or business pilot','interpretation_limit':'Checks apply to saved examples, not future stochastic behavior. General finding is deliberately shared for invariant cases.','candidate_comparison':'Eight same-assistant native-design walkthroughs across four inspected packages; not independent native agent executions.','instructions_sha256':h(agent/'specialist_instructions.md'),'metadata_sha256':h(agent/'agent_metadata.json'),'cases':manifest}
+provenance={'date':'2026-10-27','method':'Same-assistant authored and reviewed controlled examples; version metadata aligned to the human-accepted 1.0 release. No new independent model run is implied.','interpretation_limit':'Checks apply to saved examples, not future stochastic behavior. General finding is deliberately shared for invariant cases.','candidate_comparison':'Eight same-assistant native-design walkthroughs across four inspected packages; not independent native agent executions.','release_update':'The analytical example content is unchanged from 0.9-proposed; only agent version metadata and prompt version labels were aligned after human acceptance.','instructions_sha256':h(agent/'specialist_instructions.md'),'metadata_sha256':h(agent/'agent_metadata.json'),'cases':manifest}
 (ROOT/'verification/run_provenance.json').write_text(json.dumps(provenance,indent=2)+'\n')
 result={'passed':sum(c['passed'] for c in checks),'total':len(checks),'all_passed':all(c['passed'] for c in checks),'scope':'Portable structural, byte-integrity and declared semantic-contract checks; not an independent model evaluation','checks':checks}
 (ROOT/'verification/validation_results.json').write_text(json.dumps(result,indent=2)+'\n')

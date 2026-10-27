@@ -20,3 +20,7 @@ The current team examples and eight common-case walkthroughs were authored and r
 7. Matched cohort positive control: acknowledge 3/5 = 60% in the explicitly fictional closed cohort, while withholding sector/chasm claims.
 
 Pass/fail details and prompt/output hashes are in `verification/validation_results.json` and `verification/run_provenance.json`. Passing means the saved examples meet these declared constraints. It does not estimate future stochastic model reliability.
+
+## Team accepted release 1.0
+
+Yufei reported team acceptance and public-release authorization on October 27, 2026. Existing cases and analytical response content were preserved; only team-agent version metadata and prompt labels were aligned to 1.0, then local checks were rerun. This is not a newly generated independent model evaluation.

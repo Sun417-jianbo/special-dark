@@ -1,6 +1,6 @@
 # Special Dark TW6 Diffusion Agent
 
-Version 0.9-proposed, prepared for team review on October 27, 2026.
+Version 1.0, team acceptance reported by Yufei Cai on October 27, 2026.
 
 ## Files
 
@@ -11,11 +11,11 @@ Version 0.9-proposed, prepared for team review on October 27, 2026.
 - `agent_package/evidence/` preserves selected original candidate bytes, dated source metadata and input hashes. Historical weak outputs are evidence, not alternate submission drafts.
 - `shared_records/` contains the slot 4 inventory update and appended team decision log.
 
-The recommendation is complete as a review version. Team acceptance is not recorded. All four native packages and reports contribute to the comparison. No independent model benchmark, actual chart-review pilot, classroom percentage or deployment approval is claimed. No Brightspace upload or main-branch merge has been performed.
+The team has accepted this synthesis, as reported by Yufei Cai. Public upload and a review PR were separately authorized. All four native packages and reports contribute to the comparison. No independent model benchmark, actual chart-review pilot, classroom percentage or deployment approval is claimed. No Brightspace upload or main-branch merge has been performed.
 
 Repository: https://github.com/Sun417-jianbo/special-dark
 Branch: tw6-diffusion-20261027
 
-The branch and implementation commit are local. Public upload and a review PR await authorization. `TW6_Source_History.bundle` preserves the local source history and can be cloned with Git; `repository_handoff.json` records the exact version. No public TW6 branch or PR is asserted at this stage.
+`TW6_Source_History.bundle` preserves the source history and can be cloned with Git; `repository_handoff.json` records the exact published source commit and PR. The branch is for review; a PR does not merge main or approve a real deployment.
 
 From `agent_package`, run `python verification/recheck.py` for local structural and semantic-contract checks. Only standard-library Python is required; no API key is needed. To use the prompt-based agent, open a saved prompt from `agents/diffusion_agent/prompts/` in a model session and save/validate its JSON separately. Current saved examples were authored and reviewed by the same assistant.

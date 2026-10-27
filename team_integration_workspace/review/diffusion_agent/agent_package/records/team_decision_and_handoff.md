@@ -1,8 +1,8 @@
-# Proposed team judgment and Adoption handoff
+# Team accepted judgment and Adoption handoff
 
-Status: 0.9-proposed. Yufei authorized comparison and a recommendation version on 2026-10-27. Team acceptance is a separate release step.
+Status: 1.0 team-accepted. On October 27, 2026, Yufei Cai reported that the team had confirmed the synthesis and separately authorized public upload of this TW6 product and necessary member evidence snapshots, plus a review PR. The authorization excludes merging main or editing members’ individual branches. The confirmation is preserved in records/team_release.json.
 
-## Recommended synthesis
+## Accepted synthesis
 
 Retain the established agentic chart-review application so the diffusion expert can join the previous Creation, Innovation and Promethean analyses. Yufei and Chutong provide the rule base. Minghan contributes scope separation and comparator discipline. Jianbo contributes repeat-use and verification-cost measurement from his complete native package. This is a reasoned synthesis, not a vote or four pasted submissions.
 
@@ -18,7 +18,7 @@ Evidence that could change this recommendation includes a matched dated peer pop
 
 Yufei Cai contributed the finance chart-review anchor, integrated-agent scope, permission boundary and bounded evidence rules through his Lab5. Chutong Wang contributed the permission-conditioned factor judgment and corrected stage/process distinction. Minghan Liu contributed the population ladder, existing-baseline comparison and attention/use distinction. Jianbo Sun contributed repeat-use, abandonment and full review-effort measurement through his native package and report. These describe material in the supplied individual artifacts, not newly assigned classroom roles.
 
-The consolidation compared candidate designs, preserved native failures, checked accepted primary sources, saved common contrasts, updated the shared inventory and prepared the Adoption handoff. The assistant performed synthesis, controlled examples, technical validation and document preparation. Human release review should approve or amend the recommended scope, factor priority and timing boundary, then promote the version; no classroom completion percentage is asserted.
+The consolidation compared candidate designs, preserved native failures, checked accepted primary sources, saved common contrasts, updated the shared inventory and prepared the Adoption handoff. The assistant performed synthesis, controlled examples, technical validation and document preparation. Yufei subsequently reported team acceptance of the scope, conditional factor priority and timing boundary. This acceptance does not assert a classroom completion percentage or authorize a real organizational trial.
 
 ## Integration issues
 

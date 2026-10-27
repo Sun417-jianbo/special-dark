@@ -865,7 +865,7 @@
       "passed": true
     },
     {
-      "check": "release remains honestly proposed",
+      "check": "release matches recorded human acceptance",
       "passed": true
     }
   ]
