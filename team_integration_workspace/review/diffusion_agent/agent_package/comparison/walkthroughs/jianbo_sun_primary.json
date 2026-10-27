@@ -4,5 +4,9 @@
   "method": "Same current assistant applies inspected candidate design to a shared case; qualitative walkthrough, not independent agent execution or accuracy benchmark",
   "interpretation": "Native design highlights verification/workflow complexity; reconcile this with the shared case permission constraint rather than importing the retail ranking.",
   "retained": "Repeated participation, discontinuance, full review cost, proposed four review cycles, prevalence versus retention and distinct actor-role verification.",
-  "correction": "Transfer measurement design, not retail narrative application or GenAI-person prevalence, to the team agentic chart task."
+  "correction": "Transfer measurement design, not retail narrative application or GenAI-person prevalence, to the team agentic chart task.",
+  "candidate_rules_path": "evidence/candidates/jianbo_sun/specialist_instructions.md",
+  "candidate_rules_sha256": "438727bd2c3986b62628bc6e873900ed3d9eca6083852c24f91cb3040f9555d4",
+  "common_case_path": "agents/diffusion_agent/cases/primary.json",
+  "common_case_sha256": "b27d44e8b178c3fc272fb2e1e9b941d396c33dbba9a025f402c738dc711605cf"
 }

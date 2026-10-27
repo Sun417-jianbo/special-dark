@@ -4,5 +4,9 @@
   "method": "Same current assistant applies inspected candidate design to a shared case; qualitative walkthrough, not independent agent execution or accuracy benchmark",
   "interpretation": "Permission/compatibility is immediate; exact application stage unknown.",
   "retained": "Integrated-agent definition, finance anchor, source scope, permission boundary and missing-denominator abstention.",
-  "correction": "Make compatibility priority conditional rather than universal; add repeat use, abandonment and total-cost measurement."
+  "correction": "Make compatibility priority conditional rather than universal; add repeat use, abandonment and total-cost measurement.",
+  "candidate_rules_path": "evidence/candidates/yufei_cai/specialist_instructions.md",
+  "candidate_rules_sha256": "3280f293c88c25cd79601e9fbb1ef3633a60a094181e6fb6dfaa03cfc635f043",
+  "common_case_path": "agents/diffusion_agent/cases/primary.json",
+  "common_case_sha256": "b27d44e8b178c3fc272fb2e1e9b941d396c33dbba9a025f402c738dc711605cf"
 }

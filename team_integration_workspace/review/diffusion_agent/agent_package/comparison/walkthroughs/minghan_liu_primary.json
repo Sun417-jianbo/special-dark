@@ -4,5 +4,9 @@
   "method": "Same current assistant applies inspected candidate design to a shared case; qualitative walkthrough, not independent agent execution or accuracy benchmark",
   "interpretation": "Native residual stage shortcuts would overstate this packet; only scope and baseline rules are retained.",
   "retained": "Population ladder, existing/simple baseline, attention versus use and explicit evidence-status labels.",
-  "correction": "Reject mechanical 16% stage calls, unsupported pre-chasm/no-peer-ahead claims, and observed trialability from vendor availability. Do not transfer admissions statistics to finance."
+  "correction": "Reject mechanical 16% stage calls, unsupported pre-chasm/no-peer-ahead claims, and observed trialability from vendor availability. Do not transfer admissions statistics to finance.",
+  "candidate_rules_path": "evidence/candidates/minghan_liu/specialist_instructions.md",
+  "candidate_rules_sha256": "e22fc6e8770cd4f200483edc172efcd981145b059b65148b5b478e8a605b32c7",
+  "common_case_path": "agents/diffusion_agent/cases/primary.json",
+  "common_case_sha256": "b27d44e8b178c3fc272fb2e1e9b941d396c33dbba9a025f402c738dc711605cf"
 }
