@@ -1,0 +1,12 @@
+{
+  "member": "Jianbo Sun",
+  "case": "posture_contrast",
+  "method": "Same current assistant applies inspected candidate design to a shared case; qualitative walkthrough, not independent agent execution or accuracy benchmark",
+  "interpretation": "Aggressive posture prioritizes earlier authorized sandbox learning with peer learning in parallel; general evidence, confidence and safeguards stay fixed.",
+  "retained": "Repeated participation, discontinuance, full review cost, proposed four review cycles, prevalence versus retention and distinct actor-role verification.",
+  "correction": "Transfer measurement design, not retail narrative application or GenAI-person prevalence, to the team agentic chart task.",
+  "candidate_rules_path": "evidence/candidates/jianbo_sun/specialist_instructions.md",
+  "candidate_rules_sha256": "438727bd2c3986b62628bc6e873900ed3d9eca6083852c24f91cb3040f9555d4",
+  "common_case_path": "agents/diffusion_agent/cases/posture_contrast.json",
+  "common_case_sha256": "e399b91d5a9ad9850294b1efb6648807114e5e112ed6f32478b7ac9cf9966df6"
+}

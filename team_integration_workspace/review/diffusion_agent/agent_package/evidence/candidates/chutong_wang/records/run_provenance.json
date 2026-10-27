@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-22",
+  "runtime": "Ordinary ChatGPT in user Safari browser, operated by Codex through native UI; no OpenAI API call",
+  "cycle_1": {
+    "url": "https://chatgpt.com/c/6ad9c816-e970-83ea-864c-e6e172fb94cd",
+    "cases": [
+      "primary",
+      "claim_probe"
+    ],
+    "original_json_sha256": "1e33284ec34bb0d976c84659f94f7a7317e473e01052e7b5b02139bf2ed93dec",
+    "transport": "Native downloadable JSON attachment, recovered without editing model content; original SHA256 matched displayed value. Preview-only download was ineffective; a second message requested a lossless encoding and attachment, not a new analysis."
+  },
+  "cycle_2": {
+    "url": "https://chatgpt.com/c/6ad9cb67-b050-83ea-ae17-3dc2dcb1b71d",
+    "cases": [
+      "primary",
+      "contrast_1",
+      "claim_probe",
+      "stale_probe"
+    ],
+    "original_json_sha256": "5357ec9eaf1add60ba433e78674b5462a571d3a2fc4758d199b094a84437c15c",
+    "transport": "Downloaded ZIP containing exact original JSON; SHA256 matched ChatGPT-displayed uncompressed hash. Export-only follow-ups did not regenerate analysis."
+  },
+  "prompt_bundle_hashes": {
+    "cycle1": "3ecd4502aea9653dd0d69cc7725e2e98e622248e45ec0e4e1d8b47856858d048",
+    "cycle2": "f1b27889866ab7f4c3177e460168d759ad80e19e3124eeb11cd4593adb6aa27a"
+  },
+  "limitations": [
+    "Two cases in one draft conversation; four cases in one final conversation. Case separation is instructed, but these are not six independent sessions or a reliability rate.",
+    "Exact model build, seed and temperature not attested. Future interactive runs may vary.",
+    "Source pages checked by Codex; personal student verification is not attested.",
+    "No real organization pilot or measured chart-checking result. Sandbox availability is an explicitly new hypothetical premise for Lab 5.",
+    "No older Lab 3 or Lab 4 output reused as current test evidence."
+  ]
+}

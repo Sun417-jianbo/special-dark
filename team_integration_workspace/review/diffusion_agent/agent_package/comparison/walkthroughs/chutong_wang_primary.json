@@ -1,0 +1,12 @@
+{
+  "member": "Chutong Wang",
+  "case": "primary",
+  "method": "Same current assistant applies inspected candidate design to a shared case; qualitative walkthrough, not independent agent execution or accuracy benchmark",
+  "interpretation": "On the shared unapproved baseline, compatibility constrains the permitted study scope; absent peer/value evidence remains important.",
+  "retained": "Stage versus local decision-process distinction, permission premise, five attributes, conditional observable advantage.",
+  "correction": "Do not transfer her newly approved sandbox premise silently into the baseline case.",
+  "candidate_rules_path": "evidence/candidates/chutong_wang/specialist_instructions.md",
+  "candidate_rules_sha256": "6fdc72fe1bb4789283986de745f188ffea73294b05f51a873ff97f4be2554f15",
+  "common_case_path": "agents/diffusion_agent/cases/primary.json",
+  "common_case_sha256": "b27d44e8b178c3fc272fb2e1e9b941d396c33dbba9a025f402c738dc711605cf"
+}

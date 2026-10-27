@@ -1,0 +1,16 @@
+{
+  "method": "Percentage-point subtraction; not a statistical significance test",
+  "source_vintage": "FRED updated 2026-10-20, checked 2026-10-25",
+  "results": {
+    "work_use_percent_S1": {
+      "q3_2026": 40.5455,
+      "quarter_change_pp": -4.65382,
+      "year_change_pp": 3.18603
+    },
+    "last_week_work_use_percent_S2": {
+      "q3_2026": 34.84421,
+      "quarter_change_pp": -4.38949,
+      "year_change_pp": 2.8326
+    }
+  }
+}

@@ -1,0 +1,485 @@
+[
+  {
+    "member": "chutong_wang",
+    "snapshot_path": "evidence/candidates/chutong_wang/agent_metadata.json",
+    "original_source": "Team Workshop/TW6/组员作业/Chutong/Chutong_Wang_Assignment5_Submission.zip!Chutong_Wang_Assignment5/MASY1800_ET_Agent_Scaffold_v1_0/agents/diffusion_agent/agent_metadata.json",
+    "sha256": "22f1d157a1e32949d930ca940333036bb84c2325ce403840c5ef8ab65e718e34",
+    "bytes": 236
+  },
+  {
+    "member": "chutong_wang",
+    "snapshot_path": "evidence/candidates/chutong_wang/cases/claim_probe.json",
+    "original_source": "Team Workshop/TW6/组员作业/Chutong/Chutong_Wang_Assignment5_Submission.zip!Chutong_Wang_Assignment5/MASY1800_ET_Agent_Scaffold_v1_0/agents/diffusion_agent/cases/claim_probe.json",
+    "sha256": "66ac8c6186c3673f7fecf98be812cdd99cc9808d4fd707c7cfaa8998d8a99f44",
+    "bytes": 6614
+  },
+  {
+    "member": "chutong_wang",
+    "snapshot_path": "evidence/candidates/chutong_wang/cases/contrast_1.json",
+    "original_source": "Team Workshop/TW6/组员作业/Chutong/Chutong_Wang_Assignment5_Submission.zip!Chutong_Wang_Assignment5/MASY1800_ET_Agent_Scaffold_v1_0/agents/diffusion_agent/cases/contrast_1.json",
+    "sha256": "5d6f2dceb5dd3862ca60f8d4bc5ee1e2538691dadc94b8873d03391d177e3ffa",
+    "bytes": 6485
+  },
+  {
+    "member": "chutong_wang",
+    "snapshot_path": "evidence/candidates/chutong_wang/cases/primary.json",
+    "original_source": "Team Workshop/TW6/组员作业/Chutong/Chutong_Wang_Assignment5_Submission.zip!Chutong_Wang_Assignment5/MASY1800_ET_Agent_Scaffold_v1_0/agents/diffusion_agent/cases/primary.json",
+    "sha256": "e000bd10b5593989eb9f8b1be1e0569a94131edf69d978b9d5469c04e07e1871",
+    "bytes": 6333
+  },
+  {
+    "member": "chutong_wang",
+    "snapshot_path": "evidence/candidates/chutong_wang/cases/stale_probe.json",
+    "original_source": "Team Workshop/TW6/组员作业/Chutong/Chutong_Wang_Assignment5_Submission.zip!Chutong_Wang_Assignment5/MASY1800_ET_Agent_Scaffold_v1_0/agents/diffusion_agent/cases/stale_probe.json",
+    "sha256": "5b45d34449ebe5f4cea5ee6594de67abdbb8460f84f85b7aa0163547da7dda8e",
+    "bytes": 3741
+  },
+  {
+    "member": "chutong_wang",
+    "snapshot_path": "evidence/candidates/chutong_wang/evidence/source_register.json",
+    "original_source": "Team Workshop/TW6/组员作业/Chutong/Chutong_Wang_Assignment5_Submission.zip!Chutong_Wang_Assignment5/MASY1800_ET_Agent_Scaffold_v1_0/agents/diffusion_agent/evidence/source_register.json",
+    "sha256": "f42ad6fb658c6e2b4b222305203d541f9661ab32db320982bc42df49af38b5aa",
+    "bytes": 4209
+  },
+  {
+    "member": "chutong_wang",
+    "snapshot_path": "evidence/candidates/chutong_wang/records/diffusion_factor_assessment.md",
+    "original_source": "Team Workshop/TW6/组员作业/Chutong/Chutong_Wang_Assignment5_Submission.zip!Chutong_Wang_Assignment5/MASY1800_ET_Agent_Scaffold_v1_0/agents/diffusion_agent/records/diffusion_factor_assessment.md",
+    "sha256": "3589792f12ea7b2443a4f1155610d3719340d99aef46347ba1f138d928ee7151",
+    "bytes": 2607
+  },
+  {
+    "member": "chutong_wang",
+    "snapshot_path": "evidence/candidates/chutong_wang/records/run_provenance.json",
+    "original_source": "Team Workshop/TW6/组员作业/Chutong/Chutong_Wang_Assignment5_Submission.zip!Chutong_Wang_Assignment5/MASY1800_ET_Agent_Scaffold_v1_0/agents/diffusion_agent/records/run_provenance.json",
+    "sha256": "e9445395f399881f09bba300b0b7bc10556dccf52c2ebe4de9b13820b4054f3e",
+    "bytes": 1898
+  },
+  {
+    "member": "chutong_wang",
+    "snapshot_path": "evidence/candidates/chutong_wang/records/test_and_revision_log.md",
+    "original_source": "Team Workshop/TW6/组员作业/Chutong/Chutong_Wang_Assignment5_Submission.zip!Chutong_Wang_Assignment5/MASY1800_ET_Agent_Scaffold_v1_0/agents/diffusion_agent/records/test_and_revision_log.md",
+    "sha256": "ac66ce666677c5e26e5e5580dccf984f7c1a5cd1a2b656f790a37361be6c623d",
+    "bytes": 2348
+  },
+  {
+    "member": "chutong_wang",
+    "snapshot_path": "evidence/candidates/chutong_wang/records/weak_claim_review.md",
+    "original_source": "Team Workshop/TW6/组员作业/Chutong/Chutong_Wang_Assignment5_Submission.zip!Chutong_Wang_Assignment5/MASY1800_ET_Agent_Scaffold_v1_0/agents/diffusion_agent/records/weak_claim_review.md",
+    "sha256": "ef0abe85a58bbc6ba45d3a10e263c8ba948c45372b41ba9512a435e8bb3932ce",
+    "bytes": 1704
+  },
+  {
+    "member": "chutong_wang",
+    "snapshot_path": "evidence/candidates/chutong_wang/responses/cycle_1/claim_probe_response.json",
+    "original_source": "Team Workshop/TW6/组员作业/Chutong/Chutong_Wang_Assignment5_Submission.zip!Chutong_Wang_Assignment5/MASY1800_ET_Agent_Scaffold_v1_0/agents/diffusion_agent/responses/cycle_1/claim_probe_response.json",
+    "sha256": "4559aab2eda53e0eecd0465ac11462b68a12e1847fd02c3065a4b2725d5dbe32",
+    "bytes": 7344
+  },
+  {
+    "member": "chutong_wang",
+    "snapshot_path": "evidence/candidates/chutong_wang/responses/cycle_1/primary_response.json",
+    "original_source": "Team Workshop/TW6/组员作业/Chutong/Chutong_Wang_Assignment5_Submission.zip!Chutong_Wang_Assignment5/MASY1800_ET_Agent_Scaffold_v1_0/agents/diffusion_agent/responses/cycle_1/primary_response.json",
+    "sha256": "eed24a3a77efc6ea5c3db99aaa24e56b06a772c41474471e97673c25756d051a",
+    "bytes": 7392
+  },
+  {
+    "member": "chutong_wang",
+    "snapshot_path": "evidence/candidates/chutong_wang/responses/cycle_2/claim_probe_response.json",
+    "original_source": "Team Workshop/TW6/组员作业/Chutong/Chutong_Wang_Assignment5_Submission.zip!Chutong_Wang_Assignment5/MASY1800_ET_Agent_Scaffold_v1_0/agents/diffusion_agent/responses/cycle_2/claim_probe_response.json",
+    "sha256": "99fce6daab870c7092359529db92cc51c6c9968f5b5190bcfd8cbee89e34454b",
+    "bytes": 12655
+  },
+  {
+    "member": "chutong_wang",
+    "snapshot_path": "evidence/candidates/chutong_wang/responses/cycle_2/contrast_1_response.json",
+    "original_source": "Team Workshop/TW6/组员作业/Chutong/Chutong_Wang_Assignment5_Submission.zip!Chutong_Wang_Assignment5/MASY1800_ET_Agent_Scaffold_v1_0/agents/diffusion_agent/responses/cycle_2/contrast_1_response.json",
+    "sha256": "2162113933e12319e0aecd6270561628cfee73c437aacc6d6cd035ec43c9c7d7",
+    "bytes": 12685
+  },
+  {
+    "member": "chutong_wang",
+    "snapshot_path": "evidence/candidates/chutong_wang/responses/cycle_2/primary_response.json",
+    "original_source": "Team Workshop/TW6/组员作业/Chutong/Chutong_Wang_Assignment5_Submission.zip!Chutong_Wang_Assignment5/MASY1800_ET_Agent_Scaffold_v1_0/agents/diffusion_agent/responses/cycle_2/primary_response.json",
+    "sha256": "2d2c36a9648cbf29868968b3a73c4e514ff7b8e2897b2c9e9896df42d979b3b3",
+    "bytes": 12616
+  },
+  {
+    "member": "chutong_wang",
+    "snapshot_path": "evidence/candidates/chutong_wang/responses/cycle_2/stale_probe_response.json",
+    "original_source": "Team Workshop/TW6/组员作业/Chutong/Chutong_Wang_Assignment5_Submission.zip!Chutong_Wang_Assignment5/MASY1800_ET_Agent_Scaffold_v1_0/agents/diffusion_agent/responses/cycle_2/stale_probe_response.json",
+    "sha256": "11d96d21f28477f28d92ab2df4c288574841ffc44e944eaf6444ac3671220f96",
+    "bytes": 10028
+  },
+  {
+    "member": "chutong_wang",
+    "snapshot_path": "evidence/candidates/chutong_wang/revisions/diagnosis.md",
+    "original_source": "Team Workshop/TW6/组员作业/Chutong/Chutong_Wang_Assignment5_Submission.zip!Chutong_Wang_Assignment5/MASY1800_ET_Agent_Scaffold_v1_0/agents/diffusion_agent/revisions/diagnosis.md",
+    "sha256": "7d8bcc9243ee1bf49a92880cb8efcf6f865d2223b8e333841ca6d9f185ab9162",
+    "bytes": 1226
+  },
+  {
+    "member": "chutong_wang",
+    "snapshot_path": "evidence/candidates/chutong_wang/specialist_instructions.md",
+    "original_source": "Team Workshop/TW6/组员作业/Chutong/Chutong_Wang_Assignment5_Submission.zip!Chutong_Wang_Assignment5/MASY1800_ET_Agent_Scaffold_v1_0/agents/diffusion_agent/specialist_instructions.md",
+    "sha256": "6fdc72fe1bb4789283986de745f188ffea73294b05f51a873ff97f4be2554f15",
+    "bytes": 9603
+  },
+  {
+    "member": "minghan_liu",
+    "snapshot_path": "evidence/candidates/minghan_liu/agent_metadata.json",
+    "original_source": "Team Workshop/TW6/组员作业/Minghan/Assignment_5_Diffusion_Agent_Package_Minghan_Liu_3 (1).zip!MASY1800-agents-assignment-5/agents/diffusion_agent/agent_metadata.json",
+    "sha256": "d2377f37b2b6688251cfc6be417d006a425b4454a62c8d0ef59997efbc096166",
+    "bytes": 216
+  },
+  {
+    "member": "minghan_liu",
+    "snapshot_path": "evidence/candidates/minghan_liu/cases/contrast_1.json",
+    "original_source": "Team Workshop/TW6/组员作业/Minghan/Assignment_5_Diffusion_Agent_Package_Minghan_Liu_3 (1).zip!MASY1800-agents-assignment-5/agents/diffusion_agent/cases/contrast_1.json",
+    "sha256": "fc11e2128a35d242fa779d8fc6bae01deba4234a8ba8df8ce79b605a31083c9f",
+    "bytes": 2290
+  },
+  {
+    "member": "minghan_liu",
+    "snapshot_path": "evidence/candidates/minghan_liu/cases/contrast_2.json",
+    "original_source": "Team Workshop/TW6/组员作业/Minghan/Assignment_5_Diffusion_Agent_Package_Minghan_Liu_3 (1).zip!MASY1800-agents-assignment-5/agents/diffusion_agent/cases/contrast_2.json",
+    "sha256": "ee8b2934edb7c9ab351d2375223c5c510bac7a9d64751fec0b6ad87ee626c977",
+    "bytes": 2162
+  },
+  {
+    "member": "minghan_liu",
+    "snapshot_path": "evidence/candidates/minghan_liu/cases/evidence_probe.json",
+    "original_source": "Team Workshop/TW6/组员作业/Minghan/Assignment_5_Diffusion_Agent_Package_Minghan_Liu_3 (1).zip!MASY1800-agents-assignment-5/agents/diffusion_agent/cases/evidence_probe.json",
+    "sha256": "3c5ca5cb27af75c2da578121f456a1d9b0a74a20747919cfc3681d0665782153",
+    "bytes": 3080
+  },
+  {
+    "member": "minghan_liu",
+    "snapshot_path": "evidence/candidates/minghan_liu/cases/primary.json",
+    "original_source": "Team Workshop/TW6/组员作业/Minghan/Assignment_5_Diffusion_Agent_Package_Minghan_Liu_3 (1).zip!MASY1800-agents-assignment-5/agents/diffusion_agent/cases/primary.json",
+    "sha256": "af9e635d070dfeada4fc33101f6b802adf7b812c73a8623cdbbe1488364238ac",
+    "bytes": 2414
+  },
+  {
+    "member": "minghan_liu",
+    "snapshot_path": "evidence/candidates/minghan_liu/evidence/source_register.json",
+    "original_source": "Team Workshop/TW6/组员作业/Minghan/Assignment_5_Diffusion_Agent_Package_Minghan_Liu_3 (1).zip!MASY1800-agents-assignment-5/agents/diffusion_agent/evidence/source_register.json",
+    "sha256": "163a916d50f7fd61bd7e6ef183c90735fdaa1d522989b7fb4e6c66f9ce2e0e84",
+    "bytes": 18877
+  },
+  {
+    "member": "minghan_liu",
+    "snapshot_path": "evidence/candidates/minghan_liu/records/diffusion_factor_assessment.md",
+    "original_source": "Team Workshop/TW6/组员作业/Minghan/Assignment_5_Diffusion_Agent_Package_Minghan_Liu_3 (1).zip!MASY1800-agents-assignment-5/agents/diffusion_agent/records/diffusion_factor_assessment.md",
+    "sha256": "754d29315de37b4026e2a5cc064c075e3e4b81d92616dccb2c8c61aad7c2315a",
+    "bytes": 4495
+  },
+  {
+    "member": "minghan_liu",
+    "snapshot_path": "evidence/candidates/minghan_liu/records/weak_claim.md",
+    "original_source": "Team Workshop/TW6/组员作业/Minghan/Assignment_5_Diffusion_Agent_Package_Minghan_Liu_3 (1).zip!MASY1800-agents-assignment-5/agents/diffusion_agent/records/weak_claim.md",
+    "sha256": "de3087c782925116aa4d5d92aaf29afd00855b9c7e71a97b4d3c0b2ea11c871d",
+    "bytes": 2114
+  },
+  {
+    "member": "minghan_liu",
+    "snapshot_path": "evidence/candidates/minghan_liu/responses/contrast_1_response.json",
+    "original_source": "Team Workshop/TW6/组员作业/Minghan/Assignment_5_Diffusion_Agent_Package_Minghan_Liu_3 (1).zip!MASY1800-agents-assignment-5/agents/diffusion_agent/responses/contrast_1_response.json",
+    "sha256": "a4abb275eb93f40f52aebd7b3c6b43f1c5e041291db4b8b1097b66da9cadfa58",
+    "bytes": 25335
+  },
+  {
+    "member": "minghan_liu",
+    "snapshot_path": "evidence/candidates/minghan_liu/responses/contrast_2_response.json",
+    "original_source": "Team Workshop/TW6/组员作业/Minghan/Assignment_5_Diffusion_Agent_Package_Minghan_Liu_3 (1).zip!MASY1800-agents-assignment-5/agents/diffusion_agent/responses/contrast_2_response.json",
+    "sha256": "b5c8fd6cce4776e85f68a239e5c3262c1b641d35ae1d6c554bf6b7517872039a",
+    "bytes": 25382
+  },
+  {
+    "member": "minghan_liu",
+    "snapshot_path": "evidence/candidates/minghan_liu/responses/evidence_probe_response.json",
+    "original_source": "Team Workshop/TW6/组员作业/Minghan/Assignment_5_Diffusion_Agent_Package_Minghan_Liu_3 (1).zip!MASY1800-agents-assignment-5/agents/diffusion_agent/responses/evidence_probe_response.json",
+    "sha256": "7437319357bc05d0e1b2cef92ab800f71c658914cbf37df7d904b757c4a85d6c",
+    "bytes": 28782
+  },
+  {
+    "member": "minghan_liu",
+    "snapshot_path": "evidence/candidates/minghan_liu/responses/primary_response.json",
+    "original_source": "Team Workshop/TW6/组员作业/Minghan/Assignment_5_Diffusion_Agent_Package_Minghan_Liu_3 (1).zip!MASY1800-agents-assignment-5/agents/diffusion_agent/responses/primary_response.json",
+    "sha256": "f8de19fe8dbfb273d3a9215644bb62ee6471bb952b8747ae944a440c4da23289",
+    "bytes": 26264
+  },
+  {
+    "member": "minghan_liu",
+    "snapshot_path": "evidence/candidates/minghan_liu/specialist_instructions.md",
+    "original_source": "Team Workshop/TW6/组员作业/Minghan/Assignment_5_Diffusion_Agent_Package_Minghan_Liu_3 (1).zip!MASY1800-agents-assignment-5/agents/diffusion_agent/specialist_instructions.md",
+    "sha256": "e22fc6e8770cd4f200483edc172efcd981145b059b65148b5b478e8a605b32c7",
+    "bytes": 20018
+  },
+  {
+    "member": "minghan_liu",
+    "snapshot_path": "evidence/candidates/minghan_liu/tests/cycle_1/evidence_probe_response.json",
+    "original_source": "Team Workshop/TW6/组员作业/Minghan/Assignment_5_Diffusion_Agent_Package_Minghan_Liu_3 (1).zip!MASY1800-agents-assignment-5/agents/diffusion_agent/tests/cycle_1/evidence_probe_response.json",
+    "sha256": "12a4638cd746f8d9e82929e7a0e8b8fff48ff55b7392e7e49973122a07c40de7",
+    "bytes": 8397
+  },
+  {
+    "member": "minghan_liu",
+    "snapshot_path": "evidence/candidates/minghan_liu/tests/cycle_1/primary_response.json",
+    "original_source": "Team Workshop/TW6/组员作业/Minghan/Assignment_5_Diffusion_Agent_Package_Minghan_Liu_3 (1).zip!MASY1800-agents-assignment-5/agents/diffusion_agent/tests/cycle_1/primary_response.json",
+    "sha256": "0b75ea70c7baec4afe214e251e16aa921d80b61bf3df5682a9b274eb8eafcacf",
+    "bytes": 8064
+  },
+  {
+    "member": "minghan_liu",
+    "snapshot_path": "evidence/candidates/minghan_liu/tests/cycle_2/run_manifest.json",
+    "original_source": "Team Workshop/TW6/组员作业/Minghan/Assignment_5_Diffusion_Agent_Package_Minghan_Liu_3 (1).zip!MASY1800-agents-assignment-5/agents/diffusion_agent/tests/cycle_2/run_manifest.json",
+    "sha256": "c1fc027fb0aeb34a5946c6370b7e3a6ca034c5d3fe7b858d937e831bc82cf109",
+    "bytes": 1260
+  },
+  {
+    "member": "jianbo_sun",
+    "snapshot_path": "evidence/candidates/jianbo_sun/agent_metadata.json",
+    "original_source": "Team Workshop/TW6/组员作业/Jianbo/Jianbo_Sun_Assignment_5_Complete_Package.zip!MASY1800_ET_Agent_Scaffold_v1_0/agents/diffusion_agent/agent_metadata.json",
+    "sha256": "8de7d415c5ad20c8894df98f732a972f48069e1c35c08f5486ade7199436d46f",
+    "bytes": 143
+  },
+  {
+    "member": "jianbo_sun",
+    "snapshot_path": "evidence/candidates/jianbo_sun/cases/contrast_1.json",
+    "original_source": "Team Workshop/TW6/组员作业/Jianbo/Jianbo_Sun_Assignment_5_Complete_Package.zip!MASY1800_ET_Agent_Scaffold_v1_0/agents/diffusion_agent/cases/contrast_1.json",
+    "sha256": "b6e2d782e2671f83fe38faf56c53e12e2edeecba690628b7369a9ba0281a1161",
+    "bytes": 4712
+  },
+  {
+    "member": "jianbo_sun",
+    "snapshot_path": "evidence/candidates/jianbo_sun/cases/contrast_2.json",
+    "original_source": "Team Workshop/TW6/组员作业/Jianbo/Jianbo_Sun_Assignment_5_Complete_Package.zip!MASY1800_ET_Agent_Scaffold_v1_0/agents/diffusion_agent/cases/contrast_2.json",
+    "sha256": "efae4ad7e2706593a8d20b33693e8980f73a2e5c64fc23677f70ba4cbc72260b",
+    "bytes": 4713
+  },
+  {
+    "member": "jianbo_sun",
+    "snapshot_path": "evidence/candidates/jianbo_sun/cases/primary.json",
+    "original_source": "Team Workshop/TW6/组员作业/Jianbo/Jianbo_Sun_Assignment_5_Complete_Package.zip!MASY1800_ET_Agent_Scaffold_v1_0/agents/diffusion_agent/cases/primary.json",
+    "sha256": "8461f499f2015c4f5f4b2fbec2cba283851eb086e1269cbda7b758dde483ee06",
+    "bytes": 4711
+  },
+  {
+    "member": "jianbo_sun",
+    "snapshot_path": "evidence/candidates/jianbo_sun/cases/scope_challenge.json",
+    "original_source": "Team Workshop/TW6/组员作业/Jianbo/Jianbo_Sun_Assignment_5_Complete_Package.zip!MASY1800_ET_Agent_Scaffold_v1_0/agents/diffusion_agent/cases/scope_challenge.json",
+    "sha256": "50876960ee374cfe5ce25b627ba8b98a42294dd081f0f24ef8ab7015ff738030",
+    "bytes": 5074
+  },
+  {
+    "member": "jianbo_sun",
+    "snapshot_path": "evidence/candidates/jianbo_sun/evidence/derived_comparisons.json",
+    "original_source": "Team Workshop/TW6/组员作业/Jianbo/Jianbo_Sun_Assignment_5_Complete_Package.zip!MASY1800_ET_Agent_Scaffold_v1_0/agents/diffusion_agent/evidence/derived_comparisons.json",
+    "sha256": "48b0521a67bbf13f65db1aa41e63806c85300a9bb9e6e2f0ed02c24da9276836",
+    "bytes": 442
+  },
+  {
+    "member": "jianbo_sun",
+    "snapshot_path": "evidence/candidates/jianbo_sun/evidence/source_register.json",
+    "original_source": "Team Workshop/TW6/组员作业/Jianbo/Jianbo_Sun_Assignment_5_Complete_Package.zip!MASY1800_ET_Agent_Scaffold_v1_0/agents/diffusion_agent/evidence/source_register.json",
+    "sha256": "71cf13ad4b28e91417a65a534470cc49a556c08683b78b2219c2355e65ae98f8",
+    "bytes": 5181
+  },
+  {
+    "member": "jianbo_sun",
+    "snapshot_path": "evidence/candidates/jianbo_sun/records/preserved_weakness.md",
+    "original_source": "Team Workshop/TW6/组员作业/Jianbo/Jianbo_Sun_Assignment_5_Complete_Package.zip!MASY1800_ET_Agent_Scaffold_v1_0/agents/diffusion_agent/records/preserved_weakness.md",
+    "sha256": "e20bcc24fd85c55dc9cb4dc219afd5ed1c1cd2904ec4a441c65aa20676c252bd",
+    "bytes": 1594
+  },
+  {
+    "member": "jianbo_sun",
+    "snapshot_path": "evidence/candidates/jianbo_sun/records/run_provenance.json",
+    "original_source": "Team Workshop/TW6/组员作业/Jianbo/Jianbo_Sun_Assignment_5_Complete_Package.zip!MASY1800_ET_Agent_Scaffold_v1_0/agents/diffusion_agent/records/run_provenance.json",
+    "sha256": "a07894c5695b507e3d64510dff60babb16cdd898d131a6ca8a39b3d05fa94ead",
+    "bytes": 1433
+  },
+  {
+    "member": "jianbo_sun",
+    "snapshot_path": "evidence/candidates/jianbo_sun/records/test_comparison.md",
+    "original_source": "Team Workshop/TW6/组员作业/Jianbo/Jianbo_Sun_Assignment_5_Complete_Package.zip!MASY1800_ET_Agent_Scaffold_v1_0/agents/diffusion_agent/records/test_comparison.md",
+    "sha256": "13928532ef266fbddb1fa1e9f787a3dc4e8e8bc30f5160514338e8d6fb8a8796",
+    "bytes": 3456
+  },
+  {
+    "member": "jianbo_sun",
+    "snapshot_path": "evidence/candidates/jianbo_sun/responses/contrast_1_v0.2.json",
+    "original_source": "Team Workshop/TW6/组员作业/Jianbo/Jianbo_Sun_Assignment_5_Complete_Package.zip!MASY1800_ET_Agent_Scaffold_v1_0/agents/diffusion_agent/responses/contrast_1_v0.2.json",
+    "sha256": "a292474d51cb8e78109676e01e42a6e9b68ce0ab74cc4e75dbe90e8de3b3ff70",
+    "bytes": 8327
+  },
+  {
+    "member": "jianbo_sun",
+    "snapshot_path": "evidence/candidates/jianbo_sun/responses/contrast_2_v0.2.json",
+    "original_source": "Team Workshop/TW6/组员作业/Jianbo/Jianbo_Sun_Assignment_5_Complete_Package.zip!MASY1800_ET_Agent_Scaffold_v1_0/agents/diffusion_agent/responses/contrast_2_v0.2.json",
+    "sha256": "35b3df705a4a5d45bc9453725f2eb67395b0d67bf6143f11dddf571f6c119684",
+    "bytes": 8398
+  },
+  {
+    "member": "jianbo_sun",
+    "snapshot_path": "evidence/candidates/jianbo_sun/responses/primary_v0.1.json",
+    "original_source": "Team Workshop/TW6/组员作业/Jianbo/Jianbo_Sun_Assignment_5_Complete_Package.zip!MASY1800_ET_Agent_Scaffold_v1_0/agents/diffusion_agent/responses/primary_v0.1.json",
+    "sha256": "934e3c727f2a1f5bbc55960d38a30ed5b81905f715882a8df5847d34757366b7",
+    "bytes": 3639
+  },
+  {
+    "member": "jianbo_sun",
+    "snapshot_path": "evidence/candidates/jianbo_sun/responses/primary_v0.2.json",
+    "original_source": "Team Workshop/TW6/组员作业/Jianbo/Jianbo_Sun_Assignment_5_Complete_Package.zip!MASY1800_ET_Agent_Scaffold_v1_0/agents/diffusion_agent/responses/primary_v0.2.json",
+    "sha256": "df2ec0a01df230d9853e2151f0e10447d85d9810a7ce5583a52aec7395b48b4e",
+    "bytes": 8486
+  },
+  {
+    "member": "jianbo_sun",
+    "snapshot_path": "evidence/candidates/jianbo_sun/responses/scope_challenge_v0.2.json",
+    "original_source": "Team Workshop/TW6/组员作业/Jianbo/Jianbo_Sun_Assignment_5_Complete_Package.zip!MASY1800_ET_Agent_Scaffold_v1_0/agents/diffusion_agent/responses/scope_challenge_v0.2.json",
+    "sha256": "c383b991b137057babde0596f807b76a6eb08e34c6e8fa2f04842a664a06f28b",
+    "bytes": 8307
+  },
+  {
+    "member": "jianbo_sun",
+    "snapshot_path": "evidence/candidates/jianbo_sun/specialist_instructions.md",
+    "original_source": "Team Workshop/TW6/组员作业/Jianbo/Jianbo_Sun_Assignment_5_Complete_Package.zip!MASY1800_ET_Agent_Scaffold_v1_0/agents/diffusion_agent/specialist_instructions.md",
+    "sha256": "438727bd2c3986b62628bc6e873900ed3d9eca6083852c24f91cb3040f9555d4",
+    "bytes": 5230
+  },
+  {
+    "member": "yufei_cai",
+    "snapshot_path": "evidence/candidates/yufei_cai/specialist_instructions.md",
+    "original_source": "Lab/Lab5/Cai_Yufei_Lab5_Diffusion_Agent/agent_package/agents/diffusion_agent/specialist_instructions.md",
+    "sha256": "3280f293c88c25cd79601e9fbb1ef3633a60a094181e6fb6dfaa03cfc635f043",
+    "bytes": 5635
+  },
+  {
+    "member": "yufei_cai",
+    "snapshot_path": "evidence/candidates/yufei_cai/agent_metadata.json",
+    "original_source": "Lab/Lab5/Cai_Yufei_Lab5_Diffusion_Agent/agent_package/agents/diffusion_agent/agent_metadata.json",
+    "sha256": "a5dbf2909a7f72c10fb254359f2476c1a24618cfcbf8e673a2ec0d9288136b81",
+    "bytes": 175
+  },
+  {
+    "member": "yufei_cai",
+    "snapshot_path": "evidence/candidates/yufei_cai/README.md",
+    "original_source": "Lab/Lab5/Cai_Yufei_Lab5_Diffusion_Agent/agent_package/agents/diffusion_agent/README.md",
+    "sha256": "69c75c96cc9ad4275493956807f9d2871feb2277c810f4f08bf6e00b10c9ea7a",
+    "bytes": 414
+  },
+  {
+    "member": "yufei_cai",
+    "snapshot_path": "evidence/candidates/yufei_cai/responses/missing_scope_response.json",
+    "original_source": "Lab/Lab5/Cai_Yufei_Lab5_Diffusion_Agent/agent_package/agents/diffusion_agent/responses/missing_scope_response.json",
+    "sha256": "0fe394fa556e07dbbdd3ea3c77b2869b86490b7ebc93a2e5757454b90ca29867",
+    "bytes": 6609
+  },
+  {
+    "member": "yufei_cai",
+    "snapshot_path": "evidence/candidates/yufei_cai/responses/posture_contrast_response.json",
+    "original_source": "Lab/Lab5/Cai_Yufei_Lab5_Diffusion_Agent/agent_package/agents/diffusion_agent/responses/posture_contrast_response.json",
+    "sha256": "649f686894bda44028b6b7cfdcdbdfc56fcc853e44f8c0c6c78b15f0960db9c8",
+    "bytes": 8768
+  },
+  {
+    "member": "yufei_cai",
+    "snapshot_path": "evidence/candidates/yufei_cai/responses/primary_response.json",
+    "original_source": "Lab/Lab5/Cai_Yufei_Lab5_Diffusion_Agent/agent_package/agents/diffusion_agent/responses/primary_response.json",
+    "sha256": "e949f5caf5c7c0cfdc86edf9f11c25ef4aa90325d7f72e49117ba36d824bac69",
+    "bytes": 8798
+  },
+  {
+    "member": "yufei_cai",
+    "snapshot_path": "evidence/candidates/yufei_cai/responses/hype_probe_response.json",
+    "original_source": "Lab/Lab5/Cai_Yufei_Lab5_Diffusion_Agent/agent_package/agents/diffusion_agent/responses/hype_probe_response.json",
+    "sha256": "de6fde5d5031bb7a4b824fc93ac286080962d47fbb533d32a5d6f168138cde00",
+    "bytes": 9163
+  },
+  {
+    "member": "yufei_cai",
+    "snapshot_path": "evidence/candidates/yufei_cai/responses/weak_packet_response.json",
+    "original_source": "Lab/Lab5/Cai_Yufei_Lab5_Diffusion_Agent/agent_package/agents/diffusion_agent/responses/weak_packet_response.json",
+    "sha256": "615beab8fb51d09e2667bd7b43b00a8ee53dd06fde4c0228939da0f92067df1e",
+    "bytes": 4050
+  },
+  {
+    "member": "yufei_cai",
+    "snapshot_path": "evidence/candidates/yufei_cai/responses/context_contrast_response.json",
+    "original_source": "Lab/Lab5/Cai_Yufei_Lab5_Diffusion_Agent/agent_package/agents/diffusion_agent/responses/context_contrast_response.json",
+    "sha256": "90fe91514e962c56667719113d1ce285bdc1d7faa07f8008491053524c0dd03c",
+    "bytes": 8754
+  },
+  {
+    "member": "yufei_cai",
+    "snapshot_path": "evidence/candidates/yufei_cai/cases/missing_scope.json",
+    "original_source": "Lab/Lab5/Cai_Yufei_Lab5_Diffusion_Agent/agent_package/agents/diffusion_agent/cases/missing_scope.json",
+    "sha256": "1339be8b6ed0c32fd5a525e8f810e7076f156a52b5e96ace7c9f6e3b0103b5ee",
+    "bytes": 4969
+  },
+  {
+    "member": "yufei_cai",
+    "snapshot_path": "evidence/candidates/yufei_cai/cases/hype_probe.json",
+    "original_source": "Lab/Lab5/Cai_Yufei_Lab5_Diffusion_Agent/agent_package/agents/diffusion_agent/cases/hype_probe.json",
+    "sha256": "18d436742e3281acf41b0d72b887f4d79d9e8f8e1616c437b7a9083b49c65ed7",
+    "bytes": 5456
+  },
+  {
+    "member": "yufei_cai",
+    "snapshot_path": "evidence/candidates/yufei_cai/cases/weak_packet.json",
+    "original_source": "Lab/Lab5/Cai_Yufei_Lab5_Diffusion_Agent/agent_package/agents/diffusion_agent/cases/weak_packet.json",
+    "sha256": "5befa9d168d9f335e08f810781502a6a4572899bef45bcd6cc45eba096aa1470",
+    "bytes": 2762
+  },
+  {
+    "member": "yufei_cai",
+    "snapshot_path": "evidence/candidates/yufei_cai/cases/context_contrast.json",
+    "original_source": "Lab/Lab5/Cai_Yufei_Lab5_Diffusion_Agent/agent_package/agents/diffusion_agent/cases/context_contrast.json",
+    "sha256": "4936c5c77b11076b47a656354830d81bb4c824782113fe1736c6025181de597e",
+    "bytes": 4747
+  },
+  {
+    "member": "yufei_cai",
+    "snapshot_path": "evidence/candidates/yufei_cai/cases/primary.json",
+    "original_source": "Lab/Lab5/Cai_Yufei_Lab5_Diffusion_Agent/agent_package/agents/diffusion_agent/cases/primary.json",
+    "sha256": "d89c7aaee62855b5f55e60eea6fcc3c03a17c3a67d1bef8fc3474a95f64894db",
+    "bytes": 5121
+  },
+  {
+    "member": "yufei_cai",
+    "snapshot_path": "evidence/candidates/yufei_cai/cases/posture_contrast.json",
+    "original_source": "Lab/Lab5/Cai_Yufei_Lab5_Diffusion_Agent/agent_package/agents/diffusion_agent/cases/posture_contrast.json",
+    "sha256": "256fd07c6ac2a8204fcac44bc1a6ad354e6100fd81279e44809d93f9fc944eac",
+    "bytes": 5144
+  },
+  {
+    "member": "yufei_cai",
+    "snapshot_path": "evidence/candidates/yufei_cai/evidence/source_register.json",
+    "original_source": "Lab/Lab5/Cai_Yufei_Lab5_Diffusion_Agent/agent_package/evidence/source_register.json",
+    "sha256": "21396922638f9f73ff0d3acfd7847c4d6e2d837b98513040784d3891d77870d0",
+    "bytes": 3560
+  },
+  {
+    "member": "yufei_cai",
+    "snapshot_path": "evidence/candidates/yufei_cai/verification/run_provenance.json",
+    "original_source": "Lab/Lab5/Cai_Yufei_Lab5_Diffusion_Agent/agent_package/verification/run_provenance.json",
+    "sha256": "3e42b549ebb9af9c0cfd744d188ef9a27901512df9109cc5bd96a428e16e87bf",
+    "bytes": 902
+  },
+  {
+    "member": "yufei_cai",
+    "snapshot_path": "evidence/candidates/yufei_cai/evidence/preserved_weakness/cycle1_review_and_outputs.json",
+    "original_source": "Lab/Lab5/Cai_Yufei_Lab5_Diffusion_Agent/agent_package/evidence/preserved_weakness/cycle1_review_and_outputs.json",
+    "sha256": "3e75c00280145f9faac06283094e3d5df45b43ecc333316c28fb89e18ae04b20",
+    "bytes": 18258
+  },
+  {
+    "member": "jianbo_sun",
+    "snapshot_path": "evidence/candidates/jianbo_sun/Jianbo_Sun_Assignment_5_Agent_Record.pdf",
+    "original_source": "Team Workshop/TW6/组员作业/Jianbo/Jianbo_Sun_Assignment_5_Agent_Record.pdf",
+    "sha256": "a00e7057fc7b19250e20ee4f868c7b157eb5cd799cb3a3193b23ca1e2f47227f",
+    "bytes": 152378
+  }
+]
