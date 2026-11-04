@@ -1,0 +1,61 @@
+[
+  {
+    "id": "C0",
+    "title": "TW7 specific memo and general team instructions",
+    "date": "FA26 course material",
+    "locator": "Team Charge; What the Team Must Produce; assessment and in-class production",
+    "finding": "Compare independent Assignment 6 candidates, run common context tests, synthesize SubAgent 5 and preserve evidence, dissent, version, contributions and handoff.",
+    "limit": "Task authority, not evidence of company permission or actual class activity.",
+    "checked_on": "2026-11-03"
+  },
+  {
+    "id": "C1",
+    "title": "ET 8 Implementing ET FA26",
+    "date": "FA26 supplied PDF",
+    "locator": "PDF slides 12-19, 23-24, 27, 36",
+    "finding": "PoC examines feasibility; a trial/PoV checks whether the solution solves the problem. TTF separates task, technology and fit. Slide 27 governs TW7; slide 36 concerns next individual Organizational Adoption.",
+    "limit": "No requirement to build the next agent now; checklist and CETM matrix do not supply actual scores, compliance certification or local value.",
+    "checked_on": "2026-11-03"
+  },
+  {
+    "id": "T1",
+    "title": "Special Dark team-accepted TW6 Diffusion Agent",
+    "date": "2026-10-27",
+    "locator": "Preserved primary intake/output and team release",
+    "finding": "Agentic chart-to-source review in a hypothetical US financial-services firm. No approved external model environment or agent-specific evaluation set.",
+    "limit": "Upstream teaching-case judgment, not independent corroboration or real permission.",
+    "checked_on": "2026-11-03"
+  },
+  {
+    "id": "S1",
+    "title": "The state of AI in 2026 On the road to ROI",
+    "url": "https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai",
+    "date": "2026-08-25",
+    "measurement_period": "2026-05-04 to 2026-06-08",
+    "unit": "1,719 respondents in 97 nations; country GDP weighting; revenue subgroups",
+    "finding": "Reported agent scaling in one or more functions: 40% for respondents at organizations above USD1bn annual revenue; 22% for smaller organizations.",
+    "limit": "Cross-sector self-report, not a unique-firm census, exact chart-agent peer penetration, local performance or a chasm threshold. Firm revenue is unknown.",
+    "checked_on": "2026-11-03"
+  },
+  {
+    "id": "S2",
+    "title": "Building effective agents",
+    "url": "https://www.anthropic.com/research/building-effective-agents",
+    "date": "2024-12-19",
+    "unit": "Vendor engineering experience, not a comparative finance study",
+    "finding": "Simpler designs deserve comparison; agent flexibility may add latency and cost.",
+    "limit": "Publisher explicitly notes tooling has changed. No current model capability, market share or local effect size is inferred.",
+    "checked_on": "2026-11-03"
+  },
+  {
+    "id": "S3",
+    "title": "NIST AI 600-1 Generative AI Profile",
+    "url": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf",
+    "date": "July 2024",
+    "locator": "MS-2.3-002/003 and MS-2.5-001/003, printed pp.30-31",
+    "unit": "Voluntary evaluation guidance",
+    "finding": "Use empirical, contextual capability checks and source verification; narrow anecdotal demonstrations do not establish broader performance.",
+    "limit": "Not binding finance law, an approval, certification or the source of this team’s numerical study caps. Historical legal references are not used as current law.",
+    "checked_on": "2026-11-03"
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "candidate": "Yufei Cai",
+    "claim_or_premise": "K0 isolated public/synthetic trial permission",
+    "disposition": "Not imported into primary; introduced only as explicit fictional K1 contrast",
+    "reason": "Permission is a case fact, not a portable technology finding"
+  },
+  {
+    "candidate": "Chutong Wang",
+    "claim_or_premise": "No agent-trial authorization in TW6 baseline",
+    "disposition": "Retained as baseline decision gate",
+    "reason": "Matches the upstream context and distinguishes desk study from execution"
+  },
+  {
+    "candidate": "Jianbo Sun",
+    "claim_or_premise": "Retail/customer-support studies and broad worker-use survey",
+    "disposition": "No effect sizes or diffusion rates transported; retain evaluation design",
+    "reason": "Different task, population and system; changed volume and experience can confound benefit"
+  },
+  {
+    "candidate": "Minghan Liu",
+    "claim_or_premise": "Admissions benchmarks, Violet, vendor projections/prices and EU legal timeline",
+    "disposition": "Preserved as attributed candidate evidence; not relied on for finance decision",
+    "reason": "Different application/jurisdiction and dated vendor/model scope; current legal/vendor conclusions would need dedicated original verification"
+  },
+  {
+    "candidate": "All",
+    "claim_or_premise": "Current or historical AI usage percentages imply exact chart-agent crossing",
+    "disposition": "Rejected inference",
+    "reason": "No matched chart-agent denominator or retention evidence is supplied"
+  },
+  {
+    "candidate": "All",
+    "claim_or_premise": "Team acceptance or artifact validation authorizes company use",
+    "disposition": "Rejected inference",
+    "reason": "Analytical acceptance, technical validation and actual organizational authority are different"
+  }
+]

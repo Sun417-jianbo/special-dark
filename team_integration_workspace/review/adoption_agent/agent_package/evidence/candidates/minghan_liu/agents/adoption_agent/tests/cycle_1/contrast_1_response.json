@@ -1,0 +1,69 @@
+{
+  "agent": {
+    "name": "Emerging Technology Adoption Agent",
+    "specialty": "Bounded adoption posture (adopt, bounded experiment, proof of concept, monitor, defer, reject) for this application in this organization now",
+    "version": "1.0"
+  },
+  "analytical_question": "Should this organization adopt, experiment with, monitor, defer or reject agentic AI for this applicant-support application now?",
+  "general_et_finding": "Course classification: agentic AI for applicant support is bleeding edge. Commercial agent offerings and pre-built recruitment skills appeared within roughly the last two years (D14, D15). The technology is still unstable: the best agent completed 30% of realistic workplace tasks (E11), and agents sit at the Peak of Inflated Expectations (D6). It has not crossed the chasm for this application (C3). Capability is improving fast (E4, E5). Under Rule 2, bleeding-edge technology should be tested through pilots; under Rule 1, full adoption should wait for the crossing.",
+  "application_finding": "The application fits the technology: answering program questions, clarifying needs and booking appointments are multi-step, tool-using tasks. Staff approval of messages limits the consequences of errors, and the workflow can be switched off. Relative advantage is plausible (24/7 response; vendor projections of staff-time savings, D14).",
+  "organization_specific_finding": "Recommendation: adopt / implement. For an aggressive early adopter with in-house engineering and short decision cycles, the technology is effectively leading edge: the provider can absorb instability and move fast. Deploy the applicant-support agent in production this quarter and iterate.",
+  "evidence": [
+    {
+      "claim": "Course classification and adoption rules.",
+      "source_or_reference": "[C1] Fortino, Module 8 deck, slides 26-47",
+      "date_or_recency": "SP26",
+      "evidence_type": "course framework",
+      "notes": ""
+    },
+    {
+      "claim": "Upstream: A5 places tool-using recruitment agents at innovators/early adopters.",
+      "source_or_reference": "[C3] A3-A5 outputs",
+      "date_or_recency": "2026-10",
+      "evidence_type": "upstream",
+      "notes": ""
+    },
+    {
+      "claim": "Best agent completed 30% of realistic tasks.",
+      "source_or_reference": "[E11] TheAgentCompany, arXiv 2412.14161",
+      "date_or_recency": "2025-09",
+      "evidence_type": "benchmark",
+      "notes": ""
+    },
+    {
+      "claim": "Agents at the Peak of Inflated Expectations.",
+      "source_or_reference": "[D6] Gartner via Business Wire",
+      "date_or_recency": "2025-08",
+      "evidence_type": "analyst",
+      "notes": ""
+    },
+    {
+      "claim": "Pre-built recruitment agent skills exist.",
+      "source_or_reference": "[D15] Salesforce",
+      "date_or_recency": "2025-10",
+      "evidence_type": "vendor",
+      "notes": ""
+    },
+    {
+      "claim": "Organizations are liable for chatbot misinformation.",
+      "source_or_reference": "[D21] ABA on Moffatt v. Air Canada",
+      "date_or_recency": "2024-02",
+      "evidence_type": "legal report",
+      "notes": ""
+    }
+  ],
+  "contrary_evidence_or_limitations": [
+    "Reliability of agents in real workflows remains limited (E11).",
+    "Over 40% of agentic projects are forecast to be cancelled (D7)."
+  ],
+  "confidence_and_uncertainty": "Moderate confidence.",
+  "value_opportunity_implication": "First-mover differentiation.",
+  "risk_governance_implication": "Visible errors could hurt the brand.",
+  "recommendation_management_implication": "Deploy in production this quarter; iterate monthly; promote the AI-first experience.",
+  "change_monitoring_triggers": [
+    "Review quarterly."
+  ],
+  "abstention_or_more_information_needed": [
+    "None."
+  ]
+}

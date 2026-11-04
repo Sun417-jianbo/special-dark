@@ -1,0 +1,42 @@
+[
+  {
+    "case": "primary",
+    "primary_action": "DEFER"
+  },
+  {
+    "case": "posture_contrast",
+    "primary_action": "DEFER"
+  },
+  {
+    "case": "learning_permission_conservative",
+    "primary_action": "MONITOR"
+  },
+  {
+    "case": "learning_permission_aggressive",
+    "primary_action": "PROOF_OF_CONCEPT"
+  },
+  {
+    "case": "qualified_experiment",
+    "primary_action": "BOUNDED_EXPERIMENT"
+  },
+  {
+    "case": "staged_adoption",
+    "primary_action": "ADOPT"
+  },
+  {
+    "case": "inferior_alternative",
+    "primary_action": "REJECT_FOR_PRESENT"
+  },
+  {
+    "case": "missing_application",
+    "primary_action": "DEFER"
+  },
+  {
+    "case": "hype_probe",
+    "primary_action": "DEFER"
+  },
+  {
+    "case": "confounded_pilot",
+    "primary_action": "PROOF_OF_CONCEPT"
+  }
+]

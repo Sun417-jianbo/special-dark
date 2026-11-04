@@ -1,0 +1,46 @@
+[
+  {
+    "owner": "Yufei Cai",
+    "version": "1.0",
+    "original_context": "Agentic chart review; K0 explicitly adds public/synthetic learning permission",
+    "original_action": "MONITOR; aggressive PoC",
+    "retain": "All-six-action branch controls, complete-effort comparator, separate readiness input and evidence/permission invariance",
+    "revise_or_exclude": "Do not import K0 into the TW6 team baseline; a blocked specific trial must be deferred",
+    "common_primary": "DEFER",
+    "common_K1_conservative": "MONITOR",
+    "contribution_kind": "Independent submitted artifact"
+  },
+  {
+    "owner": "Chutong Wang",
+    "version": "0.2-student",
+    "original_context": "Same financial chart-review scope; no specific trial permission in baseline",
+    "original_action": "DEFER; conditional PoC after isolated permission",
+    "retain": "Desk-research versus trial authority; current versus conditional action; technical feasibility before workflow value",
+    "revise_or_exclude": "Bound permission contrast with explicit caps and exercise positive adoption/rejection branches",
+    "common_primary": "DEFER",
+    "common_K1_conservative": "PROOF_OF_CONCEPT",
+    "contribution_kind": "Independent submitted artifact"
+  },
+  {
+    "owner": "Jianbo Sun",
+    "version": "0.2",
+    "original_context": "Generative-AI weekly sales narratives at a hypothetical retailer",
+    "original_action": "Conditional experiment planning; conservative PoC; permission loss defer",
+    "retain": "Best-baseline total effort, ordinary-user comparison, changed-volume/expert-demo challenge, planning versus launch",
+    "revise_or_exclude": "Do not transport retailer facts or historical effects into agentic chart review; permission limits precede study design",
+    "common_primary": "DEFER",
+    "common_K1_conservative": "PROOF_OF_CONCEPT",
+    "contribution_kind": "Independent submitted artifact"
+  },
+  {
+    "owner": "Minghan Liu",
+    "version": "1.1",
+    "original_context": "Agentic applicant support at NYU SPS versus Violet/simple retrieval",
+    "original_action": "PoC; aggressive experiment; conservative monitor; unsafe scope defer",
+    "retain": "Six named actions, denominator boundary, anti-FOMO/sunk-cost check, staff capacity and explicit reversal gates",
+    "revise_or_exclude": "Its organization contrasts are not pure-posture isolation. Put application class in application finding; do not reuse admissions law/prices or turn a course class into sufficient adoption authority",
+    "common_primary": "DEFER",
+    "common_K1_conservative": "MONITOR",
+    "contribution_kind": "Independent submitted artifact"
+  }
+]

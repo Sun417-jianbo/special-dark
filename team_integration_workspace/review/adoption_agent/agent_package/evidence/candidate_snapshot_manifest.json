@@ -1,0 +1,410 @@
+[
+  {
+    "owner": "yufei_cai",
+    "source_relative_path": "agents/adoption_agent/agent_metadata.json",
+    "snapshot": "evidence/candidates/yufei_cai/agents/adoption_agent/agent_metadata.json",
+    "sha256": "5fbefa76a4629c773452daf0e89bc2a5cbbe7393a8a74cb04a8c7b03ed9f18f5"
+  },
+  {
+    "owner": "yufei_cai",
+    "source_relative_path": "agents/adoption_agent/cases/hype_probe.json",
+    "snapshot": "evidence/candidates/yufei_cai/agents/adoption_agent/cases/hype_probe.json",
+    "sha256": "d1cc6f32154863d3911d57e52ba76234cc8a0a1ca7c3745dc849db1f8f06c761"
+  },
+  {
+    "owner": "yufei_cai",
+    "source_relative_path": "agents/adoption_agent/cases/inferior_alternative.json",
+    "snapshot": "evidence/candidates/yufei_cai/agents/adoption_agent/cases/inferior_alternative.json",
+    "sha256": "aa1109fed086028780fb1bb64b660d4aab91abe4886e50883de5b2368543d9b3"
+  },
+  {
+    "owner": "yufei_cai",
+    "source_relative_path": "agents/adoption_agent/cases/missing_application.json",
+    "snapshot": "evidence/candidates/yufei_cai/agents/adoption_agent/cases/missing_application.json",
+    "sha256": "0b4bb2f8e379cae759f0f09f680d970fa0ac35c4a97f82218eeb1d249667251a"
+  },
+  {
+    "owner": "yufei_cai",
+    "source_relative_path": "agents/adoption_agent/cases/permission_blocked.json",
+    "snapshot": "evidence/candidates/yufei_cai/agents/adoption_agent/cases/permission_blocked.json",
+    "sha256": "da6300cdf2ba00f5626a57d288f745a6c96e0faf937337d253b8ec83114a32af"
+  },
+  {
+    "owner": "yufei_cai",
+    "source_relative_path": "agents/adoption_agent/cases/posture_contrast.json",
+    "snapshot": "evidence/candidates/yufei_cai/agents/adoption_agent/cases/posture_contrast.json",
+    "sha256": "f3f17700ca131b7dbabd06872c33f2cf7ac10c9afaa4733e8476984cbbc61eb8"
+  },
+  {
+    "owner": "yufei_cai",
+    "source_relative_path": "agents/adoption_agent/cases/primary.json",
+    "snapshot": "evidence/candidates/yufei_cai/agents/adoption_agent/cases/primary.json",
+    "sha256": "598456d2b802a76fcefd50954be2908688967391d41f6da0942deb94e516674c"
+  },
+  {
+    "owner": "yufei_cai",
+    "source_relative_path": "agents/adoption_agent/cases/qualified_experiment.json",
+    "snapshot": "evidence/candidates/yufei_cai/agents/adoption_agent/cases/qualified_experiment.json",
+    "sha256": "6ecedd96fea49af9fea56b3e6b6ecc133bc02ae8c3efdc156eb4ff7e373af719"
+  },
+  {
+    "owner": "yufei_cai",
+    "source_relative_path": "agents/adoption_agent/cases/staged_adoption.json",
+    "snapshot": "evidence/candidates/yufei_cai/agents/adoption_agent/cases/staged_adoption.json",
+    "sha256": "d203c0beeadb7eb9aee171382ccb7a95cb56216ecb86aba80137b0996eaaa7fe"
+  },
+  {
+    "owner": "yufei_cai",
+    "source_relative_path": "agents/adoption_agent/responses/hype_probe_response.json",
+    "snapshot": "evidence/candidates/yufei_cai/agents/adoption_agent/responses/hype_probe_response.json",
+    "sha256": "3c0acf77a4e93a64a0e0725b2d6115bce7016d16a3d6232a4ed248f44752ffd6"
+  },
+  {
+    "owner": "yufei_cai",
+    "source_relative_path": "agents/adoption_agent/responses/inferior_alternative_response.json",
+    "snapshot": "evidence/candidates/yufei_cai/agents/adoption_agent/responses/inferior_alternative_response.json",
+    "sha256": "1b2fd5052654280229e301ff62c186bf02b9b06ab2d7b6d30248c6cfde4117ea"
+  },
+  {
+    "owner": "yufei_cai",
+    "source_relative_path": "agents/adoption_agent/responses/missing_application_response.json",
+    "snapshot": "evidence/candidates/yufei_cai/agents/adoption_agent/responses/missing_application_response.json",
+    "sha256": "16853ba54e2b2fd7d613ab7b242eea87dab9271cc21c69063a8dce6cde54903a"
+  },
+  {
+    "owner": "yufei_cai",
+    "source_relative_path": "agents/adoption_agent/responses/permission_blocked_response.json",
+    "snapshot": "evidence/candidates/yufei_cai/agents/adoption_agent/responses/permission_blocked_response.json",
+    "sha256": "124d9ce7e463eeb587bd8332017ea64cdc9f5a251e467eed7eaac947b223d8fd"
+  },
+  {
+    "owner": "yufei_cai",
+    "source_relative_path": "agents/adoption_agent/responses/posture_contrast_response.json",
+    "snapshot": "evidence/candidates/yufei_cai/agents/adoption_agent/responses/posture_contrast_response.json",
+    "sha256": "2afa9eeb3dfdfbf2e25472e0fd3ef28b8e9046f79cb3db50ac0e2b2ea1bc2935"
+  },
+  {
+    "owner": "yufei_cai",
+    "source_relative_path": "agents/adoption_agent/responses/primary_response.json",
+    "snapshot": "evidence/candidates/yufei_cai/agents/adoption_agent/responses/primary_response.json",
+    "sha256": "24af46628e158c1e1f0f4d7e5beac4da2cab438696c58eef6e5cf8a3e6df60a9"
+  },
+  {
+    "owner": "yufei_cai",
+    "source_relative_path": "agents/adoption_agent/responses/qualified_experiment_response.json",
+    "snapshot": "evidence/candidates/yufei_cai/agents/adoption_agent/responses/qualified_experiment_response.json",
+    "sha256": "3e777954f53d930257a1f2c50761f4934f0ba97d5ac3da6a6832cc6e6e8a7b40"
+  },
+  {
+    "owner": "yufei_cai",
+    "source_relative_path": "agents/adoption_agent/responses/staged_adoption_response.json",
+    "snapshot": "evidence/candidates/yufei_cai/agents/adoption_agent/responses/staged_adoption_response.json",
+    "sha256": "c0e74d5f41539e61579db6288186b8b98039e1c8bb7cdd1f8460a8918f1c456f"
+  },
+  {
+    "owner": "yufei_cai",
+    "source_relative_path": "agents/adoption_agent/specialist_instructions.md",
+    "snapshot": "evidence/candidates/yufei_cai/agents/adoption_agent/specialist_instructions.md",
+    "sha256": "1470e661f5b5f5e83826818029d044d80a3c933fe1b3d614811c84c108ff1fb9"
+  },
+  {
+    "owner": "yufei_cai",
+    "source_relative_path": "records/decision_policy.md",
+    "snapshot": "evidence/candidates/yufei_cai/records/decision_policy.md",
+    "sha256": "947b506a0fd45822cc5ffae2b625e9a0f01e2b423bea890c0a9959332ccf314e"
+  },
+  {
+    "owner": "yufei_cai",
+    "source_relative_path": "verification/run_provenance.json",
+    "snapshot": "evidence/candidates/yufei_cai/verification/run_provenance.json",
+    "sha256": "1b0179712928cc5b1622194eba6ae05887cd855918c7dc269808e9b24604833f"
+  },
+  {
+    "owner": "chutong_wang",
+    "source_relative_path": "agents/adoption_agent/agent_metadata.json",
+    "snapshot": "evidence/candidates/chutong_wang/agents/adoption_agent/agent_metadata.json",
+    "sha256": "6bbb2ae853d0308db63e05c331cdf7cd8ad71f7d5533cdeea14f990998dca609"
+  },
+  {
+    "owner": "chutong_wang",
+    "source_relative_path": "agents/adoption_agent/cases/bias_probe.json",
+    "snapshot": "evidence/candidates/chutong_wang/agents/adoption_agent/cases/bias_probe.json",
+    "sha256": "0654767f1fca8d12bb85cf885248819ca3646f46b9aa3fd67109aa856fac71dc"
+  },
+  {
+    "owner": "chutong_wang",
+    "source_relative_path": "agents/adoption_agent/cases/permission_contrast.json",
+    "snapshot": "evidence/candidates/chutong_wang/agents/adoption_agent/cases/permission_contrast.json",
+    "sha256": "30441767efa44775309c577b331fd6f7ba6eb719e233e4c3b129945b6664de74"
+  },
+  {
+    "owner": "chutong_wang",
+    "source_relative_path": "agents/adoption_agent/cases/posture_contrast.json",
+    "snapshot": "evidence/candidates/chutong_wang/agents/adoption_agent/cases/posture_contrast.json",
+    "sha256": "d2fd55b895a37f32bfc73844fe2ead7685be04fa25e404887442cb95cde7748a"
+  },
+  {
+    "owner": "chutong_wang",
+    "source_relative_path": "agents/adoption_agent/cases/primary.json",
+    "snapshot": "evidence/candidates/chutong_wang/agents/adoption_agent/cases/primary.json",
+    "sha256": "13e9a5cdad7522b7585efdde4bcd83331fcfa7b3175c1ef577f14d09cb5fb7c2"
+  },
+  {
+    "owner": "chutong_wang",
+    "source_relative_path": "agents/adoption_agent/evidence/source_register.json",
+    "snapshot": "evidence/candidates/chutong_wang/agents/adoption_agent/evidence/source_register.json",
+    "sha256": "2e74620a9084c9cc11e04d5d2f2b8518e04cf016e9e246bd0191574480b9be6e"
+  },
+  {
+    "owner": "chutong_wang",
+    "source_relative_path": "agents/adoption_agent/records/decision_logic.md",
+    "snapshot": "evidence/candidates/chutong_wang/agents/adoption_agent/records/decision_logic.md",
+    "sha256": "9f89df2d3fc582180f4967571107107c39c0325c1b90c4118424b9a28bb111bb"
+  },
+  {
+    "owner": "chutong_wang",
+    "source_relative_path": "agents/adoption_agent/records/run_provenance.json",
+    "snapshot": "evidence/candidates/chutong_wang/agents/adoption_agent/records/run_provenance.json",
+    "sha256": "c2d2a76cbd3b8490f0bb0990f80b268a22c53add500e989de7953dfa607e8f5a"
+  },
+  {
+    "owner": "chutong_wang",
+    "source_relative_path": "agents/adoption_agent/responses/cycle_1/posture_contrast_response.json",
+    "snapshot": "evidence/candidates/chutong_wang/agents/adoption_agent/responses/cycle_1/posture_contrast_response.json",
+    "sha256": "0b70e9bc4969385714152e91887b457d35ece082fc2c06d4828d0009f21e0325"
+  },
+  {
+    "owner": "chutong_wang",
+    "source_relative_path": "agents/adoption_agent/responses/cycle_1/primary_response.json",
+    "snapshot": "evidence/candidates/chutong_wang/agents/adoption_agent/responses/cycle_1/primary_response.json",
+    "sha256": "ee6ee37fae13285b7c9d152d41246d2e5f586fd16be122dbb776fe8d6e97567e"
+  },
+  {
+    "owner": "chutong_wang",
+    "source_relative_path": "agents/adoption_agent/responses/cycle_2/bias_probe_response.json",
+    "snapshot": "evidence/candidates/chutong_wang/agents/adoption_agent/responses/cycle_2/bias_probe_response.json",
+    "sha256": "750c7a7f127ddb73550a72068a84f8bcf13b960e139dd1746eaa81e035e57ee2"
+  },
+  {
+    "owner": "chutong_wang",
+    "source_relative_path": "agents/adoption_agent/responses/cycle_2/permission_contrast_response.json",
+    "snapshot": "evidence/candidates/chutong_wang/agents/adoption_agent/responses/cycle_2/permission_contrast_response.json",
+    "sha256": "a966ad418f4596985683566d2663ae9a1ca589fddc4141bdd054ce168ae49982"
+  },
+  {
+    "owner": "chutong_wang",
+    "source_relative_path": "agents/adoption_agent/responses/cycle_2/posture_contrast_response.json",
+    "snapshot": "evidence/candidates/chutong_wang/agents/adoption_agent/responses/cycle_2/posture_contrast_response.json",
+    "sha256": "1513e508b963953663930ba0d823692c14e17bbe5a52600e65cfc5c42380d383"
+  },
+  {
+    "owner": "chutong_wang",
+    "source_relative_path": "agents/adoption_agent/responses/cycle_2/primary_response.json",
+    "snapshot": "evidence/candidates/chutong_wang/agents/adoption_agent/responses/cycle_2/primary_response.json",
+    "sha256": "0e1d5dfed903fc3bf2f858ea3750a7fdb6e502876f6899cff0329414cc88460e"
+  },
+  {
+    "owner": "chutong_wang",
+    "source_relative_path": "agents/adoption_agent/specialist_instructions.md",
+    "snapshot": "evidence/candidates/chutong_wang/agents/adoption_agent/specialist_instructions.md",
+    "sha256": "7bbfdb2d16e1bd767e02f927f0736cd3eeafb83e4d388ca655ef7e971b06fa0b"
+  },
+  {
+    "owner": "jianbo_sun",
+    "source_relative_path": "agents/adoption_agent/agent_metadata.json",
+    "snapshot": "evidence/candidates/jianbo_sun/agents/adoption_agent/agent_metadata.json",
+    "sha256": "6e496d81943dda111904b0351b71b0e195e8c6bdb8201fe099b023acd92a1b33"
+  },
+  {
+    "owner": "jianbo_sun",
+    "source_relative_path": "agents/adoption_agent/cases/contrast_1.json",
+    "snapshot": "evidence/candidates/jianbo_sun/agents/adoption_agent/cases/contrast_1.json",
+    "sha256": "569ca7c2878b7212299447f52a807a15296e6a9e0b212b05f317e5ec6450ac9f"
+  },
+  {
+    "owner": "jianbo_sun",
+    "source_relative_path": "agents/adoption_agent/cases/contrast_2.json",
+    "snapshot": "evidence/candidates/jianbo_sun/agents/adoption_agent/cases/contrast_2.json",
+    "sha256": "aa7bc253e9897e904bd73b6ba68334bfc3ca38ea2eaa5f274eb664a2c2a99ac1"
+  },
+  {
+    "owner": "jianbo_sun",
+    "source_relative_path": "agents/adoption_agent/cases/pilot_challenge.json",
+    "snapshot": "evidence/candidates/jianbo_sun/agents/adoption_agent/cases/pilot_challenge.json",
+    "sha256": "6cae820be30f1de7bbc951cf47f721d35f4372ecc58e0049ff39f50294e9476f"
+  },
+  {
+    "owner": "jianbo_sun",
+    "source_relative_path": "agents/adoption_agent/cases/primary.json",
+    "snapshot": "evidence/candidates/jianbo_sun/agents/adoption_agent/cases/primary.json",
+    "sha256": "76a2a284da404a944aae2a4456a701cc83446ba957c6065bdea4738ad3748ba3"
+  },
+  {
+    "owner": "jianbo_sun",
+    "source_relative_path": "agents/adoption_agent/evidence/source_register.json",
+    "snapshot": "evidence/candidates/jianbo_sun/agents/adoption_agent/evidence/source_register.json",
+    "sha256": "8c2928c479d5c90f442a1aed2e48e44bba32fee6e9c5a7af9962803eacb4966d"
+  },
+  {
+    "owner": "jianbo_sun",
+    "source_relative_path": "agents/adoption_agent/records/decision_logic.md",
+    "snapshot": "evidence/candidates/jianbo_sun/agents/adoption_agent/records/decision_logic.md",
+    "sha256": "880db6d97f77d79af36348f8a83720b811e46121b861102f1b196b7a615fd104"
+  },
+  {
+    "owner": "jianbo_sun",
+    "source_relative_path": "agents/adoption_agent/records/run_provenance.json",
+    "snapshot": "evidence/candidates/jianbo_sun/agents/adoption_agent/records/run_provenance.json",
+    "sha256": "9c77351ca2ddd80e64ec246d5ef2cf27a3e6c4fa87cf80f4df630a13da166d14"
+  },
+  {
+    "owner": "jianbo_sun",
+    "source_relative_path": "agents/adoption_agent/records/test_comparison.md",
+    "snapshot": "evidence/candidates/jianbo_sun/agents/adoption_agent/records/test_comparison.md",
+    "sha256": "b622cf0c1543f7acf9b776f13fad64dee9f824dab308a1cb0cd5f0174b878cda"
+  },
+  {
+    "owner": "jianbo_sun",
+    "source_relative_path": "agents/adoption_agent/responses/contrast_1_v0.2.json",
+    "snapshot": "evidence/candidates/jianbo_sun/agents/adoption_agent/responses/contrast_1_v0.2.json",
+    "sha256": "bc8f8f38489fdcb3cc1d7c3fe49180d4b99b403e6cb09489b7ce64c05fe5f9d8"
+  },
+  {
+    "owner": "jianbo_sun",
+    "source_relative_path": "agents/adoption_agent/responses/contrast_2_v0.2.json",
+    "snapshot": "evidence/candidates/jianbo_sun/agents/adoption_agent/responses/contrast_2_v0.2.json",
+    "sha256": "f518fe18e56e1880c91435652004e2bae162cd3f367a9ed266eeb4ba03206a13"
+  },
+  {
+    "owner": "jianbo_sun",
+    "source_relative_path": "agents/adoption_agent/responses/pilot_challenge_v0.2.json",
+    "snapshot": "evidence/candidates/jianbo_sun/agents/adoption_agent/responses/pilot_challenge_v0.2.json",
+    "sha256": "7ad0400bc514a2c916dbcd761bb7e95dcae5ac9a5d9bead7ec8e98644052eda7"
+  },
+  {
+    "owner": "jianbo_sun",
+    "source_relative_path": "agents/adoption_agent/responses/primary_v0.1.json",
+    "snapshot": "evidence/candidates/jianbo_sun/agents/adoption_agent/responses/primary_v0.1.json",
+    "sha256": "6fd34f0ef78c35037da3c5327cadf53342a219f51b579d4a2310947493d08474"
+  },
+  {
+    "owner": "jianbo_sun",
+    "source_relative_path": "agents/adoption_agent/responses/primary_v0.2.json",
+    "snapshot": "evidence/candidates/jianbo_sun/agents/adoption_agent/responses/primary_v0.2.json",
+    "sha256": "1f8c69176feeecce11bca64d5028c192f08c96483dac57dee11c0e0e36c1ec68"
+  },
+  {
+    "owner": "jianbo_sun",
+    "source_relative_path": "agents/adoption_agent/specialist_instructions.md",
+    "snapshot": "evidence/candidates/jianbo_sun/agents/adoption_agent/specialist_instructions.md",
+    "sha256": "b49f9610bd2cf80551ea76557b31939cc07bdd78dc9d55ac521da7769c7ec46f"
+  },
+  {
+    "owner": "minghan_liu",
+    "source_relative_path": "agents/adoption_agent/agent_metadata.json",
+    "snapshot": "evidence/candidates/minghan_liu/agents/adoption_agent/agent_metadata.json",
+    "sha256": "8fc7933f7f5da1c954cd3f91035dfd6195ca15bcd1003d50dd8b57afb356f076"
+  },
+  {
+    "owner": "minghan_liu",
+    "source_relative_path": "agents/adoption_agent/cases/contrast_1.json",
+    "snapshot": "evidence/candidates/minghan_liu/agents/adoption_agent/cases/contrast_1.json",
+    "sha256": "aab12e22467b3196eb6367ac53d4b80bc98645c11b894434aa2b93fc28cd0788"
+  },
+  {
+    "owner": "minghan_liu",
+    "source_relative_path": "agents/adoption_agent/cases/contrast_2.json",
+    "snapshot": "evidence/candidates/minghan_liu/agents/adoption_agent/cases/contrast_2.json",
+    "sha256": "fc9af4fa237515056e8aff228905b3efbe17cf11d4b29000434c2ddeb9aa6c9f"
+  },
+  {
+    "owner": "minghan_liu",
+    "source_relative_path": "agents/adoption_agent/cases/primary.json",
+    "snapshot": "evidence/candidates/minghan_liu/agents/adoption_agent/cases/primary.json",
+    "sha256": "92987b76809a5ad18d62856271b2d86acf375bd3b73cb54a17452cc6b2d49b66"
+  },
+  {
+    "owner": "minghan_liu",
+    "source_relative_path": "agents/adoption_agent/cases/qualification_probe.json",
+    "snapshot": "evidence/candidates/minghan_liu/agents/adoption_agent/cases/qualification_probe.json",
+    "sha256": "f849cd1a6aa805b0eb60ab2c98eb45e5ad8ebad50901d56af2f033823e478400"
+  },
+  {
+    "owner": "minghan_liu",
+    "source_relative_path": "agents/adoption_agent/evidence/source_register.json",
+    "snapshot": "evidence/candidates/minghan_liu/agents/adoption_agent/evidence/source_register.json",
+    "sha256": "53376b5edfa1caf614d402a22f80c9786aee9f0e88ffe11dc9b760395bbdc8d3"
+  },
+  {
+    "owner": "minghan_liu",
+    "source_relative_path": "agents/adoption_agent/records/decision_logic.md",
+    "snapshot": "evidence/candidates/minghan_liu/agents/adoption_agent/records/decision_logic.md",
+    "sha256": "5aef15f13151be5fd0142b684973ef30edc261140d2b930537d2c7d993be3d93"
+  },
+  {
+    "owner": "minghan_liu",
+    "source_relative_path": "agents/adoption_agent/responses/contrast_1_response.json",
+    "snapshot": "evidence/candidates/minghan_liu/agents/adoption_agent/responses/contrast_1_response.json",
+    "sha256": "c17d5bf30009f758996840a56bffe81c58079eff1b9a1303cdb4bc803e3f0a92"
+  },
+  {
+    "owner": "minghan_liu",
+    "source_relative_path": "agents/adoption_agent/responses/contrast_2_response.json",
+    "snapshot": "evidence/candidates/minghan_liu/agents/adoption_agent/responses/contrast_2_response.json",
+    "sha256": "16511617a0450a15862726e66d91df4888f0bd9a38237def29558718dfd59fcd"
+  },
+  {
+    "owner": "minghan_liu",
+    "source_relative_path": "agents/adoption_agent/responses/primary_response.json",
+    "snapshot": "evidence/candidates/minghan_liu/agents/adoption_agent/responses/primary_response.json",
+    "sha256": "0f8032ec65ad7298060f4eb1a00126d1067bdbadc3aa0644aaa3791ceb55b765"
+  },
+  {
+    "owner": "minghan_liu",
+    "source_relative_path": "agents/adoption_agent/responses/qualification_probe_response.json",
+    "snapshot": "evidence/candidates/minghan_liu/agents/adoption_agent/responses/qualification_probe_response.json",
+    "sha256": "2c4c10b5e5bcc2d586e194a1178f69743ee8ec64eca4727019ed0f42340abeb4"
+  },
+  {
+    "owner": "minghan_liu",
+    "source_relative_path": "agents/adoption_agent/specialist_instructions.md",
+    "snapshot": "evidence/candidates/minghan_liu/agents/adoption_agent/specialist_instructions.md",
+    "sha256": "2cb14b3af9f39c011531d6bad558be6d1129d4dcf6224cf0121c3280a8f5631c"
+  },
+  {
+    "owner": "minghan_liu",
+    "source_relative_path": "agents/adoption_agent/tests/cycle_1/agent_metadata.json",
+    "snapshot": "evidence/candidates/minghan_liu/agents/adoption_agent/tests/cycle_1/agent_metadata.json",
+    "sha256": "7867d0ce5e1156fedaebfba552bee2d5d9dbb9018c22312ca7607b253439d33e"
+  },
+  {
+    "owner": "minghan_liu",
+    "source_relative_path": "agents/adoption_agent/tests/cycle_1/contrast_1_response.json",
+    "snapshot": "evidence/candidates/minghan_liu/agents/adoption_agent/tests/cycle_1/contrast_1_response.json",
+    "sha256": "0f67f59803800bb2baa7fc85adf2e3ba9a51a509531ef19acb9135e16de21e55"
+  },
+  {
+    "owner": "minghan_liu",
+    "source_relative_path": "agents/adoption_agent/tests/cycle_1/contrast_2_response.json",
+    "snapshot": "evidence/candidates/minghan_liu/agents/adoption_agent/tests/cycle_1/contrast_2_response.json",
+    "sha256": "94ec7f010a5cb4ceccc50bbbecdbd27b743c7f05875e02b71d4b4895580e4213"
+  },
+  {
+    "owner": "minghan_liu",
+    "source_relative_path": "agents/adoption_agent/tests/cycle_1/primary_response.json",
+    "snapshot": "evidence/candidates/minghan_liu/agents/adoption_agent/tests/cycle_1/primary_response.json",
+    "sha256": "2eaf310b589a87ad5092be21b183dd99819382791afbb4e06cffeae43e856059"
+  },
+  {
+    "owner": "minghan_liu",
+    "source_relative_path": "agents/adoption_agent/tests/cycle_1/qualification_probe_response.json",
+    "snapshot": "evidence/candidates/minghan_liu/agents/adoption_agent/tests/cycle_1/qualification_probe_response.json",
+    "sha256": "c5a6a7823988f61add919abed66913d49083f723c5f2e11feecdff8a2c5c537d"
+  },
+  {
+    "owner": "minghan_liu",
+    "source_relative_path": "agents/adoption_agent/tests/cycle_1/specialist_instructions.md",
+    "snapshot": "evidence/candidates/minghan_liu/agents/adoption_agent/tests/cycle_1/specialist_instructions.md",
+    "sha256": "3bcf5cca3a9bf03546da4c345695ec52293503877ace125457b3b029cb49dc75"
+  }
+]

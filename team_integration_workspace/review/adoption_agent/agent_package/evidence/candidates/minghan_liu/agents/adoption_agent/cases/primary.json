@@ -1,0 +1,14 @@
+{
+  "emerging_technology": "Agentic AI built on large language models (LLM-based agents that plan, use tools, and complete multi-step tasks)",
+  "intended_application": "Proposed bounded applicant-support workflow: retrieve approved program information, ask clarifying questions, plan next steps, and request a counselor appointment through a permission-limited tool. Staff approve outbound messages and any record changes. Excludes admission, scholarship, visa and eligibility decisions.",
+  "organization": "NYU School of Professional Studies (SPS)",
+  "industry_sector": "Higher education - graduate and professional/continuing education recruitment. Applicant trust, privacy, accessibility and accuracy matter; international applicants include EU residents; exact legal obligations require specialist review.",
+  "business_need": "Scenario hypothesis: reduce repetitive inquiry handling and improve timely guidance. Actual demand, response time and benefits have not been measured.",
+  "users_stakeholders": "Prospective students, admissions counselors, marketing/enrollment staff, university IT, privacy and compliance officers",
+  "adoption_posture": "Moderate / fast-follower is a course-case assumption, not an official NYU policy.",
+  "capabilities_constraints": "Scenario assumptions: existing staff and approved content; CRM integration and permissions not verified; vendor not selected. SPS already offers a public chatbot named Violet (D18); its design is not disclosed.",
+  "risk_consequence_context": "Wrong deadlines or promises can harm applicants and the organization is accountable for what its agent says (D21); unauthorized actions can expose data. No applicant records are used in this assignment. No legal determination is made.",
+  "management_question": "Should SPS adopt, experiment with, monitor, defer or reject agentic AI for this applicant-support application now, and what would change that posture?",
+  "time_horizon": "12 months: decision now, review within one admissions cycle",
+  "additional_context": "Upstream specialists (C3): A3 incremental sustaining process innovation, compare staff-only / simple retrieval / agent first; A4 Breakthrough with unresolved Potential-Promethean candidacy, Low weight on present decisions; A5 tool-using recruitment agents at innovators/early adopters, observability is the binding factor, fast-follower timing 'prepare and trial now'. Use the dated source register."
+}
