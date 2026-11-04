@@ -1,0 +1,32 @@
+{
+  "status": "passed",
+  "workshop_date": "2026-11-03",
+  "finalized_date": "2026-11-04",
+  "pages": 6,
+  "all_latest_pages_visually_reviewed": true,
+  "report_sha256": "fb528a1d1f53e0d8b55b81c0f3faaa2457ee0296408934d5397dcc83b7c6d511",
+  "template_sha256": "5275ea28e66a27d5ddfae3c0541ce7cf7711655a450da7eecb4d36b0ced7e802",
+  "package_parts_total": 19,
+  "parts_preserved_byte_identical": 13,
+  "edited_parts": [
+    "docProps/core.xml",
+    "word/document.xml",
+    "word/_rels/document.xml.rels",
+    "word/header1.xml",
+    "word/styles.xml",
+    "word/footer1.xml"
+  ],
+  "original_relationships_and_section_geometry_preserved": true,
+  "comments_or_tracked_changes": false,
+  "empty_report_cells_or_placeholders": false,
+  "original_user_input_files_unchanged": 10,
+  "canonical_files_unchanged": 32,
+  "frozen_files_unchanged": 7,
+  "candidate_snapshot_files": 68,
+  "team_cases": 10,
+  "common_rule_walkthroughs": 12,
+  "local_artifact_checks": "303/303",
+  "acceptance": "Team acceptance explicitly reported by user",
+  "grading_limit": "Classroom production percentage is not established; full-score outcome is not guaranteed",
+  "limits": "Same-assistant qualitative saved examples, not independent model benchmark, actual chart trial, real permission or financial ROI."
+}

@@ -1,0 +1,185 @@
+[
+  {
+    "owner": "yufei_cai",
+    "metadata": {
+      "name": "Emerging Technology Adoption Agent",
+      "specialty": "SubAgent 5 bounded contextual adoption posture and evidence-triggered reassessment",
+      "version": "1.0"
+    },
+    "frozen_files": [
+      {
+        "path": "core/common_instructions.md",
+        "present": true,
+        "matches_canonical": true
+      },
+      {
+        "path": "core/input_schema.json",
+        "present": true,
+        "matches_canonical": true
+      },
+      {
+        "path": "core/output_schema.json",
+        "present": true,
+        "matches_canonical": true
+      },
+      {
+        "path": "tools/build_prompt.py",
+        "present": true,
+        "matches_canonical": true
+      },
+      {
+        "path": "tools/check_frozen_core.py",
+        "present": true,
+        "matches_canonical": true
+      },
+      {
+        "path": "tools/new_agent.py",
+        "present": true,
+        "matches_canonical": true
+      },
+      {
+        "path": "tools/validate_response.py",
+        "present": true,
+        "matches_canonical": true
+      }
+    ]
+  },
+  {
+    "owner": "chutong_wang",
+    "metadata": {
+      "name": "Emerging Technology Adoption Agent",
+      "specialty": "Contextual current adoption posture and evidence conditions",
+      "version": "0.2-student",
+      "student": "Chutong Wang",
+      "team": "Special Dark",
+      "date": "2026-10-28"
+    },
+    "frozen_files": [
+      {
+        "path": "core/common_instructions.md",
+        "present": true,
+        "matches_canonical": true
+      },
+      {
+        "path": "core/input_schema.json",
+        "present": true,
+        "matches_canonical": true
+      },
+      {
+        "path": "core/output_schema.json",
+        "present": true,
+        "matches_canonical": true
+      },
+      {
+        "path": "tools/build_prompt.py",
+        "present": true,
+        "matches_canonical": true
+      },
+      {
+        "path": "tools/check_frozen_core.py",
+        "present": true,
+        "matches_canonical": true
+      },
+      {
+        "path": "tools/new_agent.py",
+        "present": true,
+        "matches_canonical": true
+      },
+      {
+        "path": "tools/validate_response.py",
+        "present": true,
+        "matches_canonical": true
+      }
+    ]
+  },
+  {
+    "owner": "jianbo_sun",
+    "metadata": {
+      "name": "Emerging Technology Adoption Agent",
+      "specialty": "Contextual adoption posture and decision triggers",
+      "version": "0.2"
+    },
+    "frozen_files": [
+      {
+        "path": "core/common_instructions.md",
+        "present": true,
+        "matches_canonical": true
+      },
+      {
+        "path": "core/input_schema.json",
+        "present": true,
+        "matches_canonical": true
+      },
+      {
+        "path": "core/output_schema.json",
+        "present": true,
+        "matches_canonical": true
+      },
+      {
+        "path": "tools/build_prompt.py",
+        "present": true,
+        "matches_canonical": true
+      },
+      {
+        "path": "tools/check_frozen_core.py",
+        "present": true,
+        "matches_canonical": true
+      },
+      {
+        "path": "tools/new_agent.py",
+        "present": true,
+        "matches_canonical": true
+      },
+      {
+        "path": "tools/validate_response.py",
+        "present": true,
+        "matches_canonical": true
+      }
+    ]
+  },
+  {
+    "owner": "minghan_liu",
+    "metadata": {
+      "name": "Emerging Technology Adoption Agent",
+      "specialty": "Bounded adoption posture (adopt, bounded experiment, proof of concept, monitor, defer, reject) for this application in this organization now",
+      "version": "1.1"
+    },
+    "frozen_files": [
+      {
+        "path": "core/common_instructions.md",
+        "present": true,
+        "matches_canonical": true
+      },
+      {
+        "path": "core/input_schema.json",
+        "present": true,
+        "matches_canonical": true
+      },
+      {
+        "path": "core/output_schema.json",
+        "present": true,
+        "matches_canonical": true
+      },
+      {
+        "path": "tools/build_prompt.py",
+        "present": true,
+        "matches_canonical": true
+      },
+      {
+        "path": "tools/check_frozen_core.py",
+        "present": true,
+        "matches_canonical": true
+      },
+      {
+        "path": "tools/new_agent.py",
+        "present": true,
+        "matches_canonical": true
+      },
+      {
+        "path": "tools/validate_response.py",
+        "present": true,
+        "matches_canonical": true
+      }
+    ]
+  }
+]

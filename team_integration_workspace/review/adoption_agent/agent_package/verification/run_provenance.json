@@ -1,0 +1,84 @@
+{
+  "date": "2026-11-03",
+  "runtime": "Current ChatGPT/Codex assistant; no external inference API or isolated independent evaluator",
+  "method": "The assistant reasoned through and authored the qualitative responses. Scripts serialize examples, construct exact packets and validate saved artifacts. Expected actions are declared analytical fixtures, not a benchmark oracle.",
+  "limits": [
+    "Candidate-rule walkthroughs are not measured rankings or independent model executions",
+    "Shared wording/invariance is deliberate, not a replicated reliability result",
+    "K1/H1-H3 are fictional permission/evidence controls; no chart system or company pilot was deployed",
+    "Team acceptance is user-reported; attendance and 90% classroom production are not asserted"
+  ],
+  "instructions_sha256": "ad7b37591afcab36e7c8f6f0f647ba18f66594b0f16cae17e18fe88fa557220d",
+  "cases": [
+    {
+      "case": "confounded_pilot",
+      "case_sha256": "3f5df787939443c0914411d4e375c663310b0feb519b652319f014e2dd2f7910",
+      "prompt_sha256": "25a46618e53b56ff3d0d8d10c432fe2a30ad4f1ea9dcf3a8d5dd5bdc868caefe",
+      "response_sha256": "d18df7b268c403792e538330bfddc4048cc7187b69542d47549fa305e195df6d",
+      "action": "PROOF_OF_CONCEPT"
+    },
+    {
+      "case": "hype_probe",
+      "case_sha256": "c7c448d60ccdb7270aaf93a927b0d9464f563bf5286e08a6307e93acf9ee855e",
+      "prompt_sha256": "44ce22f7742daa57eb4d3f4b6a75b88187e32705e6bef53986d643cc31dfde3c",
+      "response_sha256": "651562ea371cec95c2403553ab97c4816caa1b8161023173c6296835893ced8e",
+      "action": "DEFER"
+    },
+    {
+      "case": "inferior_alternative",
+      "case_sha256": "c3669ae39a3aecb345a3904dd55d681872cb4ee5a36a2d617ec2c4c5ad04e3c7",
+      "prompt_sha256": "67b77bd0434dad72b25dac0cea79c844daa5b32745f9457dfcc1d5ba88911400",
+      "response_sha256": "e3f69c6948ef86c568b23ac010ddd10e2994d5974fcbc2f6bf2b10e93cabf989",
+      "action": "REJECT_FOR_PRESENT"
+    },
+    {
+      "case": "learning_permission_aggressive",
+      "case_sha256": "5b1490553fbccea63c4ef110a787e6f932352410edf6dee6ff6a3e42a546723e",
+      "prompt_sha256": "7ab9b2187934ba0763d1662f79397b3d244084f28cf1bbdac19df2161d5ab9b7",
+      "response_sha256": "4159865c6700bbb72f390bf7a9e584d9a0452ca3a2e895b9d8de2c6d7c03a9d2",
+      "action": "PROOF_OF_CONCEPT"
+    },
+    {
+      "case": "learning_permission_conservative",
+      "case_sha256": "59f047f3e42a2bd1701fda21f68bc2932966acc3204c80d75a86ca5578e81012",
+      "prompt_sha256": "f869323f9cbb417fcb44a34688af5712e96a4888bb0e70a7a5239edb48dbeadc",
+      "response_sha256": "491fbc571ad1f024dda235fac735c602835b9f56c6c19a7c48f343482edad5fa",
+      "action": "MONITOR"
+    },
+    {
+      "case": "missing_application",
+      "case_sha256": "c4f1d60e195555e7435f9d37c125a57001bdc61f431479b5e40b7000b5672da9",
+      "prompt_sha256": "95c95c99a3e9b09804e682491e22242f9baf55f172832f5cef719ce525422137",
+      "response_sha256": "90b7467ab4a376fafea7145e01c87006dca1e672129a0bf7da6d534398a7e5da",
+      "action": "DEFER"
+    },
+    {
+      "case": "posture_contrast",
+      "case_sha256": "29b8fc7353719e3da5dc9649e66e5dd31faaac5730664cfd89e7cd7c0d4f6e4e",
+      "prompt_sha256": "1fbcf25a82b4f0938257c3c6b4704eb79fe0670feafad1a9193213dbd208ac11",
+      "response_sha256": "be5545639b9f459c2a8e13fe064ebe8be0e43941c605b410ddb06bd21b1bdc48",
+      "action": "DEFER"
+    },
+    {
+      "case": "primary",
+      "case_sha256": "860fdd6b8efb47cab372445ee82b8540862506085813d64a4120b8ee5ff409f5",
+      "prompt_sha256": "745ac376251a9d28c1d7147d7e5bdfe8a663b4d0fd7ced7f869dde5dcb12f281",
+      "response_sha256": "9a8f5403aab883304cd1b36dd6dc65755b110cf698f42ff8b474fa030b5e68b6",
+      "action": "DEFER"
+    },
+    {
+      "case": "qualified_experiment",
+      "case_sha256": "16b35090a8c832758b21b83c08217ce4a4731a6cdb6b8d67f10a0555f483a72f",
+      "prompt_sha256": "9085f7028f147623344e9553ecf68edda0eec43de61aa5de9f43dff5afeda2d4",
+      "response_sha256": "f6984fc98a2693734eac35942d21c137e0ea0a3cd7a551f96ac77a9019a96357",
+      "action": "BOUNDED_EXPERIMENT"
+    },
+    {
+      "case": "staged_adoption",
+      "case_sha256": "fa576f04c2f6f88f56cd3e1243324c6aa4af2bf9de19c93c2a2a3790be38882c",
+      "prompt_sha256": "89503bd76140bf9f74eca20a289437c63156c7af4b35f2794f5a114ba4cdae3e",
+      "response_sha256": "34f2c6af6145518de508bfbb6ac3cfc5dc702d3244038c3971b8d9bf2d3c2479",
+      "action": "ADOPT"
+    }
+  ]
+}

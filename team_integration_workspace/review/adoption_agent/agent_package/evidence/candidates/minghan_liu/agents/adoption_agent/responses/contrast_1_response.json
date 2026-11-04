@@ -1,0 +1,171 @@
+{
+  "agent": {
+    "name": "Emerging Technology Adoption Agent",
+    "specialty": "Bounded adoption posture (adopt, bounded experiment, proof of concept, monitor, defer, reject) for this application in this organization now",
+    "version": "1.1"
+  },
+  "analytical_question": "Should this organization adopt, experiment with, monitor, defer or reject agentic AI for this applicant-support application now, and what specific evidence or changed condition would justify a different posture?",
+  "general_et_finding": "Course classification for this application class: BLEEDING EDGE (C1). [General] Newness: commercial agent platforms and pre-built recruitment skills are about one to two years old and partly in beta (D14, D15). Stability: the best agent completed 30% of realistic workplace tasks (E11), and computer-use agents remain below the human baseline (66.3% vs 72.35%, E5), although task horizons are improving quickly (E4). Crossing: tool-using recruitment agents are at innovators/early adopters with no representative adoption measure, while FAQ chatbots in admissions have already crossed (C3/A5; D11, D17). Under the denominator rule, general generative-AI use is not evidence for this application. Attention runs ahead of use: AI agents sat at the Peak of Inflated Expectations (D6), and over 40% of agentic projects are forecast to be cancelled (D7). Cost: granular and falling, about $0.10 per agent action on one major platform (D22). Per-action price is not total cost (integration, review, monitoring, correction). Course rules that follow: Rule 1, do not adopt before the crossing; Rule 2, test with pilots. Permitted actions for this class: proof of concept, bounded experiment or continue monitoring. Defer or reject apply only when their own gates are met. Posture chooses among these actions; it cannot reclassify the technology (C1, slide 61 allows reclassification by application only). This paragraph is identical for every organization at this evidence date (2026-11-01).",
+  "application_finding": "[Application-decisive] Fit: the tasks (answer from approved content, clarify, request an appointment) match current agent capability when tool permissions are narrow, and staff approval keeps a person accountable. Baseline and alternatives: staff plus an FAQ chatbot (Violet at SPS, D18; NYU Admissions' generative AI bot, D17) and simple retrieval. The agent must beat these, not staff alone (C3/A3). Relative advantage: unproven. Only a vendor projection exists (D14, grade C). Assisted-support evidence (+14% productivity, +34% for novices, E7) shows value for humans helped by AI, not for autonomous agents. Consequence of failure: high for the individual (a wrong deadline or promise), and the organization is accountable for what its agent tells people (D21). Confabulation is a named generative-AI risk (D25). Reversibility: high while the agent cannot change records and staff approve messages. Regulation: EU high-risk education uses include systems that determine access or admission (D24). This design excludes admission decisions, but steering admission outcomes could bring it into scope. EU transparency duties to tell people they are talking to an AI have applied since 2 August 2026 (D23). Compliance must confirm both for EU applicants. Net: suitable for testing, not for adoption.",
+  "organization_specific_finding": "Recommendation: BOUNDED EXPERIMENT now (live, one quarter, with an abandonment criterion); not adopt | Decisive factor: early-adopter posture with willingness to abandon and in-house capability, applied to a bleeding-edge application | Posture: aggressive. [Organization-decisive] The course permits early adopters to pilot untested technology when the pay-off is high and they are willing to abandon it (C2, Rule 2). In-house engineering and short cycles make a controlled live test operable. The class stays bleeding edge. Production adoption is not permitted before the crossing (Rule 1), whatever the appetite. Bias check: novelty/first-mover named. The v1.0 claim that the technology is 'effectively leading edge' for this organization is withdrawn, because posture cannot reclassify. The incremental-counterfactual test passes for a reversible experiment and fails for 'AI-first' production positioning.",
+  "evidence": [
+    {
+      "claim": "Four classes. Bleeding edge: extremely new (about 6 months to 2 years), expensive, high risk from instability, complex and not well understood. Leading edge: stable but new (2-5 years), has crossed the chasm, adopted by the early majority, and a major part of the industry uses it. Commodity: routine cost of business, lowest cost matters. Trailing edge: older than 5 years. Adoption rules: #1 wait for the technology to cross the chasm before adopting; #2 use pilot projects to test untested or underdeveloped technologies; #3 adopt a technology that has crossed as soon as possible; #4 periodically replace what is too old; #5 research whether it has crossed; #6 switch messaging to reach the tipping point; #7 know the adoption style your job requires; #8 keep a balanced portfolio. Summary: wait until crossed, invest in leading edge, pilot bleeding edge, dispose of trailing edge. The same technology can be bleeding edge generally and leading edge in a particular application.",
+      "source_or_reference": "[C1] Andres Fortino (course deck, user-supplied), Emerging Technologies Classification and Adoption Strategies (Module 8 deck). Course material; not republished",
+      "date_or_recency": "SP26 deck; inspected 2026-11-01; verified 2026-11-01",
+      "evidence_type": "course analytical framework (grade framework)",
+      "notes": "Limits: Thresholds for a specific case; the ages (6 months to 2 years; 2-5 years) are rules of thumb."
+    },
+    {
+      "claim": "Adopt early only if the pay-off is high in a short time and you are willing to abandon it; otherwise track adoption and adopt after the technology has crossed.",
+      "source_or_reference": "[C2] Andres Fortino (course deck, user-supplied), The Diffusion of Emerging Technologies (Module 6 deck). Course material; not republished",
+      "date_or_recency": "FA25 deck; inspected 2026-10-25; verified 2026-10-25",
+      "evidence_type": "course analytical framework (grade framework)",
+      "notes": "Limits: Case-specific conclusions."
+    },
+    {
+      "claim": "A3: the SPS proposal is a proposed incremental, sustaining process innovation; compare staff-only, simple retrieval and the proposed agent before any pilot. A4: agentic AI is a Breakthrough with an UNRESOLVED Potential-Promethean candidacy; broad significance carries Low weight; any adoption step must pass the incremental-counterfactual test. A5: generative AI among people and FAQ chatbots in admissions are past take-off; agentic AI in organizations is before the chasm; tool-using recruitment agents are at innovators/early adopters; observability is the binding factor; fast-follower timing is 'prepare and trial now'.",
+      "source_or_reference": "[C3] Minghan Liu, Assignments 3-5 specialist outputs (Innovation and Disruption; Promethean; Diffusion). https://github.com/lmh04250425/MASY1800-agents/tree/assignment-5-diffusion",
+      "date_or_recency": "2026-10-11 to 2026-10-25; verified 2026-11-01",
+      "evidence_type": "upstream team-agent outputs (grade upstream)",
+      "notes": "Limits: Independent evidence; prior AI-assisted student analyses used as inputs."
+    },
+    {
+      "claim": "Frontier 50%-task-completion time horizon about 50 minutes (Claude 3.7 Sonnet, early 2025); horizons have doubled roughly every seven months since 2019 and may have accelerated in 2024.",
+      "source_or_reference": "[E4] Thomas Kwa et al. (METR), Measuring AI Ability to Complete Long Software Tasks. https://arxiv.org/abs/2503.14499",
+      "date_or_recency": "arXiv 2503.14499 (2025-03-18; v4 revised 2026-07-10); verified 2026-10-18",
+      "evidence_type": "independent capability evaluation (reused from A4 register) (grade B)",
+      "notes": "Limits: Real-world reliability outside the software task suite; the five-year extrapolation is a projection with stated external-validity limits."
+    },
+    {
+      "claim": "OSWorld agent accuracy rose from about 5% (2024) to 66.3% (2025), still below a 72.35% human baseline; generative AI reached 53% adoption within three years, faster than the internet or computers at the same stage; US AI investment $285.88 billion in 2025; a record 362 reported AI incidents in 2025.",
+      "source_or_reference": "[E5] Stanford HAI, The 2026 AI Index Report. https://hai.stanford.edu/ai-index/2026-ai-index-report",
+      "date_or_recency": "2026-04-13; verified 2026-10-18",
+      "evidence_type": "independent annual indicator compilation (reused from A4 register) (grade B)",
+      "notes": "Limits: Field reliability in consequential workflows; investment and adoption speed are not evidence of barrier dissolution (C2)."
+    },
+    {
+      "claim": "An AI conversational assistant raised customer-support productivity 14% on average (issues resolved per hour) across 5,179 agents, 34% for novice and low-skilled workers, minimal for the most experienced: a measured gain and a skill-compression (democratizing) mechanism in a support setting analogous to applicant inquiries.",
+      "source_or_reference": "[E7] Erik Brynjolfsson, Danielle Li, Lindsey R. Raymond, Generative AI at Work. https://www.nber.org/papers/w31161",
+      "date_or_recency": "NBER WP 31161 (2023); Quarterly Journal of Economics 140(2):889-942 (2025); verified 2026-10-18",
+      "evidence_type": "field study (staggered rollout) (reused from A4 register) (grade A)",
+      "notes": "Limits: Autonomous agent performance (the tool assisted humans); higher-education transfer; barrier dissolution."
+    },
+    {
+      "claim": "The most competitive agent completed 30% of simulated workplace tasks autonomously; more difficult long-horizon tasks remain beyond current systems.",
+      "source_or_reference": "[E11] Frank F. Xu et al. (CMU and others), TheAgentCompany: Benchmarking LLM Agents on Consequential Real World Tasks. https://arxiv.org/abs/2412.14161",
+      "date_or_recency": "arXiv 2412.14161 (2024-12-18; v3 2025-09-10); NeurIPS 2025; verified 2026-10-18",
+      "evidence_type": "independent agent benchmark (reused from A4 register) (grade B)",
+      "notes": "Limits: Current frontier performance after the tested models; production reliability."
+    },
+    {
+      "claim": "AI agents placed at the Peak of Inflated Expectations on the 2025 Hype Cycle for AI.",
+      "source_or_reference": "[D6] Gartner (via Business Wire), Gartner Hype Cycle Identifies Top AI Innovations in 2025. https://www.businesswire.com/news/home/20250808070139/en",
+      "date_or_recency": "2025-08; verified 2026-10-25",
+      "evidence_type": "analyst positioning (reused from A5 register) (grade B)",
+      "notes": "Limits: Measured adoption. A hype position describes attention and expectations, not diffusion."
+    },
+    {
+      "claim": "January 2025 poll of 3,412 webinar attendees: 19% significant agentic AI investment, 42% conservative, 31% wait-and-see; over 40% of agentic projects forecast to be cancelled by end-2027; only about 130 of thousands of 'agentic AI' vendors judged real ('agent washing').",
+      "source_or_reference": "[D7] Gartner, Gartner Predicts Over 40% of Agentic AI Projects Will Be Canceled by End of 2027. https://www.gartner.com/en/newsroom/press-releases/2025-06-25-gartner-predicts-over-40-percent-of-agentic-ai-projects-will-be-canceled-by-end-of-2027.",
+      "date_or_recency": "2025-06-25; verified 2026-10-18",
+      "evidence_type": "analyst forecast and non-random poll (reused from A5 register) (grade B)",
+      "notes": "Limits: Measured adoption; the poll is self-selected."
+    },
+    {
+      "claim": "Institutional AI use 66% (49% in 2024); 36% of Marketing, Admissions and Enrollment respondents use chatbots for FAQs; data security/privacy is the top institutional barrier (56%); 14% of executive respondents report a dedicated AI budget. No share for AI agents is reported.",
+      "source_or_reference": "[D11] Ellucian, Artificial Intelligence in Higher Education (Ellucian 2026 AI report). https://lp.ellucian.com/rs/085-MHT-312/images/Ellucian_2026-AI-Report.pdf",
+      "date_or_recency": "2026 report; survey 2025-09-15 to 2025-11-15; verified 2026-10-25",
+      "evidence_type": "vendor survey (779 administrators, 300+ institutions, 93% U.S.) (reused from A5 register) (grade B)",
+      "notes": "Limits: Representativeness (vendor customers and contacts); agentic use."
+    },
+    {
+      "claim": "A university planned to deploy recruitment agents on its website to answer prospective-student questions, handle requests for information and guide applications, with hand-off to staff; it expected to save $800 of staff time per web RFI.",
+      "source_or_reference": "[D14] Salesforce, Unity Environmental University taps Agentforce and Education Cloud. https://www.salesforce.com/news/stories/unity-environmental-university-agentforce-education-cloud/",
+      "date_or_recency": "2024-11-20; verified 2026-10-25",
+      "evidence_type": "vendor customer story (reused from A5 register) (grade C)",
+      "notes": "Limits: Measured results; the deployment was planned at publication and the savings are a projection."
+    },
+    {
+      "claim": "A pre-built recruitment/admissions agent skill exists (answer questions from knowledge articles, create information requests, register campus tours, start applications); partner summary lists recruitment and RFI skills as generally available with some items in beta. This is change-agent activity that raises trialability.",
+      "source_or_reference": "[D15] Salesforce; Cloud for Good (partner), Agentforce for Education: Recruitment and Admissions pre-built skill; Dreamforce 2025 education keynote summary. https://www.salesforce.com/nl/agentforce/use-cases/education/recruitment-admissions/",
+      "date_or_recency": "Live page accessed 2026-10-25; summary 2025-10-20; verified 2026-10-25",
+      "evidence_type": "vendor product page and partner summary (reused from A5 register) (grade C)",
+      "notes": "Limits: Customer counts or outcomes; the product page itself warns features 'may not be currently available'."
+    },
+    {
+      "claim": "NYU Admissions offers a generative AI admissions bot on its admissions site and applicant portal, available 24/7; it hands off to a live agent or a contact form when it cannot answer.",
+      "source_or_reference": "[D17] NYU Admissions, Meet the NYUAdmissionsBot. https://meet.nyu.edu/advice/meet-the-nyuadmissionsbot/",
+      "date_or_recency": "2025-11-21; verified 2026-10-25",
+      "evidence_type": "organization primary source (reused from A5 register) (grade A)",
+      "notes": "Limits: SPS graduate admissions specifically; agentic actions; vendor; usage."
+    },
+    {
+      "claim": "Phone/email contact, weekday appointments, information sessions and 'For immediate assistance, try our chatbot, Violet.'",
+      "source_or_reference": "[D18] NYU School of Professional Studies, NYU SPS Graduate Admissions. https://www.sps.nyu.edu/join/graduate-admissions.html",
+      "date_or_recency": "Undated live page; verified 2026-10-18 (re-fetch blocked 2026-10-25); verified 2026-10-18",
+      "evidence_type": "organization primary source (reused from A5 register) (grade A)",
+      "notes": "Limits: Violet's architecture, tool use, vendor or usage."
+    },
+    {
+      "claim": "British Columbia's Civil Resolution Tribunal held Air Canada liable for negligent misrepresentation after its website chatbot gave wrong bereavement-fare information. It rejected the argument that the chatbot was 'a separate legal entity'; the company 'still bore responsibility for all the information on its website, whether it came from a static page or a chatbot.' Damages were about CAD 650.",
+      "source_or_reference": "[D21] American Bar Association, Business Law Today, BC Tribunal Confirms Companies Remain Liable for Information Provided by AI Chatbot (Moffatt v. Air Canada). https://www.americanbar.org/groups/business_law/resources/business-law-today/2024-february/bc-tribunal-confirms-companies-remain-liable-information-provided-ai-chatbot/",
+      "date_or_recency": "2024-02; decision 2024-02-14; verified 2026-11-01",
+      "evidence_type": "secondary report of a tribunal decision (grade B)",
+      "notes": "Limits: U.S. law or higher-education liability; a small-claims tribunal, not a court precedent. Used only to show that an organization owns what its conversational agent tells people."
+    },
+    {
+      "claim": "Flex Credits: an agent action consumes 20 credits ($0.10 per action); packs of 100,000 credits cost $500; earlier conversational pricing was $2 per conversation; per-user licences were announced for later availability.",
+      "source_or_reference": "[D22] Salesforce, Salesforce Introduces New Flexible Agentforce Pricing. https://www.salesforce.com/news/press-releases/2025/05/15/agentforce-flexible-pricing-news/",
+      "date_or_recency": "2025-05-15; verified 2026-11-01",
+      "evidence_type": "vendor pricing announcement (grade B)",
+      "notes": "Limits: Total cost of ownership (integration, review, monitoring, correction) or current negotiated prices; one vendor only."
+    },
+    {
+      "claim": "The AI Omnibus (published in the Official Journal on 24 July 2026) moves Annex III high-risk obligations to 2 December 2027 instead of 2 August 2026; Article 50 transparency obligations became generally applicable on 2 August 2026.",
+      "source_or_reference": "[D23] Future of Privacy Forum, The AI Act implementation timeline: What changes under the AI Omnibus?. https://fpf.org/blog/the-ai-act-implementation-timeline-what-changes-under-the-ai-omnibus/",
+      "date_or_recency": "2026-07-28 (updated 2026-08-05); verified 2026-11-01",
+      "evidence_type": "secondary legal analysis (grade B)",
+      "notes": "Limits: Whether a particular SPS use is in scope; any U.S. law. Legal determinations belong to compliance."
+    },
+    {
+      "claim": "High-risk education uses include AI systems intended to determine access or admission, or to assign persons to education institutions (3a), to evaluate learning outcomes (3b), to assess the appropriate level of education (3c), and to monitor prohibited student behaviour (3d).",
+      "source_or_reference": "[D24] European Commission AI Act Service Desk, AI Act Service Desk: Education and vocational training (Annex III point 3). https://ai-act-service-desk.ec.europa.eu/en/education-and-vocational-training",
+      "date_or_recency": "Live page accessed 2026-11-01; verified 2026-11-01",
+      "evidence_type": "official regulatory guidance page (grade A)",
+      "notes": "Limits: Whether an applicant-support agent that excludes admission decisions is in scope; that depends on design and intended purpose and requires legal review."
+    },
+    {
+      "claim": "Generated misinformation (confabulation) and human-AI configuration are named risk categories requiring explicit controls such as human oversight.",
+      "source_or_reference": "[D25] NIST, Artificial Intelligence Risk Management Framework: Generative AI Profile (NIST AI 600-1). https://doi.org/10.6028/NIST.AI.600-1",
+      "date_or_recency": "2024-07-26; verified 2026-10-11",
+      "evidence_type": "public risk framework (grade A)",
+      "notes": "Limits: Legal clearance; a guaranteed safe deployment."
+    }
+  ],
+  "contrary_evidence_or_limitations": [
+    "Advocate's case (strongest argument for moving faster): capability is improving quickly (E4, E5); per-action costs are low (D22); pre-built recruitment skills exist (D15); and a fast follower that only watches may lose a cycle once peers publish. Response: proof of concept now captures this learning at low risk. Adoption still waits for evidence.",
+    "Risk officer's case (strongest argument for moving slower): realistic task completion is low (E11); many agent projects are cancelled (D7); the organization is liable for what its agent says (D21); and regulation is still settling (D23, D24). Response: no real applicants until the gates pass; staff approval and no record writes during any experiment.",
+    "Uncertainty that could change the answer: relative advantage over an existing FAQ chatbot is unknown. If the proof of concept shows no advantage, the correct posture becomes reject for the present (keep Violet).",
+    "Limits: two-thirds of the cost picture (integration, review, correction) is unmeasured; Violet's design is unknown; all outputs come from one AI session.",
+    "The provider is synthetic; posture and capability are assumptions."
+  ],
+  "confidence_and_uncertainty": "Classification (bleeding edge): Moderate-High. Several independent signals agree (E11, E5, D6, C3). Recommendation: Moderate. It is robust to the main uncertainties because it is staged and reversible, but the next step depends on proof-of-concept results that do not exist yet. Largest uncertainty: relative advantage over the FAQ-chatbot baseline.",
+  "value_opportunity_implication": "Early learning and a possible service advantage; published results would make the provider an opinion leader. Benefits depend on measured quality, not on being first.",
+  "risk_governance_implication": "A younger brand has less reputational buffer (D21 applies equally). AI marketing claims must not outrun results. Compliance review is needed for EU applicants (D23, D24).",
+  "recommendation_management_implication": "Bounded experiment this quarter (owner: head of admissions with product): at most 25% of web inquiries; staff approve consequential messages; no record writes; measured against the provider's current process on accuracy-adjusted cost per correctly completed inquiry and consequential-error rate. Abandonment criterion, set in advance: no improvement over the baseline by the end of the quarter, or any serious incident. Avoid long contracts while features are in beta (D15). Expansion: scale scope only on the provider's own measured results. Adoption is reconsidered when A5 crossing signals fire, or after two quarters of results and generally available vendor features. Pass to the Organizational Adoption specialist (not resolved here): can admissions staff the human-approval and content-governance work without degrading service? That covers review-queue capacity, training, and who owns agent content and incidents. It determines whether a bounded experiment is operable.",
+  "change_monitoring_triggers": [
+    "New evidence (owner: SPS admissions quality lead): proof-of-concept results. If the gates pass, move to a bounded experiment. If the agent does not beat Violet or simple retrieval, move to reject for the present and keep Violet.",
+    "Improved maturity: independent evaluations (successors to E11 and E5) show reliable completion of realistic multi-step tasks, and recruitment skills reach general availability with named references (D15). That points toward leading edge.",
+    "Lower cost: total cost per correctly completed inquiry (platform, integration, review and correction, not just the per-action price in D22) falls below the baseline. That strengthens the case for an experiment or adoption.",
+    "Regulatory clarification: compliance confirms the design is outside the admission-related high-risk category (D24) and sets the AI-disclosure approach (D23). That removes a gate. Adverse guidance means monitor or defer.",
+    "Peer adoption: A5 triggers fire (three or more comparable peers publish measured outcomes, or a survey shows agent use of 16% or more). The class moves to leading edge, and Rule 3 (adopt) becomes permissible.",
+    "Internal capability: the Organizational Adoption specialist confirms staff approval capacity and CRM permissions. Experiment permitted. If capacity is not available, continue monitoring.",
+    "Downgrade at any time: a consequential error reaches an applicant, an unauthorized action occurs, or serious peer incidents appear. Pause and review."
+  ],
+  "abstention_or_more_information_needed": [
+    "This specialist does not resolve staffing, approval capacity or change management (Organizational Adoption), or vendor selection (Landscape).",
+    "No proof-of-concept data exist yet, so the move from proof of concept to experiment is conditional, not decided.",
+    "The provider is synthetic: no baseline metrics exist."
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "emerging_technology": "Agentic AI built on large language models (LLM-based agents that plan, use tools, and complete multi-step tasks)",
+  "intended_application": "Proposed bounded applicant-support workflow: retrieve approved program information, ask clarifying questions, plan next steps, and request a counselor appointment through a permission-limited tool. Staff approve outbound messages and any record changes. Excludes admission, scholarship, visa and eligibility decisions.",
+  "organization": "Hypothetical venture-backed, online-only graduate certificate provider (synthetic; not NYU and not an observed company)",
+  "industry_sector": "Higher education / education technology - online graduate certificate recruitment. Applicant trust and truthful marketing matter; exact legal obligations require specialist review.",
+  "business_need": "Scenario hypothesis: reduce repetitive inquiry handling and improve timely guidance. Actual demand, response time and benefits have not been measured.",
+  "users_stakeholders": "Prospective students, admissions counselors, marketing/enrollment staff, university IT, privacy and compliance officers",
+  "adoption_posture": "Aggressive / leading-edge: leadership seeks first-mover positioning, accepts higher experimentation risk and is willing to abandon tools that fail (scenario assumption).",
+  "capabilities_constraints": "Scenario assumptions: in-house ML engineering team, modern CRM with API access, small admissions staff, short decision cycles. No existing chatbot is specified.",
+  "risk_consequence_context": "Wrong deadlines or promises can harm applicants and the organization is accountable for what its agent says (D21); unauthorized actions can expose data. No applicant records are used in this assignment. No legal determination is made.",
+  "management_question": "Should this provider adopt, experiment with, monitor, defer or reject agentic AI for this applicant-support application now, and what would change that posture?",
+  "time_horizon": "12 months: decision now, quarterly review",
+  "additional_context": "Synthetic posture contrast: technology and application held constant; risk tolerance and capability differ. Upstream specialist findings (C3) apply to the technology and application."
+}

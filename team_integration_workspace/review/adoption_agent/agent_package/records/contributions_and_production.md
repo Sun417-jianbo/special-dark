@@ -1,0 +1,7 @@
+# Contributions and production
+
+Material contributions refer to independently submitted Lab6 artifacts: Yufei Cai supplied six-action controls, complete-effort comparison and scoped readiness handoff; Chutong Wang supplied the inherited permission boundary and PoC/experiment separation; Jianbo Sun supplied matched comparison, ordinary-user and confounded-demo reasoning; Minghan Liu supplied action definitions, denominator/bias discipline and preserved failure/revision evidence. Each contribution and its selected source are listed in candidate_comparison.json and the snapshot manifest.
+
+Yufei Cai coordinated post-class AI-assisted comparison, document/package preparation and the request to publish a review branch. He reported absence from the November 3 class. The supplied record contains no additional classroom decisions or role assignments; the contribution attributions above are not a claimed classroom attendance log. No in-class completion percentage is asserted. The package cannot establish the approximately 90% in-class production criterion.
+
+The user explicitly reported team acceptance of the proposed analytical policy and authorized public publication to a new TW7 branch/PR, not a merge. AI materially assisted source inspection, synthesis, case reasoning, coding and document preparation. Local checks verify artifacts, not human attendance or independent member source verification. Brightspace posting remains a designated human's responsibility.

@@ -1,0 +1,1220 @@
+{
+  "passed": 303,
+  "total": 303,
+  "all_passed": true,
+  "scope": "Artifact bytes, frozen-schema keywords, exact prompts, declared case relations/actions, attribution and arithmetic; not measured future LLM reliability",
+  "checks": [
+    {
+      "check": "frozen core/common_instructions.md",
+      "passed": true
+    },
+    {
+      "check": "frozen core/input_schema.json",
+      "passed": true
+    },
+    {
+      "check": "frozen core/output_schema.json",
+      "passed": true
+    },
+    {
+      "check": "frozen tools/build_prompt.py",
+      "passed": true
+    },
+    {
+      "check": "frozen tools/check_frozen_core.py",
+      "passed": true
+    },
+    {
+      "check": "frozen tools/new_agent.py",
+      "passed": true
+    },
+    {
+      "check": "frozen tools/validate_response.py",
+      "passed": true
+    },
+    {
+      "check": "canonical original GITHUB_WORKING_COPY.md",
+      "passed": true
+    },
+    {
+      "check": "canonical original FROZEN_CORE_SHA256.txt",
+      "passed": true
+    },
+    {
+      "check": "canonical original VERSION.txt",
+      "passed": true
+    },
+    {
+      "check": "canonical original .gitignore",
+      "passed": true
+    },
+    {
+      "check": "canonical original requirements.txt",
+      "passed": true
+    },
+    {
+      "check": "canonical original START_HERE.md",
+      "passed": true
+    },
+    {
+      "check": "canonical original CHATGPT_CODEX_WORKFLOW.md",
+      "passed": true
+    },
+    {
+      "check": "canonical original README.md",
+      "passed": true
+    },
+    {
+      "check": "canonical original PACKAGE_SHA256.txt",
+      "passed": true
+    },
+    {
+      "check": "canonical original examples/toy_agent/agent_metadata.json",
+      "passed": true
+    },
+    {
+      "check": "canonical original examples/toy_agent/specialist_instructions.md",
+      "passed": true
+    },
+    {
+      "check": "canonical original examples/toy_agent/cases/primary.json",
+      "passed": true
+    },
+    {
+      "check": "canonical original examples/toy_agent/responses/primary_response.json",
+      "passed": true
+    },
+    {
+      "check": "canonical original work/toy_agent_primary_prompt.txt",
+      "passed": true
+    },
+    {
+      "check": "canonical original work/.gitkeep",
+      "passed": true
+    },
+    {
+      "check": "canonical original tools/check_frozen_core.py",
+      "passed": true
+    },
+    {
+      "check": "canonical original tools/validate_response.py",
+      "passed": true
+    },
+    {
+      "check": "canonical original tools/build_prompt.py",
+      "passed": true
+    },
+    {
+      "check": "canonical original tools/new_agent.py",
+      "passed": true
+    },
+    {
+      "check": "canonical original agents/_template/agent_metadata.json",
+      "passed": true
+    },
+    {
+      "check": "canonical original agents/_template/specialist_instructions.md",
+      "passed": true
+    },
+    {
+      "check": "canonical original agents/_template/README.md",
+      "passed": true
+    },
+    {
+      "check": "canonical original agents/_template/records/agent_record.md",
+      "passed": true
+    },
+    {
+      "check": "canonical original agents/_template/cases/primary.json",
+      "passed": true
+    },
+    {
+      "check": "canonical original agents/_template/cases/contrast_1.json",
+      "passed": true
+    },
+    {
+      "check": "canonical original agents/_template/cases/contrast_2.json",
+      "passed": true
+    },
+    {
+      "check": "canonical original agents/_template/responses/.gitkeep",
+      "passed": true
+    },
+    {
+      "check": "canonical original core/output_schema.json",
+      "passed": true
+    },
+    {
+      "check": "canonical original core/common_instructions.md",
+      "passed": true
+    },
+    {
+      "check": "canonical original core/input_schema.json",
+      "passed": true
+    },
+    {
+      "check": "canonical original docs/Emerging_Technologies_Common_Agent_Scaffold_Student_Guide_v2.docx",
+      "passed": true
+    },
+    {
+      "check": "canonical original docs/Emerging_Technologies_Agent_Record_Template.docx",
+      "passed": true
+    },
+    {
+      "check": "candidate bytes evidence/candidates/yufei_cai/agents/adoption_agent/agent_metadata.json",
+      "passed": true
+    },
+    {
+      "check": "candidate bytes evidence/candidates/yufei_cai/agents/adoption_agent/cases/hype_probe.json",
+      "passed": true
+    },
+    {
+      "check": "candidate bytes evidence/candidates/yufei_cai/agents/adoption_agent/cases/inferior_alternative.json",
+      "passed": true
+    },
+    {
+      "check": "candidate bytes evidence/candidates/yufei_cai/agents/adoption_agent/cases/missing_application.json",
+      "passed": true
+    },
+    {
+      "check": "candidate bytes evidence/candidates/yufei_cai/agents/adoption_agent/cases/permission_blocked.json",
+      "passed": true
+    },
+    {
+      "check": "candidate bytes evidence/candidates/yufei_cai/agents/adoption_agent/cases/posture_contrast.json",
+      "passed": true
+    },
+    {
+      "check": "candidate bytes evidence/candidates/yufei_cai/agents/adoption_agent/cases/primary.json",
+      "passed": true
+    },
+    {
+      "check": "candidate bytes evidence/candidates/yufei_cai/agents/adoption_agent/cases/qualified_experiment.json",
+      "passed": true
+    },
+    {
+      "check": "candidate bytes evidence/candidates/yufei_cai/agents/adoption_agent/cases/staged_adoption.json",
+      "passed": true
+    },
+    {
+      "check": "candidate bytes evidence/candidates/yufei_cai/agents/adoption_agent/responses/hype_probe_response.json",
+      "passed": true
+    },
+    {
+      "check": "candidate bytes evidence/candidates/yufei_cai/agents/adoption_agent/responses/inferior_alternative_response.json",
+      "passed": true
+    },
+    {
+      "check": "candidate bytes evidence/candidates/yufei_cai/agents/adoption_agent/responses/missing_application_response.json",
+      "passed": true
+    },
+    {
+      "check": "candidate bytes evidence/candidates/yufei_cai/agents/adoption_agent/responses/permission_blocked_response.json",
+      "passed": true
+    },
+    {
+      "check": "candidate bytes evidence/candidates/yufei_cai/agents/adoption_agent/responses/posture_contrast_response.json",
+      "passed": true
+    },
+    {
+      "check": "candidate bytes evidence/candidates/yufei_cai/agents/adoption_agent/responses/primary_response.json",
+      "passed": true
+    },
+    {
+      "check": "candidate bytes evidence/candidates/yufei_cai/agents/adoption_agent/responses/qualified_experiment_response.json",
+      "passed": true
+    },
+    {
+      "check": "candidate bytes evidence/candidates/yufei_cai/agents/adoption_agent/responses/staged_adoption_response.json",
+      "passed": true
+    },
+    {
+      "check": "candidate bytes evidence/candidates/yufei_cai/agents/adoption_agent/specialist_instructions.md",
+      "passed": true
+    },
+    {
+      "check": "candidate bytes evidence/candidates/yufei_cai/records/decision_policy.md",
+      "passed": true
+    },
+    {
+      "check": "candidate bytes evidence/candidates/yufei_cai/verification/run_provenance.json",
+      "passed": true
+    },
+    {
+      "check": "candidate bytes evidence/candidates/chutong_wang/agents/adoption_agent/agent_metadata.json",
+      "passed": true
+    },
+    {
+      "check": "candidate bytes evidence/candidates/chutong_wang/agents/adoption_agent/cases/bias_probe.json",
+      "passed": true
+    },
+    {
+      "check": "candidate bytes evidence/candidates/chutong_wang/agents/adoption_agent/cases/permission_contrast.json",
+      "passed": true
+    },
+    {
+      "check": "candidate bytes evidence/candidates/chutong_wang/agents/adoption_agent/cases/posture_contrast.json",
+      "passed": true
+    },
+    {
+      "check": "candidate bytes evidence/candidates/chutong_wang/agents/adoption_agent/cases/primary.json",
+      "passed": true
+    },
+    {
+      "check": "candidate bytes evidence/candidates/chutong_wang/agents/adoption_agent/evidence/source_register.json",
+      "passed": true
+    },
+    {
+      "check": "candidate bytes evidence/candidates/chutong_wang/agents/adoption_agent/records/decision_logic.md",
+      "passed": true
+    },
+    {
+      "check": "candidate bytes evidence/candidates/chutong_wang/agents/adoption_agent/records/run_provenance.json",
+      "passed": true
+    },
+    {
+      "check": "candidate bytes evidence/candidates/chutong_wang/agents/adoption_agent/responses/cycle_1/posture_contrast_response.json",
+      "passed": true
+    },
+    {
+      "check": "candidate bytes evidence/candidates/chutong_wang/agents/adoption_agent/responses/cycle_1/primary_response.json",
+      "passed": true
+    },
+    {
+      "check": "candidate bytes evidence/candidates/chutong_wang/agents/adoption_agent/responses/cycle_2/bias_probe_response.json",
+      "passed": true
+    },
+    {
+      "check": "candidate bytes evidence/candidates/chutong_wang/agents/adoption_agent/responses/cycle_2/permission_contrast_response.json",
+      "passed": true
+    },
+    {
+      "check": "candidate bytes evidence/candidates/chutong_wang/agents/adoption_agent/responses/cycle_2/posture_contrast_response.json",
+      "passed": true
+    },
+    {
+      "check": "candidate bytes evidence/candidates/chutong_wang/agents/adoption_agent/responses/cycle_2/primary_response.json",
+      "passed": true
+    },
+    {
+      "check": "candidate bytes evidence/candidates/chutong_wang/agents/adoption_agent/specialist_instructions.md",
+      "passed": true
+    },
+    {
+      "check": "candidate bytes evidence/candidates/jianbo_sun/agents/adoption_agent/agent_metadata.json",
+      "passed": true
+    },
+    {
+      "check": "candidate bytes evidence/candidates/jianbo_sun/agents/adoption_agent/cases/contrast_1.json",
+      "passed": true
+    },
+    {
+      "check": "candidate bytes evidence/candidates/jianbo_sun/agents/adoption_agent/cases/contrast_2.json",
+      "passed": true
+    },
+    {
+      "check": "candidate bytes evidence/candidates/jianbo_sun/agents/adoption_agent/cases/pilot_challenge.json",
+      "passed": true
+    },
+    {
+      "check": "candidate bytes evidence/candidates/jianbo_sun/agents/adoption_agent/cases/primary.json",
+      "passed": true
+    },
+    {
+      "check": "candidate bytes evidence/candidates/jianbo_sun/agents/adoption_agent/evidence/source_register.json",
+      "passed": true
+    },
+    {
+      "check": "candidate bytes evidence/candidates/jianbo_sun/agents/adoption_agent/records/decision_logic.md",
+      "passed": true
+    },
+    {
+      "check": "candidate bytes evidence/candidates/jianbo_sun/agents/adoption_agent/records/run_provenance.json",
+      "passed": true
+    },
+    {
+      "check": "candidate bytes evidence/candidates/jianbo_sun/agents/adoption_agent/records/test_comparison.md",
+      "passed": true
+    },
+    {
+      "check": "candidate bytes evidence/candidates/jianbo_sun/agents/adoption_agent/responses/contrast_1_v0.2.json",
+      "passed": true
+    },
+    {
+      "check": "candidate bytes evidence/candidates/jianbo_sun/agents/adoption_agent/responses/contrast_2_v0.2.json",
+      "passed": true
+    },
+    {
+      "check": "candidate bytes evidence/candidates/jianbo_sun/agents/adoption_agent/responses/pilot_challenge_v0.2.json",
+      "passed": true
+    },
+    {
+      "check": "candidate bytes evidence/candidates/jianbo_sun/agents/adoption_agent/responses/primary_v0.1.json",
+      "passed": true
+    },
+    {
+      "check": "candidate bytes evidence/candidates/jianbo_sun/agents/adoption_agent/responses/primary_v0.2.json",
+      "passed": true
+    },
+    {
+      "check": "candidate bytes evidence/candidates/jianbo_sun/agents/adoption_agent/specialist_instructions.md",
+      "passed": true
+    },
+    {
+      "check": "candidate bytes evidence/candidates/minghan_liu/agents/adoption_agent/agent_metadata.json",
+      "passed": true
+    },
+    {
+      "check": "candidate bytes evidence/candidates/minghan_liu/agents/adoption_agent/cases/contrast_1.json",
+      "passed": true
+    },
+    {
+      "check": "candidate bytes evidence/candidates/minghan_liu/agents/adoption_agent/cases/contrast_2.json",
+      "passed": true
+    },
+    {
+      "check": "candidate bytes evidence/candidates/minghan_liu/agents/adoption_agent/cases/primary.json",
+      "passed": true
+    },
+    {
+      "check": "candidate bytes evidence/candidates/minghan_liu/agents/adoption_agent/cases/qualification_probe.json",
+      "passed": true
+    },
+    {
+      "check": "candidate bytes evidence/candidates/minghan_liu/agents/adoption_agent/evidence/source_register.json",
+      "passed": true
+    },
+    {
+      "check": "candidate bytes evidence/candidates/minghan_liu/agents/adoption_agent/records/decision_logic.md",
+      "passed": true
+    },
+    {
+      "check": "candidate bytes evidence/candidates/minghan_liu/agents/adoption_agent/responses/contrast_1_response.json",
+      "passed": true
+    },
+    {
+      "check": "candidate bytes evidence/candidates/minghan_liu/agents/adoption_agent/responses/contrast_2_response.json",
+      "passed": true
+    },
+    {
+      "check": "candidate bytes evidence/candidates/minghan_liu/agents/adoption_agent/responses/primary_response.json",
+      "passed": true
+    },
+    {
+      "check": "candidate bytes evidence/candidates/minghan_liu/agents/adoption_agent/responses/qualification_probe_response.json",
+      "passed": true
+    },
+    {
+      "check": "candidate bytes evidence/candidates/minghan_liu/agents/adoption_agent/specialist_instructions.md",
+      "passed": true
+    },
+    {
+      "check": "candidate bytes evidence/candidates/minghan_liu/agents/adoption_agent/tests/cycle_1/agent_metadata.json",
+      "passed": true
+    },
+    {
+      "check": "candidate bytes evidence/candidates/minghan_liu/agents/adoption_agent/tests/cycle_1/contrast_1_response.json",
+      "passed": true
+    },
+    {
+      "check": "candidate bytes evidence/candidates/minghan_liu/agents/adoption_agent/tests/cycle_1/contrast_2_response.json",
+      "passed": true
+    },
+    {
+      "check": "candidate bytes evidence/candidates/minghan_liu/agents/adoption_agent/tests/cycle_1/primary_response.json",
+      "passed": true
+    },
+    {
+      "check": "candidate bytes evidence/candidates/minghan_liu/agents/adoption_agent/tests/cycle_1/qualification_probe_response.json",
+      "passed": true
+    },
+    {
+      "check": "candidate bytes evidence/candidates/minghan_liu/agents/adoption_agent/tests/cycle_1/specialist_instructions.md",
+      "passed": true
+    },
+    {
+      "check": "upstream bytes evidence/upstream/primary.json",
+      "passed": true
+    },
+    {
+      "check": "upstream bytes evidence/upstream/primary_response.json",
+      "passed": true
+    },
+    {
+      "check": "upstream bytes evidence/upstream/team_release.json",
+      "passed": true
+    },
+    {
+      "check": "upstream bytes evidence/upstream/team_agent_inventory.csv",
+      "passed": true
+    },
+    {
+      "check": "yufei_cai seven original frozen files audited",
+      "passed": true
+    },
+    {
+      "check": "chutong_wang seven original frozen files audited",
+      "passed": true
+    },
+    {
+      "check": "jianbo_sun seven original frozen files audited",
+      "passed": true
+    },
+    {
+      "check": "minghan_liu seven original frozen files audited",
+      "passed": true
+    },
+    {
+      "check": "confounded_pilot intake schema keywords",
+      "passed": true
+    },
+    {
+      "check": "confounded_pilot frozen output schema keywords",
+      "passed": true
+    },
+    {
+      "check": "confounded_pilot supplied response validator",
+      "passed": true
+    },
+    {
+      "check": "confounded_pilot current metadata",
+      "passed": true
+    },
+    {
+      "check": "confounded_pilot declared primary action",
+      "passed": true
+    },
+    {
+      "check": "confounded_pilot next-specialist boundary",
+      "passed": true
+    },
+    {
+      "check": "confounded_pilot dated bounded evidence",
+      "passed": true
+    },
+    {
+      "check": "confounded_pilot exact prompt rebuild",
+      "passed": true
+    },
+    {
+      "check": "confounded_pilot general evidence invariant",
+      "passed": true
+    },
+    {
+      "check": "hype_probe intake schema keywords",
+      "passed": true
+    },
+    {
+      "check": "hype_probe frozen output schema keywords",
+      "passed": true
+    },
+    {
+      "check": "hype_probe supplied response validator",
+      "passed": true
+    },
+    {
+      "check": "hype_probe current metadata",
+      "passed": true
+    },
+    {
+      "check": "hype_probe declared primary action",
+      "passed": true
+    },
+    {
+      "check": "hype_probe next-specialist boundary",
+      "passed": true
+    },
+    {
+      "check": "hype_probe dated bounded evidence",
+      "passed": true
+    },
+    {
+      "check": "hype_probe exact prompt rebuild",
+      "passed": true
+    },
+    {
+      "check": "hype_probe general evidence invariant",
+      "passed": true
+    },
+    {
+      "check": "inferior_alternative intake schema keywords",
+      "passed": true
+    },
+    {
+      "check": "inferior_alternative frozen output schema keywords",
+      "passed": true
+    },
+    {
+      "check": "inferior_alternative supplied response validator",
+      "passed": true
+    },
+    {
+      "check": "inferior_alternative current metadata",
+      "passed": true
+    },
+    {
+      "check": "inferior_alternative declared primary action",
+      "passed": true
+    },
+    {
+      "check": "inferior_alternative next-specialist boundary",
+      "passed": true
+    },
+    {
+      "check": "inferior_alternative dated bounded evidence",
+      "passed": true
+    },
+    {
+      "check": "inferior_alternative exact prompt rebuild",
+      "passed": true
+    },
+    {
+      "check": "inferior_alternative general evidence invariant",
+      "passed": true
+    },
+    {
+      "check": "learning_permission_aggressive intake schema keywords",
+      "passed": true
+    },
+    {
+      "check": "learning_permission_aggressive frozen output schema keywords",
+      "passed": true
+    },
+    {
+      "check": "learning_permission_aggressive supplied response validator",
+      "passed": true
+    },
+    {
+      "check": "learning_permission_aggressive current metadata",
+      "passed": true
+    },
+    {
+      "check": "learning_permission_aggressive declared primary action",
+      "passed": true
+    },
+    {
+      "check": "learning_permission_aggressive next-specialist boundary",
+      "passed": true
+    },
+    {
+      "check": "learning_permission_aggressive dated bounded evidence",
+      "passed": true
+    },
+    {
+      "check": "learning_permission_aggressive exact prompt rebuild",
+      "passed": true
+    },
+    {
+      "check": "learning_permission_aggressive general evidence invariant",
+      "passed": true
+    },
+    {
+      "check": "learning_permission_conservative intake schema keywords",
+      "passed": true
+    },
+    {
+      "check": "learning_permission_conservative frozen output schema keywords",
+      "passed": true
+    },
+    {
+      "check": "learning_permission_conservative supplied response validator",
+      "passed": true
+    },
+    {
+      "check": "learning_permission_conservative current metadata",
+      "passed": true
+    },
+    {
+      "check": "learning_permission_conservative declared primary action",
+      "passed": true
+    },
+    {
+      "check": "learning_permission_conservative next-specialist boundary",
+      "passed": true
+    },
+    {
+      "check": "learning_permission_conservative dated bounded evidence",
+      "passed": true
+    },
+    {
+      "check": "learning_permission_conservative exact prompt rebuild",
+      "passed": true
+    },
+    {
+      "check": "learning_permission_conservative general evidence invariant",
+      "passed": true
+    },
+    {
+      "check": "missing_application intake schema keywords",
+      "passed": true
+    },
+    {
+      "check": "missing_application frozen output schema keywords",
+      "passed": true
+    },
+    {
+      "check": "missing_application supplied response validator",
+      "passed": true
+    },
+    {
+      "check": "missing_application current metadata",
+      "passed": true
+    },
+    {
+      "check": "missing_application declared primary action",
+      "passed": true
+    },
+    {
+      "check": "missing_application next-specialist boundary",
+      "passed": true
+    },
+    {
+      "check": "missing_application dated bounded evidence",
+      "passed": true
+    },
+    {
+      "check": "missing_application exact prompt rebuild",
+      "passed": true
+    },
+    {
+      "check": "missing_application general evidence invariant",
+      "passed": true
+    },
+    {
+      "check": "posture_contrast intake schema keywords",
+      "passed": true
+    },
+    {
+      "check": "posture_contrast frozen output schema keywords",
+      "passed": true
+    },
+    {
+      "check": "posture_contrast supplied response validator",
+      "passed": true
+    },
+    {
+      "check": "posture_contrast current metadata",
+      "passed": true
+    },
+    {
+      "check": "posture_contrast declared primary action",
+      "passed": true
+    },
+    {
+      "check": "posture_contrast next-specialist boundary",
+      "passed": true
+    },
+    {
+      "check": "posture_contrast dated bounded evidence",
+      "passed": true
+    },
+    {
+      "check": "posture_contrast exact prompt rebuild",
+      "passed": true
+    },
+    {
+      "check": "posture_contrast general evidence invariant",
+      "passed": true
+    },
+    {
+      "check": "primary intake schema keywords",
+      "passed": true
+    },
+    {
+      "check": "primary frozen output schema keywords",
+      "passed": true
+    },
+    {
+      "check": "primary supplied response validator",
+      "passed": true
+    },
+    {
+      "check": "primary current metadata",
+      "passed": true
+    },
+    {
+      "check": "primary declared primary action",
+      "passed": true
+    },
+    {
+      "check": "primary next-specialist boundary",
+      "passed": true
+    },
+    {
+      "check": "primary dated bounded evidence",
+      "passed": true
+    },
+    {
+      "check": "primary exact prompt rebuild",
+      "passed": true
+    },
+    {
+      "check": "primary general evidence invariant",
+      "passed": true
+    },
+    {
+      "check": "qualified_experiment intake schema keywords",
+      "passed": true
+    },
+    {
+      "check": "qualified_experiment frozen output schema keywords",
+      "passed": true
+    },
+    {
+      "check": "qualified_experiment supplied response validator",
+      "passed": true
+    },
+    {
+      "check": "qualified_experiment current metadata",
+      "passed": true
+    },
+    {
+      "check": "qualified_experiment declared primary action",
+      "passed": true
+    },
+    {
+      "check": "qualified_experiment next-specialist boundary",
+      "passed": true
+    },
+    {
+      "check": "qualified_experiment dated bounded evidence",
+      "passed": true
+    },
+    {
+      "check": "qualified_experiment exact prompt rebuild",
+      "passed": true
+    },
+    {
+      "check": "qualified_experiment general evidence invariant",
+      "passed": true
+    },
+    {
+      "check": "staged_adoption intake schema keywords",
+      "passed": true
+    },
+    {
+      "check": "staged_adoption frozen output schema keywords",
+      "passed": true
+    },
+    {
+      "check": "staged_adoption supplied response validator",
+      "passed": true
+    },
+    {
+      "check": "staged_adoption current metadata",
+      "passed": true
+    },
+    {
+      "check": "staged_adoption declared primary action",
+      "passed": true
+    },
+    {
+      "check": "staged_adoption next-specialist boundary",
+      "passed": true
+    },
+    {
+      "check": "staged_adoption dated bounded evidence",
+      "passed": true
+    },
+    {
+      "check": "staged_adoption exact prompt rebuild",
+      "passed": true
+    },
+    {
+      "check": "staged_adoption general evidence invariant",
+      "passed": true
+    },
+    {
+      "check": "yufei_cai primary output contract",
+      "passed": true
+    },
+    {
+      "check": "yufei_cai primary original candidate metadata",
+      "passed": true
+    },
+    {
+      "check": "yufei_cai primary declared walkthrough action",
+      "passed": true
+    },
+    {
+      "check": "yufei_cai primary exact common-case packet",
+      "passed": true
+    },
+    {
+      "check": "yufei_cai posture_contrast output contract",
+      "passed": true
+    },
+    {
+      "check": "yufei_cai posture_contrast original candidate metadata",
+      "passed": true
+    },
+    {
+      "check": "yufei_cai posture_contrast declared walkthrough action",
+      "passed": true
+    },
+    {
+      "check": "yufei_cai posture_contrast exact common-case packet",
+      "passed": true
+    },
+    {
+      "check": "yufei_cai learning_permission_conservative output contract",
+      "passed": true
+    },
+    {
+      "check": "yufei_cai learning_permission_conservative original candidate metadata",
+      "passed": true
+    },
+    {
+      "check": "yufei_cai learning_permission_conservative declared walkthrough action",
+      "passed": true
+    },
+    {
+      "check": "yufei_cai learning_permission_conservative exact common-case packet",
+      "passed": true
+    },
+    {
+      "check": "chutong_wang primary output contract",
+      "passed": true
+    },
+    {
+      "check": "chutong_wang primary original candidate metadata",
+      "passed": true
+    },
+    {
+      "check": "chutong_wang primary declared walkthrough action",
+      "passed": true
+    },
+    {
+      "check": "chutong_wang primary exact common-case packet",
+      "passed": true
+    },
+    {
+      "check": "chutong_wang posture_contrast output contract",
+      "passed": true
+    },
+    {
+      "check": "chutong_wang posture_contrast original candidate metadata",
+      "passed": true
+    },
+    {
+      "check": "chutong_wang posture_contrast declared walkthrough action",
+      "passed": true
+    },
+    {
+      "check": "chutong_wang posture_contrast exact common-case packet",
+      "passed": true
+    },
+    {
+      "check": "chutong_wang learning_permission_conservative output contract",
+      "passed": true
+    },
+    {
+      "check": "chutong_wang learning_permission_conservative original candidate metadata",
+      "passed": true
+    },
+    {
+      "check": "chutong_wang learning_permission_conservative declared walkthrough action",
+      "passed": true
+    },
+    {
+      "check": "chutong_wang learning_permission_conservative exact common-case packet",
+      "passed": true
+    },
+    {
+      "check": "jianbo_sun primary output contract",
+      "passed": true
+    },
+    {
+      "check": "jianbo_sun primary original candidate metadata",
+      "passed": true
+    },
+    {
+      "check": "jianbo_sun primary declared walkthrough action",
+      "passed": true
+    },
+    {
+      "check": "jianbo_sun primary exact common-case packet",
+      "passed": true
+    },
+    {
+      "check": "jianbo_sun posture_contrast output contract",
+      "passed": true
+    },
+    {
+      "check": "jianbo_sun posture_contrast original candidate metadata",
+      "passed": true
+    },
+    {
+      "check": "jianbo_sun posture_contrast declared walkthrough action",
+      "passed": true
+    },
+    {
+      "check": "jianbo_sun posture_contrast exact common-case packet",
+      "passed": true
+    },
+    {
+      "check": "jianbo_sun learning_permission_conservative output contract",
+      "passed": true
+    },
+    {
+      "check": "jianbo_sun learning_permission_conservative original candidate metadata",
+      "passed": true
+    },
+    {
+      "check": "jianbo_sun learning_permission_conservative declared walkthrough action",
+      "passed": true
+    },
+    {
+      "check": "jianbo_sun learning_permission_conservative exact common-case packet",
+      "passed": true
+    },
+    {
+      "check": "minghan_liu primary output contract",
+      "passed": true
+    },
+    {
+      "check": "minghan_liu primary original candidate metadata",
+      "passed": true
+    },
+    {
+      "check": "minghan_liu primary declared walkthrough action",
+      "passed": true
+    },
+    {
+      "check": "minghan_liu primary exact common-case packet",
+      "passed": true
+    },
+    {
+      "check": "minghan_liu posture_contrast output contract",
+      "passed": true
+    },
+    {
+      "check": "minghan_liu posture_contrast original candidate metadata",
+      "passed": true
+    },
+    {
+      "check": "minghan_liu posture_contrast declared walkthrough action",
+      "passed": true
+    },
+    {
+      "check": "minghan_liu posture_contrast exact common-case packet",
+      "passed": true
+    },
+    {
+      "check": "minghan_liu learning_permission_conservative output contract",
+      "passed": true
+    },
+    {
+      "check": "minghan_liu learning_permission_conservative original candidate metadata",
+      "passed": true
+    },
+    {
+      "check": "minghan_liu learning_permission_conservative declared walkthrough action",
+      "passed": true
+    },
+    {
+      "check": "minghan_liu learning_permission_conservative exact common-case packet",
+      "passed": true
+    },
+    {
+      "check": "primary contrast changes only posture",
+      "passed": true
+    },
+    {
+      "check": "permission contrast changes only constraints",
+      "passed": true
+    },
+    {
+      "check": "K1 contrast changes only posture",
+      "passed": true
+    },
+    {
+      "check": "baseline posture invariant general_et_finding",
+      "passed": true
+    },
+    {
+      "check": "K1 posture invariant general_et_finding",
+      "passed": true
+    },
+    {
+      "check": "baseline posture invariant application_finding",
+      "passed": true
+    },
+    {
+      "check": "K1 posture invariant application_finding",
+      "passed": true
+    },
+    {
+      "check": "baseline posture invariant evidence",
+      "passed": true
+    },
+    {
+      "check": "K1 posture invariant evidence",
+      "passed": true
+    },
+    {
+      "check": "baseline posture invariant confidence_and_uncertainty",
+      "passed": true
+    },
+    {
+      "check": "K1 posture invariant confidence_and_uncertainty",
+      "passed": true
+    },
+    {
+      "check": "baseline posture invariant risk_governance_implication",
+      "passed": true
+    },
+    {
+      "check": "K1 posture invariant risk_governance_implication",
+      "passed": true
+    },
+    {
+      "check": "hard blocker defeats aggressive enthusiasm",
+      "passed": true
+    },
+    {
+      "check": "K1 action changes for learning preference",
+      "passed": true
+    },
+    {
+      "check": "baseline desk research is not trial permission",
+      "passed": true
+    },
+    {
+      "check": "aggressive urgency changes, not permission",
+      "passed": true
+    },
+    {
+      "check": "PoC eight-hour two-week cap",
+      "passed": true
+    },
+    {
+      "check": "H1 separately permitted and not routine",
+      "passed": true
+    },
+    {
+      "check": "H2 replaces baseline unknowns",
+      "passed": true
+    },
+    {
+      "check": "H2 separately supplied readiness",
+      "passed": true
+    },
+    {
+      "check": "H2 scope one team",
+      "passed": true
+    },
+    {
+      "check": "H2 full prospective cost approval",
+      "passed": true
+    },
+    {
+      "check": "positive sample is not zero risk",
+      "passed": true
+    },
+    {
+      "check": "all six actions exercised",
+      "passed": true
+    },
+    {
+      "check": "missing application is truly empty",
+      "passed": true
+    },
+    {
+      "check": "missing scope withholds finding",
+      "passed": true
+    },
+    {
+      "check": "hype appends context only",
+      "passed": true
+    },
+    {
+      "check": "hype does not promote action",
+      "passed": true
+    },
+    {
+      "check": "unsafe request rejected",
+      "passed": true
+    },
+    {
+      "check": "confounded demo appends only context",
+      "passed": true
+    },
+    {
+      "check": "confounded demo does not promote adoption",
+      "passed": true
+    },
+    {
+      "check": "confounding arithmetic correct",
+      "passed": true
+    },
+    {
+      "check": "best baseline arithmetic",
+      "passed": true
+    },
+    {
+      "check": "best adequate alternative not only manual",
+      "passed": true
+    },
+    {
+      "check": "sunk and prospective support separated",
+      "passed": true
+    },
+    {
+      "check": "yufei_cai walkthrough general invariant",
+      "passed": true
+    },
+    {
+      "check": "chutong_wang walkthrough general invariant",
+      "passed": true
+    },
+    {
+      "check": "jianbo_sun walkthrough general invariant",
+      "passed": true
+    },
+    {
+      "check": "minghan_liu walkthrough general invariant",
+      "passed": true
+    },
+    {
+      "check": "twelve common walkthroughs",
+      "passed": true
+    },
+    {
+      "check": "prior posture reclassification failure preserved",
+      "passed": true
+    },
+    {
+      "check": "inherited metadata failure preserved",
+      "passed": true
+    },
+    {
+      "check": "seven teacher-aligned specialist slots",
+      "passed": true
+    },
+    {
+      "check": "Adoption is slot 5",
+      "passed": true
+    },
+    {
+      "check": "team acceptance explicitly recorded",
+      "passed": true
+    },
+    {
+      "check": "public review publication authorized",
+      "passed": true
+    },
+    {
+      "check": "no fabricated attendance percentage",
+      "passed": true
+    },
+    {
+      "check": "four material source contributions",
+      "passed": true
+    },
+    {
+      "check": "ten final team cases",
+      "passed": true
+    }
+  ]
+}

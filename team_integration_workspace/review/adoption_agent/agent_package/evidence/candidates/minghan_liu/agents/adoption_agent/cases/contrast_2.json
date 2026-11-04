@@ -1,0 +1,14 @@
+{
+  "emerging_technology": "Agentic AI built on large language models (LLM-based agents that plan, use tools, and complete multi-step tasks)",
+  "intended_application": "Proposed bounded applicant-support workflow: retrieve approved program information, ask clarifying questions, plan next steps, and request a counselor appointment through a permission-limited tool. Staff approve outbound messages and any record changes. Excludes admission, scholarship, visa and eligibility decisions.",
+  "organization": "Hypothetical small, tuition-dependent private liberal arts college (synthetic; not an observed institution)",
+  "industry_sector": "Higher education - undergraduate and small graduate admissions. Applicant trust, privacy and accessibility matter; exact legal obligations require specialist review.",
+  "business_need": "Scenario hypothesis: reduce repetitive inquiry handling and improve timely guidance. Actual demand, response time and benefits have not been measured.",
+  "users_stakeholders": "Prospective students, admissions counselors, marketing/enrollment staff, university IT, privacy and compliance officers",
+  "adoption_posture": "Conservative / risk-averse: adopts only after peers demonstrate stable, low-risk use (scenario assumption).",
+  "capabilities_constraints": "Scenario assumptions: two-person IT team, no in-house AI staff, limited budget, CRM vendor features only, small admissions office. No existing chatbot is specified.",
+  "risk_consequence_context": "A visible error could damage the college's reputation in a small applicant market; unauthorized actions can expose data. No legal determination is made.",
+  "management_question": "Should this college adopt, experiment with, monitor, defer or reject agentic AI for this applicant-support application now, and what would change that posture?",
+  "time_horizon": "18 months",
+  "additional_context": "Synthetic posture contrast: technology and application held constant; risk tolerance and capability differ. The college's risk officer has proposed a permanent ban on any AI in admissions communications. Upstream specialist findings (C3) apply to the technology and application."
+}

@@ -1,0 +1,8 @@
+{
+  "status": "Fictional H3 arithmetic; not observed results or financial ROI",
+  "manual_minutes": 3000,
+  "deterministic_minutes": 2000,
+  "agent_minutes": 2500,
+  "past_sunk_excluded_minutes": 300,
+  "volume_adjusted_demo_ratio": 1.0625
+}

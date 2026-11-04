@@ -1,0 +1,98 @@
+[
+  {
+    "candidate": "yufei_cai",
+    "case": "primary",
+    "action": "DEFER",
+    "response": "comparison/walkthroughs/yufei_cai_primary.json",
+    "prompt": "comparison/prompts/yufei_cai_primary.txt",
+    "method": "Same-assistant qualitative rule walkthrough using unchanged candidate instructions/metadata and identical current common cases. Not an independent model call or a numerical ranking."
+  },
+  {
+    "candidate": "yufei_cai",
+    "case": "posture_contrast",
+    "action": "DEFER",
+    "response": "comparison/walkthroughs/yufei_cai_posture_contrast.json",
+    "prompt": "comparison/prompts/yufei_cai_posture_contrast.txt",
+    "method": "Same-assistant qualitative rule walkthrough using unchanged candidate instructions/metadata and identical current common cases. Not an independent model call or a numerical ranking."
+  },
+  {
+    "candidate": "yufei_cai",
+    "case": "learning_permission_conservative",
+    "action": "MONITOR",
+    "response": "comparison/walkthroughs/yufei_cai_learning_permission_conservative.json",
+    "prompt": "comparison/prompts/yufei_cai_learning_permission_conservative.txt",
+    "method": "Same-assistant qualitative rule walkthrough using unchanged candidate instructions/metadata and identical current common cases. Not an independent model call or a numerical ranking."
+  },
+  {
+    "candidate": "chutong_wang",
+    "case": "primary",
+    "action": "DEFER",
+    "response": "comparison/walkthroughs/chutong_wang_primary.json",
+    "prompt": "comparison/prompts/chutong_wang_primary.txt",
+    "method": "Same-assistant qualitative rule walkthrough using unchanged candidate instructions/metadata and identical current common cases. Not an independent model call or a numerical ranking."
+  },
+  {
+    "candidate": "chutong_wang",
+    "case": "posture_contrast",
+    "action": "DEFER",
+    "response": "comparison/walkthroughs/chutong_wang_posture_contrast.json",
+    "prompt": "comparison/prompts/chutong_wang_posture_contrast.txt",
+    "method": "Same-assistant qualitative rule walkthrough using unchanged candidate instructions/metadata and identical current common cases. Not an independent model call or a numerical ranking."
+  },
+  {
+    "candidate": "chutong_wang",
+    "case": "learning_permission_conservative",
+    "action": "PROOF_OF_CONCEPT",
+    "response": "comparison/walkthroughs/chutong_wang_learning_permission_conservative.json",
+    "prompt": "comparison/prompts/chutong_wang_learning_permission_conservative.txt",
+    "method": "Same-assistant qualitative rule walkthrough using unchanged candidate instructions/metadata and identical current common cases. Not an independent model call or a numerical ranking."
+  },
+  {
+    "candidate": "jianbo_sun",
+    "case": "primary",
+    "action": "DEFER",
+    "response": "comparison/walkthroughs/jianbo_sun_primary.json",
+    "prompt": "comparison/prompts/jianbo_sun_primary.txt",
+    "method": "Same-assistant qualitative rule walkthrough using unchanged candidate instructions/metadata and identical current common cases. Not an independent model call or a numerical ranking."
+  },
+  {
+    "candidate": "jianbo_sun",
+    "case": "posture_contrast",
+    "action": "DEFER",
+    "response": "comparison/walkthroughs/jianbo_sun_posture_contrast.json",
+    "prompt": "comparison/prompts/jianbo_sun_posture_contrast.txt",
+    "method": "Same-assistant qualitative rule walkthrough using unchanged candidate instructions/metadata and identical current common cases. Not an independent model call or a numerical ranking."
+  },
+  {
+    "candidate": "jianbo_sun",
+    "case": "learning_permission_conservative",
+    "action": "PROOF_OF_CONCEPT",
+    "response": "comparison/walkthroughs/jianbo_sun_learning_permission_conservative.json",
+    "prompt": "comparison/prompts/jianbo_sun_learning_permission_conservative.txt",
+    "method": "Same-assistant qualitative rule walkthrough using unchanged candidate instructions/metadata and identical current common cases. Not an independent model call or a numerical ranking."
+  },
+  {
+    "candidate": "minghan_liu",
+    "case": "primary",
+    "action": "DEFER",
+    "response": "comparison/walkthroughs/minghan_liu_primary.json",
+    "prompt": "comparison/prompts/minghan_liu_primary.txt",
+    "method": "Same-assistant qualitative rule walkthrough using unchanged candidate instructions/metadata and identical current common cases. Not an independent model call or a numerical ranking."
+  },
+  {
+    "candidate": "minghan_liu",
+    "case": "posture_contrast",
+    "action": "DEFER",
+    "response": "comparison/walkthroughs/minghan_liu_posture_contrast.json",
+    "prompt": "comparison/prompts/minghan_liu_posture_contrast.txt",
+    "method": "Same-assistant qualitative rule walkthrough using unchanged candidate instructions/metadata and identical current common cases. Not an independent model call or a numerical ranking."
+  },
+  {
+    "candidate": "minghan_liu",
+    "case": "learning_permission_conservative",
+    "action": "MONITOR",
+    "response": "comparison/walkthroughs/minghan_liu_learning_permission_conservative.json",
+    "prompt": "comparison/prompts/minghan_liu_learning_permission_conservative.txt",
+    "method": "Same-assistant qualitative rule walkthrough using unchanged candidate instructions/metadata and identical current common cases. Not an independent model call or a numerical ranking."
+  }
+]

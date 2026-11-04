@@ -1,0 +1,14 @@
+{
+  "emerging_technology": "Agentic AI built on large language models (LLM-based agents that plan, use tools, and complete multi-step tasks)",
+  "intended_application": "Revised proposal: the same applicant-support agent, but it would also read and update applicant records in the CRM (contact details, program interest, application status notes) through the vendor's connector, and send routine follow-up emails without per-message staff approval. Excludes admission, scholarship, visa and eligibility decisions.",
+  "organization": "NYU School of Professional Studies (SPS)",
+  "industry_sector": "Higher education - graduate and professional/continuing education recruitment. Applicant trust, privacy, accessibility and accuracy matter; international applicants include EU residents; exact legal obligations require specialist review.",
+  "business_need": "Scenario hypothesis: reduce repetitive inquiry handling and improve timely guidance. Actual demand, response time and benefits have not been measured.",
+  "users_stakeholders": "Prospective students, admissions counselors, marketing/enrollment staff, university IT, privacy and compliance officers",
+  "adoption_posture": "Moderate / fast-follower is a course-case assumption, not an official NYU policy.",
+  "capabilities_constraints": "Scenario assumptions: SPS already purchased a one-year block of agent licenses that will otherwise go unused. The vendor's data-processing terms (whether applicant data are retained or used for model training), the connector's permission model, and the privacy/compliance review status are NOT available. SPS already offers a public chatbot named Violet (D18).",
+  "risk_consequence_context": "Wrong deadlines or promises can harm applicants and the organization is accountable for what its agent says (D21); unauthorized actions can expose data. No applicant records are used in this assignment. No legal determination is made.",
+  "management_question": "Should SPS adopt, experiment with, monitor, defer or reject agentic AI for this applicant-support application now, and what would change that posture?",
+  "time_horizon": "12 months: decision now, review within one admissions cycle",
+  "additional_context": "Upstream specialists (C3): A3 incremental sustaining process innovation, compare staff-only / simple retrieval / agent first; A4 Breakthrough with unresolved Potential-Promethean candidacy, Low weight on present decisions; A5 tool-using recruitment agents at innovators/early adopters, observability is the binding factor, fast-follower timing 'prepare and trial now'. Use the dated source register. QUALIFICATION PROBE. The vendor offers a free 30-day live pilot that expires at month end; a competitor school has announced an 'AI admissions agent'; the sponsoring director argues that the licenses are already paid for and that privacy can be sorted out during the pilot. These are pressures and claims, not verified evidence."
+}

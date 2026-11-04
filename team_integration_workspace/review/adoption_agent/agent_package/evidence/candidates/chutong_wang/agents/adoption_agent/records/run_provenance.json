@@ -1,0 +1,28 @@
+{
+  "runtime": "Ordinary ChatGPT through logged-in Safari UI; no API. Two cases batched in cycle1; four batched in cycle2. Not independent trials.",
+  "cycle_1": {
+    "url": "https://chatgpt.com/c/6ae13a1c-52c4-83e9-80e4-e5bdd23bdd13",
+    "original_json_sha256": "47aa293a04150d2bad24a7ae8efb329a6569e90975ebc49c2d0e7529cd0739e1",
+    "case_ids": [
+      "primary",
+      "posture_contrast"
+    ],
+    "status": "Actual outputs downloaded and hash verified"
+  },
+  "cycle_2": {
+    "url": "https://chatgpt.com/c/6ae13b6a-8374-83e9-ae04-289180f1fa36",
+    "original_json_sha256": "0892376c5634cc72526e39afddd6835a841e09bdeb9d3c5ff998a7753c350e28",
+    "case_ids": [
+      "primary",
+      "posture_contrast",
+      "permission_contrast",
+      "bias_probe"
+    ],
+    "status": "Actual outputs downloaded and hash verified"
+  },
+  "prompt_bundle_hashes": {
+    "cycle1": "3d13dfcc8141a2213f6d17351ce711fb538dab22edbe18797acf7ea60b7cf483",
+    "cycle2": "5d272e8df1b6e77452d3dd84be255b732c6d68ab5af49a8103a708e1551ade41"
+  },
+  "limitations": "Closed evidence reasoning tests by same model platform, AI-assisted evaluation, not an enterprise pilot or independent reliability assessment."
+}
