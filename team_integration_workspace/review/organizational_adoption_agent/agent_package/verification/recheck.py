@@ -33,7 +33,7 @@ with tempfile.TemporaryDirectory(prefix='tw8-recheck-') as t:
   response=A/'responses'/(n+'_response.json')
   check(n+' instructor validator',subprocess.run([sys.executable,str(ROOT/'tools/validate_response.py'),str(response)],capture_output=True).returncode==0)
   check(n+' team metadata',r['agent']==META)
-  check(n+' eight dimensions input',set(profile['domains'])==set(D));check(n+' eight dimensions output',all(d in r['organization_specific_finding'] for d in D))
+  check(n+' eight dimensions input',set(profile['domains'])==set(D));check(n+' eight dimensions output',all(d in r['organization_specific_finding'] for d in D) and r['organization_specific_finding'].count('Closure/evidence holder:')==8)
   check(n+' declared fixture verdict',r['organization_specific_finding'].startswith(EXPECTED[n]) and r['recommendation_management_implication'].startswith(EXPECTED[n]))
   check(n+' routine boundary','ROUTINE_READINESS_NOT_ESTABLISHED' in r['organization_specific_finding'])
   check(n+' factual status labels',all(v['status'] in FRAME['statuses'] for v in profile['domains'].values()))
