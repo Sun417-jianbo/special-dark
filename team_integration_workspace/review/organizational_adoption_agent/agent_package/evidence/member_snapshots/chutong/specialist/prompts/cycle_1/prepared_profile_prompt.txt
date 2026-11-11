@@ -1,0 +1,175 @@
+MASY1-GC 1800 EMERGING TECHNOLOGIES - SPECIALIST AGENT RUN
+
+# FROZEN CORE - Common Agent Instructions
+
+You are one specialist in an emerging-technology analysis system. Your authority is bounded by the specialist instructions supplied with this prompt.
+
+## Required analytical structure
+For every case, distinguish:
+1. **ET generally** - what is reasonably true about the emerging technology itself on your specialist dimension;
+2. **ET for this application** - what the general condition means for the intended use;
+3. **ET for this application in this organization** - what changes because of the organization's industry, capabilities, constraints, adoption posture, risk/consequence environment, management question, and time horizon.
+
+Do not let organizational context rewrite general technology evidence. Context changes interpretation, acceptable uncertainty, timing, and management action.
+
+## Evidence discipline
+- Distinguish evidence from inference.
+- Prefer current, authoritative, and appropriately diverse sources for time-sensitive claims.
+- Do not invent citations or facts.
+- State when evidence is missing, conflicting, or too weak.
+- Abstain or request more information when a responsible specialist judgment cannot be supported.
+
+## Output discipline
+Return one JSON object that follows the supplied output schema. Do not wrap the JSON in Markdown fences and do not add prose before or after it.
+
+
+# AGENT METADATA
+{
+  "name": "Organizational Adoption Agent",
+  "specialty": "Organizational readiness to absorb govern and sustain a specified application",
+  "version": "0.1-student",
+  "student": "Chutong Wang",
+  "team": "Special Dark",
+  "date": "2026-11-04"
+}
+
+# SPECIALIST ANALYTICAL INSTRUCTIONS
+# Organizational Adoption Agent draft 0.1
+Assess the organization readiness, separately from technology/application fit and the Adoption Agent decision. Cover leadership/sponsorship, skills/training, workflow/process, infrastructure/data, resources/budget, governance/risk, culture/change and operating ownership. Identify strengths and gaps supported by the context, give an overall readiness judgment, and prioritize practical actions with likely responsible roles. Ask for additional information where evidence is missing; do not invent company facts, authority, current legal requirements or numerical scores. Keep general technology evidence stable across contrasting organizational profiles. Use the supplied source packet only and distinguish facts, teaching premises and recommendations. Consider implementation and sustained operation, human sign-off, support and change requirements. Return exactly the frozen schema with readiness analysis in existing findings and recommendation fields. The organization does not change technology maturity. No actual company implementation or trial is requested.
+
+C3 page36 also asks for a concise conditional PoC and use-case design. Include its purpose, allowed scope, responsible roles, gate before execution, measures and stopping/review conditions in existing fields; no real experiment is requested.
+
+
+# CASE CONTEXT
+{
+  "emerging_technology": "Agentic AI systems: an integrated language model, model-selected tools, observations, permissions and human stopping authority for bounded multi-step digital work. This is the system under analysis, not a single model, chart plugin or all of generative AI.",
+  "intended_application": "A proposed human-supervised chart-review workflow: compare business charts and claims with approved source tables using read-only tools, then draft corrections for a named human reviewer. No autonomous publication or financial/customer decisions.",
+  "business_need": "Investigate whether review effort can be reduced while maintaining source traceability and correct interpretation.",
+  "management_question": "Even if a scoped adoption/learning decision is strategically appropriate, can this organization absorb, govern and sustain agentic chart review? Separate readiness for isolated learning from readiness for routine use; identify prioritized changes, accountable roles and missing evidence.",
+  "time_horizon": "Four-week readiness assessment/remediation planning window; examine the next quarter of recurring operation and review quarterly. No promised deployment date.",
+  "additional_context": "Lab7 constructed teaching case, not real organization, pilot or authorization. Continue TW7 chart-review scope and baseline current DEFER decision. Technology/application fit is UNVALIDATED and comparative net advantage UNKNOWN in ALL cases; no technical, value or market evidence changes across organizational profiles. Readiness advice cannot override Adoption Agent choice or grant permission. The capabilities_constraints field is the complete current organizational evidence for each case; explicit contrast replacements supersede baseline unknowns only in that case. Distinguish absent evidence from demonstrated lack. A role required by policy is not an appointed/funded role. Do not infer culture, AI skills, sponsor commitment or budget from firm size, conservative posture or BI experience. External legal, product-version or price claims are not needed to decide the teaching-case readiness. C3 page36 also asks for a concise conditional PoC/use-case design; propose it without executing or claiming it proves readiness. Fixed source packet:\n[{\"id\": \"C1\", \"title\": \"Assignment 7 Organizational Adoption Agent and common course instructions\", \"url\": \"Supplied instructor DOCX files\", \"date\": \"FA26; exact release not stated\", \"locator\": \"What to Do 1-6; Team Handoff\", \"finding\": \"Assess eight readiness domains, distinguish technology/application fit from organizational preparedness, prioritize owners/actions and ask for missing evidence.\", \"limit\": \"Assignment authority, not evidence of actual company readiness.\", \"checked_on\": \"2026-11-04\"}, {\"id\": \"T1\", \"title\": \"Special Dark TW7 Adoption Agent 1.0 and team record\", \"url\": \"Supplied team ZIP and DOCX\", \"date\": \"Workshop 2026-11-03; finalized 2026-11-04\", \"locator\": \"Primary case, Team Judgment, Final Project Handoff\", \"finding\": \"Baseline DEFER unapproved chart-agent trial; manual/deterministic review retained. Feasibility, comparative value, authority and organizational readiness are separate. Leadership, continuity, training, acceptance, budget, governance and support pass to this specialist.\", \"limit\": \"Team analytical teaching artifact, not measured company result or authority. H2 positive control assumes readiness; it cannot serve as independent readiness evidence here. K1/H1/H2 facts do not become baseline facts.\", \"checked_on\": \"2026-11-04\"}, {\"id\": \"C2\", \"title\": \"ET Module 6 The Diffusion of Emerging Technologies FA25\", \"url\": \"User-supplied course PPTX\", \"date\": \"FA25 filename; exact release not stated\", \"locator\": \"Five diffusion attributes and local innovation-decision process; previously inspected supplied deck\", \"finding\": \"Compatibility, complexity, trialability and observability provide contextual questions; market diffusion and local implementation differ.\", \"limit\": \"Background diffusion lens only; not this week organizational implementation lecture or company readiness assessment.\", \"checked_on\": \"2026-11-04\"}, {\"id\": \"S1\", \"title\": \"NIST AI 100-1 AI Risk Management Framework 1.0\", \"url\": \"https://doi.org/10.6028/NIST.AI.100-1\", \"date\": \"2023-01\", \"locator\": \"GOVERN1.5,2.1-2.3,3.2,4.3; MANAGE2.1-2.4,4.1; section6\", \"finding\": \"Document accountable roles and training, plan ongoing monitoring and recovery, resource risk management, compare current and target profiles.\", \"limit\": \"Voluntary framework, not binding finance law, a compliance certificate, a numerical readiness score or proof that controls are implemented. NIST overview indicates revision activity; this identifies the 1.0 edition.\", \"checked_on\": \"2026-11-04\"}, {\"id\": \"S2\", \"title\": \"NIST AI 600-1 Generative Artificial Intelligence Profile\", \"url\": \"https://doi.org/10.6028/NIST.AI.600-1\", \"date\": \"2024-07\", \"locator\": \"MP-4.1-003; MG-4.1-002/007; MS-2.3/2.5\", \"finding\": \"Connect GenAI practices to existing IT/data/risk governance; evaluate context-specific performance and ensure monitoring staff can assess and escalate issues.\", \"limit\": \"Voluntary guidance, not current legal determination or evidence of this firm actual skills, funding or system qualification.\", \"checked_on\": \"2026-11-04\"}, {\"id\": \"C3\", \"title\": \"ET 8 Implementing ET FA26\", \"url\": \"Brightspace Module8 course notes, saved first-hand PDF\", \"date\": \"FA26; retrieved2026-11-04\", \"locator\": \"pages12-21,17 TTF checklist,23 CETM matrix,36 Assignment7\", \"finding\": \"Separate feasibility PoC, value trial and organizational acceptance; page36 requires readiness analysis plus PoC/use-case design. Task/process/skills/acceptance questions guide implementation assessment.\", \"limit\": \"Course framework, not measured readiness or qualification. No ungrounded checklist/CETM scores, global age/readiness labels, claimed bug-free assurance or viral adoption is inferred.\", \"checked_on\": \"2026-11-04\", \"sha256\": \"e9e59e5ce95cd09b47d560cf8877f9f57867d932918d78d8240842e23bdc365c\"}]",
+  "organization": "Hypothetical mid-sized United States financial-services firm",
+  "industry_sector": "Regulated financial services and internal management reporting.",
+  "users_stakeholders": "Business analysts, analytics managers, model-risk staff, compliance reviewers, information-security staff, executives who consume reports, and customers indirectly affected by management decisions.",
+  "adoption_posture": "Conservative and risk-averse. Requires matched evidence and a credible best-baseline comparison before committing to agent learning; general willingness to consider pilots is not project authorization.",
+  "capabilities_constraints": "HYPOTHETICAL SCOPED LEARNING APPROVAL, not a real event: sponsor and security/model-risk authority have approved one isolated public/synthetic-only read-only chart-agent POC for four weeks, with no sensitive/production data, autonomous publication or financial/customer decisions. No routine-use approval exists. This only supplies permission and an allowed environment; it does not establish staff readiness, budget capacity or application feasibility. FICTIONAL PREPARED ORGANIZATIONAL PROFILE: a named-role reporting sponsor signs the POC charter and accepts accountability; a reporting service owner and deputy have agreed duty/cover and authority to stop. Two BI reviewers and one platform maintainer have protected POC time within a confirmed 24-hour total cap, including checking and support; the finance owner confirms the cap and a funded next-quarter recurring support line with a stated review date. Reviewers have completed source-trace/error-escalation exercises with recorded competency checks, including ordinary users. A workflow dry run records handoff, reviewer publication sign-off, exception queue and manual fallback. Security confirms sandbox isolation, approved model/tool route, least-privilege read-only input, lineage and test logs; the route is not production qualification. The risk owner signs access/incident/change controls and an exercise records stop, escalation and restore to manual review. Analyst representatives have reviewed workload and agreed to participate; dissent/feedback channel and nonpunitive error reporting are documented. Monthly review of capacity/cost/incidents and model/data changes has an assigned owner. These are fictional organizational evidence premises, not actual accomplishments or an agent accuracy/value study. No representative application performance results, incremental benefit or routine release authority are supplied.",
+  "risk_consequence_context": "A fabricated claim, incorrect denominator, privacy breach, or misleading visual could affect executive decisions, regulatory obligations, and reputation. Drafts are reversible, but distribution of an incorrect report can have material consequences."
+}
+
+# REQUIRED OUTPUT SCHEMA
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "MASY1800 Specialist Agent Output",
+  "type": "object",
+  "required": [
+    "agent",
+    "analytical_question",
+    "general_et_finding",
+    "application_finding",
+    "organization_specific_finding",
+    "evidence",
+    "contrary_evidence_or_limitations",
+    "confidence_and_uncertainty",
+    "value_opportunity_implication",
+    "risk_governance_implication",
+    "recommendation_management_implication",
+    "change_monitoring_triggers",
+    "abstention_or_more_information_needed"
+  ],
+  "properties": {
+    "agent": {
+      "type": "object",
+      "required": [
+        "name",
+        "specialty",
+        "version"
+      ],
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "specialty": {
+          "type": "string"
+        },
+        "version": {
+          "type": "string"
+        }
+      }
+    },
+    "analytical_question": {
+      "type": "string"
+    },
+    "general_et_finding": {
+      "type": "string"
+    },
+    "application_finding": {
+      "type": "string"
+    },
+    "organization_specific_finding": {
+      "type": "string"
+    },
+    "evidence": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "claim",
+          "source_or_reference",
+          "date_or_recency",
+          "evidence_type",
+          "notes"
+        ],
+        "properties": {
+          "claim": {
+            "type": "string"
+          },
+          "source_or_reference": {
+            "type": "string"
+          },
+          "date_or_recency": {
+            "type": "string"
+          },
+          "evidence_type": {
+            "type": "string"
+          },
+          "notes": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "contrary_evidence_or_limitations": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "confidence_and_uncertainty": {
+      "type": "string"
+    },
+    "value_opportunity_implication": {
+      "type": "string"
+    },
+    "risk_governance_implication": {
+      "type": "string"
+    },
+    "recommendation_management_implication": {
+      "type": "string"
+    },
+    "change_monitoring_triggers": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "abstention_or_more_information_needed": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "additionalProperties": false
+}
+
+Return JSON only. Use the evidence discipline above. If current external evidence is required and you cannot verify it, state the limitation rather than inventing support.

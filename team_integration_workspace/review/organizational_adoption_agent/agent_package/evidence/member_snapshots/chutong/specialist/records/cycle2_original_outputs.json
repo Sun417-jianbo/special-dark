@@ -1,0 +1,334 @@
+{
+  "primary": {
+    "agent": {
+      "name": "Organizational Adoption Agent",
+      "specialty": "Organizational readiness to absorb govern and sustain a specified application",
+      "version": "0.2-student"
+    },
+    "analytical_question": "For the hypothetical financial-services chart-agent proposal, distinguish readiness to plan, execute isolated public/synthetic learning, and operate next-quarter routine service under the primary organizational evidence profile without importing capabilities from another packet.",
+    "general_et_finding": "Agentic AI combines model-selected tool actions, observations, scoped permissions and a human stop path; it creates organizational duties beyond ordinary BI charting: competent source checking, error escalation, access control, audit lineage, change management, monitoring, fallback and continuous service coverage. Its technology maturity cannot be inferred from this organization’s permission, staff or budget. C1 and C3 frame adoption as separate technology, task and organizational questions; S1/S2 offer voluntary role and lifecycle guidance, not proof of implementation.",
+    "application_finding": "For human-supervised chart review, an analyst would submit a public or synthetic chart and its source table; read-only agent tools would draft source-linked discrepancy notes, which a qualified human accepts or rejects before any publication. Correct denominators, label interpretation, context and uncertainty matter; exceptions and ambiguous graphics require abstention/escalation. Task/technology fit and reproducible technical performance remain UNVALIDATED and comparative net advantage versus manual and deterministic review UNKNOWN in all four packets. Neither an approval nor a training dry run establishes accuracy, reduced total review burden or safe routine use.",
+    "organization_specific_finding": "CASE primary | Eight-domain case-evidence profile; SUPPORTED always limited to explicitly stated scope, PARTIAL is qualified and UNKNOWN is not failure:\nLeadership/sponsorship — UNKNOWN: Evidence: No sponsor charter, trial authority or residual-risk decision owner supplied. Consequence: No accountable decision or permission to execute. Closure: Proposed reporting executive provides signed charter, scoped decision rights, risk acceptance and trial permission.\nSkills/training — PARTIAL: Evidence: Experienced BI analysts; no agent source-trace, denominator, hallucination or escalation competency results. Consequence: Reviewers may approve unsupported drafts. Closure: Proposed analytics manager records ordinary-user and deputy practical competency/repair checks.\nWorkflow/process — PARTIAL: Evidence: Human publication sign-off is required; correction/exception handoff and full-review effort are undocumented. Consequence: Escaped drafts or hidden checking cost. Closure: Proposed reporting owner dry-runs exception queue, sign-off, end-to-end timings and manual fallback.\nInfrastructure/data — GAP: Evidence: No approved agent model/trial environment; internal/production access explicitly not approved. Consequence: Agent execution would exceed permission and risk uncontrolled data access. Closure: Proposed security/model-risk authority signs sandbox/model/tool/data boundary, read-only rights, isolation and trace logs.\nResources/budget — UNKNOWN: Evidence: No protected POC reviewer/support hours, cap or recurring allocation. Consequence: Unstaffed review and unaffordable service continuity. Closure: Proposed finance owner confirms scoped POC cap and separately approved next-quarter amount, period, coverage and contingency.\nGovernance/risk — UNKNOWN: Evidence: No designated escalation, incident/change authority or exercised stop/restore. Consequence: Material errors could persist without safe recovery. Closure: Proposed risk owner signs incident/stop/change controls and witnesses rollback drill.\nCulture/change — UNKNOWN: Evidence: No representative ordinary-user acceptance or safe reporting evidence; no resistance established. Consequence: Workload may be rejected or errors concealed. Closure: Proposed analytics lead collects recorded participation, workload feedback and dissent channel.\nOperating ownership — UNKNOWN: Evidence: No accepted service owner/deputy, maintenance, monitoring or retirement duty. Consequence: Orphaned tool and coverage failure. Closure: Proposed reporting leader obtains written duty/cover, monitoring, support, change and retirement assignment.\nScope conclusions: PLAN: READY_TO_PLAN using desk research, manual and deterministic baselines only. ISOLATED POC: NOT_READY_FOR_EXECUTION: explicit lack of trial/model-route approval and unknown protected competent reviewers, owner, stop and funding. ROUTINE: INSUFFICIENT_EVIDENCE_FOR_SUSTAINED_USE and no authorization; technical fit, value, ongoing capacity and release unproved.",
+    "evidence": [
+      {
+        "claim": "C1 assigns eight-domain readiness and handoff, not actual company capability.",
+        "source_or_reference": "C1 | Assignment 7 Organizational Adoption Agent / common course instructions; What to Do 1–6, Team Handoff",
+        "date_or_recency": "FA26 release unspecified; packet checked 2026-11-04",
+        "evidence_type": "course assignment authority",
+        "notes": "Eight domains and ownership/closure requirements are case-analysis criteria."
+      },
+      {
+        "claim": "Baseline is DEFER, with manual/deterministic review retained; H2 is not independent readiness evidence.",
+        "source_or_reference": "T1 | Special Dark TW7 Adoption Agent 1.0 / team record; Primary case, Team Judgment, Final Project Handoff",
+        "date_or_recency": "workshop 2026-11-03; finalized 2026-11-04; checked 2026-11-04",
+        "evidence_type": "attributed upstream teaching artifact",
+        "notes": "No chart-agent trial or real measured effect is claimed."
+      },
+      {
+        "claim": "Feasibility learning, comparative value testing and organizational acceptance must be separately examined.",
+        "source_or_reference": "C3 | ET 8 Implementing ET FA26; pp.12–21, 17 TTF checklist, 23 CETM, 36 Assignment 7",
+        "date_or_recency": "FA26, retrieved/checked 2026-11-04",
+        "evidence_type": "course implementation framework",
+        "notes": "Page 36 supports a conditional use case and PoC design, not execution."
+      },
+      {
+        "claim": "Organizational role clarity, training, resourcing, monitoring and recovery are relevant design considerations.",
+        "source_or_reference": "S1 | NIST AI 100-1, GOVERN 1.5, 2.1–2.3, 3.2, 4.3; MANAGE 2.1–2.4, 4.1; section 6; https://doi.org/10.6028/NIST.AI.100-1",
+        "date_or_recency": "edition published 2023-01; checked 2026-11-04",
+        "evidence_type": "voluntary external guidance",
+        "notes": "Not a legal mandate, readiness certification or company fact; edition 1.0 specifically."
+      },
+      {
+        "claim": "Integration with IT/data risk controls and monitoring by competent staff is appropriate.",
+        "source_or_reference": "S2 | NIST AI 600-1, MP-4.1-003, MG-4.1-002/007, MS-2.3/2.5; https://doi.org/10.6028/NIST.AI.600-1",
+        "date_or_recency": "edition published 2024-07; checked 2026-11-04",
+        "evidence_type": "voluntary external guidance",
+        "notes": "Not evidence of actual training, budget or system qualification."
+      },
+      {
+        "claim": "Diffusion attributes inform usability and observability questions, not internal readiness proof.",
+        "source_or_reference": "C2 | ET Module 6 Diffusion FA25; five attributes and local innovation-decision process",
+        "date_or_recency": "FA25 filename; release unspecified; checked 2026-11-04",
+        "evidence_type": "background course context",
+        "notes": "Cannot substitute for operational evidence."
+      },
+      {
+        "claim": "Baseline case explicitly lacks approval of an agent trial/model environment; BI tables and analyst experience exist but do not demonstrate agent-specific competence.",
+        "source_or_reference": "Case context: primary, capabilities_constraints",
+        "date_or_recency": "fictional case supplied/checked 2026-11-04",
+        "evidence_type": "closed-case organizational premise",
+        "notes": "Public/synthetic desk research alone is not agent-execution permission; all other unstated capabilities remain unknown."
+      }
+    ],
+    "contrary_evidence_or_limitations": [
+      "All four cases share UNVALIDATED task/technology fit and UNKNOWN net advantage; no comparative agent trial or measured efficacy is provided.",
+      "T1 H2 readiness assumptions and other case premises cannot establish this case’s organization; no cross-case borrowing.",
+      "Case approvals and rehearsals are fictional stipulated premises, not independent enterprise audit, real deployment or certification.",
+      "Human review required by policy does not by itself prove an appointed competent or protected reviewer.",
+      "S1/S2 are voluntary editions, not binding regulation or evidence of current company implementation."
+    ],
+    "confidence_and_uncertainty": "High confidence that no agent execution authorization is supplied and that no routine readiness is established; low confidence about unreported sponsor, culture, training or finances, explicitly UNKNOWN rather than absent. Case dated 2026-11-04; general NIST editions 2023-01/2024-07 reviewed 2026-11-04. Fictional, not audited.",
+    "value_opportunity_implication": "Potentially fewer chart-claim checking hours with stronger traceability, but the net benefit is UNKNOWN until comparative representative testing includes false/missed corrections, human correction, maintenance and support time. Conventional manual plus deterministic checks remain the baseline. Organizational readiness does not prove utility or authorize an adoption posture change.",
+    "risk_governance_implication": "Main consequences are wrong denominators, invented links, privacy/access breach, misleading reports and inappropriate executive reliance. Restrict to reversible source-linked drafts, independently human-authorized publication, least privilege, full logs, escalation, incident stops, reviewer coverage and manual recovery. The risk owner must set materiality/tolerances; do not mistake a dry run for technical validation or assert legal compliance.",
+    "recommendation_management_implication": "Binding gap is absence of scoped trial authority and approved model/data route, coupled with unassigned accountable execution and protected competent review; BI experience cannot offset these gates. P1 proposed reporting sponsor + security/model-risk authority, before any execution: sign a public/synthetic-only charter, authorize exact model/tools and read-only route, establish residual-risk and stop authority; closure signed permission plus sandbox/log check; blocks POC. P2 proposed reporting service owner + finance/analytics heads: accept owner/deputy duties and obtain protected ordinary-reviewer/support hours and explicit POC cap; separately inquire about next-quarter funding; closure signed rota, competency roster and finance authorizations; blocks POC and service. P3 proposed analytics/risk leads: assess actual source checking, exceptions, publication signoff, incident/restore and feedback; closure recorded exercises, ordinary-user acceptance and agreed tolerance sheet; blocks credible POC. Four weeks is a review plan, not a promise of approval.\nCONDITIONAL DESIGN, not an executed study: across four weeks use analyst-submitted public/synthetic charts and source tables, read-only agent-generated source-linked notes, a qualified reviewer deciding accept/reject, and human-only publication. This case is PLANNING ONLY until separate authorized owners document and satisfy all permissions, staffing, competent reviewer/backup, approved route, stop/recovery, cap and acceptance criteria; permission alone is not enough. No POC budget or protected-hour cap is supplied in this case: secure explicit capacity/approval first; no 24-hour cap is imported. Agree task breadth, materiality/error tolerance and success criteria BEFORE execution; use normal, ambiguous and adversarial/incorrect-denominator samples plus absent-reviewer and incident/restore drills. Capture reproducible source traces, missed/false corrections, abstentions, unsupported claims, total setup/review/correction/support labor, reviewer feedback, cover and restore outcomes; compare manual/deterministic best baseline, not just model output. Stop and revert to manual review for forbidden access, publication escape, missing lineage/oversight, cap exhaustion, absent qualified coverage or material unsupported claims. Review in week four or earlier on incidents or changes to staff/model/data terms. Separate feasibility, incremental value and sustainable governance exit decisions; zero errors on a small set cannot certify production.",
+    "change_monitoring_triggers": [
+      "Four-week review of actual control, trace, accuracy, effort and acceptance records, if an authorized study occurs; otherwise review documented readiness progress only.",
+      "Immediate reassessment after incident, lost lineage, forbidden access, changed model/tool/data terms, lost sponsor/reviewer/deputy or cap exhaustion.",
+      "Before any routine proposal, reassess next-quarter owner/cover, recurring signed budget, performance/value versus best baseline and separately granted risk/operating approval; quarterly thereafter if released."
+    ],
+    "abstention_or_more_information_needed": [
+      "EXPLICIT CONDITION: No affirmative assurance of routine use until representative task performance/net value, authorized production route and risk release, funded covered owner/deputy and continued monitoring are evidenced; do not run a real trial based on this analysis.",
+      "MoE organizational intake (put labelled subfields inside existing capabilities_constraints/additional_context, not extra output keys): case/run ID; requested plan/POC/routine scope and horizon; evidence-as-of date and each document/source owner; sponsor/charter/permission/residual-risk decision rights; named service owner/deputy/rota and protected ordinary-user reviewer competency; handoff, signoff, exceptions, full review effort and fallback; approved model/tool/data route, access, isolation, logs and lineage; POC cap/hours/approver versus separately signed recurring amount/period/coverage/contingency; representative consultation/feedback/dissent; incident-stop-change authority and tested restore; monitoring, support, retirement and reassessment triggers.",
+      "Handoff to Adoption Agent/human: PLAN: READY_TO_PLAN using desk research, manual and deterministic baselines only. ISOLATED POC: NOT_READY_FOR_EXECUTION: explicit lack of trial/model-route approval and unknown protected competent reviewers, owner, stop and funding. ROUTINE: INSUFFICIENT_EVIDENCE_FOR_SUSTAINED_USE and no authorization; technical fit, value, ongoing capacity and release unproved. Binding dependency: trial authority plus accountable competent resourced controls. Carry closure artifacts, remaining limitations and change triggers forward without overturning T1 baseline DEFER automatically."
+    ]
+  },
+  "prepared_profile": {
+    "agent": {
+      "name": "Organizational Adoption Agent",
+      "specialty": "Organizational readiness to absorb govern and sustain a specified application",
+      "version": "0.2-student"
+    },
+    "analytical_question": "For the hypothetical financial-services chart-agent proposal, distinguish readiness to plan, execute isolated public/synthetic learning, and operate next-quarter routine service under the prepared_profile organizational evidence profile without importing capabilities from another packet.",
+    "general_et_finding": "Agentic AI combines model-selected tool actions, observations, scoped permissions and a human stop path; it creates organizational duties beyond ordinary BI charting: competent source checking, error escalation, access control, audit lineage, change management, monitoring, fallback and continuous service coverage. Its technology maturity cannot be inferred from this organization’s permission, staff or budget. C1 and C3 frame adoption as separate technology, task and organizational questions; S1/S2 offer voluntary role and lifecycle guidance, not proof of implementation.",
+    "application_finding": "For human-supervised chart review, an analyst would submit a public or synthetic chart and its source table; read-only agent tools would draft source-linked discrepancy notes, which a qualified human accepts or rejects before any publication. Correct denominators, label interpretation, context and uncertainty matter; exceptions and ambiguous graphics require abstention/escalation. Task/technology fit and reproducible technical performance remain UNVALIDATED and comparative net advantage versus manual and deterministic review UNKNOWN in all four packets. Neither an approval nor a training dry run establishes accuracy, reduced total review burden or safe routine use.",
+    "organization_specific_finding": "CASE prepared_profile | Eight-domain case-evidence profile; SUPPORTED always limited to explicitly stated scope, PARTIAL is qualified and UNKNOWN is not failure:\nLeadership/sponsorship — SUPPORTED for scoped POC: Evidence: Reporting sponsor signed charter and accepted accountability; scoped approval is explicit. Consequence: Authority does not extend to routine deployment. Closure: Sponsor reconfirms scope/risk sign-off and obtains separate operating release decision.\nSkills/training — SUPPORTED for scoped POC: Evidence: Two reviewers including ordinary users have recorded source-trace/error-escalation exercises; platform maintainer protected. Consequence: Exercises do not demonstrate reliable agent outputs or future rota sufficiency. Closure: Analytics manager tests representative cases and refreshes competency/cover for service scale.\nWorkflow/process — SUPPORTED for scoped POC: Evidence: Documented dry run covers handoff, human publication approval, exception queue and fallback. Consequence: Unmeasured real checking effort could erase benefit. Closure: Service owner measures complete review/correction/support effort under representative tasks.\nInfrastructure/data — SUPPORTED for scoped POC: Evidence: Security confirms isolated sandbox, model/tool route, least-privilege read-only inputs, lineage and test logs. Consequence: No production qualification or tested chart-agent trace accuracy. Closure: Security verifies unchanged route and complete reproducible traces; separate production change approval.\nResources/budget — SUPPORTED for stated POC and documented next-quarter line: Evidence: Finance confirms protected 24-hour total POC cap and funded recurring support line with review date. Consequence: Sufficient actual workload and ongoing value are not measured; next-quarter line is not automatic release. Closure: Finance/service owner reconciles POC hours, next-quarter amount/period/coverage and cost at review.\nGovernance/risk — SUPPORTED for scoped POC: Evidence: Risk owner signed access/incident/change controls; stop/escalate/manual restore exercise recorded. Consequence: Real execution may present untested exceptions or material unsupported claims. Closure: Risk owner rehearses absence/material-claim scenarios and records incidents against tolerances.\nCulture/change — SUPPORTED for scoped POC: Evidence: Analyst representatives agreed to participate; workload feedback, dissent and nonpunitive reporting are documented. Consequence: Representative participation does not imply broad sustained acceptance. Closure: Analytics manager tracks ordinary-user workload and dissent during scoped study.\nOperating ownership — SUPPORTED for scoped POC: Evidence: Reporting service owner and deputy accept coverage, stop duty, maintenance and monthly monitoring of cost/incidents/model changes. Consequence: No proven routine operational service performance or final release. Closure: Service owner validates deputy availability, change/retirement process and next-quarter capacity.\nScope conclusions: PLAN: READY_TO_PLAN with documented case-specific controls. ISOLATED POC: CONDITIONALLY_READY_FOR_SCOPED_LEARNING within the fictional four-week, public/synthetic read-only, 24-hour total cap, subject to authority confirming unchanged prerequisites and tolerances; this is not evidence that a trial has run. ROUTINE: INSUFFICIENT_EVIDENCE_FOR_SUSTAINED_USE: representative performance, net value, production controls and separate release absent despite supported organizational preparation.",
+    "evidence": [
+      {
+        "claim": "C1 assigns eight-domain readiness and handoff, not actual company capability.",
+        "source_or_reference": "C1 | Assignment 7 Organizational Adoption Agent / common course instructions; What to Do 1–6, Team Handoff",
+        "date_or_recency": "FA26 release unspecified; packet checked 2026-11-04",
+        "evidence_type": "course assignment authority",
+        "notes": "Eight domains and ownership/closure requirements are case-analysis criteria."
+      },
+      {
+        "claim": "Baseline is DEFER, with manual/deterministic review retained; H2 is not independent readiness evidence.",
+        "source_or_reference": "T1 | Special Dark TW7 Adoption Agent 1.0 / team record; Primary case, Team Judgment, Final Project Handoff",
+        "date_or_recency": "workshop 2026-11-03; finalized 2026-11-04; checked 2026-11-04",
+        "evidence_type": "attributed upstream teaching artifact",
+        "notes": "No chart-agent trial or real measured effect is claimed."
+      },
+      {
+        "claim": "Feasibility learning, comparative value testing and organizational acceptance must be separately examined.",
+        "source_or_reference": "C3 | ET 8 Implementing ET FA26; pp.12–21, 17 TTF checklist, 23 CETM, 36 Assignment 7",
+        "date_or_recency": "FA26, retrieved/checked 2026-11-04",
+        "evidence_type": "course implementation framework",
+        "notes": "Page 36 supports a conditional use case and PoC design, not execution."
+      },
+      {
+        "claim": "Organizational role clarity, training, resourcing, monitoring and recovery are relevant design considerations.",
+        "source_or_reference": "S1 | NIST AI 100-1, GOVERN 1.5, 2.1–2.3, 3.2, 4.3; MANAGE 2.1–2.4, 4.1; section 6; https://doi.org/10.6028/NIST.AI.100-1",
+        "date_or_recency": "edition published 2023-01; checked 2026-11-04",
+        "evidence_type": "voluntary external guidance",
+        "notes": "Not a legal mandate, readiness certification or company fact; edition 1.0 specifically."
+      },
+      {
+        "claim": "Integration with IT/data risk controls and monitoring by competent staff is appropriate.",
+        "source_or_reference": "S2 | NIST AI 600-1, MP-4.1-003, MG-4.1-002/007, MS-2.3/2.5; https://doi.org/10.6028/NIST.AI.600-1",
+        "date_or_recency": "edition published 2024-07; checked 2026-11-04",
+        "evidence_type": "voluntary external guidance",
+        "notes": "Not evidence of actual training, budget or system qualification."
+      },
+      {
+        "claim": "Diffusion attributes inform usability and observability questions, not internal readiness proof.",
+        "source_or_reference": "C2 | ET Module 6 Diffusion FA25; five attributes and local innovation-decision process",
+        "date_or_recency": "FA25 filename; release unspecified; checked 2026-11-04",
+        "evidence_type": "background course context",
+        "notes": "Cannot substitute for operational evidence."
+      },
+      {
+        "claim": "Fictional four-week isolated approval, signed charter, owner/deputy, protected reviewers and maintainer within 24 hours, trained ordinary users, rehearsed workflow/recovery, approved sandbox and funded next-quarter service line are stipulated.",
+        "source_or_reference": "Case context: prepared_profile, capabilities_constraints",
+        "date_or_recency": "fictional contrast stipulated/checked 2026-11-04",
+        "evidence_type": "closed-case fictional documentary/exercise premise",
+        "notes": "No technical performance, comparative value or routine-use release; the rehearsal is not a trial."
+      }
+    ],
+    "contrary_evidence_or_limitations": [
+      "All four cases share UNVALIDATED task/technology fit and UNKNOWN net advantage; no comparative agent trial or measured efficacy is provided.",
+      "T1 H2 readiness assumptions and other case premises cannot establish this case’s organization; no cross-case borrowing.",
+      "Case approvals and rehearsals are fictional stipulated premises, not independent enterprise audit, real deployment or certification.",
+      "Human review required by policy does not by itself prove an appointed competent or protected reviewer.",
+      "S1/S2 are voluntary editions, not binding regulation or evidence of current company implementation."
+    ],
+    "confidence_and_uncertainty": "Moderate/high conditional confidence in the stipulated fictional POC organizational preparedness, not in its empirical effectiveness. Dry runs and documentary assertions are case premises, not observed chart-agent results; routine readiness remains unsupported. Sources/case checked 2026-11-04; S1 2023-01 and S2 2024-07 are dated editions.",
+    "value_opportunity_implication": "Potentially fewer chart-claim checking hours with stronger traceability, but the net benefit is UNKNOWN until comparative representative testing includes false/missed corrections, human correction, maintenance and support time. Conventional manual plus deterministic checks remain the baseline. Organizational readiness does not prove utility or authorize an adoption posture change.",
+    "risk_governance_implication": "Main consequences are wrong denominators, invented links, privacy/access breach, misleading reports and inappropriate executive reliance. Restrict to reversible source-linked drafts, independently human-authorized publication, least privilege, full logs, escalation, incident stops, reviewer coverage and manual recovery. The risk owner must set materiality/tolerances; do not mistake a dry run for technical validation or assert legal compliance.",
+    "recommendation_management_implication": "Binding residual gap is application proof and independently authorized routine release, NOT missing generic sponsor, training or sandbox. P1 supplied service owner with risk/analytics leads, before any permitted learning: confirm charter, 24-hour cap, model/data route, trained reviewer/deputy, materiality limits and logged stopping authority remain current; closure reconfirmed signatures and test plan; blocks study if stale. P2 supplied reviewers/maintainer, during conditional four-week study: compare traceable drafts and full workload with manual/deterministic baseline, including ordinary reviewers and recovery; closure error/time/trace/feedback evidence log; blocks claims of feasibility/value. P3 supplied finance owner and sponsor, after study: review next-quarter coverage, costs, residual risk and request separate release; closure signed business case and operating release, not the existing POC charter; blocks routine service.\nCONDITIONAL DESIGN, not an executed study: across four weeks use analyst-submitted public/synthetic charts and source tables, read-only agent-generated source-linked notes, a qualified reviewer deciding accept/reject, and human-only publication. The case has hypothetical scoped permission; execution remains conditional on explicit reconfirmation of all human, timing, technical and risk gates. Only prepared-profile/missing-budget cases have a confirmed 24-hour TOTAL protected POC cap; propose allocating 4 hours scope/tolerance agreement, 5 setup/control confirmation, 9 representative tasks/review, 4 exception/absence/incident drills and 2 evidence/debrief, with real time tracked and hard stop at 24. Agree task breadth, materiality/error tolerance and success criteria BEFORE execution; use normal, ambiguous and adversarial/incorrect-denominator samples plus absent-reviewer and incident/restore drills. Capture reproducible source traces, missed/false corrections, abstentions, unsupported claims, total setup/review/correction/support labor, reviewer feedback, cover and restore outcomes; compare manual/deterministic best baseline, not just model output. Stop and revert to manual review for forbidden access, publication escape, missing lineage/oversight, cap exhaustion, absent qualified coverage or material unsupported claims. Review in week four or earlier on incidents or changes to staff/model/data terms. Separate feasibility, incremental value and sustainable governance exit decisions; zero errors on a small set cannot certify production.",
+    "change_monitoring_triggers": [
+      "Four-week review of actual control, trace, accuracy, effort and acceptance records, if an authorized study occurs; otherwise review documented readiness progress only.",
+      "Immediate reassessment after incident, lost lineage, forbidden access, changed model/tool/data terms, lost sponsor/reviewer/deputy or cap exhaustion.",
+      "Before any routine proposal, reassess next-quarter owner/cover, recurring signed budget, performance/value versus best baseline and separately granted risk/operating approval; quarterly thereafter if released."
+    ],
+    "abstention_or_more_information_needed": [
+      "EXPLICIT CONDITION: No affirmative assurance of routine use until representative task performance/net value, authorized production route and risk release, funded covered owner/deputy and continued monitoring are evidenced; do not run a real trial based on this analysis.",
+      "MoE organizational intake (put labelled subfields inside existing capabilities_constraints/additional_context, not extra output keys): case/run ID; requested plan/POC/routine scope and horizon; evidence-as-of date and each document/source owner; sponsor/charter/permission/residual-risk decision rights; named service owner/deputy/rota and protected ordinary-user reviewer competency; handoff, signoff, exceptions, full review effort and fallback; approved model/tool/data route, access, isolation, logs and lineage; POC cap/hours/approver versus separately signed recurring amount/period/coverage/contingency; representative consultation/feedback/dissent; incident-stop-change authority and tested restore; monitoring, support, retirement and reassessment triggers.",
+      "Handoff to Adoption Agent/human: PLAN: READY_TO_PLAN with documented case-specific controls. ISOLATED POC: CONDITIONALLY_READY_FOR_SCOPED_LEARNING within the fictional four-week, public/synthetic read-only, 24-hour total cap, subject to authority confirming unchanged prerequisites and tolerances; this is not evidence that a trial has run. ROUTINE: INSUFFICIENT_EVIDENCE_FOR_SUSTAINED_USE: representative performance, net value, production controls and separate release absent despite supported organizational preparation. Binding dependency: empirical feasibility/value and independent release. Carry closure artifacts, remaining limitations and change triggers forward without overturning T1 baseline DEFER automatically."
+    ]
+  },
+  "permission_only": {
+    "agent": {
+      "name": "Organizational Adoption Agent",
+      "specialty": "Organizational readiness to absorb govern and sustain a specified application",
+      "version": "0.2-student"
+    },
+    "analytical_question": "For the hypothetical financial-services chart-agent proposal, distinguish readiness to plan, execute isolated public/synthetic learning, and operate next-quarter routine service under the permission_only organizational evidence profile without importing capabilities from another packet.",
+    "general_et_finding": "Agentic AI combines model-selected tool actions, observations, scoped permissions and a human stop path; it creates organizational duties beyond ordinary BI charting: competent source checking, error escalation, access control, audit lineage, change management, monitoring, fallback and continuous service coverage. Its technology maturity cannot be inferred from this organization’s permission, staff or budget. C1 and C3 frame adoption as separate technology, task and organizational questions; S1/S2 offer voluntary role and lifecycle guidance, not proof of implementation.",
+    "application_finding": "For human-supervised chart review, an analyst would submit a public or synthetic chart and its source table; read-only agent tools would draft source-linked discrepancy notes, which a qualified human accepts or rejects before any publication. Correct denominators, label interpretation, context and uncertainty matter; exceptions and ambiguous graphics require abstention/escalation. Task/technology fit and reproducible technical performance remain UNVALIDATED and comparative net advantage versus manual and deterministic review UNKNOWN in all four packets. Neither an approval nor a training dry run establishes accuracy, reduced total review burden or safe routine use.",
+    "organization_specific_finding": "CASE permission_only | Eight-domain case-evidence profile; SUPPORTED always limited to explicitly stated scope, PARTIAL is qualified and UNKNOWN is not failure:\nLeadership/sponsorship — PARTIAL: Evidence: Sponsor plus security/model-risk authority approve limited POC, but no accountable project charter, named operating owner or residual-risk acceptance is specified. Consequence: Approval may lack execution responsibility. Closure: Reporting leader documents charter, appointed accountable owner and decision chain.\nSkills/training — PARTIAL: Evidence: Experienced BI analysts only; no agent-review training, deputy or ordinary-user competency evidence. Consequence: Unsupported notes may pass review. Closure: Analytics manager records source-error, abstention and escalation exercise results for ordinary reviewers and backup.\nWorkflow/process — PARTIAL: Evidence: Human sign-off policy exists but no tested correction handoff, full review time, exception queue or manual fallback. Consequence: Theoretical oversight may fail in practice. Closure: Reporting owner performs witnessed handoff/fallback dry run and timed review.\nInfrastructure/data — PARTIAL: Evidence: Approved isolated public/synthetic read-only environment is stipulated, not production use; detailed lineage/log verification is not supplied. Consequence: Trace failure or rights drift could undermine accountability. Closure: Security provides route/control inventory, sample trace and isolation/access verification.\nResources/budget — UNKNOWN: Evidence: No protected POC hours/cap, staff allocation or recurring operating funds provided. Consequence: Approval cannot mobilize reviewers or support. Closure: Finance/service lead confirms POC staffing cap and separately next-quarter amount, period and contingency.\nGovernance/risk — PARTIAL: Evidence: Model-risk/security coapprove the bounded trial; incident authority, tested stop, restore and change process absent. Consequence: Cannot assure safe response despite permission. Closure: Risk owner signs stop/escalation/change matrix and witnesses manual restoration.\nCulture/change — UNKNOWN: Evidence: No representative user consultation, workload acceptance or safe-error-reporting record. Consequence: Unmeasured burden may derail learning; resistance not proven. Closure: Analytics lead records ordinary-user consultations, feedback and dissent route.\nOperating ownership — UNKNOWN: Evidence: No accepted owner/deputy, maintenance rota or posttrial monitoring duty supplied. Consequence: PoC may be unmanaged or orphaned. Closure: Reporting head appoints owner/deputy and documents monitoring/support/retirement responsibilities.\nScope conclusions: PLAN: READY_TO_PLAN with bounded fictional permission. ISOLATED POC: NOT_READY_FOR_EXECUTION despite approval: no confirmed accountable operating owner, protected trained review/backup, cap or exercised incident recovery. ROUTINE: INSUFFICIENT_EVIDENCE_FOR_SUSTAINED_USE; no operating approval, results or sustainability evidence.",
+    "evidence": [
+      {
+        "claim": "C1 assigns eight-domain readiness and handoff, not actual company capability.",
+        "source_or_reference": "C1 | Assignment 7 Organizational Adoption Agent / common course instructions; What to Do 1–6, Team Handoff",
+        "date_or_recency": "FA26 release unspecified; packet checked 2026-11-04",
+        "evidence_type": "course assignment authority",
+        "notes": "Eight domains and ownership/closure requirements are case-analysis criteria."
+      },
+      {
+        "claim": "Baseline is DEFER, with manual/deterministic review retained; H2 is not independent readiness evidence.",
+        "source_or_reference": "T1 | Special Dark TW7 Adoption Agent 1.0 / team record; Primary case, Team Judgment, Final Project Handoff",
+        "date_or_recency": "workshop 2026-11-03; finalized 2026-11-04; checked 2026-11-04",
+        "evidence_type": "attributed upstream teaching artifact",
+        "notes": "No chart-agent trial or real measured effect is claimed."
+      },
+      {
+        "claim": "Feasibility learning, comparative value testing and organizational acceptance must be separately examined.",
+        "source_or_reference": "C3 | ET 8 Implementing ET FA26; pp.12–21, 17 TTF checklist, 23 CETM, 36 Assignment 7",
+        "date_or_recency": "FA26, retrieved/checked 2026-11-04",
+        "evidence_type": "course implementation framework",
+        "notes": "Page 36 supports a conditional use case and PoC design, not execution."
+      },
+      {
+        "claim": "Organizational role clarity, training, resourcing, monitoring and recovery are relevant design considerations.",
+        "source_or_reference": "S1 | NIST AI 100-1, GOVERN 1.5, 2.1–2.3, 3.2, 4.3; MANAGE 2.1–2.4, 4.1; section 6; https://doi.org/10.6028/NIST.AI.100-1",
+        "date_or_recency": "edition published 2023-01; checked 2026-11-04",
+        "evidence_type": "voluntary external guidance",
+        "notes": "Not a legal mandate, readiness certification or company fact; edition 1.0 specifically."
+      },
+      {
+        "claim": "Integration with IT/data risk controls and monitoring by competent staff is appropriate.",
+        "source_or_reference": "S2 | NIST AI 600-1, MP-4.1-003, MG-4.1-002/007, MS-2.3/2.5; https://doi.org/10.6028/NIST.AI.600-1",
+        "date_or_recency": "edition published 2024-07; checked 2026-11-04",
+        "evidence_type": "voluntary external guidance",
+        "notes": "Not evidence of actual training, budget or system qualification."
+      },
+      {
+        "claim": "Diffusion attributes inform usability and observability questions, not internal readiness proof.",
+        "source_or_reference": "C2 | ET Module 6 Diffusion FA25; five attributes and local innovation-decision process",
+        "date_or_recency": "FA25 filename; release unspecified; checked 2026-11-04",
+        "evidence_type": "background course context",
+        "notes": "Cannot substitute for operational evidence."
+      },
+      {
+        "claim": "Fictional four-week public/synthetic read-only approval and allowed environment exist; assignment, protected staffing, training, budget and exercised recovery are not supplied.",
+        "source_or_reference": "Case context: permission_only, capabilities_constraints",
+        "date_or_recency": "fictional contrast stipulated/checked 2026-11-04",
+        "evidence_type": "closed-case scoped permission premise",
+        "notes": "Approval does not establish delivery team, competence, safe operation or recurring funds."
+      }
+    ],
+    "contrary_evidence_or_limitations": [
+      "All four cases share UNVALIDATED task/technology fit and UNKNOWN net advantage; no comparative agent trial or measured efficacy is provided.",
+      "T1 H2 readiness assumptions and other case premises cannot establish this case’s organization; no cross-case borrowing.",
+      "Case approvals and rehearsals are fictional stipulated premises, not independent enterprise audit, real deployment or certification.",
+      "Human review required by policy does not by itself prove an appointed competent or protected reviewer.",
+      "S1/S2 are voluntary editions, not binding regulation or evidence of current company implementation."
+    ],
+    "confidence_and_uncertainty": "High confidence in fictional bounded authorization; low confidence in actual capacity and exercised controls because evidence is missing, not adverse. A permission statement alone cannot establish safe POC execution. Source/case checked 2026-11-04; voluntary S1 2023-01 and S2 2024-07.",
+    "value_opportunity_implication": "Potentially fewer chart-claim checking hours with stronger traceability, but the net benefit is UNKNOWN until comparative representative testing includes false/missed corrections, human correction, maintenance and support time. Conventional manual plus deterministic checks remain the baseline. Organizational readiness does not prove utility or authorize an adoption posture change.",
+    "risk_governance_implication": "Main consequences are wrong denominators, invented links, privacy/access breach, misleading reports and inappropriate executive reliance. Restrict to reversible source-linked drafts, independently human-authorized publication, least privilege, full logs, escalation, incident stops, reviewer coverage and manual recovery. The risk owner must set materiality/tolerances; do not mistake a dry run for technical validation or assert legal compliance.",
+    "recommendation_management_implication": "Binding gap is execution capacity and control ownership, not permission. P1 proposed reporting head: appoint sponsor-facing service owner, deputy and residual-risk decision maker; closure signed acceptance/charter before execution; blocks POC. P2 proposed analytics manager and finance owner: reserve competent ordinary reviewers, maintainer, backups, reviewer/support hours and finite POC cap; demonstrate source/error/escalation exercise; closure rota, competency records and cap approval; blocks POC. P3 proposed security/risk owner: verify sandbox lineage, isolation and logs, exercise stop, incident escalation and manual restore with realistic workflow; closure witnessed test and signed stop matrix; blocks POC. P4 proposed analyst representatives: record acceptance and safe dissent; separately request recurring budget and release evidence; blocks sustained use. Four-week period is approval validity, not proof execution readiness.\nCONDITIONAL DESIGN, not an executed study: across four weeks use analyst-submitted public/synthetic charts and source tables, read-only agent-generated source-linked notes, a qualified reviewer deciding accept/reject, and human-only publication. This case is PLANNING ONLY until separate authorized owners document and satisfy all permissions, staffing, competent reviewer/backup, approved route, stop/recovery, cap and acceptance criteria; permission alone is not enough. No POC budget or protected-hour cap is supplied in this case: secure explicit capacity/approval first; no 24-hour cap is imported. Agree task breadth, materiality/error tolerance and success criteria BEFORE execution; use normal, ambiguous and adversarial/incorrect-denominator samples plus absent-reviewer and incident/restore drills. Capture reproducible source traces, missed/false corrections, abstentions, unsupported claims, total setup/review/correction/support labor, reviewer feedback, cover and restore outcomes; compare manual/deterministic best baseline, not just model output. Stop and revert to manual review for forbidden access, publication escape, missing lineage/oversight, cap exhaustion, absent qualified coverage or material unsupported claims. Review in week four or earlier on incidents or changes to staff/model/data terms. Separate feasibility, incremental value and sustainable governance exit decisions; zero errors on a small set cannot certify production.",
+    "change_monitoring_triggers": [
+      "Four-week review of actual control, trace, accuracy, effort and acceptance records, if an authorized study occurs; otherwise review documented readiness progress only.",
+      "Immediate reassessment after incident, lost lineage, forbidden access, changed model/tool/data terms, lost sponsor/reviewer/deputy or cap exhaustion.",
+      "Before any routine proposal, reassess next-quarter owner/cover, recurring signed budget, performance/value versus best baseline and separately granted risk/operating approval; quarterly thereafter if released."
+    ],
+    "abstention_or_more_information_needed": [
+      "EXPLICIT CONDITION: No affirmative assurance of routine use until representative task performance/net value, authorized production route and risk release, funded covered owner/deputy and continued monitoring are evidenced; do not run a real trial based on this analysis.",
+      "MoE organizational intake (put labelled subfields inside existing capabilities_constraints/additional_context, not extra output keys): case/run ID; requested plan/POC/routine scope and horizon; evidence-as-of date and each document/source owner; sponsor/charter/permission/residual-risk decision rights; named service owner/deputy/rota and protected ordinary-user reviewer competency; handoff, signoff, exceptions, full review effort and fallback; approved model/tool/data route, access, isolation, logs and lineage; POC cap/hours/approver versus separately signed recurring amount/period/coverage/contingency; representative consultation/feedback/dissent; incident-stop-change authority and tested restore; monitoring, support, retirement and reassessment triggers.",
+      "Handoff to Adoption Agent/human: PLAN: READY_TO_PLAN with bounded fictional permission. ISOLATED POC: NOT_READY_FOR_EXECUTION despite approval: no confirmed accountable operating owner, protected trained review/backup, cap or exercised incident recovery. ROUTINE: INSUFFICIENT_EVIDENCE_FOR_SUSTAINED_USE; no operating approval, results or sustainability evidence. Binding dependency: owner, protected competent labor and safe recovery beyond permission. Carry closure artifacts, remaining limitations and change triggers forward without overturning T1 baseline DEFER automatically."
+    ]
+  },
+  "missing_budget": {
+    "agent": {
+      "name": "Organizational Adoption Agent",
+      "specialty": "Organizational readiness to absorb govern and sustain a specified application",
+      "version": "0.2-student"
+    },
+    "analytical_question": "For the hypothetical financial-services chart-agent proposal, distinguish readiness to plan, execute isolated public/synthetic learning, and operate next-quarter routine service under the missing_budget organizational evidence profile without importing capabilities from another packet.",
+    "general_et_finding": "Agentic AI combines model-selected tool actions, observations, scoped permissions and a human stop path; it creates organizational duties beyond ordinary BI charting: competent source checking, error escalation, access control, audit lineage, change management, monitoring, fallback and continuous service coverage. Its technology maturity cannot be inferred from this organization’s permission, staff or budget. C1 and C3 frame adoption as separate technology, task and organizational questions; S1/S2 offer voluntary role and lifecycle guidance, not proof of implementation.",
+    "application_finding": "For human-supervised chart review, an analyst would submit a public or synthetic chart and its source table; read-only agent tools would draft source-linked discrepancy notes, which a qualified human accepts or rejects before any publication. Correct denominators, label interpretation, context and uncertainty matter; exceptions and ambiguous graphics require abstention/escalation. Task/technology fit and reproducible technical performance remain UNVALIDATED and comparative net advantage versus manual and deterministic review UNKNOWN in all four packets. Neither an approval nor a training dry run establishes accuracy, reduced total review burden or safe routine use.",
+    "organization_specific_finding": "CASE missing_budget | Eight-domain case-evidence profile; SUPPORTED always limited to explicitly stated scope, PARTIAL is qualified and UNKNOWN is not failure:\nLeadership/sponsorship — SUPPORTED for scoped POC: Evidence: Charter, reporting sponsor, service owner/deputy and scoped approval documented. Consequence: No routine-use release authority. Closure: Sponsor requests separate post-evidence operating release.\nSkills/training — SUPPORTED for scoped POC: Evidence: Ordinary BI reviewers completed recorded source-trace/error-escalation exercises; maintainer protected. Consequence: Agent performance remains untested. Closure: Analytics lead maintains coverage and tests representative tasks before expanding.\nWorkflow/process — SUPPORTED for scoped POC: Evidence: Dry run documents sign-off, exception handoff and manual fallback. Consequence: Actual handling time and error rates unknown. Closure: Service owner captures end-to-end effort and exception outcomes.\nInfrastructure/data — SUPPORTED for scoped POC: Evidence: Approved isolated read-only route, least privilege, lineage and test logs stipulated. Consequence: Not a production-qualified route. Closure: Security rechecks controls and trace completeness; separate production approval.\nResources/budget — PARTIAL: Evidence: Finance confirms ONLY 24-hour total protected POC cap; next-quarter amount, approval, funding duration explicitly UNKNOWN. Consequence: POC can be scoped, but no assurance of sustainable paid reviewer/maintenance coverage. Closure: Finance owner supplies signed next-quarter amount, period, staffing/support coverage, contingency, approval and review date.\nGovernance/risk — SUPPORTED for scoped POC: Evidence: Signed incident/stop/change controls and witnessed restore-to-manual exercise. Consequence: No tested real agent behavior or routine release. Closure: Risk owner monitors study incidents and rehearses new scenarios.\nCulture/change — SUPPORTED for scoped POC: Evidence: Representative feedback, participation, dissent and nonpunitive error channels documented. Consequence: No demonstrated sustained acceptance at measured workload. Closure: Analytics manager records observed burden/feedback throughout learning.\nOperating ownership — PARTIAL: Evidence: Reporting owner/deputy, stop authority, maintenance and monthly monitoring assigned, but recurring paid coverage unfunded/unverified. Consequence: Named roles may not have capacity next quarter. Closure: Service owner links signed rota, hours and support continuity to finance approval.\nScope conclusions: PLAN: READY_TO_PLAN. ISOLATED POC: CONDITIONALLY_READY_FOR_SCOPED_LEARNING with the fictional four-week permission and distinct 24-hour total POC cap, subject to unchanged staffing, route and controls; missing recurring allocation does not negate funded isolated learning. ROUTINE: INSUFFICIENT_EVIDENCE_FOR_SUSTAINED_USE; next-quarter funding approval/amount/period and actual value plus operating release are missing.",
+    "evidence": [
+      {
+        "claim": "C1 assigns eight-domain readiness and handoff, not actual company capability.",
+        "source_or_reference": "C1 | Assignment 7 Organizational Adoption Agent / common course instructions; What to Do 1–6, Team Handoff",
+        "date_or_recency": "FA26 release unspecified; packet checked 2026-11-04",
+        "evidence_type": "course assignment authority",
+        "notes": "Eight domains and ownership/closure requirements are case-analysis criteria."
+      },
+      {
+        "claim": "Baseline is DEFER, with manual/deterministic review retained; H2 is not independent readiness evidence.",
+        "source_or_reference": "T1 | Special Dark TW7 Adoption Agent 1.0 / team record; Primary case, Team Judgment, Final Project Handoff",
+        "date_or_recency": "workshop 2026-11-03; finalized 2026-11-04; checked 2026-11-04",
+        "evidence_type": "attributed upstream teaching artifact",
+        "notes": "No chart-agent trial or real measured effect is claimed."
+      },
+      {
+        "claim": "Feasibility learning, comparative value testing and organizational acceptance must be separately examined.",
+        "source_or_reference": "C3 | ET 8 Implementing ET FA26; pp.12–21, 17 TTF checklist, 23 CETM, 36 Assignment 7",
+        "date_or_recency": "FA26, retrieved/checked 2026-11-04",
+        "evidence_type": "course implementation framework",
+        "notes": "Page 36 supports a conditional use case and PoC design, not execution."
+      },
+      {
+        "claim": "Organizational role clarity, training, resourcing, monitoring and recovery are relevant design considerations.",
+        "source_or_reference": "S1 | NIST AI 100-1, GOVERN 1.5, 2.1–2.3, 3.2, 4.3; MANAGE 2.1–2.4, 4.1; section 6; https://doi.org/10.6028/NIST.AI.100-1",
+        "date_or_recency": "edition published 2023-01; checked 2026-11-04",
+        "evidence_type": "voluntary external guidance",
+        "notes": "Not a legal mandate, readiness certification or company fact; edition 1.0 specifically."
+      },
+      {
+        "claim": "Integration with IT/data risk controls and monitoring by competent staff is appropriate.",
+        "source_or_reference": "S2 | NIST AI 600-1, MP-4.1-003, MG-4.1-002/007, MS-2.3/2.5; https://doi.org/10.6028/NIST.AI.600-1",
+        "date_or_recency": "edition published 2024-07; checked 2026-11-04",
+        "evidence_type": "voluntary external guidance",
+        "notes": "Not evidence of actual training, budget or system qualification."
+      },
+      {
+        "claim": "Diffusion attributes inform usability and observability questions, not internal readiness proof.",
+        "source_or_reference": "C2 | ET Module 6 Diffusion FA25; five attributes and local innovation-decision process",
+        "date_or_recency": "FA25 filename; release unspecified; checked 2026-11-04",
+        "evidence_type": "background course context",
+        "notes": "Cannot substitute for operational evidence."
+      },
+      {
+        "claim": "Fictional prepared POC organization is supported with 24 protected hours, signed controls, trained reviewers and exercises; recurring next-quarter budget amount, approval and duration explicitly remain unknown.",
+        "source_or_reference": "Case context: missing_budget, capabilities_constraints",
+        "date_or_recency": "fictional contrast stipulated/checked 2026-11-04",
+        "evidence_type": "closed-case fictional premise with explicit unknown",
+        "notes": "POC funds must not be counted as next-quarter operating funds."
+      }
+    ],
+    "contrary_evidence_or_limitations": [
+      "All four cases share UNVALIDATED task/technology fit and UNKNOWN net advantage; no comparative agent trial or measured efficacy is provided.",
+      "T1 H2 readiness assumptions and other case premises cannot establish this case’s organization; no cross-case borrowing.",
+      "Case approvals and rehearsals are fictional stipulated premises, not independent enterprise audit, real deployment or certification.",
+      "Human review required by policy does not by itself prove an appointed competent or protected reviewer.",
+      "S1/S2 are voluntary editions, not binding regulation or evidence of current company implementation."
+    ],
+    "confidence_and_uncertainty": "High confidence that 24-hour POC and organizational preparation are stipulated, while next-quarter recurring funding amount/approval/duration is not supplied. Not evidence that funds are zero. Empirical value/operating release unknown. Case checked 2026-11-04, NIST editions 2023-01/2024-07.",
+    "value_opportunity_implication": "Potentially fewer chart-claim checking hours with stronger traceability, but the net benefit is UNKNOWN until comparative representative testing includes false/missed corrections, human correction, maintenance and support time. Conventional manual plus deterministic checks remain the baseline. Organizational readiness does not prove utility or authorize an adoption posture change.",
+    "risk_governance_implication": "Main consequences are wrong denominators, invented links, privacy/access breach, misleading reports and inappropriate executive reliance. Restrict to reversible source-linked drafts, independently human-authorized publication, least privilege, full logs, escalation, incident stops, reviewer coverage and manual recovery. The risk owner must set materiality/tolerances; do not mistake a dry run for technical validation or assert legal compliance.",
+    "recommendation_management_implication": "Binding gap for routine sustainability is the specifically UNKNOWN next-quarter funding/coverage, not missing POC resources. P1 supplied finance owner with reporting service owner, before any routine recommendation: provide signed next-quarter amount, approval, funding duration, ordinary-reviewer/deputy/support hours, maintenance/monitoring coverage and contingency; closure dated budget artifact and matched staffing rota; blocks routine only. P2 supplied sponsor and risk owner: reconfirm 24-hour POC cap, charter, route, exercises and stop conditions before conditional learning; closure current signoff; blocks POC if changed. P3 supplied service owner/analytics reviewers: run only conditional bounded study and compare actual source traces, errors, comprehensive labor and feedback against manual/deterministic baseline; closure audit logs and feasibility/value review; blocks favorable operating claim. P4 sponsor: seek separate risk/operating release after evidence and budget; closure signed release, not presumed from prepared profile.\nCONDITIONAL DESIGN, not an executed study: across four weeks use analyst-submitted public/synthetic charts and source tables, read-only agent-generated source-linked notes, a qualified reviewer deciding accept/reject, and human-only publication. The case has hypothetical scoped permission; execution remains conditional on explicit reconfirmation of all human, timing, technical and risk gates. Only prepared-profile/missing-budget cases have a confirmed 24-hour TOTAL protected POC cap; propose allocating 4 hours scope/tolerance agreement, 5 setup/control confirmation, 9 representative tasks/review, 4 exception/absence/incident drills and 2 evidence/debrief, with real time tracked and hard stop at 24. Agree task breadth, materiality/error tolerance and success criteria BEFORE execution; use normal, ambiguous and adversarial/incorrect-denominator samples plus absent-reviewer and incident/restore drills. Capture reproducible source traces, missed/false corrections, abstentions, unsupported claims, total setup/review/correction/support labor, reviewer feedback, cover and restore outcomes; compare manual/deterministic best baseline, not just model output. Stop and revert to manual review for forbidden access, publication escape, missing lineage/oversight, cap exhaustion, absent qualified coverage or material unsupported claims. Review in week four or earlier on incidents or changes to staff/model/data terms. Separate feasibility, incremental value and sustainable governance exit decisions; zero errors on a small set cannot certify production.",
+    "change_monitoring_triggers": [
+      "Four-week review of actual control, trace, accuracy, effort and acceptance records, if an authorized study occurs; otherwise review documented readiness progress only.",
+      "Immediate reassessment after incident, lost lineage, forbidden access, changed model/tool/data terms, lost sponsor/reviewer/deputy or cap exhaustion.",
+      "Before any routine proposal, reassess next-quarter owner/cover, recurring signed budget, performance/value versus best baseline and separately granted risk/operating approval; quarterly thereafter if released."
+    ],
+    "abstention_or_more_information_needed": [
+      "EXPLICIT CONDITION: No affirmative assurance of routine use until representative task performance/net value, authorized production route and risk release, funded covered owner/deputy and continued monitoring are evidenced; do not run a real trial based on this analysis.",
+      "MoE organizational intake (put labelled subfields inside existing capabilities_constraints/additional_context, not extra output keys): case/run ID; requested plan/POC/routine scope and horizon; evidence-as-of date and each document/source owner; sponsor/charter/permission/residual-risk decision rights; named service owner/deputy/rota and protected ordinary-user reviewer competency; handoff, signoff, exceptions, full review effort and fallback; approved model/tool/data route, access, isolation, logs and lineage; POC cap/hours/approver versus separately signed recurring amount/period/coverage/contingency; representative consultation/feedback/dissent; incident-stop-change authority and tested restore; monitoring, support, retirement and reassessment triggers.",
+      "Handoff to Adoption Agent/human: PLAN: READY_TO_PLAN. ISOLATED POC: CONDITIONALLY_READY_FOR_SCOPED_LEARNING with the fictional four-week permission and distinct 24-hour total POC cap, subject to unchanged staffing, route and controls; missing recurring allocation does not negate funded isolated learning. ROUTINE: INSUFFICIENT_EVIDENCE_FOR_SUSTAINED_USE; next-quarter funding approval/amount/period and actual value plus operating release are missing. Binding dependency: recurring budget and matched next-quarter cover for routine use. Carry closure artifacts, remaining limitations and change triggers forward without overturning T1 baseline DEFER automatically."
+    ]
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "passed": true,
+  "errors": [],
+  "checks": [
+    {
+      "check": "Frozen core",
+      "passed": true,
+      "output": "FROZEN CORE INTACT"
+    },
+    {
+      "check": "agents/organizational_adoption_agent/responses/cycle_1/primary_response.json",
+      "passed": true,
+      "output": "VALIDATION PASSED"
+    },
+    {
+      "check": "agents/organizational_adoption_agent/responses/cycle_1/prepared_profile_response.json",
+      "passed": true,
+      "output": "VALIDATION PASSED"
+    },
+    {
+      "check": "agents/organizational_adoption_agent/responses/cycle_2/primary_response.json",
+      "passed": true,
+      "output": "VALIDATION PASSED"
+    },
+    {
+      "check": "agents/organizational_adoption_agent/responses/cycle_2/prepared_profile_response.json",
+      "passed": true,
+      "output": "VALIDATION PASSED"
+    },
+    {
+      "check": "agents/organizational_adoption_agent/responses/cycle_2/permission_only_response.json",
+      "passed": true,
+      "output": "VALIDATION PASSED"
+    },
+    {
+      "check": "agents/organizational_adoption_agent/responses/cycle_2/missing_budget_response.json",
+      "passed": true,
+      "output": "VALIDATION PASSED"
+    }
+  ],
+  "scope": "Full frozen input/output schemas, unchanged core, fixed-case packet equality, controlled contrasts and original-output hashes",
+  "limits": "Format/provenance and AI-assisted semantic review do not establish independent accuracy or enterprise outcomes."
+}

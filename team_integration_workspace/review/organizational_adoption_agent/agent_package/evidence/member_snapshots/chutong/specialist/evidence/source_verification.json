@@ -1,0 +1,22 @@
+{
+  "checked_on": "2026-11-04",
+  "method": "Codex read instructor/team materials, downloaded ET8 PDF through existing Brightspace session and inspected its text plus image tables; opened original NIST PDFs and current framework overview.",
+  "verified": [
+    {
+      "id": "S1",
+      "locators": "GOVERN1.5/2.1-2.3/3.2/4.3; MANAGE2 and4; section6",
+      "observation": "Roles, training, monitoring, resourcing, recovery and current/target profile comparison; voluntary1.0 edition, current overview indicates revision."
+    },
+    {
+      "id": "S2",
+      "locators": "MP-4.1-003, MG-4.1-002/007, MS-2.3/2.5",
+      "observation": "Connection with existing governance, capable monitoring staff and contextual empirical evaluation; not finance law or certification."
+    },
+    {
+      "id": "C3",
+      "locators": "12-21, image tables17/23 and page36",
+      "observation": "PoC feasibility vs value and user acceptance/readiness; Assignment7 adds PoC/use-case design. Checklist/matrix are not measured readiness scores."
+    }
+  ],
+  "limits": "No corporate documents, staff interviews, real training drills, local outcomes, legal determination or vendor qualification was obtained. Case preparedness statements remain fictional premises."
+}

@@ -1,0 +1,105 @@
+{
+  "agent": {
+    "name": "Organizational Adoption (Readiness) Agent",
+    "specialty": "Organizational readiness to absorb, govern and sustain a proposed emerging-technology application; kept separate from technology/application fit",
+    "version": "1.1"
+  },
+  "analytical_question": "Even if adoption is strategically appropriate, can this organization absorb, govern and sustain the proposed application at the step now under consideration, what is the most consequential readiness gap, and what must change before management proceeds?",
+  "general_et_finding": "[Technology maturity - carried from the Adoption specialist (C4); not re-judged here and not affected by organizational readiness] Agentic AI is improving quickly but is still unstable on realistic multi-step work: the most competitive agent completed 30% of simulated workplace tasks (E11). Under the course scheme, agent-based applicant-facing workflows are bleeding edge (C1, C4): Rule 1 rules out adoption before the crossing and Rule 2 calls for pilots, so the permitted steps are a proof of concept or a bounded experiment, never production adoption. This finding is the same in every organization: a ready organization does not make the technology more mature, and an unready one does not make it less mature.",
+  "application_finding": "Fit screen: PASS. [Technology/application fit, kept separate from readiness] The applicant-support workflow needs what agents add: interpreting natural-language questions, asking clarifying questions and handling exceptions across several steps with a tool (D27 criteria; C5 task-technology fit). The Adoption specialist permits a proof of concept now and a gated bounded experiment (C4), and A3 requires a comparison with staff-only and simple retrieval first (C3). This is therefore a sound technology decision at the proof-of-concept step. Whatever the organization, the application demands four things for the live step: reviewers for every outbound message, a current approved-content source, an appointment tool with least-privilege permissions, and an accountable owner with a stop mechanism (C4, D21, D26).",
+  "organization_specific_finding": "Readiness verdict (bounded experiment with live applicants): NOT YET READY | Earlier step (proof of concept): NOT YET READY as proposed ('this cycle', with no staff time); READY WITH CONDITIONS only if staff time is funded (ACT-1) | Decision diagnosis: SOUND DECISION + NOT YET READY - the obstacle is this office's resources and rules, not the technology's maturity, which is the same here as at a large university | Most consequential gap: GAP-R5 no funded staff time.\nReadiness profile (rating for the bounded experiment):\nR1 Leadership & sponsorship: PARTIAL | BLOCKING | the college president sponsors the idea but has set a deadline ('make it happen this cycle') without budget, decision rights or a stop rule (case).\nR2 Skills & training: GAP | BLOCKING | no AI tool experience, and no one assigned to evaluate outputs (case).\nR3 Workflow & process: PARTIAL | BLOCKING | the review load of the experiment itself is small: 10% of about 150 weekly inquiries is about 15 drafts, roughly an hour a week even at 4 to 5 minutes per draft (case; C4 cap). But it would land on three staff who already have multi-day email backlogs in peak weeks, and the review step has no defined slot (case).\nR4 Infrastructure & data: GAP | BLOCKING | the CRM is a basic tier without API access, and the outsourced IT managed-service provider does not do integrations, so a live appointment tool cannot be built as designed. A vendor-hosted sandbox for the proof of concept needs no integration (case).\nR5 Resources & budget: GAP | BLOCKING | there is no budget beyond licences and a hiring freeze is in place. Nobody's time is available to prepare approved content and test inquiries, review the proof-of-concept outputs (C4 compares three arms on about 300 inquiries), or maintain the content afterwards (case).\nR6 Governance & risk: GAP | BLOCKING | there is no written policy on AI with applicant data and no AI review process, and compliance counsel is part-time (case). This matches a wider sector pattern of policies that do not yet address AI (D12).\nR7 Culture & change: GAP | BLOCKING | staff have said they worry automation will be used to justify further cuts, after a counselor position was eliminated last year (case). The same staff would review and correct the agent.\nR8 Operating ownership: GAP | BLOCKING | no owner exists, and the admissions director is already the backstop for every task in the office (case).\nStrengths: STR-R1 an engaged sponsor; STR-R3 a low inquiry volume, which keeps the experiment's own review load small; STR-R4 the proof of concept can use a vendor sandbox without integration.\nGaps that could cause failure even if the technology works: GAP-R5 - the proof of concept is run hastily on top of peak backlogs and produces no usable evidence, or the agent's content goes stale because nobody has time to maintain it; GAP-R7 - reviewers who expect the agent to cost a colleague's job have little reason to make it work, which leads to rubber-stamping or quiet workarounds (C2: discontinuance); GAP-R6 - applicant data reaches a vendor with no rule on retention or training use; GAP-R8 - nobody owns incidents; GAP-R4 - the live appointment tool cannot be built on the current CRM tier.\nWhy GAP-R5 outranks the others: it blocks even the proof of concept; it would sink the work even if the agent performed well, because nobody has time to test, maintain or own it; and it is the hardest to fix quickly, because a hiring freeze is in place. R6, R7 and R8 can each be closed by a decision once staff time exists. Note that review volume (R3) is not the binding constraint - the setup and ownership work is.",
+  "evidence": [
+    {
+      "claim": "Bleeding edge; proof of concept now, gated G1-G4 to a bounded experiment (at most 10% of inquiries, staff approve every message, no record writes); G4 = approval capacity.",
+      "source_or_reference": "[C4] Assignment 6 Adoption agent v1.1 outputs",
+      "date_or_recency": "2026-11-01",
+      "evidence_type": "upstream team output (grade: upstream)",
+      "notes": "Inference from prior AI-assisted analysis; not independent evidence."
+    },
+    {
+      "claim": "The most competitive agent completed 30% of simulated workplace tasks.",
+      "source_or_reference": "[E11] TheAgentCompany, arXiv 2412.14161 (NeurIPS 2025)",
+      "date_or_recency": "2025-09-10 (v3)",
+      "evidence_type": "benchmark (grade B)",
+      "notes": "Simulated tasks, not admissions."
+    },
+    {
+      "claim": "Build agents for complex decisions, hard-to-maintain rules or unstructured data; 'Otherwise, a deterministic solution may suffice'; human oversight for high-stakes actions.",
+      "source_or_reference": "[D27] OpenAI, A practical guide to building agents, pp. 6, 31",
+      "date_or_recency": "2025",
+      "evidence_type": "vendor practitioner guidance (grade B)",
+      "notes": "Course Prep Lab 2 reading; vendor view."
+    },
+    {
+      "claim": "A technology must be utilized and fit the tasks it supports to improve performance.",
+      "source_or_reference": "[C5] Goodhue & Thompson, MIS Quarterly 19(2)",
+      "date_or_recency": "1995",
+      "evidence_type": "peer-reviewed framework (grade: framework)",
+      "notes": ""
+    },
+    {
+      "claim": "Documented roles (GOVERN 2.1), training (2.2), executive responsibility (2.3), human-AI oversight roles (3.2), third-party risk (6.1), deactivation responsibility (MANAGE 2.4), incident processes (MANAGE 4.1, 4.3).",
+      "source_or_reference": "[D26] NIST AI RMF 1.0 core",
+      "date_or_recency": "January 2023; accessed 2026-11-08",
+      "evidence_type": "public framework (grade A)",
+      "notes": "Voluntary; does not prove these predict success."
+    },
+    {
+      "claim": "A company 'still bore responsibility for all the information on its website, whether it came from a static page or a chatbot.'",
+      "source_or_reference": "[D21] ABA Business Law Today on Moffatt v. Air Canada",
+      "date_or_recency": "2024-02",
+      "evidence_type": "secondary legal report (grade B)",
+      "notes": "Canadian small-claims tribunal; accountability principle only."
+    },
+    {
+      "claim": "Only 9% of higher-ed respondents say privacy/security policies adequately address AI; only 2% fund AI with new sources; larger institutions ahead.",
+      "source_or_reference": "[D12] GovTech on EDUCAUSE 2025 AI Landscape Study",
+      "date_or_recency": "2025-02-25",
+      "evidence_type": "secondary report of association survey (grade B)",
+      "notes": "Sector context for the low-readiness profile; not about this college."
+    },
+    {
+      "claim": "14% of higher-ed executive respondents report a dedicated AI budget; data security/privacy is the top barrier (56%).",
+      "source_or_reference": "[D11] Ellucian 2026 AI report",
+      "date_or_recency": "survey 2025-09/11",
+      "evidence_type": "vendor survey (grade B)",
+      "notes": "Vendor sample."
+    },
+    {
+      "claim": "Staff as internal adopters: compatibility, complexity, trialability; change-agent functions include 'stabilize adoption and prevent discontinuance'.",
+      "source_or_reference": "[C2] Module 6 deck, slides 29, 34-35",
+      "date_or_recency": "FA25",
+      "evidence_type": "course framework (grade: framework)",
+      "notes": ""
+    },
+    {
+      "claim": "At least 30% of GenAI projects forecast to be abandoned after proof of concept by end-2025; causes: data quality, risk controls, costs, unclear value.",
+      "source_or_reference": "[D29] Gartner via MH&L",
+      "date_or_recency": "2024-07-29",
+      "evidence_type": "analyst forecast (grade B)",
+      "notes": "Forecast, not measured."
+    }
+  ],
+  "contrary_evidence_or_limitations": [
+    "Readiness frameworks (D26, D30) describe good practice; they do not show that these eight dimensions predict success for applicant-support agents specifically.",
+    "The workflow-redesign finding is self-reported and correlational (D28); the abandonment and cancellation figures are forecasts (D29, D7).",
+    "Generation and review occurred in the same session with Claude in place of ChatGPT; ratings are judgments on stated evidence and were not blinded.",
+    "The organization is synthetic; its constraints are scenario inputs, not observations.",
+    "The 4-to-5-minutes-per-draft range is an assumption; the college has no measured review time."
+  ],
+  "confidence_and_uncertainty": "Moderate-to-high confidence that the office is not ready for the live step: the gaps are stated in the profile, not inferred. Moderate confidence about the proof-of-concept condition, which depends on how much time ACT-1 actually frees.",
+  "value_opportunity_implication": "At about 150 inquiries a week, the potential time saving is small in absolute terms. Whether even a proof of concept is worth it at this scale, or whether a crossed alternative such as an FAQ chatbot over approved content (C3) fits better, is a technology-decision question for the Adoption specialist. It is passed on, not decided here.",
+  "risk_governance_implication": "The governance gap is the immediate risk: without a written rule, applicant data could reach a vendor that retains it or uses it for training. The college would also be accountable for anything the agent tells applicants (D21). Keep the proof of concept on synthetic inquiries; nothing live until ACT-3 is done.",
+  "recommendation_management_implication": "Proceed when: nothing starts this cycle as proposed. The proof of concept starts once ACT-1 is decided and ACT-3's sandbox condition is met. The live experiment waits for ACT-1 to ACT-5.\nACT-1 [P1; closes GAP-R5] Decide how the work will be staffed: fund temporary help to cover inbox triage during the proof of concept, or move the proof of concept to after peak season. 'This cycle' with no time is not feasible. Owner: college president (stated role). Done when: the hours or the new dates are set in writing.\nACT-2 [P1; closes GAP-R7; no-regret] Decide how any time saved will be used, and tell staff before the proof of concept starts. If the intent is cost reduction, say so; a hidden intent would destroy the reviewers' trust. Owner: college president (stated role). Done when: a written statement has been shared with the admissions office.\nACT-3 [P1; closes GAP-R6] Adopt a short written rule on AI and applicant data before any live use: what may go to a vendor, retention, no training use, deletion. Until then, the proof of concept uses synthetic inquiries only. Owner: admissions director with part-time compliance counsel (stated roles). Done when: the rule is approved and filed.\nACT-4 [P2; closes GAP-R8] Name the owner of agent content and incidents, with the time freed by ACT-1 attached to the role. Owner: college president (stated role). Done when: the owner is named and the hours are protected.\nACT-5 [P2; closes GAP-R4] For the live step, either upgrade the CRM tier to one with API access or keep appointment booking manual (information and clarification only). Owner: admissions director with the outsourced IT managed-service provider (stated roles). Done when: a choice has been made and costed.\nDropped as generic or disproportionate: 'establish an AI governance committee' (the gap is a missing written rule, not a missing committee, in a three-person office); 'invest in staff AI training' (premature until staff time exists - it follows ACT-1); 'secure executive sponsorship' (the sponsor already exists).\nNot this agent's call: whether the agent is worth it at this volume, or whether an FAQ chatbot is the better choice (Adoption specialist); legal obligations (compliance counsel).",
+  "change_monitoring_triggers": [
+    "Budget or staffing decision (ACT-1): re-rate R5; if time is funded, the proof of concept becomes READY WITH CONDITIONS.",
+    "The hiring freeze is lifted or a vacancy is filled: re-rate R5 and R8.",
+    "A written AI data rule is approved (ACT-3): re-rate R6.",
+    "Staff response to the president's statement (ACT-2): re-rate R7.",
+    "CRM tier upgrade or vendor change: re-rate R4.",
+    "Adoption specialist recommends a different application (for example an FAQ chatbot): re-run readiness for that application, not this one."
+  ],
+  "abstention_or_more_information_needed": [
+    "No blocking information is missing: the profile states enough to rate all eight dimensions, so the verdict rests on observed gaps, not on missing data. Measured review time per draft would be produced by the proof of concept."
+  ]
+}

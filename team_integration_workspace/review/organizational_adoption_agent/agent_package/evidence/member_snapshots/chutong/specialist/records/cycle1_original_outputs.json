@@ -1,0 +1,152 @@
+{
+  "primary": {
+    "agent": {
+      "name": "Organizational Adoption Agent",
+      "specialty": "Organizational readiness to absorb govern and sustain a specified application",
+      "version": "0.1-student"
+    },
+    "analytical_question": "Can the constructed financial-services organization responsibly learn from, then sustain, supervised agentic chart review within a four-week planning window without overriding the team's current DEFER decision?",
+    "general_et_finding": "Agentic AI here combines a language model, model-selected tools, observations, permissions and human stopping authority for bounded multistep work; it is not equivalent to a standalone model or chart plugin. Organizational adoption requires named oversight, competent reviewers, controlled inputs and tools, reliable handoffs, incident response and continuing support. NIST AI RMF 1.0 (S1) and GenAI Profile (S2) offer voluntary governance and monitoring practices, not certification, company evidence or legal rules. The C3 implementation framework distinguishes a feasibility proof of concept, subsequent comparative value evidence and organizational acceptance. General system characteristics and application feasibility remain unchanged between these profiles; organizational capacity changes what can responsibly be attempted.",
+    "application_finding": "For supervised chart review, a bounded agent would use read-only tools to compare chart labels, denominators, visual encodings and written claims against approved source tables, then provide traceable draft corrections to a named human reviewer. The reviewer must independently verify source lineage and interpretation and explicitly sign off before publication; the agent never publishes or makes financial/customer decisions. A feasibility PoC would test whether the read-only chain, provenance, error capture and stopping controls function on public/synthetic examples. A separate matched comparison against current manual/deterministic review would then be necessary to determine accuracy, severe-error incidence, reviewer effort, total support burden and incremental net benefit. Neither case supplies these performance or value outcomes; technology/application fit remains UNVALIDATED and comparative net advantage UNKNOWN.",
+    "organization_specific_finding": "Overall judgment: readiness for desk-based assessment of an isolated learning option is limited but plausible; organizational readiness for an actual agent PoC is NOT ESTABLISHED, and routine use is NOT ESTABLISHED. Eight domains: (1) Leadership/sponsorship—no named committed sponsor or project authorization is evidenced; conservative posture is not opposition or consent. (2) Skills/training—experienced BI analysts provide chart/domain knowledge, but agent-tool, provenance, escalation and reviewer competency are unverified. (3) Workflow/process—existing chart review and required human publication sign-off provide a starting control; documented handoff, exception queue, fallback, acceptance and support process are not evidenced. (4) Infrastructure/data—established BI source tables exist, but approved external-model route, isolated agent environment, validation cases, sensitive-data permission and production integrations are not supplied. (5) Resources/budget—reviewer time, engineering support, recurring spend and contingency capacity are unknown. (6) Governance/risk—human authority is required, but access approval, logging, incident escalation, model-risk review and rehearsed recovery are not evidenced. (7) Culture/change—analyst experience cannot establish acceptance, psychological safety or change readiness. (8) Operating ownership—no named accountable agent operator, service owner, backup or maintenance escalation is evidenced. These are evidence gaps, not demonstrated organizational failures. High-consequence report distribution makes a missing gate material, even though drafts are reversible.",
+    "evidence": [
+      {
+        "claim": "Established BI tables, experienced analysts, human sign-off requirement and absent trial authorization are case premises",
+        "source_or_reference": "primary capabilities_constraints",
+        "date_or_recency": "2026-11-04",
+        "evidence_type": "constructed-case premise",
+        "notes": "They support a review baseline, not AI readiness or permission."
+      },
+      {
+        "claim": "Team baseline is DEFER for unapproved chart-agent trial; manual/deterministic review remains",
+        "source_or_reference": "T1 TW7 team record",
+        "date_or_recency": "2026-11-04",
+        "evidence_type": "prior teaching judgment",
+        "notes": "Not a measured experiment or independent organizational observation."
+      },
+      {
+        "claim": "All eight readiness domains and owner/gap assessment are required",
+        "source_or_reference": "C1 Assignment 7",
+        "date_or_recency": "2026-11-04",
+        "evidence_type": "course requirement",
+        "notes": "An analytical rubric rather than firm evidence."
+      },
+      {
+        "claim": "Separate feasibility, value and acceptance, and design a conditional PoC",
+        "source_or_reference": "C3 ET 8 pages 12-21 and 36",
+        "date_or_recency": "2026-11-04",
+        "evidence_type": "course framework",
+        "notes": "No checklist score or demonstrated feasibility."
+      },
+      {
+        "claim": "Governance, trained roles, monitoring and recovery are relevant controls",
+        "source_or_reference": "S1 NIST AI 100-1; S2 NIST AI 600-1",
+        "date_or_recency": "2026-11-04",
+        "evidence_type": "voluntary guidance",
+        "notes": "No regulatory determination or claim of implemented control."
+      },
+      {
+        "claim": "Compatibility, trialability and observability are useful local questions",
+        "source_or_reference": "C2 ET Module 6",
+        "date_or_recency": "2026-11-04",
+        "evidence_type": "teaching framework",
+        "notes": "No inference that the organization has adopted the technology."
+      }
+    ],
+    "contrary_evidence_or_limitations": [
+      "No proof that unknown sponsor, reviewer capacity, budget or cultural acceptance is absent; do not describe these gaps as failure.",
+      "No approved environment or agent trial; desk research permission cannot be treated as execution approval.",
+      "No representative agent outputs, matched baseline, severe-error measurements, support costs or routine-release decision.",
+      "S1/S2 are voluntary frameworks; supplied course/team artifacts are teaching evidence, not firsthand company outcomes."
+    ],
+    "confidence_and_uncertainty": "High confidence in the narrow judgment that an actual trial is presently unauthorized and readiness unverified because those are explicit case premises. Moderate confidence that BI experience and required sign-off are useful starting points. Low confidence in whether the unknown sponsorship, capacity, competencies and operating arrangements could be remedied within four weeks; no numerical readiness score is justified.",
+    "value_opportunity_implication": "Potential benefit is reduced repetitive checking with traceable corrections; no reduction is demonstrated. Analyst verification and incident handling could cancel apparent efficiency. Compare agent-assisted review with the best current manual/deterministic baseline using matched cases, including misleading denominators and invented claims; report total human and platform effort as well as errors, not just model output speed.",
+    "risk_governance_implication": "No sensitive or production data, autonomous publication, external model routing or downstream decisions should be inferred permitted. Prior to any future PoC, security and model-risk owners should approve isolation, tool permissions, logging, source lineage, data restrictions, human veto, incident stop and manual recovery. A named publication reviewer remains accountable for release. A documented role requirement alone does not appoint or fund an owner.",
+    "recommendation_management_implication": "Preserve DEFER and current deterministic/manual controls. During the four-week planning window: first, a reporting executive should decide whether to sponsor a scoped request; model risk, compliance and security should document possible gate criteria, not imply approval. Second, reporting management and BI reviewers should map handoffs, errors, source checks, training needs and acceptance concerns. Third, finance and IT should assess protected reviewer time, environment, budget and support ownership; appoint an accountable operating owner plus deputy only if leadership authorizes. Conditional PoC design, NOT execution: purpose is feasibility of supervised read-only traceable chart checks; scope is a four-week isolated public/synthetic-only test with no publication or sensitive inputs; proposed roles are sponsor, BI reviewers, platform maintainer, risk/security approvers and independent human sign-off. Execution gate requires explicit charter, approved environment and permissions, staff capacity, test set, incident plan and stop authority. Track source traceability, denominator/claim defects, severity, human override, completion time, training load, incidents and fallback success. Stop on unauthorized access, provenance failure, uncontained serious error or absent reviewer capacity; review findings before any value trial. A feasibility result alone cannot release routine use.",
+    "change_monitoring_triggers": [
+      "At four-week review, re-evaluate only on documented authorization, sponsor/operator appointment, approved isolation, competency evidence and resourcing.",
+      "If any data/tool permission changes or severe error emerges, halt any future authorized test and seek risk-owner review.",
+      "At quarter-end, assess recurring staff cost, change acceptance, incident handling, backup coverage and updated matched value evidence; no automatic deployment trigger."
+    ],
+    "abstention_or_more_information_needed": [
+      "Identify actual willing sponsor, authorized decision body and whether any isolated trial may be requested.",
+      "Obtain named service owner/deputy, staff time, budget, reviewer training and workflow acceptance evidence.",
+      "Require security/model-risk approved routes, provenance/logging/recovery design and representative matched baseline before feasibility/value conclusions."
+    ]
+  },
+  "prepared_profile": {
+    "agent": {
+      "name": "Organizational Adoption Agent",
+      "specialty": "Organizational readiness to absorb govern and sustain a specified application",
+      "version": "0.1-student"
+    },
+    "analytical_question": "Given fictional scoped learning authorization and prepared operating controls, what changes in organizational readiness for an isolated chart-review PoC versus sustained routine release?",
+    "general_et_finding": "Agentic AI here combines a language model, model-selected tools, observations, permissions and human stopping authority for bounded multistep work; it is not equivalent to a standalone model or chart plugin. Organizational adoption requires named oversight, competent reviewers, controlled inputs and tools, reliable handoffs, incident response and continuing support. NIST AI RMF 1.0 (S1) and GenAI Profile (S2) offer voluntary governance and monitoring practices, not certification, company evidence or legal rules. The C3 implementation framework distinguishes a feasibility proof of concept, subsequent comparative value evidence and organizational acceptance. General system characteristics and application feasibility remain unchanged between these profiles; organizational capacity changes what can responsibly be attempted.",
+    "application_finding": "For supervised chart review, a bounded agent would use read-only tools to compare chart labels, denominators, visual encodings and written claims against approved source tables, then provide traceable draft corrections to a named human reviewer. The reviewer must independently verify source lineage and interpretation and explicitly sign off before publication; the agent never publishes or makes financial/customer decisions. A feasibility PoC would test whether the read-only chain, provenance, error capture and stopping controls function on public/synthetic examples. A separate matched comparison against current manual/deterministic review would then be necessary to determine accuracy, severe-error incidence, reviewer effort, total support burden and incremental net benefit. Neither case supplies these performance or value outcomes; technology/application fit remains UNVALIDATED and comparative net advantage UNKNOWN.",
+    "organization_specific_finding": "Overall judgment: conditionally PREPARED for the explicitly scoped, hypothetical four-week learning PoC; NOT QUALIFIED for routine deployment. This contrast modifies organizational evidence only, not technology maturity, accuracy, net advantage or the actual real-world authorization. Eight domains: (1) Leadership/sponsorship—a named-role reporting sponsor signs the fictional charter and accepts accountability for learning scope; routine-release sponsorship is not granted. (2) Skills/training—two BI reviewers have recorded source-trace and error-escalation competency checks, including ordinary users; this is not agent-performance validation. (3) Workflow/process—a dry run records task handoff, reviewer publication sign-off, exception queue and manual fallback; sustained real-operation reliability remains unmeasured. (4) Infrastructure/data—security has confirmed sandbox isolation, approved model/tool route, least-privilege read-only access, lineage and test logs for public/synthetic inputs only, not production qualification. (5) Resources/budget—protected time for reviewers and maintainer fits a confirmed total 24-hour PoC cap; a funded next-quarter support line has a review date, but actual cost and adequacy remain unknown. (6) Governance/risk—risk owner signs access, incident and change controls; a stopping/escalation/manual-restore exercise is recorded. (7) Culture/change—analyst representatives reviewed workload, agreed to participate, and have documented dissent and nonpunitive reporting; this does not measure long-run acceptance. (8) Operating ownership—a reporting service owner and deputy agree duty/cover and stop authority, with monthly review assigned. All are fictional profile premises; none proves routine operations or successful chart corrections.",
+    "evidence": [
+      {
+        "claim": "Specific learning approval, sponsor, deputy, training, capped capacity, controls and participation are stipulated",
+        "source_or_reference": "prepared_profile capabilities_constraints",
+        "date_or_recency": "2026-11-04",
+        "evidence_type": "fictional contrast premise",
+        "notes": "Apply solely to this case; not independently verified firm activity."
+      },
+      {
+        "claim": "No routine-use permission or performance evidence accompanies fictional readiness",
+        "source_or_reference": "prepared_profile capabilities_constraints",
+        "date_or_recency": "2026-11-04",
+        "evidence_type": "explicit limitation",
+        "notes": "Authorization is only one isolated synthetic/public, read-only PoC."
+      },
+      {
+        "claim": "Current team baseline remains DEFER outside this hypothetical contrast",
+        "source_or_reference": "T1 TW7 team record",
+        "date_or_recency": "2026-11-04",
+        "evidence_type": "prior teaching judgment",
+        "notes": "A fictional approval premise does not amend real-world team disposition."
+      },
+      {
+        "claim": "Feasibility PoC, value trial and organizational acceptance must remain distinct",
+        "source_or_reference": "C3 ET 8 pages 12-21 and 36",
+        "date_or_recency": "2026-11-04",
+        "evidence_type": "course framework",
+        "notes": "No PoC, value trial or acceptance study has actually run."
+      },
+      {
+        "claim": "Training, assigned roles, monitoring and recovery are appropriate safeguards",
+        "source_or_reference": "S1 NIST AI 100-1; S2 NIST AI 600-1",
+        "date_or_recency": "2026-11-04",
+        "evidence_type": "voluntary guidance",
+        "notes": "Do not infer legal compliance or software qualification."
+      },
+      {
+        "claim": "Eight-domain organizational readiness review is required",
+        "source_or_reference": "C1 Assignment 7",
+        "date_or_recency": "2026-11-04",
+        "evidence_type": "course requirement",
+        "notes": "Not a scored assessment or company certification."
+      }
+    ],
+    "contrary_evidence_or_limitations": [
+      "The prepared profile is deliberately fictional, not a report of an actual trial, security approval or trained staff.",
+      "The 24-hour cap is an approved hypothetical capacity boundary, not evidence of adequate workload or a benefit measurement.",
+      "Representative accuracy, severe-error behavior, comparative net advantage and production data/model approval remain unknown.",
+      "Positive control H2 in T1 is an assumption; it is not independent readiness evidence or permission for this profile."
+    ],
+    "confidence_and_uncertainty": "High confidence that the stipulated profile addresses the eight organizational gates for a narrow learning exercise. Moderate confidence that its rehearsed controls would support an orderly hypothetical PoC within the cap; exercise evidence is not evidence of reliability under workload. Low confidence in application feasibility, savings, reliability over a quarter and readiness for release. A single ordinal or numerical score would falsely combine these distinct questions.",
+    "value_opportunity_implication": "Prepared staffing and controls make it possible, within the fictional boundary, to collect credible feasibility observations instead of guessing. That does not establish value. If an authorized PoC were conducted, preserve matched manual/deterministic comparators and explicitly capture reviewer checks, maintainer effort, corrections accepted/rejected, false claims, serious errors and total cost. A subsequent value trial and organizational acceptance review require separate approval.",
+    "risk_governance_implication": "Treat the fictional access approval as restricted to public/synthetic examples and read-only tools. Enforce logs and provenance, reviewer veto, independent sign-off, stop/escalation routing and tested manual fallback; do not permit routine publication, production connectivity or sensitive data. The reporting service owner and deputy handle day-to-day operations; risk/security owners retain approval and incident governance. Monthly capacity/cost/incident review is stipulated but effectiveness remains unobserved.",
+    "recommendation_management_implication": "For this prepared-profile thought experiment, the organization may be judged ready to ENTER a separately authorized, four-week bounded feasibility PoC, not adopt the application routinely; no test is executed in this response. Conditional use case: select public/synthetic business charts with known source tables, intentionally including denominator, labeling and unsupported-claim challenges. Purpose is to determine whether read-only tools and supervised corrections preserve traceability and stopping controls. Roles: sponsor owns charter and scope; service owner/deputy coordinate; two BI reviewers independently check outputs and sign off on any internal exercise artifact; maintainer handles sandbox/logs; risk/security confirm permissions and incident actions; finance monitors the 24-hour cap. Gate before execution is confirmation that fictional approval and safeguards apply to the actual proposed test, benchmark cases and staff schedule, with explicit abort authority. Measures include source-link completeness, factual/visual discrepancies, severe failure counts, human overrides, review effort, support time, incident handling and manual fallback. Stop if the cap is reached, provenance is lost, unauthorized access occurs, a material misleading claim escapes review, staff cannot review, or rollback fails. Review at four weeks for feasibility only; commission a separate matched value/acceptance evaluation before any routine decision. Real primary-case DEFER remains unaffected.",
+    "change_monitoring_triggers": [
+      "At each exercise gate, verify that actual authority and sandbox/data bounds match the fictional scenario; otherwise retain DEFER.",
+      "Stop on cap exhaustion, provenance breach, unsafe output handling, unresolved serious errors or loss of reviewer/backup coverage.",
+      "Monthly and next-quarter reviews should revisit funded support, incidents, staff acceptance and model/data changes; routine operation requires new evidence and approval."
+    ],
+    "abstention_or_more_information_needed": [
+      "Representative chart-agent performance, baseline-relative error rates and total human/platform cost are missing.",
+      "Evidence that controls sustain under actual recurring workloads and broader user acceptance is missing.",
+      "Production model/data qualification, sensitive-data access and routine publication authority are explicitly not supplied."
+    ]
+  }
+}

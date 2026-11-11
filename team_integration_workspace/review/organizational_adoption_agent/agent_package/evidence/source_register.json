@@ -1,0 +1,49 @@
+[
+  {
+    "id": "C0",
+    "title": "TW8 specific memo, general team instructions and supplied assessment rubric",
+    "date": "FA26 course files supplied November 10, 2026",
+    "locator": "Team Charge; What the Team Must Produce; AI Leverage; common rubric",
+    "claim": "Synthesize all four candidates, test organizational sensitivity, preserve readiness/action/information/intake evidence and team judgment.",
+    "limit": "Task authority, not company observations. General memo gives one day to post, rubric describes 36 hours; follow the live Brightspace due date and the earlier applicable requirement.",
+    "checked_on": "2026-11-10"
+  },
+  {
+    "id": "C1",
+    "title": "ET 8 Implementing ET FA26",
+    "date": "FA26 supplied PDF",
+    "locator": "Slides 12-19, 23-24, 33 and 36",
+    "claim": "Separate feasibility, comparative value, task-technology fit and organizational readiness; propose a use case and PoC.",
+    "limit": "No checklist score or real permission follows from a slide. Slide27 is an earlier workshop recap.",
+    "checked_on": "2026-11-10"
+  },
+  {
+    "id": "T1",
+    "title": "Special Dark TW7 Adoption Agent 1.0 and four Assignment7 candidates",
+    "date": "November 3-10, 2026",
+    "locator": "Attributed original snapshots; TW7 branch 51a76f76726ea348fd3c84aca5cf7713e3e921ba",
+    "claim": "Continue the chart-review anchor and permission-first upstream boundary; obtain readiness conditions for later adoption review.",
+    "limit": "Prior AI-assisted analytical conclusions and stipulated profiles are not independent company evidence or transferable authorization.",
+    "checked_on": "2026-11-10"
+  },
+  {
+    "id": "S1",
+    "title": "NIST AI RMF 1.0",
+    "date": "January 2023",
+    "url": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf",
+    "locator": "GOVERN2.1-2.3,3.2; MANAGE2.4,4.1,4.3",
+    "claim": "Document accountable roles, train people for oversight, assign executive risk responsibility and prepare deactivation and lifecycle response.",
+    "limit": "Identified voluntary edition, not law, certification, a universal score, staff count or latest-version mandate.",
+    "checked_on": "2026-11-10"
+  },
+  {
+    "id": "S2",
+    "title": "NIST AI 600-1 Generative AI Profile",
+    "date": "July 2024",
+    "url": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf",
+    "locator": "MEASURE2.3/2.5; MANAGE4.1-4.3 suggested actions",
+    "claim": "Evaluate performance in context and plan monitoring, response, recovery and change review.",
+    "limit": "Suggested cross-sector actions, not evidence of case performance, capacity, approval or a guaranteed safe deployment. Historical legal references are not used as current law.",
+    "checked_on": "2026-11-10"
+  }
+]

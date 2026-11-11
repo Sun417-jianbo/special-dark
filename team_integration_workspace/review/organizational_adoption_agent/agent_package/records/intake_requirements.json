@@ -1,0 +1,72 @@
+{
+  "schema_changed": false,
+  "encoding": "Use labelled details within existing strings; these are content requirements, not new frozen top-level fields.",
+  "fields": [
+    {
+      "content": "Requested stage and exact data/model/tool scope",
+      "existing_keys": "management_question; capabilities_constraints",
+      "domains": "all",
+      "reason": "Scope-specific authority is not transferable."
+    },
+    {
+      "content": "Sponsor, decision rights, residual-risk and stop authority",
+      "existing_keys": "users_stakeholders; capabilities_constraints",
+      "domains": "leadership_sponsorship",
+      "reason": "Role/authority/acceptance/date, not enthusiasm."
+    },
+    {
+      "content": "Accountable service owner, deputy, maintenance/incident/change/retirement duties",
+      "existing_keys": "capabilities_constraints",
+      "domains": "operating_ownership",
+      "reason": "Named role, accepted cover and protected time."
+    },
+    {
+      "content": "Competency evidence and representative staff/backup participation",
+      "existing_keys": "capabilities_constraints",
+      "domains": "skills_training",
+      "reason": "Experience alone is insufficient."
+    },
+    {
+      "content": "Review/exception/publication/fallback SOP and rehearsal evidence",
+      "existing_keys": "capabilities_constraints",
+      "domains": "workflow_process",
+      "reason": "Distinguish documented from exercised."
+    },
+    {
+      "content": "Allowed route, source lineage, access, reference versions and logs",
+      "existing_keys": "capabilities_constraints",
+      "domains": "infrastructure_data",
+      "reason": "Unapproved substitutes must not be invented."
+    },
+    {
+      "content": "Demand, full handling-time distribution, peaks, response target and protected hours",
+      "existing_keys": "capabilities_constraints",
+      "domains": "workflow_process; resources_budget",
+      "reason": "Units/period/cover; unknown means ask."
+    },
+    {
+      "content": "Trial cap versus approved recurring amount, period, approver and contingency",
+      "existing_keys": "capabilities_constraints",
+      "domains": "resources_budget",
+      "reason": "Financial cap is not staffed capacity."
+    },
+    {
+      "content": "Incident, override, restore, change and reassessment responsibilities",
+      "existing_keys": "capabilities_constraints",
+      "domains": "governance_risk",
+      "reason": "Current stage evidence and closure test."
+    },
+    {
+      "content": "Affected-user concerns, consultation, workload feedback and concurrent changes",
+      "existing_keys": "capabilities_constraints",
+      "domains": "culture_change; resources_budget",
+      "reason": "Do not infer resistance or acceptance."
+    },
+    {
+      "content": "Evidence source/date/holder, verified versus stipulated/unknown and contradictions",
+      "existing_keys": "additional_context",
+      "domains": "all",
+      "reason": "Preserve provenance and ask/observe/decision triage."
+    }
+  ]
+}

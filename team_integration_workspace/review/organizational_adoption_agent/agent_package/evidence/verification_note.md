@@ -1,0 +1,4 @@
+# Consequential claim verification
+The original identified NIST PDFs were reopened on November 10, 2026; publication dates are January 2023 and July 2024. GOVERN accountability/training/oversight and MANAGE stop/response provisions support questions, not company ratings. The course ET8 PDF was inspected for feasibility/value, task-technology fit and readiness distinctions, including image-based checklists; no numerical CETM/readiness total is invented.
+
+Member source registers are retained as attributed evidence, not silently re-endorsed. TW8 does not carry forward admissions-specific NYU infrastructure, vendor prices, market task-completion percentages, foreign legal timelines or survey causality as financial-firm facts. Those claims are unnecessary to this judgment and would need fresh scope-appropriate verification if used. All permissions, budgets, hours and staff arrangements in current tests are explicit fictional premises. No legal determination is made.

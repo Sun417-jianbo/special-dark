@@ -1,0 +1,28 @@
+{
+  "runtime": "Ordinary ChatGPT in logged-in Safari UI. No API. Two cases shared in cycle1 conversation; four shared in cycle2. Not independent trials.",
+  "cycle_1": {
+    "url": "https://chatgpt.com/c/6aeaf67e-08d4-83e9-920f-19a652d0e54d",
+    "original_json_sha256": "6dc9addd33267b227ca18bdc8734ffc22d39d97154f728b9629f92bbb0ef6505",
+    "case_ids": [
+      "primary",
+      "prepared_profile"
+    ],
+    "status": "Actual outputs downloaded/hash verified"
+  },
+  "cycle_2": {
+    "url": "https://chatgpt.com/c/6aeaf840-aab0-83ea-83b7-08f15dd1ab43",
+    "original_json_sha256": "fd9a73d20a16dc76adb3251b3f637428d8c84fec900b3783d8213d2b20e5f415",
+    "case_ids": [
+      "primary",
+      "prepared_profile",
+      "permission_only",
+      "missing_budget"
+    ],
+    "status": "Actual outputs downloaded/hash verified"
+  },
+  "prompt_bundle_hashes": {
+    "cycle1": "8e23d7b8c8c555ee18023ae93897ee37dc5d80a658ffa9a49a83ab3694e8cd2a",
+    "cycle2": "25f463244e629705ba53f25f88a0218ac6d6e416661ba47fbb759d18c76001bb"
+  },
+  "limits": "Same platform batched analytical cases and AI-assisted review, not an independent evaluator, actual company audit, enterprise trial or model reliability estimate."
+}

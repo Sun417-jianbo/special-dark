@@ -1,0 +1,75 @@
+{
+  "method": "Eight saved current team analyses plus eight candidate-design common rule walkthroughs. Same assistant reasons and reviews; Python serializes authored case-specific content and builds/checks packets, not independent inference.",
+  "current_cases": [
+    {
+      "case": "primary",
+      "verdict": "NOT_READY",
+      "binding_factor": "infrastructure_data",
+      "scope": "conditional qualitative evidence"
+    },
+    {
+      "case": "prepared_contrast",
+      "verdict": "CONDITIONALLY_READY_FOR_ISOLATED_LEARNING",
+      "binding_factor": "residual task/workflow evidence",
+      "scope": "conditional qualitative evidence"
+    },
+    {
+      "case": "permission_only",
+      "verdict": "MORE_EVIDENCE_REQUIRED",
+      "binding_factor": "operating_ownership",
+      "scope": "conditional qualitative evidence"
+    },
+    {
+      "case": "recurring_budget_unknown",
+      "verdict": "CONDITIONALLY_READY_FOR_ISOLATED_LEARNING",
+      "binding_factor": "recurring support evidence for later sustainability",
+      "scope": "conditional qualitative evidence"
+    },
+    {
+      "case": "trial_capacity_unknown",
+      "verdict": "MORE_EVIDENCE_REQUIRED",
+      "binding_factor": "resources_budget",
+      "scope": "conditional qualitative evidence"
+    },
+    {
+      "case": "capacity_shortfall",
+      "verdict": "NOT_READY",
+      "binding_factor": "resources_budget",
+      "scope": "conditional qualitative evidence"
+    },
+    {
+      "case": "ownership_loss",
+      "verdict": "NOT_READY",
+      "binding_factor": "operating_ownership",
+      "scope": "conditional qualitative evidence"
+    },
+    {
+      "case": "simpler_task_probe",
+      "verdict": "CONDITIONALLY_READY_FOR_ISOLATED_LEARNING",
+      "binding_factor": "application justification, not an organizational deficit",
+      "scope": "conditional qualitative evidence"
+    }
+  ],
+  "preserved_source_failures": [
+    {
+      "member": "Minghan Liu",
+      "source": "evidence/member_snapshots/minghan/specialist/tests/cycle_1/",
+      "observed_in_source": "Same six generic actions, invented capacity/culture, maturity/readiness conflation and a fixed-rule agent signoff; archived source output and review retained.",
+      "revision_adopted": "Stage first, gap trace, unknown triage and fit concern, qualified to avoid taking over Adoption."
+    },
+    {
+      "member": "Chutong Wang",
+      "source": "evidence/member_snapshots/chutong/specialist/responses/cycle_1/",
+      "observed_in_source": "Draft source record identifies incomplete evidence statuses, closure fields and intake mapping; final funding wording remains qualified.",
+      "revision_adopted": "Explicit statuses, closure artifacts, trial-versus-recurring scope."
+    },
+    {
+      "member": "Jianbo Sun",
+      "source": "evidence/member_snapshots/jianbo/preserved_negative/v0_primary_response.json",
+      "observed_in_source": "Deliberately weak permission-plus-review shortcut, not a historical deployed failure.",
+      "revision_adopted": "Accepted staffed owner/deputy and protected capacity before dependent evaluation."
+    }
+  ],
+  "team_revision": "Version1.0 synthesizes existing source failures rather than inventing a new historical failure: add stage/unknown/owner/capacity/funding controls, preserve useful readiness evidence under an unfavorable fit concern and omit duplicated establishment actions in prepared B.",
+  "unresolved": "Real handling-time distributions, staff behavior, task quality and business value are unmeasured. Common walkthroughs do not estimate error rates or establish cross-model robustness."
+}

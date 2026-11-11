@@ -1,0 +1,33 @@
+PASS: FROZEN CORE INTACT
+PASS: Common input schema: primary
+PASS: Common input schema: contrast_1
+PASS: Common input schema: contrast_2
+PASS: Common input schema: decision_probe
+PASS: Technology held constant across all four cases
+PASS: Contrasts differ from primary only in organization, stakeholders, capabilities/constraints, question wording and context; application, posture, industry, need, risk and horizon held constant
+PASS: Decision probe keeps the contrast-1 organization profile and changes only the application
+PASS: Cycle 1 primary: frozen validator, strict schema, version, unchanged input, archived instructions and hashes
+PASS: Cycle 1 contrast_1: frozen validator, strict schema, version, unchanged input, archived instructions and hashes
+PASS: Cycle 1 contrast_2: frozen validator, strict schema, version, unchanged input, archived instructions and hashes
+PASS: Cycle 1 decision_probe: frozen validator, strict schema, version, unchanged input, archived instructions and hashes
+PASS: Cycle 1: general technology finding identical across all four contexts
+PASS: Cycle 2 primary: frozen validator, strict schema, version, unchanged input, archived instructions and hashes
+PASS: Cycle 2 contrast_1: frozen validator, strict schema, version, unchanged input, archived instructions and hashes
+PASS: Cycle 2 contrast_2: frozen validator, strict schema, version, unchanged input, archived instructions and hashes
+PASS: Cycle 2 decision_probe: frozen validator, strict schema, version, unchanged input, archived instructions and hashes
+PASS: Cycle 2: general technology finding identical across all four contexts
+PASS: Cycle 2: separation - maturity (general), fit (application, identical for the same application) and readiness (organization) are separate findings
+PASS: Cycle 2: no readiness finding blames technology maturity, and none upgrades readiness into adoption
+PASS: Cycle 2: all eight readiness dimensions (R1-R8) rated with READY/PARTIAL/GAP/UNKNOWN and a blocking flag in every assessed output
+PASS: Cycle 2: step-relative verdicts change with capabilities (SPS not yet ready live / ready-with-conditions PoC; high-readiness ready with conditions; low-readiness not yet ready)
+PASS: Cycle 2: exactly one most-consequential gap per assessed case, different across cases, consistent with the profile and justified
+PASS: Cycle 2: gap-trace - every action names a gap or assumption that exists in the same output profile (at most six actions)
+PASS: Cycle 2: no action text is reused across organizations, and the v1.0 generic actions are absent
+PASS: Cycle 2: owner rule - every named owner is a role stated in the case, or explicitly to be named by a stated role
+PASS: Cycle 2: unknown rule - SPS approval capacity stays UNKNOWN with an explicit request and decision rule; nothing invented; contrasts with supplied facts ask nothing
+PASS: Cycle 2: decision diagnosis - the probe is a weak technology decision in a ready organization, with no readiness program; the other three are sound decisions
+PASS: Cycle 2: every evidence item carries an evidence grade
+PASS: Sensitivity: action-list word overlap between organizations fell from 1.00 (v1.0, identical checklist) to at most 0.28 (v1.1)
+PASS: Cycle 1 preserved failures archived unpatched (identical generic actions; maturity confusion both ways; invented capacity; readiness masking a weak decision)
+
+31 structural/integrity checks passed. They do not prove that a readiness judgment is right. See the qualitative reviews.

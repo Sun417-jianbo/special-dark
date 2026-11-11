@@ -1,0 +1,7 @@
+# Actual draft diagnosis
+
+Cycle1 original SHA256: 6dc9addd33267b227ca18bdc8734ffc22d39d97154f728b9629f92bbb0ef6505. Both actual outputs preserve technology/application evidence and distinguish baseline unverified readiness from prepared-profile conditional PoC entry. This is not a claim that draft0.1 falsely approved production.
+
+The draft covers eight domains but does not assign consistent per-domain evidence statuses and closure questions. Its primary recommendation says “finance and IT should assess protected reviewer time, environment, budget and support ownership”, without a corresponding exact closure artifact/dependency for each priority. It does not supply the organizational intake fields needed for the final tool. Evidence date_or_recency gives the check date2026-11-04 for NIST/course sources, leaving publication dates implicit. ChatGPT also reports exceeding the requested approximate length; this is a communication limit, not an accuracy failure.
+
+Version0.2 makes evidence status and scope explicit, ties priorities to gap/role/action/closure/dependency, requires a concrete missing-evidence request and frozen-intake mapping, distinguishes POC funding from sustained funding, and requires publication/measurement/check dates to be labelled. It retains the draft's correct separation of permission, technology fit and organizational readiness. All four case files remain unchanged after the first run.
