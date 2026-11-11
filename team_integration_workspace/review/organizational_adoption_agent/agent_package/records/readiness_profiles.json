@@ -8,11 +8,11 @@
         "evidence": "Sponsor commitment and risk decision rights not provided."
       },
       "skills_training": {
-        "status": "UNKNOWN",
+        "status": "PARTIAL",
         "evidence": "BI analysts exist; demonstrated agent-review and backup competence not supplied."
       },
       "workflow_process": {
-        "status": "UNKNOWN",
+        "status": "PARTIAL",
         "evidence": "Established reporting and human sign-off required; agent exception/fallback rehearsal not supplied."
       },
       "infrastructure_data": {
@@ -24,7 +24,7 @@
         "evidence": "Protected review/support hours and both trial and recurring coverage not supplied."
       },
       "governance_risk": {
-        "status": "UNKNOWN",
+        "status": "PARTIAL",
         "evidence": "Human sign-off required; incident/stop/change duties not supplied."
       },
       "culture_change": {
@@ -88,11 +88,11 @@
         "evidence": "Sponsor commitment and risk decision rights not provided."
       },
       "skills_training": {
-        "status": "UNKNOWN",
+        "status": "PARTIAL",
         "evidence": "BI analysts exist; demonstrated agent-review and backup competence not supplied."
       },
       "workflow_process": {
-        "status": "UNKNOWN",
+        "status": "PARTIAL",
         "evidence": "Established reporting and human sign-off required; agent exception/fallback rehearsal not supplied."
       },
       "infrastructure_data": {
@@ -104,7 +104,7 @@
         "evidence": "Protected review/support hours and both trial and recurring coverage not supplied."
       },
       "governance_risk": {
-        "status": "UNKNOWN",
+        "status": "PARTIAL",
         "evidence": "Human sign-off required; incident/stop/change duties not supplied."
       },
       "culture_change": {
