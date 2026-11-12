@@ -1,0 +1,26 @@
+[
+  {
+    "id": "P0",
+    "gap": "Primary infrastructure_data explicit execution-route gap; ownership authority unresolved",
+    "owner": "Proposed reporting sponsor with security/data authority",
+    "action": "Resolve an allowed stage/data/model/tool route and appoint an accountable service owner/deputy with stop rights. Collect resource evidence in parallel without executing.",
+    "closure": "Scope-specific approval/denial and accepted role/cover record",
+    "dependency": "Before any dependent agent execution; resolving route alone is insufficient."
+  },
+  {
+    "id": "P1",
+    "gap": "Primary skills/workflow/resource/governance evidence unknown",
+    "owner": "Proposed BI review lead, reporting process owner, reporting manager/finance owner and model-risk officer",
+    "action": "Confirm competent protected review/support capacity, covered trial cap and source/exception/fallback/incident rehearsal.",
+    "closure": "Capacity/budget allocation, competency record and accepted drill/exception log",
+    "dependency": "After scope is defined and before the allowed learning step; do not infer recurring support."
+  },
+  {
+    "id": "P2",
+    "gap": "Sustained acceptance, workload, comparative task value and ongoing resources not demonstrated",
+    "owner": "Proposed service owner/deputy with affected reviewers and sponsor",
+    "action": "Within an actually authorized scope record complete effort, feedback, failures and change triggers; return measured evidence to Adoption before any routine-release decision.",
+    "closure": "At-scope evaluation/debrief plus separately approved recurring support and human release evidence if later sought",
+    "dependency": "Maintain during learning; routine prerequisites apply only before routine use."
+  }
+]

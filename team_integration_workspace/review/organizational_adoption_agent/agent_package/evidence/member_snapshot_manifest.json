@@ -1,0 +1,827 @@
+{
+  "purpose": "Attributed source evidence, not extra team drafts. Native contexts differ; their outcomes are not a comparative performance ranking. Original instructions/prompts/cases/responses are preserved where supplied. Member authorship/run provenance remains as reported by each source.",
+  "files": [
+    {
+      "member": "yufei",
+      "path": "evidence/member_snapshots/yufei/specialist/agent_metadata.json",
+      "sha256": "49f727f2c41286ed720b2e0af005f38bda6119e27cf1eeeb19a6666f0403d983",
+      "original_relative_path": "agent_metadata.json"
+    },
+    {
+      "member": "yufei",
+      "path": "evidence/member_snapshots/yufei/specialist/cases/bounded_poc_only.json",
+      "sha256": "b7ef4a2362fa40a5419a53424b2cbf208c158d2d2c9da33d8f6bb8b7c12525b5",
+      "original_relative_path": "cases/bounded_poc_only.json"
+    },
+    {
+      "member": "yufei",
+      "path": "evidence/member_snapshots/yufei/specialist/cases/capacity_shortfall.json",
+      "sha256": "53e12db02bbf0a5b58e0969435bc7d908c1575b31956d56278159b86dfebb45c",
+      "original_relative_path": "cases/capacity_shortfall.json"
+    },
+    {
+      "member": "yufei",
+      "path": "evidence/member_snapshots/yufei/specialist/cases/capacity_unknown.json",
+      "sha256": "9e43ba12ea5c1919d458ff66c38362ae91c979e8155d88113f3b248ac9df01b2",
+      "original_relative_path": "cases/capacity_unknown.json"
+    },
+    {
+      "member": "yufei",
+      "path": "evidence/member_snapshots/yufei/specialist/cases/hype_probe.json",
+      "sha256": "7b56e4aea73d6950625f396c0d634010dee665656c2c89c3502d95ec479a94b5",
+      "original_relative_path": "cases/hype_probe.json"
+    },
+    {
+      "member": "yufei",
+      "path": "evidence/member_snapshots/yufei/specialist/cases/ownership_loss.json",
+      "sha256": "dfb1feeebca6fe930973c93789759e83900864a8bbbde02b0d47450710822344",
+      "original_relative_path": "cases/ownership_loss.json"
+    },
+    {
+      "member": "yufei",
+      "path": "evidence/member_snapshots/yufei/specialist/cases/primary.json",
+      "sha256": "f6d6bfea55870fc3fc7a59cb683f51d43d71493ca30a7dbe42e00d8a080f1b98",
+      "original_relative_path": "cases/primary.json"
+    },
+    {
+      "member": "yufei",
+      "path": "evidence/member_snapshots/yufei/specialist/cases/readiness_contrast.json",
+      "sha256": "a4742bcd9591f909071e7d4409233e5cec19a86642aaeccd2d167e05eb77f765",
+      "original_relative_path": "cases/readiness_contrast.json"
+    },
+    {
+      "member": "yufei",
+      "path": "evidence/member_snapshots/yufei/specialist/cases/sponsor_only.json",
+      "sha256": "a37adf4a6a64f8bbcf4fcee5ead64eea530202c786f0b75874a1b4d5b3a0a9de",
+      "original_relative_path": "cases/sponsor_only.json"
+    },
+    {
+      "member": "yufei",
+      "path": "evidence/member_snapshots/yufei/specialist/prompts/bounded_poc_only_prompt.txt",
+      "sha256": "9c33472d9d9495131abe2499596858d5e6a83ca775ae9b765e271da0db4bb673",
+      "original_relative_path": "prompts/bounded_poc_only_prompt.txt"
+    },
+    {
+      "member": "yufei",
+      "path": "evidence/member_snapshots/yufei/specialist/prompts/capacity_shortfall_prompt.txt",
+      "sha256": "fef159e21a0b4585cc5a0833ddb4e33efaf98b702248a75b491e200a4a44f3b4",
+      "original_relative_path": "prompts/capacity_shortfall_prompt.txt"
+    },
+    {
+      "member": "yufei",
+      "path": "evidence/member_snapshots/yufei/specialist/prompts/capacity_unknown_prompt.txt",
+      "sha256": "d8d653e19292572a8bdb72a96fd1eb26d7807f4d45188366da1c5c52bb86a002",
+      "original_relative_path": "prompts/capacity_unknown_prompt.txt"
+    },
+    {
+      "member": "yufei",
+      "path": "evidence/member_snapshots/yufei/specialist/prompts/hype_probe_prompt.txt",
+      "sha256": "1976f48870ed8067e4389dcf9089da01e90154d251cad8e1702f972b4fbc363c",
+      "original_relative_path": "prompts/hype_probe_prompt.txt"
+    },
+    {
+      "member": "yufei",
+      "path": "evidence/member_snapshots/yufei/specialist/prompts/ownership_loss_prompt.txt",
+      "sha256": "ffe0921cbd800ab4c37b489121ef5331b5a39735395db9aa66a0fca0d010212b",
+      "original_relative_path": "prompts/ownership_loss_prompt.txt"
+    },
+    {
+      "member": "yufei",
+      "path": "evidence/member_snapshots/yufei/specialist/prompts/primary_prompt.txt",
+      "sha256": "7b94040d33e7b4f0ee715d39eeccac557e729bbee5f2a2a6116a69c54883b5ee",
+      "original_relative_path": "prompts/primary_prompt.txt"
+    },
+    {
+      "member": "yufei",
+      "path": "evidence/member_snapshots/yufei/specialist/prompts/readiness_contrast_prompt.txt",
+      "sha256": "ee3c1fcf80615531b36985eb1526d26667df79e57d3c73fcb3c8c68448640cb4",
+      "original_relative_path": "prompts/readiness_contrast_prompt.txt"
+    },
+    {
+      "member": "yufei",
+      "path": "evidence/member_snapshots/yufei/specialist/prompts/sponsor_only_prompt.txt",
+      "sha256": "a2408511ba65558793f4bf0da3aae3482f7ca0f91b6c444951c56b06e4126beb",
+      "original_relative_path": "prompts/sponsor_only_prompt.txt"
+    },
+    {
+      "member": "yufei",
+      "path": "evidence/member_snapshots/yufei/specialist/responses/bounded_poc_only_response.json",
+      "sha256": "fcea2b21f3f3c825d7e754db4c79ca8af71c3f4ece7e544168d7655fb48cf061",
+      "original_relative_path": "responses/bounded_poc_only_response.json"
+    },
+    {
+      "member": "yufei",
+      "path": "evidence/member_snapshots/yufei/specialist/responses/capacity_shortfall_response.json",
+      "sha256": "6aaa93d8ebd740a310aaecccf45259507c649d9df5ecd3b5405a23a6ffa830b6",
+      "original_relative_path": "responses/capacity_shortfall_response.json"
+    },
+    {
+      "member": "yufei",
+      "path": "evidence/member_snapshots/yufei/specialist/responses/capacity_unknown_response.json",
+      "sha256": "f0c4d4e913dabc482e1efa79916ca7008646a106dd96f450e1889c590f04a53c",
+      "original_relative_path": "responses/capacity_unknown_response.json"
+    },
+    {
+      "member": "yufei",
+      "path": "evidence/member_snapshots/yufei/specialist/responses/hype_probe_response.json",
+      "sha256": "a9aa013eadee2ab3baccc3972e34592dc6130a7ec4c093835ba80776c6e545ad",
+      "original_relative_path": "responses/hype_probe_response.json"
+    },
+    {
+      "member": "yufei",
+      "path": "evidence/member_snapshots/yufei/specialist/responses/ownership_loss_response.json",
+      "sha256": "655c9f56816180f814c9591146d937e4fef5ea321a2bf4b46e4f65e54aced20c",
+      "original_relative_path": "responses/ownership_loss_response.json"
+    },
+    {
+      "member": "yufei",
+      "path": "evidence/member_snapshots/yufei/specialist/responses/primary_response.json",
+      "sha256": "98825d368c1465382e38bc06b299e60b9c5d37dd1826523cbe6bcb2e303361f1",
+      "original_relative_path": "responses/primary_response.json"
+    },
+    {
+      "member": "yufei",
+      "path": "evidence/member_snapshots/yufei/specialist/responses/readiness_contrast_response.json",
+      "sha256": "58cb3fdd951e3e9345942207ff0381738a67bf20246049b39bb027f74ffe38f9",
+      "original_relative_path": "responses/readiness_contrast_response.json"
+    },
+    {
+      "member": "yufei",
+      "path": "evidence/member_snapshots/yufei/specialist/responses/sponsor_only_response.json",
+      "sha256": "5720a0527a5f5a532d6fdb1905a799d5eb173d74af0e3f67d1e91a6e6863e92d",
+      "original_relative_path": "responses/sponsor_only_response.json"
+    },
+    {
+      "member": "yufei",
+      "path": "evidence/member_snapshots/yufei/specialist/specialist_instructions.md",
+      "sha256": "761a68ecece5db4e4f0c75d5c10e2c61ffb6b953243d22139d23e16da3846760",
+      "original_relative_path": "specialist_instructions.md"
+    },
+    {
+      "member": "chutong",
+      "path": "evidence/member_snapshots/chutong/specialist/README.md",
+      "sha256": "2f71be53326339c23b77eb2cde85989374b056018ac88aeb4063b23ea05231b3",
+      "original_relative_path": "README.md"
+    },
+    {
+      "member": "chutong",
+      "path": "evidence/member_snapshots/chutong/specialist/agent_metadata.json",
+      "sha256": "fae405349c506c563a1434feca23a765426ab11bfd0441c18ffdcfe24b2a51f2",
+      "original_relative_path": "agent_metadata.json"
+    },
+    {
+      "member": "chutong",
+      "path": "evidence/member_snapshots/chutong/specialist/cases/missing_budget.json",
+      "sha256": "349836a59d9d08f7c05a18b02fa8f9ab8b2c045d6d4eed098259a3d467ec641d",
+      "original_relative_path": "cases/missing_budget.json"
+    },
+    {
+      "member": "chutong",
+      "path": "evidence/member_snapshots/chutong/specialist/cases/permission_only.json",
+      "sha256": "18186dadef4b7a5f78b37c0e6be90dff4e2eb4b2f8796d5a8f9e895d3d75c50c",
+      "original_relative_path": "cases/permission_only.json"
+    },
+    {
+      "member": "chutong",
+      "path": "evidence/member_snapshots/chutong/specialist/cases/prepared_profile.json",
+      "sha256": "78e253e1eed86cbcb616c501c85f2862d42da41d1e4b12678c2789f26d86319f",
+      "original_relative_path": "cases/prepared_profile.json"
+    },
+    {
+      "member": "chutong",
+      "path": "evidence/member_snapshots/chutong/specialist/cases/primary.json",
+      "sha256": "45105e302b5ede32fdcce5c5790b588d8c1b86e824a1e9de3d4a663edad490be",
+      "original_relative_path": "cases/primary.json"
+    },
+    {
+      "member": "chutong",
+      "path": "evidence/member_snapshots/chutong/specialist/evidence/source_register.json",
+      "sha256": "9ef0f9b9e08f64b44f0328ef789b4bc232224cf5874da47d723bb025248bfac9",
+      "original_relative_path": "evidence/source_register.json"
+    },
+    {
+      "member": "chutong",
+      "path": "evidence/member_snapshots/chutong/specialist/evidence/source_verification.json",
+      "sha256": "af3ce0c827c5d07fad08567d862744ee7f7e47e2c4eb2472a4815cef336895c5",
+      "original_relative_path": "evidence/source_verification.json"
+    },
+    {
+      "member": "chutong",
+      "path": "evidence/member_snapshots/chutong/specialist/evidence/upstream_artifacts.json",
+      "sha256": "cfbc53ca7156ccd262334464df9ed9f781b84166d182efc90c4a2d29b659bc02",
+      "original_relative_path": "evidence/upstream_artifacts.json"
+    },
+    {
+      "member": "chutong",
+      "path": "evidence/member_snapshots/chutong/specialist/prompts/cycle_1/prepared_profile_prompt.txt",
+      "sha256": "1a9593de8d1edfb8b82fb0026f8235cb49c57505ee0aa344ceddc964b4777105",
+      "original_relative_path": "prompts/cycle_1/prepared_profile_prompt.txt"
+    },
+    {
+      "member": "chutong",
+      "path": "evidence/member_snapshots/chutong/specialist/prompts/cycle_1/primary_prompt.txt",
+      "sha256": "2da190749d8402310d3a6ba959e8b67da1c34cde9515533b3cf971f378eb8e1d",
+      "original_relative_path": "prompts/cycle_1/primary_prompt.txt"
+    },
+    {
+      "member": "chutong",
+      "path": "evidence/member_snapshots/chutong/specialist/prompts/cycle_2/missing_budget_prompt.txt",
+      "sha256": "067360d94ef6730498c2c41de8dab49d31922d68a8dfebe37826d4771b576611",
+      "original_relative_path": "prompts/cycle_2/missing_budget_prompt.txt"
+    },
+    {
+      "member": "chutong",
+      "path": "evidence/member_snapshots/chutong/specialist/prompts/cycle_2/permission_only_prompt.txt",
+      "sha256": "fec8e2e2178c7c8c672e74ad0fcf06a2e799641c64b36419fc4c2d808b7b130d",
+      "original_relative_path": "prompts/cycle_2/permission_only_prompt.txt"
+    },
+    {
+      "member": "chutong",
+      "path": "evidence/member_snapshots/chutong/specialist/prompts/cycle_2/prepared_profile_prompt.txt",
+      "sha256": "ccf3900817e83fdab21e38426c1b5466138e3fe36a03ad183e2075b003c01378",
+      "original_relative_path": "prompts/cycle_2/prepared_profile_prompt.txt"
+    },
+    {
+      "member": "chutong",
+      "path": "evidence/member_snapshots/chutong/specialist/prompts/cycle_2/primary_prompt.txt",
+      "sha256": "79fafffdfa991ab1e095517a9cb239a4c1721bac71109de0abbe347721f1032c",
+      "original_relative_path": "prompts/cycle_2/primary_prompt.txt"
+    },
+    {
+      "member": "chutong",
+      "path": "evidence/member_snapshots/chutong/specialist/records/agent_record.md",
+      "sha256": "7da0fccf6252ef83f3c9aef30ff72292c2c6f05bed79425f1c8d2a5646910c50",
+      "original_relative_path": "records/agent_record.md"
+    },
+    {
+      "member": "chutong",
+      "path": "evidence/member_snapshots/chutong/specialist/records/assessment_checklist.md",
+      "sha256": "65cda1846c0504b26297687fb0820ab0aff06513488d962b2f7fe3e8bfe19d8e",
+      "original_relative_path": "records/assessment_checklist.md"
+    },
+    {
+      "member": "chutong",
+      "path": "evidence/member_snapshots/chutong/specialist/records/cycle1_original_outputs.json",
+      "sha256": "6dc9addd33267b227ca18bdc8734ffc22d39d97154f728b9629f92bbb0ef6505",
+      "original_relative_path": "records/cycle1_original_outputs.json"
+    },
+    {
+      "member": "chutong",
+      "path": "evidence/member_snapshots/chutong/specialist/records/cycle1_run_bundle.txt",
+      "sha256": "8e23d7b8c8c555ee18023ae93897ee37dc5d80a658ffa9a49a83ab3694e8cd2a",
+      "original_relative_path": "records/cycle1_run_bundle.txt"
+    },
+    {
+      "member": "chutong",
+      "path": "evidence/member_snapshots/chutong/specialist/records/cycle2_original_outputs.json",
+      "sha256": "fd9a73d20a16dc76adb3251b3f637428d8c84fec900b3783d8213d2b20e5f415",
+      "original_relative_path": "records/cycle2_original_outputs.json"
+    },
+    {
+      "member": "chutong",
+      "path": "evidence/member_snapshots/chutong/specialist/records/cycle2_run_bundle.txt",
+      "sha256": "25f463244e629705ba53f25f88a0218ac6d6e416661ba47fbb759d18c76001bb",
+      "original_relative_path": "records/cycle2_run_bundle.txt"
+    },
+    {
+      "member": "chutong",
+      "path": "evidence/member_snapshots/chutong/specialist/records/document_verification.json",
+      "sha256": "b6a52604b09064362ec093141a15067665471ac5a08f59044dbe2fedf0f0794f",
+      "original_relative_path": "records/document_verification.json"
+    },
+    {
+      "member": "chutong",
+      "path": "evidence/member_snapshots/chutong/specialist/records/input_hashes.json",
+      "sha256": "b1afe885b9cf18a273266c99982b12aa8333d7f8c6f835330b3aad28c5e1ae13",
+      "original_relative_path": "records/input_hashes.json"
+    },
+    {
+      "member": "chutong",
+      "path": "evidence/member_snapshots/chutong/specialist/records/intake_handoff.md",
+      "sha256": "ed7444504e29a6220449f4e5ea889da6bb5bbd870e149477a5fe7f69c2dd18cd",
+      "original_relative_path": "records/intake_handoff.md"
+    },
+    {
+      "member": "chutong",
+      "path": "evidence/member_snapshots/chutong/specialist/records/poc_and_use_case.md",
+      "sha256": "1869ed7a20ca1da53bfff9d255645aa574f68396568fd2742d4a2a2b0f9a0a68",
+      "original_relative_path": "records/poc_and_use_case.md"
+    },
+    {
+      "member": "chutong",
+      "path": "evidence/member_snapshots/chutong/specialist/records/prioritized_actions.md",
+      "sha256": "4833d2b624c1bf393c10f0f26e76e070fa932dcbde045b6c4ceef3ef181ca4a2",
+      "original_relative_path": "records/prioritized_actions.md"
+    },
+    {
+      "member": "chutong",
+      "path": "evidence/member_snapshots/chutong/specialist/records/readiness_framework.md",
+      "sha256": "e26920e45aaacd6e7ad67392ef2ab89d5875ab31249032f27980f0da3e776867",
+      "original_relative_path": "records/readiness_framework.md"
+    },
+    {
+      "member": "chutong",
+      "path": "evidence/member_snapshots/chutong/specialist/records/repository_handoff.json",
+      "sha256": "11ebc15b4743c4c52742ef2ea6ab7deb119d9ee7bc7a8c742502d8a097dbdda9",
+      "original_relative_path": "records/repository_handoff.json"
+    },
+    {
+      "member": "chutong",
+      "path": "evidence/member_snapshots/chutong/specialist/records/run_provenance.json",
+      "sha256": "48a63a16f0f037c0557cf9daabf5f98df8328006598a2fbda7cd9c323bf76aa4",
+      "original_relative_path": "records/run_provenance.json"
+    },
+    {
+      "member": "chutong",
+      "path": "evidence/member_snapshots/chutong/specialist/records/self_reflection.md",
+      "sha256": "8c90a13cb46d5a8ed572f247948e2b4c88731f82e1cbdef2b9f1028cd5844441",
+      "original_relative_path": "records/self_reflection.md"
+    },
+    {
+      "member": "chutong",
+      "path": "evidence/member_snapshots/chutong/specialist/records/semantic_review.json",
+      "sha256": "baa7110db5ed97c211db2a2dd47c0144c70a943e836854fc652be6f2ba8fd4bd",
+      "original_relative_path": "records/semantic_review.json"
+    },
+    {
+      "member": "chutong",
+      "path": "evidence/member_snapshots/chutong/specialist/records/test_and_revision_log.md",
+      "sha256": "28363cc08801e87b608750bd2963ec99670e75971737915e02daeb384847a3ee",
+      "original_relative_path": "records/test_and_revision_log.md"
+    },
+    {
+      "member": "chutong",
+      "path": "evidence/member_snapshots/chutong/specialist/records/upstream_transfer.md",
+      "sha256": "315e1484655d0d40b8b797f1ff6bde0eb7c0d4ee6e25354ff18cee0a250b0826",
+      "original_relative_path": "records/upstream_transfer.md"
+    },
+    {
+      "member": "chutong",
+      "path": "evidence/member_snapshots/chutong/specialist/records/validation_results.json",
+      "sha256": "24f2ec32d3d4755b003950c1bac828a881f2213c28c4bdb646fddd2af322fffc",
+      "original_relative_path": "records/validation_results.json"
+    },
+    {
+      "member": "chutong",
+      "path": "evidence/member_snapshots/chutong/specialist/responses/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_relative_path": "responses/.gitkeep"
+    },
+    {
+      "member": "chutong",
+      "path": "evidence/member_snapshots/chutong/specialist/responses/cycle_1/prepared_profile_response.json",
+      "sha256": "098b93b3766b02022fc89d1de2ae557b40cf7a7771cbfe3dfd5d0e122fd9a482",
+      "original_relative_path": "responses/cycle_1/prepared_profile_response.json"
+    },
+    {
+      "member": "chutong",
+      "path": "evidence/member_snapshots/chutong/specialist/responses/cycle_1/primary_response.json",
+      "sha256": "3ae229a41d2b98b4bd7ce8f40189dc48cb6c3d5a807dbae9b6fa11b87d2a7d90",
+      "original_relative_path": "responses/cycle_1/primary_response.json"
+    },
+    {
+      "member": "chutong",
+      "path": "evidence/member_snapshots/chutong/specialist/responses/cycle_2/missing_budget_response.json",
+      "sha256": "74f21b1e4c6d5faa2a797f7008c50369131038c6794f09df2720985267089953",
+      "original_relative_path": "responses/cycle_2/missing_budget_response.json"
+    },
+    {
+      "member": "chutong",
+      "path": "evidence/member_snapshots/chutong/specialist/responses/cycle_2/permission_only_response.json",
+      "sha256": "0e67804a0eeb004834832ef99a181dc4f043137e36284b22c8c878bdde9ef91f",
+      "original_relative_path": "responses/cycle_2/permission_only_response.json"
+    },
+    {
+      "member": "chutong",
+      "path": "evidence/member_snapshots/chutong/specialist/responses/cycle_2/prepared_profile_response.json",
+      "sha256": "9d52db6464992e1d40801783075733a1325cfcc2faf557cf0bd435402d11004c",
+      "original_relative_path": "responses/cycle_2/prepared_profile_response.json"
+    },
+    {
+      "member": "chutong",
+      "path": "evidence/member_snapshots/chutong/specialist/responses/cycle_2/primary_response.json",
+      "sha256": "dc2c06ad9681cea3d5eb31cba6d23efcc06439fcbfc38d4a4e41a0c6da10babb",
+      "original_relative_path": "responses/cycle_2/primary_response.json"
+    },
+    {
+      "member": "chutong",
+      "path": "evidence/member_snapshots/chutong/specialist/revisions/agent_metadata_v0.1.json",
+      "sha256": "8b048c9d4cc32824cec614b54d043f8bcef042452162dc90413bc32d4e2ec633",
+      "original_relative_path": "revisions/agent_metadata_v0.1.json"
+    },
+    {
+      "member": "chutong",
+      "path": "evidence/member_snapshots/chutong/specialist/revisions/agent_metadata_v0.2.json",
+      "sha256": "fae405349c506c563a1434feca23a765426ab11bfd0441c18ffdcfe24b2a51f2",
+      "original_relative_path": "revisions/agent_metadata_v0.2.json"
+    },
+    {
+      "member": "chutong",
+      "path": "evidence/member_snapshots/chutong/specialist/revisions/diagnosis.md",
+      "sha256": "569d8e8747b00abd8278eec23c63e69b00e11998f2f8fa9e565b47d223ab70ca",
+      "original_relative_path": "revisions/diagnosis.md"
+    },
+    {
+      "member": "chutong",
+      "path": "evidence/member_snapshots/chutong/specialist/revisions/specialist_instructions_v0.1.md",
+      "sha256": "76e767e90cf1982673437fb4e7c1baf9e05dc185e6dd8b5c86773e12f7f9c784",
+      "original_relative_path": "revisions/specialist_instructions_v0.1.md"
+    },
+    {
+      "member": "chutong",
+      "path": "evidence/member_snapshots/chutong/specialist/revisions/specialist_instructions_v0.2.md",
+      "sha256": "f161cf18adbad6670187660b0d5986c8bf61820fbb36b6712aa6b877a404d7b0",
+      "original_relative_path": "revisions/specialist_instructions_v0.2.md"
+    },
+    {
+      "member": "chutong",
+      "path": "evidence/member_snapshots/chutong/specialist/specialist_instructions.md",
+      "sha256": "f161cf18adbad6670187660b0d5986c8bf61820fbb36b6712aa6b877a404d7b0",
+      "original_relative_path": "specialist_instructions.md"
+    },
+    {
+      "member": "jianbo",
+      "path": "evidence/member_snapshots/jianbo/specialist/agent_metadata.json",
+      "sha256": "6c183a451c35ed19d2b4c968f7f06d44876ec35ec5a2b4fb43638bc0f3286d72",
+      "original_relative_path": "agent_metadata.json"
+    },
+    {
+      "member": "jianbo",
+      "path": "evidence/member_snapshots/jianbo/specialist/cases/contrast.json",
+      "sha256": "18e456b0254b132f27ab32e9abcee4079c9c41fd961598ad8bd8596ff0004c5d",
+      "original_relative_path": "cases/contrast.json"
+    },
+    {
+      "member": "jianbo",
+      "path": "evidence/member_snapshots/jianbo/specialist/cases/missing_capacity.json",
+      "sha256": "b6a698e5c05032e0245237cd8316e35c450d629acd8c6ca81a2c6e661f339440",
+      "original_relative_path": "cases/missing_capacity.json"
+    },
+    {
+      "member": "jianbo",
+      "path": "evidence/member_snapshots/jianbo/specialist/cases/posture_pressure.json",
+      "sha256": "a5f1b8e20e1669d3781f486fd14992dd43800bec6cb7c5ca2c4e7acfc5089133",
+      "original_relative_path": "cases/posture_pressure.json"
+    },
+    {
+      "member": "jianbo",
+      "path": "evidence/member_snapshots/jianbo/specialist/cases/primary.json",
+      "sha256": "3365640d05f85cd347439fe214e10e01efdeb5d56762252e475b310d7a05c5da",
+      "original_relative_path": "cases/primary.json"
+    },
+    {
+      "member": "jianbo",
+      "path": "evidence/member_snapshots/jianbo/specialist/prompts/contrast_prompt.txt",
+      "sha256": "1c75365c5040c97154affa87d51c505ebe9d33fba028eded4b73585c1d71f4b3",
+      "original_relative_path": "prompts/contrast_prompt.txt"
+    },
+    {
+      "member": "jianbo",
+      "path": "evidence/member_snapshots/jianbo/specialist/prompts/missing_capacity_prompt.txt",
+      "sha256": "f12c35fa576c026e09627ac8d542a64c83e873ee4f3e57014eefcafbb95782a3",
+      "original_relative_path": "prompts/missing_capacity_prompt.txt"
+    },
+    {
+      "member": "jianbo",
+      "path": "evidence/member_snapshots/jianbo/specialist/prompts/posture_pressure_prompt.txt",
+      "sha256": "93ebe0daac8066a25cd3935472edaf1052aa90b22b430f43f5a8eeffa0d668eb",
+      "original_relative_path": "prompts/posture_pressure_prompt.txt"
+    },
+    {
+      "member": "jianbo",
+      "path": "evidence/member_snapshots/jianbo/specialist/prompts/primary_prompt.txt",
+      "sha256": "7521c9f8a6dd663cd823bf42d238d81a3d1c741e134022e114930286ab383808",
+      "original_relative_path": "prompts/primary_prompt.txt"
+    },
+    {
+      "member": "jianbo",
+      "path": "evidence/member_snapshots/jianbo/specialist/responses/contrast_response.json",
+      "sha256": "b59dc4fd293a01cac7d2f7afa386b507ca5b72d2384c5d340d81ab2b797414d4",
+      "original_relative_path": "responses/contrast_response.json"
+    },
+    {
+      "member": "jianbo",
+      "path": "evidence/member_snapshots/jianbo/specialist/responses/missing_capacity_response.json",
+      "sha256": "3edf68595e7470802a55667e18c8d000e0ec0c2df883e317f8000d4a55c26383",
+      "original_relative_path": "responses/missing_capacity_response.json"
+    },
+    {
+      "member": "jianbo",
+      "path": "evidence/member_snapshots/jianbo/specialist/responses/posture_pressure_response.json",
+      "sha256": "468e2bcbdcedf6dc0c59d4b5befc3ef92b1b83b2ba0ea271f452a1ecff5a4487",
+      "original_relative_path": "responses/posture_pressure_response.json"
+    },
+    {
+      "member": "jianbo",
+      "path": "evidence/member_snapshots/jianbo/specialist/responses/primary_response.json",
+      "sha256": "55afa5f26c2ffebe50cf214b0500ec45f17e71784ddce39b1d02a0e6f0175dcb",
+      "original_relative_path": "responses/primary_response.json"
+    },
+    {
+      "member": "jianbo",
+      "path": "evidence/member_snapshots/jianbo/specialist/specialist_instructions.md",
+      "sha256": "8db3ab4984adf9e4bdee3c1b2395b62abc41deafd910bf2275b1ba2f97e4b7df",
+      "original_relative_path": "specialist_instructions.md"
+    },
+    {
+      "member": "minghan",
+      "path": "evidence/member_snapshots/minghan/specialist/README.md",
+      "sha256": "2365b50a0cb6a6996631442975c8621c9fd0632a9567a2db48eb77aee3e92b18",
+      "original_relative_path": "README.md"
+    },
+    {
+      "member": "minghan",
+      "path": "evidence/member_snapshots/minghan/specialist/agent_metadata.json",
+      "sha256": "74c379a89d51970b085af713af1b0890d6842287a1719ff7201340bb3b6e3535",
+      "original_relative_path": "agent_metadata.json"
+    },
+    {
+      "member": "minghan",
+      "path": "evidence/member_snapshots/minghan/specialist/cases/contrast_1.json",
+      "sha256": "9e4ddfec25171ae76910e31318e1aac0e219e95dbdd41fc4610256395a0f5e5f",
+      "original_relative_path": "cases/contrast_1.json"
+    },
+    {
+      "member": "minghan",
+      "path": "evidence/member_snapshots/minghan/specialist/cases/contrast_2.json",
+      "sha256": "05a087be5ae935840696e0efa7a67b5d7ae49948939f8cdcb1efe0bc2d8e86dd",
+      "original_relative_path": "cases/contrast_2.json"
+    },
+    {
+      "member": "minghan",
+      "path": "evidence/member_snapshots/minghan/specialist/cases/decision_probe.json",
+      "sha256": "8d2b66d8db1c9a011839e6bf6121e76d99b9cf7a4f299b8a63ed72d6ac50086d",
+      "original_relative_path": "cases/decision_probe.json"
+    },
+    {
+      "member": "minghan",
+      "path": "evidence/member_snapshots/minghan/specialist/cases/primary.json",
+      "sha256": "93215daeb759e4c77a582bc0a828e3f0bec6bc9ed5176c0a6a9855e732a04f7a",
+      "original_relative_path": "cases/primary.json"
+    },
+    {
+      "member": "minghan",
+      "path": "evidence/member_snapshots/minghan/specialist/evidence/source_register.json",
+      "sha256": "fcd3c0f16cb8f72c61a4ad1879fced85122ecd5636a505cb4f3fefd47975d410",
+      "original_relative_path": "evidence/source_register.json"
+    },
+    {
+      "member": "minghan",
+      "path": "evidence/member_snapshots/minghan/specialist/records/action_challenge.md",
+      "sha256": "d5c1391484aebbdfc94d718b12fa8ff82e8d1f51a61c5725e331dffe48330c61",
+      "original_relative_path": "records/action_challenge.md"
+    },
+    {
+      "member": "minghan",
+      "path": "evidence/member_snapshots/minghan/specialist/records/agent_record.md",
+      "sha256": "746a1a2501765b7aaabf5c7bea8c3285d3105ef413bc7b4ccbe4f34ef83061c8",
+      "original_relative_path": "records/agent_record.md"
+    },
+    {
+      "member": "minghan",
+      "path": "evidence/member_snapshots/minghan/specialist/records/course_alignment.md",
+      "sha256": "05fbece5b906b064bc8663f274c2445caea5c775be0fe91c8d1da19a7beffe5d",
+      "original_relative_path": "records/course_alignment.md"
+    },
+    {
+      "member": "minghan",
+      "path": "evidence/member_snapshots/minghan/specialist/records/information_request.md",
+      "sha256": "204af2add4a9d2f14456844ea120f1c3530be2c1e4df55df1a9ba38fad0a0efc",
+      "original_relative_path": "records/information_request.md"
+    },
+    {
+      "member": "minghan",
+      "path": "evidence/member_snapshots/minghan/specialist/records/readiness_framework.md",
+      "sha256": "8e341e6dd4c87b804695339da5c2fdc9168de4df216cf0993e2558ee888b6426",
+      "original_relative_path": "records/readiness_framework.md"
+    },
+    {
+      "member": "minghan",
+      "path": "evidence/member_snapshots/minghan/specialist/records/team_handoff.md",
+      "sha256": "ae924fc4c1cac43c9bba48a9940a3df6647603b9ad455a3762698da74785624d",
+      "original_relative_path": "records/team_handoff.md"
+    },
+    {
+      "member": "minghan",
+      "path": "evidence/member_snapshots/minghan/specialist/responses/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_relative_path": "responses/.gitkeep"
+    },
+    {
+      "member": "minghan",
+      "path": "evidence/member_snapshots/minghan/specialist/responses/contrast_1_response.json",
+      "sha256": "2f2f638f8c5b00eb5703af93d5e46571e713cf723b7efba4f4c7ebef52761905",
+      "original_relative_path": "responses/contrast_1_response.json"
+    },
+    {
+      "member": "minghan",
+      "path": "evidence/member_snapshots/minghan/specialist/responses/contrast_2_response.json",
+      "sha256": "026b0818ee16a4647dcc1296c184532cade3a38a1ca3ed2652ac0c97999c0d0d",
+      "original_relative_path": "responses/contrast_2_response.json"
+    },
+    {
+      "member": "minghan",
+      "path": "evidence/member_snapshots/minghan/specialist/responses/decision_probe_response.json",
+      "sha256": "fd3485328adf011e865afcc72cbf5080cd7df9d4bdefa688b3aa005b9d459313",
+      "original_relative_path": "responses/decision_probe_response.json"
+    },
+    {
+      "member": "minghan",
+      "path": "evidence/member_snapshots/minghan/specialist/responses/primary_response.json",
+      "sha256": "7c8e6db0f4fd9ac34d9a4ae9d62f84b9e8802219cc35c2016170c45e1b8e87e7",
+      "original_relative_path": "responses/primary_response.json"
+    },
+    {
+      "member": "minghan",
+      "path": "evidence/member_snapshots/minghan/specialist/specialist_instructions.md",
+      "sha256": "d86cafd573eca972c8d4977a5b0db472c68c3a2956c30b4362cd143dc4e3345b",
+      "original_relative_path": "specialist_instructions.md"
+    },
+    {
+      "member": "minghan",
+      "path": "evidence/member_snapshots/minghan/specialist/tests/cycle_1/agent_metadata.json",
+      "sha256": "f4d03a04189bfb107681f3429c7da9afff1da20074f124e8702453c2dafee926",
+      "original_relative_path": "tests/cycle_1/agent_metadata.json"
+    },
+    {
+      "member": "minghan",
+      "path": "evidence/member_snapshots/minghan/specialist/tests/cycle_1/contrast_1_response.json",
+      "sha256": "e69c27168a72014234fd9441316dd6e9e3f97afb2988fbb5122f424b85cbfd7b",
+      "original_relative_path": "tests/cycle_1/contrast_1_response.json"
+    },
+    {
+      "member": "minghan",
+      "path": "evidence/member_snapshots/minghan/specialist/tests/cycle_1/contrast_2_response.json",
+      "sha256": "3e94857edf973ec2b28284ee07ffbf3c988365c228db5bb0a77975d6bcf0fbbc",
+      "original_relative_path": "tests/cycle_1/contrast_2_response.json"
+    },
+    {
+      "member": "minghan",
+      "path": "evidence/member_snapshots/minghan/specialist/tests/cycle_1/decision_probe_response.json",
+      "sha256": "fcdc4a4caa8172874b8532bd355a127986ecd0b9cd905ef912c74314f9ce685e",
+      "original_relative_path": "tests/cycle_1/decision_probe_response.json"
+    },
+    {
+      "member": "minghan",
+      "path": "evidence/member_snapshots/minghan/specialist/tests/cycle_1/primary_response.json",
+      "sha256": "9c93165362915ebcc49aa3a3c49655f80e961442b170832a31acdbb7459b0fd1",
+      "original_relative_path": "tests/cycle_1/primary_response.json"
+    },
+    {
+      "member": "minghan",
+      "path": "evidence/member_snapshots/minghan/specialist/tests/cycle_1/review.md",
+      "sha256": "87bb98b9e8eff37d7e8b8e293f42cdf955d6836d323ae2f3ade41d0501ca9c89",
+      "original_relative_path": "tests/cycle_1/review.md"
+    },
+    {
+      "member": "minghan",
+      "path": "evidence/member_snapshots/minghan/specialist/tests/cycle_1/run_manifest.json",
+      "sha256": "7275d7a5edd68e2c9a6cfbc2b8f32f4fe97441fa588bf95fea58de5fcc81f4c6",
+      "original_relative_path": "tests/cycle_1/run_manifest.json"
+    },
+    {
+      "member": "minghan",
+      "path": "evidence/member_snapshots/minghan/specialist/tests/cycle_1/specialist_instructions.md",
+      "sha256": "3e3265c24b44ec5bac60cc0a72f636596979d6a96c9f57b677d3acec8921bafa",
+      "original_relative_path": "tests/cycle_1/specialist_instructions.md"
+    },
+    {
+      "member": "minghan",
+      "path": "evidence/member_snapshots/minghan/specialist/tests/cycle_2/agent_metadata.json",
+      "sha256": "74c379a89d51970b085af713af1b0890d6842287a1719ff7201340bb3b6e3535",
+      "original_relative_path": "tests/cycle_2/agent_metadata.json"
+    },
+    {
+      "member": "minghan",
+      "path": "evidence/member_snapshots/minghan/specialist/tests/cycle_2/contrast_1_response.json",
+      "sha256": "2f2f638f8c5b00eb5703af93d5e46571e713cf723b7efba4f4c7ebef52761905",
+      "original_relative_path": "tests/cycle_2/contrast_1_response.json"
+    },
+    {
+      "member": "minghan",
+      "path": "evidence/member_snapshots/minghan/specialist/tests/cycle_2/contrast_2_response.json",
+      "sha256": "026b0818ee16a4647dcc1296c184532cade3a38a1ca3ed2652ac0c97999c0d0d",
+      "original_relative_path": "tests/cycle_2/contrast_2_response.json"
+    },
+    {
+      "member": "minghan",
+      "path": "evidence/member_snapshots/minghan/specialist/tests/cycle_2/decision_probe_response.json",
+      "sha256": "fd3485328adf011e865afcc72cbf5080cd7df9d4bdefa688b3aa005b9d459313",
+      "original_relative_path": "tests/cycle_2/decision_probe_response.json"
+    },
+    {
+      "member": "minghan",
+      "path": "evidence/member_snapshots/minghan/specialist/tests/cycle_2/primary_response.json",
+      "sha256": "7c8e6db0f4fd9ac34d9a4ae9d62f84b9e8802219cc35c2016170c45e1b8e87e7",
+      "original_relative_path": "tests/cycle_2/primary_response.json"
+    },
+    {
+      "member": "minghan",
+      "path": "evidence/member_snapshots/minghan/specialist/tests/cycle_2/review.md",
+      "sha256": "aea3ef63a6d23e6279fb7239253b3ef73cd8cb8d385e1695eb1c4135d5ce7bac",
+      "original_relative_path": "tests/cycle_2/review.md"
+    },
+    {
+      "member": "minghan",
+      "path": "evidence/member_snapshots/minghan/specialist/tests/cycle_2/run_manifest.json",
+      "sha256": "ab799a355bb734d49a5ff7d432f7a4d3176c790d6aca791fdf9a0996de455cbf",
+      "original_relative_path": "tests/cycle_2/run_manifest.json"
+    },
+    {
+      "member": "minghan",
+      "path": "evidence/member_snapshots/minghan/specialist/tests/cycle_2/specialist_instructions.md",
+      "sha256": "d86cafd573eca972c8d4977a5b0db472c68c3a2956c30b4362cd143dc4e3345b",
+      "original_relative_path": "tests/cycle_2/specialist_instructions.md"
+    },
+    {
+      "member": "minghan",
+      "path": "evidence/member_snapshots/minghan/specialist/tests/prompts/cycle_1/contrast_1.txt",
+      "sha256": "074f950e08566749b35f0c904bc76dc9d3627ad3f416103bf22b3f6f60a534d8",
+      "original_relative_path": "tests/prompts/cycle_1/contrast_1.txt"
+    },
+    {
+      "member": "minghan",
+      "path": "evidence/member_snapshots/minghan/specialist/tests/prompts/cycle_1/contrast_2.txt",
+      "sha256": "ef009b0b0d267d4771ec48626dde1cee64c1b5550d373e836289aec9c30e40a7",
+      "original_relative_path": "tests/prompts/cycle_1/contrast_2.txt"
+    },
+    {
+      "member": "minghan",
+      "path": "evidence/member_snapshots/minghan/specialist/tests/prompts/cycle_1/decision_probe.txt",
+      "sha256": "1c681141c794a5cd95935a45f69cf3a093e1c7fe698d7f186cc47d36330113f4",
+      "original_relative_path": "tests/prompts/cycle_1/decision_probe.txt"
+    },
+    {
+      "member": "minghan",
+      "path": "evidence/member_snapshots/minghan/specialist/tests/prompts/cycle_1/primary.txt",
+      "sha256": "a9585192b9c911ac84b42d54da54508a73be193448e5f43317c430e3f8f6c8bc",
+      "original_relative_path": "tests/prompts/cycle_1/primary.txt"
+    },
+    {
+      "member": "minghan",
+      "path": "evidence/member_snapshots/minghan/specialist/tests/prompts/cycle_2/contrast_1.txt",
+      "sha256": "57c4f659717f7df57c06995089a72de3d6fa20da3766566c88310f8c48836c80",
+      "original_relative_path": "tests/prompts/cycle_2/contrast_1.txt"
+    },
+    {
+      "member": "minghan",
+      "path": "evidence/member_snapshots/minghan/specialist/tests/prompts/cycle_2/contrast_2.txt",
+      "sha256": "a47e75d752153e3f1a1de5467cb7014db935e0b8e7519d11c142caecf2bc948e",
+      "original_relative_path": "tests/prompts/cycle_2/contrast_2.txt"
+    },
+    {
+      "member": "minghan",
+      "path": "evidence/member_snapshots/minghan/specialist/tests/prompts/cycle_2/decision_probe.txt",
+      "sha256": "8bb0692dc3548e2f44335737ddbc8abe09b983f5d9e3ea982e51fcfadfd77ed3",
+      "original_relative_path": "tests/prompts/cycle_2/decision_probe.txt"
+    },
+    {
+      "member": "minghan",
+      "path": "evidence/member_snapshots/minghan/specialist/tests/prompts/cycle_2/primary.txt",
+      "sha256": "cb8b1088483193408c6c009cb6c448df847782595dccbe6f77b989f5a5c3512d",
+      "original_relative_path": "tests/prompts/cycle_2/primary.txt"
+    },
+    {
+      "member": "minghan",
+      "path": "evidence/member_snapshots/minghan/specialist/tests/test_plan.md",
+      "sha256": "2abe75f8a8fa0a49016c235af3c9bc606537248c6bae66c8aa63756973222e3c",
+      "original_relative_path": "tests/test_plan.md"
+    },
+    {
+      "member": "minghan",
+      "path": "evidence/member_snapshots/minghan/specialist/tests/validation_log.txt",
+      "sha256": "b34d9af61751788fba9c71a78e8837b6c92d5230ead24eed94dd4c7eda80f69b",
+      "original_relative_path": "tests/validation_log.txt"
+    },
+    {
+      "member": "yufei",
+      "path": "evidence/member_snapshots/yufei/original_agent_record.docx",
+      "sha256": "23c2f488d4a4a2604dc14718f467e682de98c2c4cc9f091d6d0e5a073b09685f",
+      "original_filename": "Cai_Yufei_Assignment7_Organizational_Adoption_Agent_Record.docx"
+    },
+    {
+      "member": "chutong",
+      "path": "evidence/member_snapshots/chutong/original_agent_record.docx",
+      "sha256": "0a71f68021e503fdf00df5f3ca9d9b01d328cbf8236d71a51a48407535bfc8b9",
+      "original_filename": "Chutong_Wang_Assignment7_Agent_Record.docx"
+    },
+    {
+      "member": "jianbo",
+      "path": "evidence/member_snapshots/jianbo/original_agent_record.pdf",
+      "sha256": "59473a9fa973a10153759e23e70fe154ea65c6e65f8d386f4204fed4fc8c7b22",
+      "original_filename": "Jianbo_Sun_Assignment_7_Combined (1).pdf"
+    },
+    {
+      "member": "minghan",
+      "path": "evidence/member_snapshots/minghan/original_agent_record.docx",
+      "sha256": "8fccd69f1064c4442b383aeb0848e9becc3710acbb2ee80814c705977fad4f2b",
+      "original_filename": "Assignment_7_Agent_Record_Minghan_Liu_2 (1).docx"
+    },
+    {
+      "member": "jianbo",
+      "path": "evidence/member_snapshots/jianbo/preserved_negative/v0_primary_response.json",
+      "sha256": "ffc4c76aeee88e3ee24d96bd397e0bffcf6f1cd09fbe566354346842889d9d7d",
+      "original_filename": "v0_primary_response.json"
+    }
+  ]
+}

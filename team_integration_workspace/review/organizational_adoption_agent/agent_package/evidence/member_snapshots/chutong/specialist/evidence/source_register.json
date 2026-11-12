@@ -1,0 +1,63 @@
+[
+  {
+    "id": "C1",
+    "title": "Assignment 7 Organizational Adoption Agent and common course instructions",
+    "url": "Supplied instructor DOCX files",
+    "date": "FA26; exact release not stated",
+    "locator": "What to Do 1-6; Team Handoff",
+    "finding": "Assess eight readiness domains, distinguish technology/application fit from organizational preparedness, prioritize owners/actions and ask for missing evidence.",
+    "limit": "Assignment authority, not evidence of actual company readiness.",
+    "checked_on": "2026-11-04"
+  },
+  {
+    "id": "T1",
+    "title": "Special Dark TW7 Adoption Agent 1.0 and team record",
+    "url": "Supplied team ZIP and DOCX",
+    "date": "Workshop 2026-11-03; finalized 2026-11-04",
+    "locator": "Primary case, Team Judgment, Final Project Handoff",
+    "finding": "Baseline DEFER unapproved chart-agent trial; manual/deterministic review retained. Feasibility, comparative value, authority and organizational readiness are separate. Leadership, continuity, training, acceptance, budget, governance and support pass to this specialist.",
+    "limit": "Team analytical teaching artifact, not measured company result or authority. H2 positive control assumes readiness; it cannot serve as independent readiness evidence here. K1/H1/H2 facts do not become baseline facts.",
+    "checked_on": "2026-11-04"
+  },
+  {
+    "id": "C2",
+    "title": "ET Module 6 The Diffusion of Emerging Technologies FA25",
+    "url": "User-supplied course PPTX",
+    "date": "FA25 filename; exact release not stated",
+    "locator": "Five diffusion attributes and local innovation-decision process; previously inspected supplied deck",
+    "finding": "Compatibility, complexity, trialability and observability provide contextual questions; market diffusion and local implementation differ.",
+    "limit": "Background diffusion lens only; not this week organizational implementation lecture or company readiness assessment.",
+    "checked_on": "2026-11-04"
+  },
+  {
+    "id": "S1",
+    "title": "NIST AI 100-1 AI Risk Management Framework 1.0",
+    "url": "https://doi.org/10.6028/NIST.AI.100-1",
+    "date": "2023-01",
+    "locator": "GOVERN1.5,2.1-2.3,3.2,4.3; MANAGE2.1-2.4,4.1; section6",
+    "finding": "Document accountable roles and training, plan ongoing monitoring and recovery, resource risk management, compare current and target profiles.",
+    "limit": "Voluntary framework, not binding finance law, a compliance certificate, a numerical readiness score or proof that controls are implemented. NIST overview indicates revision activity; this identifies the 1.0 edition.",
+    "checked_on": "2026-11-04"
+  },
+  {
+    "id": "S2",
+    "title": "NIST AI 600-1 Generative Artificial Intelligence Profile",
+    "url": "https://doi.org/10.6028/NIST.AI.600-1",
+    "date": "2024-07",
+    "locator": "MP-4.1-003; MG-4.1-002/007; MS-2.3/2.5",
+    "finding": "Connect GenAI practices to existing IT/data/risk governance; evaluate context-specific performance and ensure monitoring staff can assess and escalate issues.",
+    "limit": "Voluntary guidance, not current legal determination or evidence of this firm actual skills, funding or system qualification.",
+    "checked_on": "2026-11-04"
+  },
+  {
+    "id": "C3",
+    "title": "ET 8 Implementing ET FA26",
+    "url": "Brightspace Module8 course notes, saved first-hand PDF",
+    "date": "FA26; retrieved2026-11-04",
+    "locator": "pages12-21,17 TTF checklist,23 CETM matrix,36 Assignment7",
+    "finding": "Separate feasibility PoC, value trial and organizational acceptance; page36 requires readiness analysis plus PoC/use-case design. Task/process/skills/acceptance questions guide implementation assessment.",
+    "limit": "Course framework, not measured readiness or qualification. No ungrounded checklist/CETM scores, global age/readiness labels, claimed bug-free assurance or viral adoption is inferred.",
+    "checked_on": "2026-11-04",
+    "sha256": "e9e59e5ce95cd09b47d560cf8877f9f57867d932918d78d8240842e23bdc365c"
+  }
+]

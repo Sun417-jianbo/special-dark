@@ -1,0 +1,62 @@
+{
+  "agent": {
+    "name": "Organizational Adoption (Readiness) Agent",
+    "specialty": "Organizational readiness to absorb, govern and sustain a proposed emerging-technology application; kept separate from technology/application fit",
+    "version": "1.0"
+  },
+  "analytical_question": "Even if adoption is strategically appropriate, can this organization actually absorb, govern, and sustain the proposed application?",
+  "general_et_finding": "Agentic AI is a rapidly maturing but still emerging technology. Agents can now plan and use tools across multi-step tasks, but reliability on realistic work is limited (the most competitive agent completed 30% of simulated workplace tasks, E11), and the Adoption specialist classifies agent-based applicant support as bleeding edge (C4).",
+  "application_finding": "The applicant-support workflow is a reasonable application: answering program questions, clarifying needs and requesting appointments are multi-step tasks with natural-language input. Staff approval of outbound messages limits the consequences of errors.",
+  "organization_specific_finding": "Overall readiness: High - Ready. Leadership and sponsorship: High. Skills and training: High. Workflow and process: High. Infrastructure and data: High - an API-capable CRM team. Resources and budget: High. Governance and risk: High. Culture and change: High. Operating ownership: High. With strong sponsorship, budget and governance, the university is ready to implement the agent at scale this cycle; its organizational readiness offsets the technology's immaturity.",
+  "evidence": [
+    {
+      "claim": "The Adoption specialist classifies agent-based applicant support as bleeding edge and recommends a proof of concept gated to a bounded experiment.",
+      "source_or_reference": "[C4] Assignment 6 outputs",
+      "date_or_recency": "2026-11-01",
+      "evidence_type": "upstream",
+      "notes": ""
+    },
+    {
+      "claim": "Agent reliability on realistic workplace tasks is limited (30% completion).",
+      "source_or_reference": "[E11] TheAgentCompany, arXiv 2412.14161",
+      "date_or_recency": "2025-09",
+      "evidence_type": "benchmark",
+      "notes": ""
+    },
+    {
+      "claim": "Roles, training, incident response and deactivation responsibilities should be defined for AI systems.",
+      "source_or_reference": "[D26] NIST AI RMF 1.0",
+      "date_or_recency": "2023-01",
+      "evidence_type": "framework",
+      "notes": ""
+    },
+    {
+      "claim": "Workflow redesign has the biggest effect on EBIT impact from gen AI.",
+      "source_or_reference": "[D28] McKinsey State of AI",
+      "date_or_recency": "2025-03-12",
+      "evidence_type": "survey",
+      "notes": ""
+    },
+    {
+      "claim": "Readiness assessment sections: strategy, governance, technology, workforce, teaching and learning.",
+      "source_or_reference": "[D30] EDUCAUSE readiness assessment",
+      "date_or_recency": "2024",
+      "evidence_type": "sector framework",
+      "notes": ""
+    }
+  ],
+  "contrary_evidence_or_limitations": [
+    "Many AI projects are abandoned after proof of concept (D29).",
+    "Readiness frameworks are generic and must be adapted to each organization."
+  ],
+  "confidence_and_uncertainty": "High confidence.",
+  "value_opportunity_implication": "First-mover service advantage.",
+  "risk_governance_implication": "Maintain governance committee oversight.",
+  "recommendation_management_implication": "Proceed to full implementation this cycle. Recommended readiness actions: 1. Secure executive sponsorship and a clear AI vision. Owner: senior leadership. 2. Establish an AI governance committee and policies. Owner: compliance and IT. 3. Invest in staff AI training and upskilling. Owner: HR and department leads. 4. Develop a change-management and communication plan. Owner: project lead. 5. Ensure data quality and system integration. Owner: IT. 6. Define KPIs and monitor performance. Owner: project lead.",
+  "change_monitoring_triggers": [
+    "Review annually."
+  ],
+  "abstention_or_more_information_needed": [
+    "None."
+  ]
+}

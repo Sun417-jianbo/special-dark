@@ -1,0 +1,13 @@
+# Prioritized readiness actions
+
+These are proposed actions for teaching cases, not assigned work at a real firm. Relative review windows are planning choices, not promises that every gap can close.
+
+| Priority and affected scope | Evidence gap | Responsible role | Next action and closure evidence | Dependency/review |
+|---|---|---|---|---|
+| P0 any agent execution | Baseline lacks specific trial/environment authority; ownership not evidenced | Proposed reporting sponsor with security/model-risk authority | Decide whether to sponsor; produce approved scope, data/model/tool boundary, reporting service owner/deputy and accepted stop authority | Before execution; review request within four weeks |
+| P1 scoped learning | Protected reviewer/support time, task competence and workflow evidence unknown in baseline/permission_only | Reporting service owner with BI/training lead, finance and platform lead | Capacity/cover schedule, scoped resource approval, observed source/error/escalation exercise and reviewer/exception/fallback walkthrough | After named ownership, before POC starts |
+| P1 safe recovery | Required sign-off does not establish exercised controls | Risk/security owner and service deputy | Document and rehearse incident escalation, loss-of-lineage stop, human veto and restore-to-manual; retain result and unresolved exceptions | Before execution; repeat on changed route or lost cover |
+| P2 acceptance | Baseline culture/participation not supplied, not proved hostile | Analyst representatives and reporting owner | Obtain representative workload/acceptance concerns, feedback channel and response actions; include ordinary users | Before/through learning; do not substitute sponsor enthusiasm |
+| P2 sustained routine use | Recurring amount/approval/period missing in missing_budget; baseline also unknown | Finance owner and service owner | Obtain approved recurring funding artifact, amount, period, reviewer/support load and contingency/cover; distinguish POC cap | Before any routine-use readiness assurance; review after POC and quarterly |
+
+Prepared_profile supplies fictional evidence addressing these learning gates. Recognize it rather than prescribe the same closures as though absent. Verify scope and cover remain valid before starting; monitor whether the24-hour cap actually accommodates checking/support. App performance, comparative advantage and routine release remain separate missing prerequisites. Missing_budget can preserve funded POC readiness while requiring more evidence for sustained use. Permission_only cannot acquire staffing or funding by analogy to prepared_profile.

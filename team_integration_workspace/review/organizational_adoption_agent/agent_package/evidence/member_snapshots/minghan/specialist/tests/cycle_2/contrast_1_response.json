@@ -1,0 +1,105 @@
+{
+  "agent": {
+    "name": "Organizational Adoption (Readiness) Agent",
+    "specialty": "Organizational readiness to absorb, govern and sustain a proposed emerging-technology application; kept separate from technology/application fit",
+    "version": "1.1"
+  },
+  "analytical_question": "Even if adoption is strategically appropriate, can this organization absorb, govern and sustain the proposed application at the step now under consideration, what is the most consequential readiness gap, and what must change before management proceeds?",
+  "general_et_finding": "[Technology maturity - carried from the Adoption specialist (C4); not re-judged here and not affected by organizational readiness] Agentic AI is improving quickly but is still unstable on realistic multi-step work: the most competitive agent completed 30% of simulated workplace tasks (E11). Under the course scheme, agent-based applicant-facing workflows are bleeding edge (C1, C4): Rule 1 rules out adoption before the crossing and Rule 2 calls for pilots, so the permitted steps are a proof of concept or a bounded experiment, never production adoption. This finding is the same in every organization: a ready organization does not make the technology more mature, and an unready one does not make it less mature.",
+  "application_finding": "Fit screen: PASS. [Technology/application fit, kept separate from readiness] The applicant-support workflow needs what agents add: interpreting natural-language questions, asking clarifying questions and handling exceptions across several steps with a tool (D27 criteria; C5 task-technology fit). The Adoption specialist permits a proof of concept now and a gated bounded experiment (C4), and A3 requires a comparison with staff-only and simple retrieval first (C3). This is therefore a sound technology decision at the proof-of-concept step. Whatever the organization, the application demands four things for the live step: reviewers for every outbound message, a current approved-content source, an appointment tool with least-privilege permissions, and an accountable owner with a stop mechanism (C4, D21, D26).",
+  "organization_specific_finding": "Readiness verdict (bounded experiment with live applicants): READY WITH CONDITIONS | Earlier step (proof of concept): READY | Decision diagnosis: SOUND DECISION + READY - proceed with the proof of concept and then the bounded experiment once the C4 gates pass; readiness does not permit production adoption of a bleeding-edge application | Most consequential gap: PARTIAL-R4 change collision with the CRM migration.\nReadiness profile (rating for the bounded experiment):\nR1 Leadership & sponsorship: READY | BLOCKING | the Vice President for Enrollment Management sponsors the work and has approved budget for the proof of concept, the experiment and year one (case).\nR2 Skills & training: READY | BLOCKING | counselors have used an AI drafting tool for a year, and a post-pilot review produced a written correction process (case).\nR3 Workflow & process: READY | BLOCKING | at peak, 10% of about 2,500 weekly inquiries is about 250 drafts; at about 3 minutes each that is about 12.5 hours, within the 20 protected hours (case; C4 cap). This assumes agent drafts take as long to review as the current tool's drafts; the assumption is verified in the proof of concept (break-even: about 4.8 minutes per draft at peak).\nR4 Infrastructure & data: PARTIAL | BLOCKING | the CRM and automation team supports API integrations (strength), but the same two people are scheduled to migrate the CRM platform during the next two terms, overlapping the experiment window. The appointment tool would be built on a platform that is being replaced (case).\nR5 Resources & budget: READY | BLOCKING | funded through year one, including counselor review time (case).\nR6 Governance & risk: READY | BLOCKING | the university AI governance committee reviews vendor terms with a standard template, and the privacy office has an approved no-training, 30-day-retention contract template (case). The routine review of the chosen vendor remains a condition.\nR7 Culture & change: READY | NOT BLOCKING | a year of sustained use of the drafting tool and a correction process that staff helped produce indicate the change is compatible with their work (C2); no negative views are reported.\nR8 Operating ownership: READY | BLOCKING | a named enrollment-operations manager already owns the FAQ chatbot's content, change log and incident log (case); that ownership covers the FAQ chatbot and must be extended to the agent (condition).\nStrengths: STR-R8 an existing owner with change and incident logs; STR-R3 measured volume and protected review hours; STR-R5 funding that includes review time; STR-R6 governance templates already approved; STR-R2 a year of drafting-tool practice with a correction process.\nGaps that could cause failure even if the technology works: PARTIAL-R4 - the integration is built or rebuilt mid-experiment, the appointment tool breaks during the migration, and the experiment's results are confounded by the platform change; VERIFY-R3 - if agent drafts take much longer to review than the current tool's, peak weeks exceed protected hours; VERIFY-R8 - the existing ownership and pause authority must cover the agent, not only the FAQ chatbot.\nWhy PARTIAL-R4 outranks the others: it is the only blocking dimension that is not READY. It would cause failure even with a working agent, and it cannot be fixed by effort, only by a timing or scope decision.",
+  "evidence": [
+    {
+      "claim": "Bleeding edge; proof of concept now, gated G1-G4 to a bounded experiment (at most 10% of inquiries, staff approve every message, no record writes); G4 = approval capacity.",
+      "source_or_reference": "[C4] Assignment 6 Adoption agent v1.1 outputs",
+      "date_or_recency": "2026-11-01",
+      "evidence_type": "upstream team output (grade: upstream)",
+      "notes": "Inference from prior AI-assisted analysis; not independent evidence."
+    },
+    {
+      "claim": "The most competitive agent completed 30% of simulated workplace tasks.",
+      "source_or_reference": "[E11] TheAgentCompany, arXiv 2412.14161 (NeurIPS 2025)",
+      "date_or_recency": "2025-09-10 (v3)",
+      "evidence_type": "benchmark (grade B)",
+      "notes": "Simulated tasks, not admissions."
+    },
+    {
+      "claim": "Build agents for complex decisions, hard-to-maintain rules or unstructured data; 'Otherwise, a deterministic solution may suffice'; human oversight for high-stakes actions.",
+      "source_or_reference": "[D27] OpenAI, A practical guide to building agents, pp. 6, 31",
+      "date_or_recency": "2025",
+      "evidence_type": "vendor practitioner guidance (grade B)",
+      "notes": "Course Prep Lab 2 reading; vendor view."
+    },
+    {
+      "claim": "A technology must be utilized and fit the tasks it supports to improve performance.",
+      "source_or_reference": "[C5] Goodhue & Thompson, MIS Quarterly 19(2)",
+      "date_or_recency": "1995",
+      "evidence_type": "peer-reviewed framework (grade: framework)",
+      "notes": ""
+    },
+    {
+      "claim": "Documented roles (GOVERN 2.1), training (2.2), executive responsibility (2.3), human-AI oversight roles (3.2), third-party risk (6.1), deactivation responsibility (MANAGE 2.4), incident processes (MANAGE 4.1, 4.3).",
+      "source_or_reference": "[D26] NIST AI RMF 1.0 core",
+      "date_or_recency": "January 2023; accessed 2026-11-08",
+      "evidence_type": "public framework (grade A)",
+      "notes": "Voluntary; does not prove these predict success."
+    },
+    {
+      "claim": "A company 'still bore responsibility for all the information on its website, whether it came from a static page or a chatbot.'",
+      "source_or_reference": "[D21] ABA Business Law Today on Moffatt v. Air Canada",
+      "date_or_recency": "2024-02",
+      "evidence_type": "secondary legal report (grade B)",
+      "notes": "Canadian small-claims tribunal; accountability principle only."
+    },
+    {
+      "claim": "Workflow redesign has the biggest effect on EBIT impact from gen AI (of 25 attributes); under 20% track KPIs.",
+      "source_or_reference": "[D28] McKinsey, The state of AI",
+      "date_or_recency": "2025-03-12",
+      "evidence_type": "global self-reported survey (grade B)",
+      "notes": "Correlational."
+    },
+    {
+      "claim": "At least 30% of GenAI projects forecast to be abandoned after proof of concept by end-2025; causes: data quality, risk controls, costs, unclear value.",
+      "source_or_reference": "[D29] Gartner via MH&L",
+      "date_or_recency": "2024-07-29",
+      "evidence_type": "analyst forecast (grade B)",
+      "notes": "Forecast, not measured."
+    },
+    {
+      "claim": "Readiness assessment sections: Strategy, Governance, Technology, Workforce, Teaching and Learning.",
+      "source_or_reference": "[D30] EDUCAUSE Higher Education Generative AI Readiness Assessment",
+      "date_or_recency": "2024; accessed 2026-11-08",
+      "evidence_type": "sector framework (grade B)",
+      "notes": "Coverage check for R1-R8."
+    },
+    {
+      "claim": "Staff as internal adopters: compatibility, complexity, trialability; change-agent functions include 'stabilize adoption and prevent discontinuance'.",
+      "source_or_reference": "[C2] Module 6 deck, slides 29, 34-35",
+      "date_or_recency": "FA25",
+      "evidence_type": "course framework (grade: framework)",
+      "notes": ""
+    }
+  ],
+  "contrary_evidence_or_limitations": [
+    "Readiness frameworks (D26, D30) describe good practice; they do not show that these eight dimensions predict success for applicant-support agents specifically.",
+    "The workflow-redesign finding is self-reported and correlational (D28); the abandonment and cancellation figures are forecasts (D29, D7).",
+    "Generation and review occurred in the same session with Claude in place of ChatGPT; ratings are judgments on stated evidence and were not blinded.",
+    "The organization is synthetic; its strengths are scenario inputs, not observations.",
+    "The 3-minute review time comes from the current drafting tool; agent drafts that include tool actions may take longer."
+  ],
+  "confidence_and_uncertainty": "Moderate-to-high confidence that the experiment can be run and sustained, because the profile supplies measured volume, capacity, ownership and funding. Moderate confidence about timing: the migration schedule may move.",
+  "value_opportunity_implication": "The office can learn quickly and cheaply because its review capacity and ownership already exist; most of the cost of the experiment is the experiment itself. Running it on a platform about to be replaced would waste the integration work.",
+  "risk_governance_implication": "Governance is in place. The residual risk is operational: a broken or rebuilt integration during the migration could send wrong appointment information. Keep staff approval of every message and no record writes (C4); give the enrollment-operations manager explicit pause authority (D26 MANAGE 2.4).",
+  "recommendation_management_implication": "Proceed when: the proof of concept may start now; the bounded experiment starts after the C4 gates pass and ACT-1 has been decided. Production adoption is not permitted for this class (C1, C4), whatever the readiness.\nACT-1 [P1; closes PARTIAL-R4] Decide the experiment's timing or scope around the CRM migration: run it before or after the migration window, or run it during the migration without the appointment tool (information and clarification only; counselors book appointments by hand). Owner: Vice President for Enrollment Management with the CRM and automation team (stated roles). Done when: the dates or scope are set in writing.\nACT-2 [P1; verifies VERIFY-R3] Measure minutes per review of agent drafts in the proof of concept. If the figure exceeds about 4.8 minutes, lower the peak-week share so that the review load stays within 20 hours. Owner: enrollment-operations manager (stated role). Done when: the measured figure and the resulting peak share are recorded.\nACT-3 [P2; verifies VERIFY-R8; extends STR-R8 to the new channel] Add the agent to the existing content change log and incident log, and give the enrollment-operations manager written authority to pause it. Owner: Vice President for Enrollment Management (stated role). Done when: the logs include the agent and the pause authority is documented.\nNo further actions: sponsorship, training, governance, budget and ownership already exist, so recommending them again would be generic (gap-trace rule).\nNot this agent's call: technology class and posture (Adoption specialist, C4); vendor choice (Landscape specialist).",
+  "change_monitoring_triggers": [
+    "Migration schedule changes: re-rate R4 and re-time the experiment.",
+    "Proof-of-concept review time above about 4.8 minutes per draft: re-rate R3 and reduce the peak share.",
+    "Proof of concept fails C4 gate G1 or G2: stop; readiness does not rescue a failed technology test.",
+    "Vendor review by the AI governance committee finds non-standard terms: re-rate R6.",
+    "Loss of the enrollment-operations manager or the sponsor: re-rate R8 or R1.",
+    "Upstream reclassification to leading edge: assess readiness for production."
+  ],
+  "abstention_or_more_information_needed": [
+    "No blocking information is missing: the profile supplies volume, capacity, ownership, funding and governance facts. The one assumption (review time per agent draft) is verified in the proof of concept (ACT-2), not asked now."
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "pages": 6,
+  "sha256": "0a71f68021e503fdf00df5f3ca9d9b01d328cbf8236d71a51a48407535bfc8b9",
+  "visual_review": "All six rendered pages inspected: no clipping, overlap, broken rows or missing glyphs.",
+  "template_preservation": "All DOCX parts except word/document.xml byte-identical to instructor template; original section geometry retained.",
+  "baseline_files_verified": 31
+}

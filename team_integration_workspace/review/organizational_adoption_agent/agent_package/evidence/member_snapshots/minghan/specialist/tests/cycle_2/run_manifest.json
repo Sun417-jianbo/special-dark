@@ -1,0 +1,28 @@
+{
+  "cycle": 2,
+  "version": "1.1",
+  "saved_at": "2026-11-09T01:20:57.273840+00:00",
+  "runtime": "Claude (Anthropic) in place of ChatGPT, answering the frozen build_prompt.py packets in the same working session that built the agent; no API calls; not blinded; not measured real-world performance.",
+  "cases": [
+    {
+      "case": "primary",
+      "prompt_sha256": "cb8b1088483193408c6c009cb6c448df847782595dccbe6f77b989f5a5c3512d",
+      "response_sha256": "7c8e6db0f4fd9ac34d9a4ae9d62f84b9e8802219cc35c2016170c45e1b8e87e7"
+    },
+    {
+      "case": "contrast_1",
+      "prompt_sha256": "57c4f659717f7df57c06995089a72de3d6fa20da3766566c88310f8c48836c80",
+      "response_sha256": "2f2f638f8c5b00eb5703af93d5e46571e713cf723b7efba4f4c7ebef52761905"
+    },
+    {
+      "case": "contrast_2",
+      "prompt_sha256": "a47e75d752153e3f1a1de5467cb7014db935e0b8e7519d11c142caecf2bc948e",
+      "response_sha256": "026b0818ee16a4647dcc1296c184532cade3a38a1ca3ed2652ac0c97999c0d0d"
+    },
+    {
+      "case": "decision_probe",
+      "prompt_sha256": "8bb0692dc3548e2f44335737ddbc8abe09b983f5d9e3ea982e51fcfadfd77ed3",
+      "response_sha256": "fd3485328adf011e865afcc72cbf5080cd7df9d4bdefa688b3aa005b9d459313"
+    }
+  ]
+}

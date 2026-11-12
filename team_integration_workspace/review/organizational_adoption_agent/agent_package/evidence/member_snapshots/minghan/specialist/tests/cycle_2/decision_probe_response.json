@@ -1,0 +1,81 @@
+{
+  "agent": {
+    "name": "Organizational Adoption (Readiness) Agent",
+    "specialty": "Organizational readiness to absorb, govern and sustain a proposed emerging-technology application; kept separate from technology/application fit",
+    "version": "1.1"
+  },
+  "analytical_question": "Even if adoption is strategically appropriate, can this organization absorb, govern and sustain the proposed application at the step now under consideration, what is the most consequential readiness gap, and what must change before management proceeds?",
+  "general_et_finding": "[Technology maturity - carried from the Adoption specialist (C4); not re-judged here and not affected by organizational readiness] Agentic AI is improving quickly but is still unstable on realistic multi-step work: the most competitive agent completed 30% of simulated workplace tasks (E11). Under the course scheme, agent-based applicant-facing workflows are bleeding edge (C1, C4): Rule 1 rules out adoption before the crossing and Rule 2 calls for pilots, so the permitted steps are a proof of concept or a bounded experiment, never production adoption. This finding is the same in every organization: a ready organization does not make the technology more mature, and an unready one does not make it less mature.",
+  "application_finding": "Fit screen: FAIL. [Technology/application fit, kept separate from readiness] The task is to check whether submitted applications contain required items and to email reminders listing the missing ones. It is structured and rule-based: the requirements are a fixed list per program, stored as fixed CRM fields (case). The task needs none of what agents add - no nuanced judgment, no unwieldy rules, no unstructured interpretation - so 'a deterministic solution may suffice' (D27) and the simplest solution comes first (E15). Task-technology fit is poor (C5): an LLM agent adds variability, cost and error risk to a check that a CRM rule performs exactly. A wrong 'your application is incomplete' email is also a consequential error the university would own (D21). This is a WEAK TECHNOLOGY DECISION. It is not a readiness problem.",
+  "organization_specific_finding": "Readiness verdict: NOT ASSESSED - fit screen failed | Earlier step: not applicable | Decision diagnosis: WEAK TECHNOLOGY DECISION + READY ORGANIZATION - redirect; readiness does not rescue a weak decision | Most consequential gap: none (the problem is the decision, not the organization).\nReadiness note: the organization profile is identical to contrast 1, where readiness is high (sponsor, measured volume, protected review hours, a named content owner, governance templates). Those strengths are real, but they are irrelevant to this decision. Signing off 'ready to implement' here would let readiness mask a poor fit and spend the office's readiness capital (review hours, the CRM team's time) on the wrong tool. The sponsor's statement that the office 'is clearly ready' is accurate about readiness and does not answer the fit question.",
+  "evidence": [
+    {
+      "claim": "Build agents for complex decisions, hard-to-maintain rules or unstructured data; 'Otherwise, a deterministic solution may suffice'; human oversight for high-stakes actions.",
+      "source_or_reference": "[D27] OpenAI, A practical guide to building agents, pp. 6, 31",
+      "date_or_recency": "2025",
+      "evidence_type": "vendor practitioner guidance (grade B)",
+      "notes": "Course Prep Lab 2 reading; vendor view."
+    },
+    {
+      "claim": "Start with the simplest solution; agents trade latency and cost for performance and carry compounding-error risk.",
+      "source_or_reference": "[E15] Anthropic, Building effective agents",
+      "date_or_recency": "2024-12-19",
+      "evidence_type": "vendor engineering guidance (grade B)",
+      "notes": ""
+    },
+    {
+      "claim": "A technology must be utilized and fit the tasks it supports to improve performance.",
+      "source_or_reference": "[C5] Goodhue & Thompson, MIS Quarterly 19(2)",
+      "date_or_recency": "1995",
+      "evidence_type": "peer-reviewed framework (grade: framework)",
+      "notes": ""
+    },
+    {
+      "claim": "A company 'still bore responsibility for all the information on its website, whether it came from a static page or a chatbot.'",
+      "source_or_reference": "[D21] ABA Business Law Today on Moffatt v. Air Canada",
+      "date_or_recency": "2024-02",
+      "evidence_type": "secondary legal report (grade B)",
+      "notes": "Canadian small-claims tribunal; accountability principle only."
+    },
+    {
+      "claim": "Bleeding edge; proof of concept now, gated G1-G4 to a bounded experiment (at most 10% of inquiries, staff approve every message, no record writes); G4 = approval capacity.",
+      "source_or_reference": "[C4] Assignment 6 Adoption agent v1.1 outputs",
+      "date_or_recency": "2026-11-01",
+      "evidence_type": "upstream team output (grade: upstream)",
+      "notes": "Inference from prior AI-assisted analysis; not independent evidence."
+    },
+    {
+      "claim": "The most competitive agent completed 30% of simulated workplace tasks.",
+      "source_or_reference": "[E11] TheAgentCompany, arXiv 2412.14161 (NeurIPS 2025)",
+      "date_or_recency": "2025-09-10 (v3)",
+      "evidence_type": "benchmark (grade B)",
+      "notes": "Simulated tasks, not admissions."
+    },
+    {
+      "claim": "Over 40% of agentic AI projects forecast to be cancelled by end-2027 for 'escalating costs, unclear business value, and inadequate risk controls'.",
+      "source_or_reference": "[D7] Gartner press release; SD Times report",
+      "date_or_recency": "2025-06-25 / 2025-06-30",
+      "evidence_type": "analyst forecast (grade B)",
+      "notes": "Forecast."
+    }
+  ],
+  "contrary_evidence_or_limitations": [
+    "Readiness frameworks (D26, D30) describe good practice; they do not show that these eight dimensions predict success for applicant-support agents specifically.",
+    "The workflow-redesign finding is self-reported and correlational (D28); the abandonment and cancellation figures are forecasts (D29, D7).",
+    "Generation and review occurred in the same session with Claude in place of ChatGPT; ratings are judgments on stated evidence and were not blinded.",
+    "The organization is synthetic.",
+    "If some programs have requirements that genuinely need interpretation (for example unusual foreign credentials), that part could fit an agent; the case describes fixed fields only."
+  ],
+  "confidence_and_uncertainty": "High confidence in the fit-screen result: it follows from the case's own description of the task (fixed fields, fixed requirements). The readiness ratings would be the same as contrast 1, but they are deliberately not used to support this decision.",
+  "value_opportunity_implication": "The value sought (fewer incomplete applications, less staff time on reminders) is real and can be had more cheaply and reliably with a deterministic CRM rule and templated emails. The agent adds cost (D7: escalating costs and unclear value are leading causes of cancelled agentic projects) without adding capability.",
+  "risk_governance_implication": "Sending automated incompleteness notices is consequential: a false 'incomplete' email can make an applicant miss a deadline or lose trust, and the university owns it (D21). A deterministic rule is auditable and predictable; an LLM agent is not. Human review of every notice would remove the time saving.",
+  "recommendation_management_implication": "Proceed when: not applicable - do not build a readiness program for this application.\nACT-1 [redirect; closes the fit-screen failure] Return the proposal to the Adoption specialist with the fit-screen result. The likely better path is a deterministic CRM rule with templated reminder emails, which the CRM and automation team can build (stated capability). Schedule it around the CRM migration, the same constraint as in contrast 1. Owner: Vice President for Enrollment Management with the CRM and automation team (stated roles). Done when: the Adoption specialist has reviewed the redirect and a deterministic option is scoped.\nACT-2 [conditional; re-runs the fit screen] If a part of the task genuinely needs judgment (for example interpreting non-standard documents), scope that part separately and re-run the fit screen for it alone. Owner: enrollment-operations manager (stated role). Done when: such a part is identified with examples, or confirmed not to exist.\nDropped: every readiness action; the organization's readiness is not the issue.\nNot this agent's call: the final technology choice (Adoption specialist); building the CRM rule (CRM and automation team).",
+  "change_monitoring_triggers": [
+    "The task description changes to include unstructured documents or exceptions: re-run the fit screen.",
+    "The CRM cannot express the rules (for example cross-program dependencies that are hard to maintain): re-run the fit screen with the D27 'difficult-to-maintain rules' criterion.",
+    "Adoption specialist disagrees with the redirect: record the disagreement for the team and rate readiness only for the step it permits."
+  ],
+  "abstention_or_more_information_needed": [
+    "No information request: the fit screen fails on the case's own description of the task, and more organizational data would not change that result."
+  ]
+}

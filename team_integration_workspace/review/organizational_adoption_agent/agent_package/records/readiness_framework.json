@@ -1,0 +1,71 @@
+{
+  "version": "1.0",
+  "dimensions": [
+    {
+      "id": "leadership_sponsorship",
+      "name": "Leadership and sponsorship",
+      "evidence_question": "Who has accepted the charter, residual risk and stop/go decision rights?",
+      "proposed_owner_role": "Reporting sponsor"
+    },
+    {
+      "id": "skills_training",
+      "name": "Skills and training",
+      "evidence_question": "What source/error/escalation practice demonstrates competence, including ordinary staff and backup?",
+      "proposed_owner_role": "BI review lead"
+    },
+    {
+      "id": "workflow_process",
+      "name": "Workflow and process",
+      "evidence_question": "How do review, exceptions, publication control and manual fallback work in a rehearsal?",
+      "proposed_owner_role": "Reporting process owner"
+    },
+    {
+      "id": "infrastructure_data",
+      "name": "Infrastructure and data",
+      "evidence_question": "What exact model/data/tools/route and logs are permitted and source-linked?",
+      "proposed_owner_role": "Security/data authority"
+    },
+    {
+      "id": "resources_budget",
+      "name": "Resources and budget",
+      "evidence_question": "What funded protected hours cover setup, checking, correction, support, peaks and absence for this stage?",
+      "proposed_owner_role": "Reporting manager and finance owner"
+    },
+    {
+      "id": "governance_risk",
+      "name": "Governance and risk",
+      "evidence_question": "Who can stop, escalate, restore and authorize a changed scope?",
+      "proposed_owner_role": "Model-risk officer"
+    },
+    {
+      "id": "culture_change",
+      "name": "Culture and change",
+      "evidence_question": "What actual consultation, workload feedback or concerns have affected users supplied?",
+      "proposed_owner_role": "Reporting manager with affected reviewers"
+    },
+    {
+      "id": "operating_ownership",
+      "name": "Operating ownership",
+      "evidence_question": "Who has accepted service duty, cover, incidents, maintenance, change and retirement?",
+      "proposed_owner_role": "Service owner and deputy"
+    }
+  ],
+  "statuses": [
+    "SUPPORTED",
+    "PARTIAL",
+    "GAP",
+    "UNKNOWN"
+  ],
+  "rule": "Assess the named stage. Known critical gap blocks that stage; critical unknown withholds an affirmative finding and requests evidence. No averaging. Partial findings must identify the supported part and the unresolved critical part. Unknown does not prove absence.",
+  "stages": {
+    "planning": "Non-executing evidence collection may continue without tool/data execution permission.",
+    "isolated_learning": "Scope-specific permission, accepted lead/cover, competent protected review, allowed data/route and stop/fallback plus bounded resources must be supported.",
+    "routine_operation": "Requires ongoing scope authority, task/value qualification and release by humans plus sustainable ownership, recurring capacity/resources, monitoring/change/incident controls and user feedback."
+  },
+  "unknown_triage": [
+    "ASK_NOW: factual decision-critical evidence needed before the dependent step.",
+    "CLOSE_BY_DECISION: a qualified authority can appoint/fund/authorize; a proposed decision is not completion.",
+    "OBSERVE_IN_AUTHORIZED_LEARNING: acceptance, handling times and workflow effectiveness can be measured within a genuinely permitted scope."
+  ],
+  "boundary": "State technology/application evidence separately. A simpler-task concern is sent back to Adoption; this expert does not certify strategic fit or redefine technology maturity."
+}

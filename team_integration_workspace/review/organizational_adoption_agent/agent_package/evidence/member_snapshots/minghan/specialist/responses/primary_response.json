@@ -1,0 +1,150 @@
+{
+  "agent": {
+    "name": "Organizational Adoption (Readiness) Agent",
+    "specialty": "Organizational readiness to absorb, govern and sustain a proposed emerging-technology application; kept separate from technology/application fit",
+    "version": "1.1"
+  },
+  "analytical_question": "Even if adoption is strategically appropriate, can this organization absorb, govern and sustain the proposed application at the step now under consideration, what is the most consequential readiness gap, and what must change before management proceeds?",
+  "general_et_finding": "[Technology maturity - carried from the Adoption specialist (C4); not re-judged here and not affected by organizational readiness] Agentic AI is improving quickly but is still unstable on realistic multi-step work: the most competitive agent completed 30% of simulated workplace tasks (E11). Under the course scheme, agent-based applicant-facing workflows are bleeding edge (C1, C4): Rule 1 rules out adoption before the crossing and Rule 2 calls for pilots, so the permitted steps are a proof of concept or a bounded experiment, never production adoption. This finding is the same in every organization: a ready organization does not make the technology more mature, and an unready one does not make it less mature.",
+  "application_finding": "Fit screen: PASS. [Technology/application fit, kept separate from readiness] The applicant-support workflow needs what agents add: interpreting natural-language questions, asking clarifying questions and handling exceptions across several steps with a tool (D27 criteria; C5 task-technology fit). The Adoption specialist permits a proof of concept now and a gated bounded experiment (C4), and A3 requires a comparison with staff-only and simple retrieval first (C3). This is therefore a sound technology decision at the proof-of-concept step. Whatever the organization, the application demands four things for the live step: reviewers for every outbound message, a current approved-content source, an appointment tool with least-privilege permissions, and an accountable owner with a stop mechanism (C4, D21, D26).",
+  "organization_specific_finding": "Readiness verdict (bounded experiment with live applicants): NOT YET READY | Earlier step (proof of concept, no applicants): READY WITH CONDITIONS | Decision diagnosis: SOUND DECISION + NOT YET READY for the live step - build readiness during the proof of concept; do not downgrade the technology or skip the step | Most consequential gap: GAP-R8 operating ownership.\nReadiness profile (rating for the bounded experiment):\nR1 Leadership & sponsorship: PARTIAL | BLOCKING | SPS enrollment management leadership asked for the evaluation but has funded only the proof of concept; decision rights to start or stop a live experiment are not stated (case assumption).\nR2 Skills & training: PARTIAL | BLOCKING | NYU IT offers enterprise AI tools (D31), so general familiarity is plausible, but nothing shows counselors are trained to review agent drafts or log error types.\nR3 Workflow & process: UNKNOWN | BLOCKING | the review step is designed (counselors approve every message, C4), but its capacity is not: inquiry volume, peak load and protectable counselor hours are not supplied. Triage: ASK NOW.\nR4 Infrastructure & data: PARTIAL | BLOCKING | a running chatbot channel and approved program content exist (Violet, D18); CRM and scheduling integration and the vendor are not selected or verified. Enough for a sandbox, not yet for a live appointment tool.\nR5 Resources & budget: GAP | BLOCKING | only the proof of concept is funded, and counselor review time is assumed to come from current duties with no backfill, so the experiment's main running cost is unfunded (a per-action price is not total cost, D22).\nR6 Governance & risk: PARTIAL | BLOCKING | NYU's data risk classification applies (D32) and NYU Admissions offers a precedent with live-agent hand-off (D17); no AI-specific privacy/compliance review has started (C4 gate G3), and no incident or pause procedure is assigned (D26 MANAGE 2.4, 4.3).\nR7 Culture & change: UNKNOWN | NOT BLOCKING for the proof of concept | staff views are not described. Triage: OBSERVE IN THE POC - counselors reviewing sandbox drafts is itself a trial of compatibility and complexity (C2).\nR8 Operating ownership: GAP | BLOCKING | no one is named to own agent content, the review queue, incidents and the stop decision; who owns Violet's content and incidents is not documented in the supplied information; the work spans admissions, marketing/enrollment, IT and compliance (case).\nStrengths: STR-R4 an existing chatbot channel and approved program content (D18); STR-R6 an institutional data-classification policy (D32) and an NYU precedent with human hand-off (D17); STR-R2 centrally supported AI tools (D31); STR-R1 a sponsor who asked for an evidence-first evaluation rather than a launch.\nGaps that could cause failure even if the technology works: GAP-R8 - correct drafts become wrong when a deadline changes and nobody owns the content, and an incident has no responder; GAP-R5 - the experiment is starved because review time was never funded, the after-proof-of-concept abandonment pattern (D29); UNKNOWN-R3 (ask now) - if peak load exceeds protected hours, the approval queue makes applicants wait longer than today; PARTIAL-R6 - a live step without compliance sign-off or a stop mechanism; PARTIAL-R2 - untrained reviewers approve plausible but wrong drafts; UNKNOWN-R7 (observe in the PoC).\nWhy GAP-R8 outranks the others: it is blocking; it is the gap most likely to cause harm after the technology has passed its tests, because the organization answers for what its agent says (D21); and closing R3, R5 and R6 each needs an accountable person to do it. It is also a no-regret fix, because Violet needs the same owner.",
+  "evidence": [
+    {
+      "claim": "Bleeding edge; proof of concept now, gated G1-G4 to a bounded experiment (at most 10% of inquiries, staff approve every message, no record writes); G4 = approval capacity.",
+      "source_or_reference": "[C4] Assignment 6 Adoption agent v1.1 outputs",
+      "date_or_recency": "2026-11-01",
+      "evidence_type": "upstream team output (grade: upstream)",
+      "notes": "Inference from prior AI-assisted analysis; not independent evidence."
+    },
+    {
+      "claim": "The most competitive agent completed 30% of simulated workplace tasks.",
+      "source_or_reference": "[E11] TheAgentCompany, arXiv 2412.14161 (NeurIPS 2025)",
+      "date_or_recency": "2025-09-10 (v3)",
+      "evidence_type": "benchmark (grade B)",
+      "notes": "Simulated tasks, not admissions."
+    },
+    {
+      "claim": "Build agents for complex decisions, hard-to-maintain rules or unstructured data; 'Otherwise, a deterministic solution may suffice'; human oversight for high-stakes actions.",
+      "source_or_reference": "[D27] OpenAI, A practical guide to building agents, pp. 6, 31",
+      "date_or_recency": "2025",
+      "evidence_type": "vendor practitioner guidance (grade B)",
+      "notes": "Course Prep Lab 2 reading; vendor view."
+    },
+    {
+      "claim": "A technology must be utilized and fit the tasks it supports to improve performance.",
+      "source_or_reference": "[C5] Goodhue & Thompson, MIS Quarterly 19(2)",
+      "date_or_recency": "1995",
+      "evidence_type": "peer-reviewed framework (grade: framework)",
+      "notes": ""
+    },
+    {
+      "claim": "SPS Graduate Admissions offers a chatbot named Violet.",
+      "source_or_reference": "[D18] NYU SPS Graduate Admissions page",
+      "date_or_recency": "verified 2026-10-18",
+      "evidence_type": "organization primary source (grade A)",
+      "notes": "Design, vendor and owner not disclosed."
+    },
+    {
+      "claim": "NYU Admissions runs a generative-AI admissions bot that hands off to a live agent.",
+      "source_or_reference": "[D17] Meet the NYUAdmissionsBot",
+      "date_or_recency": "2025-11-21",
+      "evidence_type": "organization primary source (grade A)",
+      "notes": "NYU Admissions, not SPS."
+    },
+    {
+      "claim": "NYU IT offers Gemini, NotebookLM, Microsoft Copilot, Zoom AI Companion and an NYU Private GenAI Service.",
+      "source_or_reference": "[D31] NYU IT AI services page",
+      "date_or_recency": "accessed 2026-11-08",
+      "evidence_type": "organization primary source (grade A)",
+      "notes": "Says nothing about admissions use or permitted data."
+    },
+    {
+      "claim": "NYU's data risk classification policy uses low/medium/high risk; 'Always classify data with the highest applicable risk category.'",
+      "source_or_reference": "[D32] NYU Libraries FAQ; NYU IT Security notice",
+      "date_or_recency": "2026-02-26 / 2019-01-14",
+      "evidence_type": "organization secondary pages (grade B)",
+      "notes": "Policy text itself not opened; applicant-data class not stated."
+    },
+    {
+      "claim": "Documented roles (GOVERN 2.1), training (2.2), executive responsibility (2.3), human-AI oversight roles (3.2), third-party risk (6.1), deactivation responsibility (MANAGE 2.4), incident processes (MANAGE 4.1, 4.3).",
+      "source_or_reference": "[D26] NIST AI RMF 1.0 core",
+      "date_or_recency": "January 2023; accessed 2026-11-08",
+      "evidence_type": "public framework (grade A)",
+      "notes": "Voluntary; does not prove these predict success."
+    },
+    {
+      "claim": "A company 'still bore responsibility for all the information on its website, whether it came from a static page or a chatbot.'",
+      "source_or_reference": "[D21] ABA Business Law Today on Moffatt v. Air Canada",
+      "date_or_recency": "2024-02",
+      "evidence_type": "secondary legal report (grade B)",
+      "notes": "Canadian small-claims tribunal; accountability principle only."
+    },
+    {
+      "claim": "Agent pricing is per action ($0.10 per action via Flex Credits).",
+      "source_or_reference": "[D22] Salesforce press release",
+      "date_or_recency": "2025-05-15",
+      "evidence_type": "vendor pricing (grade B)",
+      "notes": "Per-action price is not total cost (review time, content upkeep)."
+    },
+    {
+      "claim": "At least 30% of GenAI projects forecast to be abandoned after proof of concept by end-2025; causes: data quality, risk controls, costs, unclear value.",
+      "source_or_reference": "[D29] Gartner via MH&L",
+      "date_or_recency": "2024-07-29",
+      "evidence_type": "analyst forecast (grade B)",
+      "notes": "Forecast, not measured."
+    },
+    {
+      "claim": "Workflow redesign has the biggest effect on EBIT impact from gen AI (of 25 attributes); under 20% track KPIs.",
+      "source_or_reference": "[D28] McKinsey, The state of AI",
+      "date_or_recency": "2025-03-12",
+      "evidence_type": "global self-reported survey (grade B)",
+      "notes": "Correlational."
+    },
+    {
+      "claim": "Readiness assessment sections: Strategy, Governance, Technology, Workforce, Teaching and Learning.",
+      "source_or_reference": "[D30] EDUCAUSE Higher Education Generative AI Readiness Assessment",
+      "date_or_recency": "2024; accessed 2026-11-08",
+      "evidence_type": "sector framework (grade B)",
+      "notes": "Coverage check for R1-R8."
+    },
+    {
+      "claim": "Staff as internal adopters: compatibility, complexity, trialability; change-agent functions include 'stabilize adoption and prevent discontinuance'.",
+      "source_or_reference": "[C2] Module 6 deck, slides 29, 34-35",
+      "date_or_recency": "FA25",
+      "evidence_type": "course framework (grade: framework)",
+      "notes": ""
+    },
+    {
+      "claim": "EU AI Act Article 50 transparency obligations generally applicable from 2 August 2026; Annex III high-risk obligations moved to 2 December 2027.",
+      "source_or_reference": "[D23] Future of Privacy Forum",
+      "date_or_recency": "2026-07-28 (updated 2026-08-05)",
+      "evidence_type": "secondary legal analysis (grade B)",
+      "notes": "Scope for SPS is for compliance to decide."
+    }
+  ],
+  "contrary_evidence_or_limitations": [
+    "Readiness frameworks (D26, D30) describe good practice; they do not show that these eight dimensions predict success for applicant-support agents specifically.",
+    "The workflow-redesign finding is self-reported and correlational (D28); the abandonment and cancellation figures are forecasts (D29, D7).",
+    "Generation and review occurred in the same session with Claude in place of ChatGPT; ratings are judgments on stated evidence and were not blinded.",
+    "Several SPS facts are course-case assumptions, not verified NYU facts (funding, counselor duties, undocumented ownership); Violet's design and owner are not public (D18).",
+    "NYU-wide tools and policies (D31, D32) show institutional capability, not SPS admissions readiness."
+  ],
+  "confidence_and_uncertainty": "Proof-of-concept verdict: moderate confidence (low-risk step; concrete conditions). Experiment verdict: low-to-moderate confidence, because R3 is UNKNOWN and R1, R5 and R8 rest on course-case assumptions. A real SPS readiness review with counselor interviews could change R1, R2 and R7. The technology finding is carried from C4 and not re-tested here.",
+  "value_opportunity_implication": "Much of the readiness work pays off even if the agent is dropped. An owned content source and a measured review process improve Violet now. The proof of concept also produces SPS's first measured review time per draft, which turns the experiment's main cost from a guess into a number. The agent's own value stays unproven until the proof of concept (C4).",
+  "risk_governance_implication": "The main risk is organizational: a live agent with no accountable owner, unfunded review time and no stop mechanism. SPS is responsible for what its agent tells applicants (D21). NIST AI RMF expects documented roles, reviewer training, a deactivation mechanism with assigned responsibility and an incident process (D26: GOVERN 2.1, 2.2, 3.2; MANAGE 2.4, 4.3). Keep staff approval of every message and no record writes during the experiment (C4). The EU disclosure duty and high-risk boundary (D23, D24) are flagged for compliance, not decided here.",
+  "recommendation_management_implication": "Proceed when: the proof of concept may start now under ACT-1's conditions; the live experiment starts only when ACT-2 to ACT-5 are done and the information request has been answered and passes its decision rule.\nACT-1 [P1 for the proof of concept; closes PARTIAL-R1 and PARTIAL-R4 for the sandbox] Name a proof-of-concept lead and two or three counselor reviewers with hours set aside; use synthetic or approved inquiries only, in a sandbox, with no applicant data (D32). Owner: SPS enrollment management leadership (stated role). Done when: names, hours and the test set are on file before the first run.\nACT-2 [P1; closes GAP-R8; no-regret] Name one operating owner, with a deputy, for the applicant-support channel (Violet and the agent). The owner is responsible for the approved content and its change log, the review queue, incidents, and the authority to pause. Owner: SPS enrollment management leadership (stated role). Done when: the owner is named in writing with a content-update rule (a deadline change reaches the agent's content source before it is published elsewhere).\nACT-3 [P1; closes UNKNOWN-R3] Answer the information request and size the experiment to measured capacity: experiment share = protected review hours x 60 / (peak weekly inquiries x minutes per review measured in the proof of concept), capped at 10% (C4). Owner: owner to be named by SPS enrollment management leadership (the counselors' manager is not named in the case). Done when: the calculation is on file and holds in peak weeks.\nACT-4 [P1; closes GAP-R5] Fund the experiment's review time (protected counselor hours or temporary backfill), not only licences. Owner: SPS enrollment management leadership (stated role). Done when: the hours are protected in the schedule for all 8 weeks.\nACT-5 [P1; closes PARTIAL-R6] Complete the privacy/compliance review (C4 gate G3). It covers the classification of inquiry data, the vendor's terms, and the AI disclosure for EU applicants (D23, D24; flagged, not decided). Add a written incident and pause procedure. Owner: NYU privacy and compliance officers with NYU IT and SPS technology staff (stated roles). Done when: the sign-off and the procedure are filed.\nACT-6 [P2; closes PARTIAL-R2] Train reviewers on the error types found in the proof of concept and set up a correction log. Owner: the operating owner named in ACT-2. Done when: every reviewer has completed it before go-live.\nTo sustain (decide at the end of the experiment, not now): a recurring budget line and monitoring KPIs (D28), owned by the ACT-2 owner.\nDropped as generic (no observed gap): 'create an AI center of excellence'; 'launch a culture-of-innovation campaign'; 'hire a chief AI officer'; 'write a change-management plan' (no culture problem has been observed yet - R7 is observed in the proof of concept).\nNot this agent's call: technology class and posture (Adoption specialist, C4); legal obligations (compliance); vendor choice (Landscape specialist).",
+  "change_monitoring_triggers": [
+    "R3 capacity data arrives: re-rate R3 and recompute the experiment share; if the share at peak is too small to learn from, fund review time (ACT-4) before starting.",
+    "Owner named (ACT-2): re-rate R8 and re-check which gap is most consequential.",
+    "Proof-of-concept results: measured minutes per review, error types and counselor feedback re-rate R2, R3 and R7. If the proof of concept fails gate G1 or G2 (C4), the readiness work for the agent ends, but ACT-2 still stands for Violet.",
+    "Compliance review outcome (ACT-5): a blocking finding keeps the verdict at NOT YET READY whatever the other dimensions show.",
+    "Budget decision: if review time is not funded by the experiment start date, the verdict stays NOT YET READY.",
+    "Organizational change: staff turnover in admissions, a vendor or CRM selection, or a peak season moved into the experiment window triggers reassessment.",
+    "Upstream change: if the Adoption specialist reclassifies the application (for example to leading edge), assess readiness for production; readiness itself never triggers that reclassification."
+  ],
+  "abstention_or_more_information_needed": [
+    "INFORMATION REQUEST (ask now; do not assume) - approval-queue capacity for the bounded experiment. Needed: (1) weekly web-inquiry volume and the peak-season weekly volume; (2) counselor hours per week that can be protected for reviewing agent drafts, and who covers peaks; (3) the target response time; (4) current Violet hand-off volume, if tracked. Who has it: the admissions counselors' manager and SPS enrollment management leadership. Why it matters: every outbound message needs staff approval (C4), so if peak load exceeds protected hours the queue makes applicants wait longer than today. Decision rule when it arrives: experiment share = protected hours x 60 / (peak weekly inquiries x minutes per review measured in the proof of concept), capped at 10%; if the result is too small to learn from (the proposal here: below about 2%), fund review time first. Until then R3 stays UNKNOWN and the experiment verdict cannot be READY.",
+    "Not requested now (OBSERVE IN THE POC): staff views and fit with counselor work (R7), and minutes per review (an input to the rule above).",
+    "Not requested now (CLOSE BY DECISION): the operating owner (ACT-2) and the review-time budget (ACT-4) are management decisions, so they are actions, not questions."
+  ]
+}
