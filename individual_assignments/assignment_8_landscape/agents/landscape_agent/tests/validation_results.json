@@ -1,0 +1,149 @@
+{
+  "executed_at_utc": "2026-11-15T22:17:27.805784+00:00",
+  "scope": "Saved artifact structure and explicit behavioral assertions only; not independent model or product benchmarking",
+  "checks": [
+    {
+      "check": "scaffold/tools/check_frozen_core.py",
+      "passed": true
+    },
+    {
+      "check": "primary_v0 full JSON schema",
+      "passed": true
+    },
+    {
+      "check": "scaffold/tools/validate_response.py scaffold/agents/landscape_agent/responses/primary_v0.json",
+      "passed": true
+    },
+    {
+      "check": "primary full JSON schema",
+      "passed": true
+    },
+    {
+      "check": "scaffold/tools/validate_response.py scaffold/agents/landscape_agent/responses/primary.json",
+      "passed": true
+    },
+    {
+      "check": "contrast full JSON schema",
+      "passed": true
+    },
+    {
+      "check": "scaffold/tools/validate_response.py scaffold/agents/landscape_agent/responses/contrast.json",
+      "passed": true
+    },
+    {
+      "check": "hype_probe full JSON schema",
+      "passed": true
+    },
+    {
+      "check": "scaffold/tools/validate_response.py scaffold/agents/landscape_agent/responses/hype_probe.json",
+      "passed": true
+    },
+    {
+      "check": "primary input schema",
+      "passed": true
+    },
+    {
+      "check": "scaffold/tools/build_prompt.py --agent scaffold/agents/landscape_agent --case scaffold/agents/landscape_agent/cases/primary.json --out /tmp/tmpmd8uez8s/packet.txt",
+      "passed": true
+    },
+    {
+      "check": "primary prompt reproducible",
+      "passed": true
+    },
+    {
+      "check": "primary actionable monitoring fields",
+      "passed": true
+    },
+    {
+      "check": "primary registered source references",
+      "passed": true
+    },
+    {
+      "check": "contrast input schema",
+      "passed": true
+    },
+    {
+      "check": "scaffold/tools/build_prompt.py --agent scaffold/agents/landscape_agent --case scaffold/agents/landscape_agent/cases/contrast.json --out /tmp/tmpxzmmfbu1/packet.txt",
+      "passed": true
+    },
+    {
+      "check": "contrast prompt reproducible",
+      "passed": true
+    },
+    {
+      "check": "contrast actionable monitoring fields",
+      "passed": true
+    },
+    {
+      "check": "contrast registered source references",
+      "passed": true
+    },
+    {
+      "check": "hype_probe input schema",
+      "passed": true
+    },
+    {
+      "check": "scaffold/tools/build_prompt.py --agent scaffold/agents/landscape_agent --case scaffold/agents/landscape_agent/cases/hype_probe.json --out /tmp/tmpday3kbbe/packet.txt",
+      "passed": true
+    },
+    {
+      "check": "hype_probe prompt reproducible",
+      "passed": true
+    },
+    {
+      "check": "hype_probe actionable monitoring fields",
+      "passed": true
+    },
+    {
+      "check": "hype_probe registered source references",
+      "passed": true
+    },
+    {
+      "check": "initial monitoring weakness retained",
+      "passed": true
+    },
+    {
+      "check": "general ET finding invariant",
+      "passed": true
+    },
+    {
+      "check": "application and organization findings change",
+      "passed": true
+    },
+    {
+      "check": "monitoring responds to context",
+      "passed": true
+    },
+    {
+      "check": "challenge does not change position",
+      "passed": true
+    },
+    {
+      "check": "challenge explicitly rejects deployment instruction",
+      "passed": true
+    },
+    {
+      "check": "negative missing evidence date rejected",
+      "passed": true
+    }
+  ],
+  "passed": 31,
+  "failed": 0,
+  "frozen_core_output": "FROZEN CORE INTACT",
+  "sha256": {
+    "prompts/contrast.txt": "2d4fd746fe8e2cd98d5c6c2d45ff80f00342145ad1b2679ca254756037600c0d",
+    "prompts/hype_probe.txt": "3d4cfc0415f81daad1b70aea90e52b9cfaef367e444bcf8869ad03a7bc4b4320",
+    "prompts/primary.txt": "93e59fb1cb71fad5d18121c43d0f6d0ebda4afd13906ccf730a8937751ae7923",
+    "prompts/primary_v0.txt": "2681a1e59ad2fbf682caa128fed0fc3f13cb4b87ff154a58ba64508cfb0141b1",
+    "responses/contrast.json": "8e399c064182b8c6897be6586739abc00566579b28e6078950634af4ac00d8e9",
+    "responses/hype_probe.json": "370f1e6a131a710c20595d2ad5d850f26eab2f7d959bb42792cb48f22b62b1e0",
+    "responses/primary.json": "83b7e4143bd2df584271610b54abcdef081184ac1fb63ea588836e326c09a0e9",
+    "responses/primary_v0.json": "7085f4f1c8d97d66b240e9549943c25703f9ebdb811a28727c5e77dfae6d143b",
+    "cases/contrast.json": "041d909cf8946d4ac0ae07b74920385547379210192af95b0156359fc91994c1",
+    "cases/hype_probe.json": "d4a894d172ed79d84971595c18420c65f8fa4d0ce8fecfbd493875d0a2d79c36",
+    "cases/primary.json": "24894a68813f4990f3ddcf5adb32f6f7e493b701d48a0a2c33c5d87540c87010",
+    "evidence/source_register.json": "aca33dbce2efca832d3da54f711cbe91f20531dbdd35741ab9d70f185ae4b0e8",
+    "versions/v0/agent_metadata.json": "99e1a719f4e0e4ca50285b4fb14931b96008ead3ea84adacec772932bfff324b",
+    "versions/v0/specialist_instructions.md": "79b6ed4b4036afb703571fd38cff483db908f04b696b5f6a8630307d603914fb"
+  }
+}
