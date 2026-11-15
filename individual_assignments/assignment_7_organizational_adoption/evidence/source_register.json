@@ -1,0 +1,26 @@
+[
+  {
+    "id": "C0",
+    "title": "Assignment 7 Organizational Adoption memo and frozen scaffold guide",
+    "date": "course files supplied 2026-11-09",
+    "reference": "Brightspace attachment",
+    "claim": "Eight readiness dimensions, separate fit/readiness, primary/contrast test, explicit missing-information condition. ChatGPT packet workflow; no API required.",
+    "limit": "Assignment requirements, not empirical organizational evidence."
+  },
+  {
+    "id": "S1",
+    "title": "NIST AI RMF 1.0 Core",
+    "date": "2023-01-26; checked 2026-11-09",
+    "reference": "https://airc.nist.gov/airmf-resources/airmf/5-sec-core/",
+    "claim": "GOVERN 2.1-2.3 supports explicit accountability, personnel training and leadership responsibility; GOVERN 1.5 supports ongoing review.",
+    "limit": "Voluntary methodological guidance; does not establish NYU policy, staffing or performance."
+  },
+  {
+    "id": "S2",
+    "title": "NIST AI RMF Playbook overview",
+    "date": "updated 2026-06-10; checked 2026-11-09",
+    "reference": "https://www.nist.gov/itl/ai-risk-management-framework/nist-ai-rmf-playbook",
+    "claim": "Framework and playbook suggestions are voluntary and can be tailored to context.",
+    "limit": "Not a certification, mandatory checklist or legal requirement."
+  }
+]

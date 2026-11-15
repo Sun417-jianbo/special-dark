@@ -1,0 +1,170 @@
+{
+  "primary": [
+    [
+      "Leadership/sponsorship",
+      "PARTIAL",
+      "Director sponsors exploration, but operational decision and escalation roles are incomplete."
+    ],
+    [
+      "Skills",
+      "PARTIAL",
+      "Two experienced reviewers are available; ordinary staff and backup competence are not demonstrated."
+    ],
+    [
+      "Workflow/process",
+      "GAP",
+      "An authoritative checklist and manual fallback exist, but no protected review hours or queue owner are assigned."
+    ],
+    [
+      "Infrastructure/data",
+      "SUPPORTED",
+      "Environment and documents are permitted and reference versioning is stipulated; this does not establish accuracy or savings."
+    ],
+    [
+      "Resources/budget",
+      "UNKNOWN",
+      "Budget, peak workload and recurring support capacity are unspecified; this is not evidence of zero funding."
+    ],
+    [
+      "Governance/risk",
+      "PARTIAL",
+      "Human approval is retained, but stop and escalation responsibility is unassigned."
+    ],
+    [
+      "Culture/change",
+      "PARTIAL",
+      "Staff raised workload and accountability questions; their concerns are not proof of resistance."
+    ],
+    [
+      "Operating ownership",
+      "GAP",
+      "Maintenance depends on one enthusiast without an appointed owner or backup."
+    ]
+  ],
+  "contrast": [
+    [
+      "Leadership/sponsorship",
+      "SUPPORTED",
+      "Director sponsors preparation and retains a separate live-trial approval decision."
+    ],
+    [
+      "Skills",
+      "SUPPORTED",
+      "Mixed-experience reviewers completed workflow practice; measured outcomes remain unknown."
+    ],
+    [
+      "Workflow/process",
+      "SUPPORTED",
+      "Queue, escalation, authoritative checklist and manual fallback are specified for the bounded evaluation."
+    ],
+    [
+      "Infrastructure/data",
+      "SUPPORTED",
+      "Approved environment, permitted documents, versioned reference and outcome log are stipulated."
+    ],
+    [
+      "Resources/budget",
+      "PARTIAL",
+      "Four-week review and support are covered; recurring semester funding and peak-volume coverage remain unverified."
+    ],
+    [
+      "Governance/risk",
+      "SUPPORTED",
+      "Human approval and stop authority are defined; live-trial authorization still needs confirmation."
+    ],
+    [
+      "Culture/change",
+      "PARTIAL",
+      "Concerns are recorded and a feedback meeting is planned, but sustained staff acceptance is not established."
+    ],
+    [
+      "Operating ownership",
+      "SUPPORTED",
+      "Operations manager and deputy have maintenance, handover duties and protected capacity."
+    ]
+  ],
+  "missing_capacity": [
+    [
+      "Leadership/sponsorship",
+      "SUPPORTED",
+      "Director sponsors preparation and retains a separate live-trial approval decision."
+    ],
+    [
+      "Skills",
+      "SUPPORTED",
+      "Mixed-experience reviewers completed workflow practice; measured outcomes remain unknown."
+    ],
+    [
+      "Workflow/process",
+      "SUPPORTED",
+      "Queue, escalation, authoritative checklist and manual fallback are specified for the bounded evaluation."
+    ],
+    [
+      "Infrastructure/data",
+      "SUPPORTED",
+      "Approved environment, permitted documents, versioned reference and outcome log are stipulated."
+    ],
+    [
+      "Resources/budget",
+      "UNKNOWN",
+      "Owner capacity is stated, but evaluation-wide reviewer/support time and spending approval are missing. Owner availability alone cannot establish full coverage."
+    ],
+    [
+      "Governance/risk",
+      "SUPPORTED",
+      "Human approval and stop authority are defined; live-trial authorization still needs confirmation."
+    ],
+    [
+      "Culture/change",
+      "PARTIAL",
+      "Concerns are recorded and a feedback meeting is planned, but sustained staff acceptance is not established."
+    ],
+    [
+      "Operating ownership",
+      "SUPPORTED",
+      "Operations manager and deputy have maintenance, handover duties and protected capacity."
+    ]
+  ],
+  "posture_pressure": [
+    [
+      "Leadership/sponsorship",
+      "PARTIAL",
+      "Director sponsors exploration, but operational decision and escalation roles are incomplete."
+    ],
+    [
+      "Skills",
+      "PARTIAL",
+      "Two experienced reviewers are available; ordinary staff and backup competence are not demonstrated."
+    ],
+    [
+      "Workflow/process",
+      "GAP",
+      "An authoritative checklist and manual fallback exist, but no protected review hours or queue owner are assigned."
+    ],
+    [
+      "Infrastructure/data",
+      "SUPPORTED",
+      "Environment and documents are permitted and reference versioning is stipulated; this does not establish accuracy or savings."
+    ],
+    [
+      "Resources/budget",
+      "UNKNOWN",
+      "Budget, peak workload and recurring support capacity are unspecified; this is not evidence of zero funding."
+    ],
+    [
+      "Governance/risk",
+      "PARTIAL",
+      "Human approval is retained, but stop and escalation responsibility is unassigned."
+    ],
+    [
+      "Culture/change",
+      "PARTIAL",
+      "Staff raised workload and accountability questions; their concerns are not proof of resistance."
+    ],
+    [
+      "Operating ownership",
+      "GAP",
+      "Maintenance depends on one enthusiast without an appointed owner or backup."
+    ]
+  ]
+}

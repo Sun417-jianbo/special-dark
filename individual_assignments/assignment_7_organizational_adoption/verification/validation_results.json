@@ -1,0 +1,328 @@
+{
+  "passed": 80,
+  "total": 80,
+  "all_passed": true,
+  "scope": "Saved-contract, byte integrity and explicit content checks only. Same-assistant authored responses, not independent model trials or field validation.",
+  "checks": [
+    {
+      "check": "frozen core integrity",
+      "passed": true
+    },
+    {
+      "check": "contrast input schema",
+      "passed": true
+    },
+    {
+      "check": "contrast full output schema",
+      "passed": true
+    },
+    {
+      "check": "contrast version",
+      "passed": true
+    },
+    {
+      "check": "contrast canonical validator",
+      "passed": true
+    },
+    {
+      "check": "contrast prompt reproduction",
+      "passed": true
+    },
+    {
+      "check": "contrast Leadership/sponsorship",
+      "passed": true
+    },
+    {
+      "check": "contrast Skills",
+      "passed": true
+    },
+    {
+      "check": "contrast Workflow/process",
+      "passed": true
+    },
+    {
+      "check": "contrast Infrastructure/data",
+      "passed": true
+    },
+    {
+      "check": "contrast Resources/budget",
+      "passed": true
+    },
+    {
+      "check": "contrast Governance/risk",
+      "passed": true
+    },
+    {
+      "check": "contrast Culture/change",
+      "passed": true
+    },
+    {
+      "check": "contrast Operating ownership",
+      "passed": true
+    },
+    {
+      "check": "contrast targeted questions",
+      "passed": true
+    },
+    {
+      "check": "contrast authority handoff",
+      "passed": true
+    },
+    {
+      "check": "contrast three priorities",
+      "passed": true
+    },
+    {
+      "check": "missing_capacity input schema",
+      "passed": true
+    },
+    {
+      "check": "missing_capacity full output schema",
+      "passed": true
+    },
+    {
+      "check": "missing_capacity version",
+      "passed": true
+    },
+    {
+      "check": "missing_capacity canonical validator",
+      "passed": true
+    },
+    {
+      "check": "missing_capacity prompt reproduction",
+      "passed": true
+    },
+    {
+      "check": "missing_capacity Leadership/sponsorship",
+      "passed": true
+    },
+    {
+      "check": "missing_capacity Skills",
+      "passed": true
+    },
+    {
+      "check": "missing_capacity Workflow/process",
+      "passed": true
+    },
+    {
+      "check": "missing_capacity Infrastructure/data",
+      "passed": true
+    },
+    {
+      "check": "missing_capacity Resources/budget",
+      "passed": true
+    },
+    {
+      "check": "missing_capacity Governance/risk",
+      "passed": true
+    },
+    {
+      "check": "missing_capacity Culture/change",
+      "passed": true
+    },
+    {
+      "check": "missing_capacity Operating ownership",
+      "passed": true
+    },
+    {
+      "check": "missing_capacity targeted questions",
+      "passed": true
+    },
+    {
+      "check": "missing_capacity authority handoff",
+      "passed": true
+    },
+    {
+      "check": "missing_capacity three priorities",
+      "passed": true
+    },
+    {
+      "check": "posture_pressure input schema",
+      "passed": true
+    },
+    {
+      "check": "posture_pressure full output schema",
+      "passed": true
+    },
+    {
+      "check": "posture_pressure version",
+      "passed": true
+    },
+    {
+      "check": "posture_pressure canonical validator",
+      "passed": true
+    },
+    {
+      "check": "posture_pressure prompt reproduction",
+      "passed": true
+    },
+    {
+      "check": "posture_pressure Leadership/sponsorship",
+      "passed": true
+    },
+    {
+      "check": "posture_pressure Skills",
+      "passed": true
+    },
+    {
+      "check": "posture_pressure Workflow/process",
+      "passed": true
+    },
+    {
+      "check": "posture_pressure Infrastructure/data",
+      "passed": true
+    },
+    {
+      "check": "posture_pressure Resources/budget",
+      "passed": true
+    },
+    {
+      "check": "posture_pressure Governance/risk",
+      "passed": true
+    },
+    {
+      "check": "posture_pressure Culture/change",
+      "passed": true
+    },
+    {
+      "check": "posture_pressure Operating ownership",
+      "passed": true
+    },
+    {
+      "check": "posture_pressure targeted questions",
+      "passed": true
+    },
+    {
+      "check": "posture_pressure authority handoff",
+      "passed": true
+    },
+    {
+      "check": "posture_pressure three priorities",
+      "passed": true
+    },
+    {
+      "check": "primary input schema",
+      "passed": true
+    },
+    {
+      "check": "primary full output schema",
+      "passed": true
+    },
+    {
+      "check": "primary version",
+      "passed": true
+    },
+    {
+      "check": "primary canonical validator",
+      "passed": true
+    },
+    {
+      "check": "primary prompt reproduction",
+      "passed": true
+    },
+    {
+      "check": "primary Leadership/sponsorship",
+      "passed": true
+    },
+    {
+      "check": "primary Skills",
+      "passed": true
+    },
+    {
+      "check": "primary Workflow/process",
+      "passed": true
+    },
+    {
+      "check": "primary Infrastructure/data",
+      "passed": true
+    },
+    {
+      "check": "primary Resources/budget",
+      "passed": true
+    },
+    {
+      "check": "primary Governance/risk",
+      "passed": true
+    },
+    {
+      "check": "primary Culture/change",
+      "passed": true
+    },
+    {
+      "check": "primary Operating ownership",
+      "passed": true
+    },
+    {
+      "check": "primary targeted questions",
+      "passed": true
+    },
+    {
+      "check": "primary authority handoff",
+      "passed": true
+    },
+    {
+      "check": "primary three priorities",
+      "passed": true
+    },
+    {
+      "check": "technology unchanged",
+      "passed": true
+    },
+    {
+      "check": "application unchanged",
+      "passed": true
+    },
+    {
+      "check": "general finding stable",
+      "passed": true
+    },
+    {
+      "check": "application finding stable",
+      "passed": true
+    },
+    {
+      "check": "primary blocks live use",
+      "passed": true
+    },
+    {
+      "check": "contrast recognizes readiness strengths",
+      "passed": true
+    },
+    {
+      "check": "missing capacity withholds readiness",
+      "passed": true
+    },
+    {
+      "check": "posture cannot bypass prerequisites",
+      "passed": true
+    },
+    {
+      "check": "posture test changes exactly one input",
+      "passed": true
+    },
+    {
+      "check": "missing information test changes constraints only",
+      "passed": true
+    },
+    {
+      "check": "weak baseline passes structure",
+      "passed": true
+    },
+    {
+      "check": "weak baseline exposes gate failure",
+      "passed": true
+    },
+    {
+      "check": "negative schema control missing field",
+      "passed": true
+    },
+    {
+      "check": "negative schema control extra field",
+      "passed": true
+    },
+    {
+      "check": "negative schema control wrong array item",
+      "passed": true
+    }
+  ]
+}

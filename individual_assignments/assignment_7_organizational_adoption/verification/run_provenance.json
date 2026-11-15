@@ -1,0 +1,34 @@
+{
+  "date": "2026-11-09",
+  "runtime": "Current ChatGPT/Codex conversation; exact model deployment identifier unavailable",
+  "method": "Same assistant consumed common/final instructions, full primary packet and contrast case sections, then authored JSON responses saved through Python. No API or independent session.",
+  "independence": "None: same assistant designed and evaluated all examples; stable text intentionally reused.",
+  "weak_baseline": "Intentionally weak rule demonstration authored in the same session; not a naturally occurring historical failure.",
+  "instructions_sha256": "8db3ab4984adf9e4bdee3c1b2395b62abc41deafd910bf2275b1ba2f97e4b7df",
+  "cases": [
+    {
+      "case": "primary",
+      "input_sha256": "3365640d05f85cd347439fe214e10e01efdeb5d56762252e475b310d7a05c5da",
+      "prompt_sha256": "7521c9f8a6dd663cd823bf42d238d81a3d1c741e134022e114930286ab383808",
+      "response_sha256": "55afa5f26c2ffebe50cf214b0500ec45f17e71784ddce39b1d02a0e6f0175dcb"
+    },
+    {
+      "case": "contrast",
+      "input_sha256": "18e456b0254b132f27ab32e9abcee4079c9c41fd961598ad8bd8596ff0004c5d",
+      "prompt_sha256": "1c75365c5040c97154affa87d51c505ebe9d33fba028eded4b73585c1d71f4b3",
+      "response_sha256": "b59dc4fd293a01cac7d2f7afa386b507ca5b72d2384c5d340d81ab2b797414d4"
+    },
+    {
+      "case": "missing_capacity",
+      "input_sha256": "b6a698e5c05032e0245237cd8316e35c450d629acd8c6ca81a2c6e661f339440",
+      "prompt_sha256": "f12c35fa576c026e09627ac8d542a64c83e873ee4f3e57014eefcafbb95782a3",
+      "response_sha256": "3edf68595e7470802a55667e18c8d000e0ec0c2df883e317f8000d4a55c26383"
+    },
+    {
+      "case": "posture_pressure",
+      "input_sha256": "a5f1b8e20e1669d3781f486fd14992dd43800bec6cb7c5ca2c4e7acfc5089133",
+      "prompt_sha256": "93ebe0daac8066a25cd3935472edaf1052aa90b22b430f43f5a8eeffa0d668eb",
+      "response_sha256": "468e2bcbdcedf6dc0c59d4b5befc3ef92b1b83b2ba0ea271f452a1ecff5a4487"
+    }
+  ]
+}
