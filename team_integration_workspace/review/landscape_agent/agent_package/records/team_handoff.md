@@ -1,0 +1,6 @@
+# Final MoE handoff
+Team-accepted Landscape1.0 supplies dated technology intelligence, strongest conventional alternative, claim-specific evidence and owner/cadence/signal/action refresh triggers. The seven-agent audit verifies common interfaces and saved records/tests at pinned prior commits.
+Destination: https://github.com/Sun417-jianbo/special-dark/tree/tw9-landscape-20261118/team_integration_workspace/review/landscape_agent
+Review PR and exact source commit are in repository_handoff.json at the release root. No main merge or member-branch modification is authorized.
+For the inherited primary, keep analyst/rules and do not execute while the actual route lacks approval. For prepared B, consume the explicitly allowed isolated scope without asserting routine value. For fixed-field work, require an evidenced residual need before adding adaptive complexity. Landscape routes changes to the responsible specialist and humans.
+The seven specialists are ready as inputs to TeamLab10 design, with the issues in shared_records/integration_issue_log.md. They are not yet one assembled executable MoE. In TeamLab10 design routing, dated shared intake, conflict handling, authority and fallback; TeamLab11 then implements/tests the actual integration.

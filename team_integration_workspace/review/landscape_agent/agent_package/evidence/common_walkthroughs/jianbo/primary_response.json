@@ -1,0 +1,90 @@
+{
+  "agent": {
+    "name": "Emerging Technology Landscape Agent",
+    "specialty": "Technology intelligence and contextual landscape monitoring",
+    "version": "1.0"
+  },
+  "analytical_question": "Common primary case evaluated under jianbo candidate rules, not its original personal scenario.",
+  "general_et_finding": "As of 2026-11-18, agentic capability is uneven and application-specific. L1/L2 describe native BI assistance and mutable experience-specific prerequisites, not chart-validation guarantees; L1 now flags retirement of some standalone/app surfaces while report-scoped use is unaffected by that notice. Exact retirement dates remain unverified. L3 illustrates deterministic integrity checks, and L5 is an integration complement rather than permission. L4 is archival chart-reasoning research, not current model leadership. L6 is inactive historical software-task measurement, not autonomous runtime or chart accuracy. L7 is voluntary guidance, not binding law. L8 is a dated analyst interpretation, not our maturity score or a matching penetration statistic. Current exact-task adoption, investment trends, total cost and comparative performance are UNKNOWN. No single score, current vendor ranking or adoption forecast is justified.",
+  "application_finding": "Assess or Trial candidate are explained local intelligence labels only; compare checklist/rules, constrained retrieval/model help and native tools when the chart context actually supports them. For chart/source review, the strongest conventional alternative is analyst review plus validated deterministic reconciliation of explicit checks. Compare manual review, adequate rules, constrained model-assisted drafting, native report assistance only if the actual platform qualifies, and an integrated read-only agent for residual interpretation. Source tables, semantic definitions, exact row/period/filter/unit/denominator lineage, reference sets, permitted tools and protected reviewers are complements. A visual citation is not proof of reconciliation. L1/L2 are adjacent feature evidence, L3 supports comparator design and L4 informs task coverage; none establishes local superiority. Complete effort must include setup, checking, failed tasks, correction, integration/support and exit at the same quality/volume.",
+  "organization_specific_finding": "Assess intelligence; execution constrained by the inherited unapproved route. Owner/cadence/signal/action must be explicit. Hold execution, not public-source investigation, until A’s route and operating arrangements are resolved.",
+  "evidence": [
+    {
+      "claim": "Documents prerequisites and warns that standalone/app-scoped experiences are retiring while the report-scoped experience is not affected by that notice.",
+      "source_or_reference": "L1 | Microsoft | https://learn.microsoft.com/en-us/power-bi/create-reports/copilot-introduction",
+      "date_or_recency": "Publication/update/version: 2026-11-17; checked_on 2026-11-18; Product documentation state, not a field study",
+      "evidence_type": "VENDOR",
+      "notes": "Vendor description, not local qualification, a complete retirement schedule or comparative performance. Linked retirement announcement timed out; confirm dates and exact tenant surface before relying on it. Do not equate a generic Copilot label with an approved feature. Maintenance: Live mutable documentation; changed since individual assessment"
+    },
+    {
+      "claim": "Describes visual references and report-data summaries with stated filtering/data limitations.",
+      "source_or_reference": "L2 | Microsoft | https://learn.microsoft.com/en-us/power-bi/explore-reports/copilot-pane-summarize-content",
+      "date_or_recency": "Publication/update/version: 2026-09-30; checked_on 2026-11-18; Feature description, no local outcome period",
+      "evidence_type": "VENDOR",
+      "notes": "Visual references do not establish exact source-row, filter, period and denominator reconciliation. The documentation itself has surface-specific caveats; do not generalize to all experiences or local accuracy. Maintenance: Mutable feature documentation"
+    },
+    {
+      "claim": "Documents deterministic data-integrity checks as an example of a conventional technical approach.",
+      "source_or_reference": "L3 | Great Expectations | https://legacy.docs.greatexpectations.io/docs/reference/learn/data_quality_use_cases/integrity/",
+      "date_or_recency": "Publication/update/version: unknown; checked_on 2026-11-18; Illustrative software examples, not observed firm deployment",
+      "evidence_type": "VENDOR_IMPLEMENTATION",
+      "notes": "Does not prove this firm uses GX, that a particular version is installed, or that table checks cover visual interpretation. Version/route and actual rule validity require confirmation. Maintenance: Version-labelled documentation under legacy hostname"
+    },
+    {
+      "claim": "Historical research distinguishes chart visual and logical/arithmetic reasoning challenges.",
+      "source_or_reference": "L4 | Masry et al and ACL Anthology | https://aclanthology.org/2022.findings-acl.177/",
+      "date_or_recency": "Publication/update/version: 2022-05; checked_on 2026-11-18; Historical benchmark task/model evaluation; not a current product trial",
+      "evidence_type": "INDEPENDENT_RESEARCH",
+      "notes": "Not a November2026 model ranking, a finance source-reconciliation validation or a local cost measure. No current success percentage is inferred. Maintenance: Archival paper; useful for task design, not current capability leadership"
+    },
+    {
+      "claim": "Specifies context/tool integration and implementation responsibilities for consent and access controls.",
+      "source_or_reference": "L5 | Model Context Protocol maintainers | https://modelcontextprotocol.io/specification/2026-07-28",
+      "date_or_recency": "Publication/update/version: 2026-07-28; checked_on 2026-11-18; Protocol requirements, no local implementation result",
+      "evidence_type": "STANDARD_PROTOCOL",
+      "notes": "Not a legal certification or enforced read-only guarantee; host/server compatibility and local permission remain untested. Maintenance: Version-identified reference; check compatibility and notices"
+    },
+    {
+      "claim": "The page states it is no longer actively updated; horizons index human-expert task duration for specified software tasks.",
+      "source_or_reference": "L6 | METR | https://metr.org/time-horizons/",
+      "date_or_recency": "Publication/update/version: 2026-09-08; checked_on 2026-11-18; Dated software-task measurements with incomplete model coverage",
+      "evidence_type": "INDEPENDENT_RESEARCH",
+      "notes": "Not uninterrupted autonomy, chart accuracy or a current November ranking. A recent access date does not refresh the observation. Do not transfer the metric to the chart task. Maintenance: INACTIVE historical as of2026-09-08"
+    },
+    {
+      "claim": "Identifies a cross-sector companion to the voluntary AI Risk Management Framework.",
+      "source_or_reference": "L7 | NIST | https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-generative-artificial-intelligence",
+      "date_or_recency": "Publication/update/version: 2024-07-26; checked_on 2026-11-18; Cross-sector methodological guidance, not outcome measurements",
+      "evidence_type": "PUBLIC_GUIDANCE",
+      "notes": "Not binding finance law, legal advice, product certification or local proof of implemented controls. No current legal status is inferred from historical legal references. Maintenance: Identified guidance edition; check for revisions"
+    },
+    {
+      "claim": "Gartner gives a dated high-expectations interpretation and distinguishes uneven maturity across agentic capabilities.",
+      "source_or_reference": "L8 | Gartner | https://www.gartner.com/en/articles/hype-cycle-for-agentic-ai",
+      "date_or_recency": "Publication/update/version: 2026-04-15; checked_on 2026-11-18; Dated analyst interpretation; underlying survey methodology not extracted",
+      "evidence_type": "INDUSTRY_ANALYST",
+      "notes": "Not the team's score, a matched financial-chart adoption denominator, local reliability or permission. No survey percentage, mainstream date or investment forecast is carried into the team conclusion. Maintenance: Dated industry interpretation"
+    }
+  ],
+  "contrary_evidence_or_limitations": [
+    "Native platforms could reduce custom integration work if genuinely available and permitted; this remains a candidate hypothesis, not proof of chart accuracy.",
+    "An agent might add value to residual interpretive work that validated fixed rules cannot cover. Local measured advantage is unknown.",
+    "Same-assistant qualitative prompt runs and structural checks are not independent reliability tests or a company pilot.",
+    "Fresh same-assistant qualitative walkthrough, normalized to the frozen contract; not an independent candidate score or model comparison. Assess/Trial/Hold labels overlap Adoption vocabulary; map authority explicitly."
+  ],
+  "confidence_and_uncertainty": "Moderate confidence in the attributed documentation/comparison approach; low confidence in local quality, complete cost, current task diffusion or a model/vendor choice. Source retrieval does not refresh a historical observation.",
+  "value_opportunity_implication": "Investigate quality-adjusted full effort at a matched task volume. No savings, total-cost amount or ROI is established by feature announcements or an existing licence.",
+  "risk_governance_implication": "Landscape intelligence never grants data/tool permission, legal certification or release authority. Preserve human sign-off and the relevant upstream stage limits.",
+  "recommendation_management_implication": "Keep the baseline and prepare only non-executing evidence/comparator work for A. Obtain the smallest route, platform and task-lineage facts that can change the next review; hand off to Adoption/Organizational Adoption rather than launch.",
+  "change_monitoring_triggers": [
+    "Owner: proposed BI/data steward and security authority | Cadence: before any proposed use and immediately on route/control change | Signal/evidence: actual allowed read-only route plus row/period/filter/unit/denominator trace in a version-specific demonstration | Action: request Adoption/Readiness reassessment of a scoped comparison; no automatic launch.",
+    "Owner: proposed reporting/BI owner | Cadence: every authorized batch or schema/model/tool change | Signal/evidence: pre-agreed material-error/trace criteria and complete effort versus analyst/rules, including failed tasks and corrections | Action: revise the comparator; stop affected use on lost lineage or material unsupported correction. Criteria are proposals, not observed results.",
+    "Owner: proposed IT/procurement lead | Cadence: before use and every14days during active evaluation; immediately on feature/terms notice | Signal/evidence: exact L1 candidate experience, tenant eligibility, dated retirement/terms and all usage/support costs | Action: remove/recheck unavailable surfaces; seek the original retirement schedule because linked notice retrieval failed. Availability is not benefit.",
+    "Owner: proposed landscape analyst | Cadence: protocol monthly/on security notice; research quarterly or when a material claim is challenged | Signal/evidence: compatible version/control change or maintained original task evidence; L6 remains INACTIVE | Action: refresh the packet and route affected specialists; do not call old horizons current rankings."
+  ],
+  "abstention_or_more_information_needed": [
+    "ASK NOW, BI/data steward: exact platform/feature/version and permitted data/tool route; this changes eligible comparisons, not intrinsic technology maturity.",
+    "ASK NOW, reporting/security owners: accepted owner/cover and protected effort for the proposed activity. Until supplied do not infer execution readiness.",
+    "BEFORE a benefit claim: pre-agreed task/quality criteria, reference outcomes, failures, support/correction workload and comparable baseline evidence."
+  ]
+}

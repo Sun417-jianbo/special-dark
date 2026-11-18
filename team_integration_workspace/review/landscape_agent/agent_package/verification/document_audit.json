@@ -1,0 +1,7 @@
+{
+  "date": "2026-11-18",
+  "report_sha256": "9125d074e20d5748588ad4101d5f5859bb208737fd665488056fcbcca591e800",
+  "rendered_pages": 7,
+  "visual_review": "All seven pages of the final render inspected; no clipping/overlap, broken tables or title border; no QA images/PDF in deliverable.",
+  "scope": "Layout and document/package structure, not independent analytical validation."
+}

@@ -1,0 +1,65 @@
+{
+  "agent": {
+    "name": "Emerging Technology Landscape Agent",
+    "specialty": "Dated technology-landscape assessment that separates broad signals from the few that can change this organization's decision, with typed evidence and monitoring triggers",
+    "version": "1.0"
+  },
+  "analytical_question": "Where does this emerging technology and application sit in the current technology landscape, and what signals should this organization monitor next?",
+  "general_et_finding": "Agentic AI is one of the fastest-moving areas of technology. Major model providers and enterprise software vendors are racing to ship agents, and Gartner predicts that 40% of enterprise apps will feature task-specific AI agents by 2026 (D43). Agents still have reliability limits: the most competitive agent completes 30% of realistic workplace tasks (E11). Standards are emerging around the Model Context Protocol, now under the Linux Foundation's Agentic AI Foundation (D38). Hype-cycle position: Peak of Inflated Expectations. Overall landscape score: 6/10.",
+  "application_finding": "Agents for applicant support are spreading in higher education: universities such as Unity Environmental and Nottingham Malaysia have deployed Agentforce agents (D39, D40), and higher-ed vendors report that agents save large amounts of staff time (D41).",
+  "organization_specific_finding": "For NYU SPS: Landscape overview: the key players are the large model providers and the enterprise platforms that embed agents (for example Salesforce Agentforce, D15, D40). Investment is very high, and agentic AI could drive about 30% of enterprise application software revenue by 2035 (D43). Adoption is growing quickly: large organizations scaling AI agents rose from 27% to 40% (D42). Costs are falling fast (D46). Vendors report large time savings, for example more than 67 full-time work years returned to higher-education teams (D41). Regulation is evolving, including the EU AI Act (D33). Hype-cycle position: Peak of Inflated Expectations. Landscape score: 6/10. SPS already has a chatbot (Violet), which puts it in a good position to add agent capabilities.",
+  "evidence": [
+    {
+      "claim": "40% of enterprise apps will feature task-specific AI agents by 2026.",
+      "source_or_reference": "[D43] Gartner",
+      "date_or_recency": "2025-08-26",
+      "evidence_type": "analyst",
+      "notes": ""
+    },
+    {
+      "claim": "The most competitive agent completes 30% of tasks.",
+      "source_or_reference": "[E11] TheAgentCompany",
+      "date_or_recency": "2024",
+      "evidence_type": "benchmark",
+      "notes": ""
+    },
+    {
+      "claim": "MCP moved to the Agentic AI Foundation.",
+      "source_or_reference": "[D38] Linux Foundation",
+      "date_or_recency": "2025-12-09",
+      "evidence_type": "press release",
+      "notes": ""
+    },
+    {
+      "claim": "Large organizations scaling agents rose to 40%.",
+      "source_or_reference": "[D42] McKinsey",
+      "date_or_recency": "2026-08-25",
+      "evidence_type": "survey",
+      "notes": ""
+    },
+    {
+      "claim": "Agents returned 67+ work years to higher-ed teams.",
+      "source_or_reference": "[D41] Element451",
+      "date_or_recency": "2025-12-17",
+      "evidence_type": "case study",
+      "notes": ""
+    }
+  ],
+  "contrary_evidence_or_limitations": [
+    "The landscape changes quickly.",
+    "Forecasts are uncertain."
+  ],
+  "confidence_and_uncertainty": "Moderate.",
+  "value_opportunity_implication": "Early movers can gain efficiency and service advantages.",
+  "risk_governance_implication": "Follow governance best practice and monitor regulation.",
+  "recommendation_management_implication": "SPS should continue with its proof of concept and move quickly to stay competitive, monitoring the signals below.",
+  "change_monitoring_triggers": [
+    "Monitor vendor announcements and new agent products regularly.",
+    "Monitor regulatory developments such as the EU AI Act.",
+    "Monitor adoption surveys and analyst forecasts.",
+    "Monitor benchmark results for new models."
+  ],
+  "abstention_or_more_information_needed": [
+    "None."
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "agent": {
+    "name": "Emerging Technology Landscape Agent",
+    "specialty": "Dated technology landscape and decision triggers",
+    "version": "0.2-student"
+  },
+  "analytical_question": "Which alternative leads for this application, what landscape change would justify reassessment, and what can management do within current authority?",
+  "general_et_finding": "As of 2026-11-11, integrated agentic AI has commercial visibility through adjacent embedded AI offerings (S1) and an evolving tool-interface ecosystem (S4). The dated protocol example shows ecosystem development, while interoperability and operational controls depend on implementation. The November 2025 S6 survey found 23% of respondents scaling agents in at least one function and another 39% experimenting. These historical cross-functional self-reports indicate activity at different stages, with current sector diffusion unknown. Available evidence supports bounded experimentation and context-specific evaluation with oversight (S5). General production maturity varies with integration and controls. Current comparative performance, total cost and regulatory applicability remain unknown.",
+  "organization_specific_finding": "In hypothetical Organization A, BI tables, analysts and mandatory human sign-off are premises. The conservative posture and consequences for executive reporting favor evidence review within current authority for two weeks, with no execution, live data processing or publication. No approved model route or substitute is evidenced. A possible subsequent four-week isolated public or synthetic learning exercise requires independent authorization, enforceable controls, a designated owner and deputy, and protected review capacity. Routine use requires separate authorization, workflow validation and governance. Application scope leaves the existing authority, resources, staffing and controls in place.",
+  "evidence": [
+    {
+      "claim": "Documents report summaries with visual citations; prerequisites and scope limits include tenant enablement, eligible capacity and limitations on filters and sampled data.",
+      "source_or_reference": "S1 | Microsoft Learn, Summarize a report with Copilot | https://learn.microsoft.com/en-us/power-bi/create-reports/copilot-pane-summarize-content",
+      "date_or_recency": "Live documentation checked 2026-11-11",
+      "evidence_type": "Vendor capability documentation",
+      "notes": "Summary citations point to visuals, not proof of exact source-row, denominator or filter reconciliation. Tenant eligibility, price and accuracy are unverified."
+    },
+    {
+      "claim": "Documents pairwise column equality and custom SQL checks, including cross-table integrity.",
+      "source_or_reference": "S2 | Great Expectations, Validate data integrity with GX | https://legacy.docs.greatexpectations.io/docs/reference/learn/data_quality_use_cases/integrity/",
+      "date_or_recency": "Documentation checked 2026-11-11",
+      "evidence_type": "Implementation documentation",
+      "notes": "Illustrates a deterministic baseline; does not establish that the firm uses GX or that checks cover visual interpretation. Verify exact installed version before use."
+    },
+    {
+      "claim": "Chart QA combines visual and logical reasoning, with human-authored and generated questions.",
+      "source_or_reference": "S3 | Masry et al., ChartQA | https://aclanthology.org/2022.findings-acl.177/",
+      "date_or_recency": "May 2022; checked 2026-11-11",
+      "evidence_type": "Peer-reviewed benchmark",
+      "notes": "Historical benchmark, not current model ranking or evidence of this exact workflow, cost or reliability."
+    },
+    {
+      "claim": "Dated MCP release illustrates evolving shared tool interfaces.",
+      "source_or_reference": "S4 | Model Context Protocol, One Year of MCP | https://blog.modelcontextprotocol.io/posts/2025-11-25-first-mcp-anniversary/",
+      "date_or_recency": "2025-11-25; checked 2026-11-11",
+      "evidence_type": "Protocol maintainer release note",
+      "notes": "Example edition, not a latest-version claim; protocol availability does not ensure compatibility, read-only enforcement or permission."
+    },
+    {
+      "claim": "Confabulation and contextual evaluation support measuring task performance and retaining human oversight and monitoring.",
+      "source_or_reference": "S5 | NIST AI 600-1, Generative AI Profile | https://doi.org/10.6028/NIST.AI.600-1",
+      "date_or_recency": "July 2024; checked 2026-11-11",
+      "evidence_type": "Voluntary public guidance",
+      "notes": "No assertion of legal compliance, certification or local effectiveness."
+    },
+    {
+      "claim": "In the 2025 survey 23% of respondents reported scaling agents in at least one function and another 39% reported experimenting.",
+      "source_or_reference": "S6 | McKinsey, The state of AI in 2025 | https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai-2025",
+      "date_or_recency": "2025-11-05; checked 2026-11-11",
+      "evidence_type": "Consulting survey",
+      "notes": "Historical self-report across functions, not a current population estimate or financial chart-review adoption."
+    },
+    {
+      "claim": "The fictional TW8 baseline supplies BI tables, analysts and human sign-off. Approved model access, ownership, capacity and workflow evidence are unresolved.",
+      "source_or_reference": "Supplied case premise based on Special Dark TW8 Organizational Adoption team record",
+      "date_or_recency": "Record dated 2026-11-10; case as of 2026-11-11",
+      "evidence_type": "Constructed case premise",
+      "notes": "No observed enterprise outcome, approval, contract or task validation. Comparator rankings and gates are analytical judgments."
+    }
+  ],
+  "contrary_evidence_or_limitations": [
+    "The claim that visual citations imply audit-ready reconciliation is unsupported (S1). Missing evidence includes reproducible links to exact source rows, reporting periods, effective filters, units and denominator definitions/calculations. Refresh vendor documentation and verify the applicable configuration at a relevant product release or tenant/capacity change.",
+    "The historical survey and ChartQA benchmark cannot establish current sector prevalence, local performance or comparative cost. Voluntary guidance supplies evaluation considerations while legal applicability remains unresolved."
+  ],
+  "confidence_and_uncertainty": "Moderate confidence in the qualitative comparator ranking under the stated scope. Local accuracy, material error rates, operating costs, configuration and regulatory applicability are unknown. Proposed thresholds are decision criteria with no observed results.",
+  "risk_governance_implication": "Require human sign-off and preserve replayable provenance and escalation for material discrepancies. Any authorized learning should enforce read-only access, isolated public or synthetic inputs, and a human stop. Misstated denominators, privacy exposure and misleading reports carry material consequences.",
+  "abstention_or_more_information_needed": [
+    "Obtain written route authorization, applicable tenant and tool versions, data classification, enforced permissions and audit evidence.",
+    "Identify the accountable service owner and deputy, protected analyst capacity, escalation and stop procedures, and applicable model-risk, privacy and reporting obligations.",
+    "Obtain representative labeled workflow evidence, source mappings and a baseline of reviewer time, material errors and fully loaded cost before estimating effectiveness or ROI."
+  ],
+  "application_finding": "Analyst review with deterministic checks is the leading comparator. Use structured checks for values, periods, units, filters and denominators where mappings are explicit (S2), and reserve ambiguous chart interpretation and wording corrections for an analyst (S3). Embedded BI summaries can orient reviewers, but visual citations and filter or sampling limits leave exact reconciliation unverified (S1). An integrated agent could select tools, trace discrepancies and draft corrections for human review, conditional on permission and a versioned mapping from visuals and claims to source rows and calculation context (S4, S5). The comparator could lose if a permitted agent workflow demonstrates equivalent or better traceability and material-error detection with lower fully loaded review effort.",
+  "value_opportunity_implication": "The opportunity is to reduce analyst time spent gathering evidence and drafting corrections while preserving analyst judgment. Net savings after checking and exception handling are unknown.",
+  "recommendation_management_implication": "Lead with analyst judgment plus deterministic checks. Use the two-week review to document baseline effort, error types and provenance requirements from permitted records. Consider isolated learning only if the traceability and authorization trigger is met.",
+  "change_monitoring_triggers": [
+    "BI review lead and security/data authority, at the two-week close or upon receipt of a candidate control package: require auditable source rows, reporting periods, effective filters and denominator calculations for each representative claim and written permission for the proposed isolated route. If both are evidenced and other prerequisites close, consider four-week isolated learning. Otherwise retain analyst review with deterministic checks.",
+    "BI review lead and security/data authority, upon a vendor release or tenant/capacity change: refresh S1 and S4 against the applicable release and tenant settings. If filter handling, connector compatibility or read-only enforcement changes, reassess route eligibility and lineage before any use. Keep the existing comparator if either remains unresolved.",
+    "Reporting manager and model-risk officer, at the end of independently authorized isolated learning: proposed gates are reproducible lineage for every evaluated claim, zero missed material errors on a labeled set, and lower total analyst time including verification and rework at comparable detection quality. If met, submit a separate routine-use review. Otherwise retain the comparator and document failure modes."
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "date": "2026-11-18",
+  "runtime": "Same Codex assistant using course ChatGPT-style interactive prompt workflow; no separate inference API",
+  "candidate_walkthroughs": 8,
+  "team_final_cases": 6,
+  "rules": "Assistant authored/evaluated outputs after reading the candidate instructions and common case. Python serializes authored content, assembles original prompt packets and validates artifacts; it does not perform model inference. Shared broad wording is an intentional source control, not independent repeatability.",
+  "limits": [
+    "No field trial, tenant test, independent model judge, probability of accuracy or measured ROI.",
+    "Original weak outputs are attributed historical evidence, not fabricated fresh failures.",
+    "Common outputs normalize lengthy candidate prose for the frozen contract; comparative observations are qualitative, not scored model performance."
+  ]
+}

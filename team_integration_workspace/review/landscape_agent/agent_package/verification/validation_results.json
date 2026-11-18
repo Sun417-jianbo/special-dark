@@ -1,0 +1,1409 @@
+{
+  "summary": {
+    "passed": 350,
+    "failed": 0,
+    "scope": "Saved provenance, contracts and explicit fixture semantics; not independent correctness, actual tenant operation or company readiness."
+  },
+  "checks": [
+    {
+      "check": "canonical instructor file count",
+      "pass": true
+    },
+    {
+      "check": "instructor unchanged GITHUB_WORKING_COPY.md",
+      "pass": true
+    },
+    {
+      "check": "instructor unchanged FROZEN_CORE_SHA256.txt",
+      "pass": true
+    },
+    {
+      "check": "instructor unchanged VERSION.txt",
+      "pass": true
+    },
+    {
+      "check": "instructor unchanged .gitignore",
+      "pass": true
+    },
+    {
+      "check": "instructor unchanged requirements.txt",
+      "pass": true
+    },
+    {
+      "check": "instructor unchanged START_HERE.md",
+      "pass": true
+    },
+    {
+      "check": "instructor unchanged CHATGPT_CODEX_WORKFLOW.md",
+      "pass": true
+    },
+    {
+      "check": "instructor unchanged README.md",
+      "pass": true
+    },
+    {
+      "check": "instructor unchanged PACKAGE_SHA256.txt",
+      "pass": true
+    },
+    {
+      "check": "instructor unchanged examples/toy_agent/agent_metadata.json",
+      "pass": true
+    },
+    {
+      "check": "instructor unchanged examples/toy_agent/specialist_instructions.md",
+      "pass": true
+    },
+    {
+      "check": "instructor unchanged examples/toy_agent/cases/primary.json",
+      "pass": true
+    },
+    {
+      "check": "instructor unchanged examples/toy_agent/responses/primary_response.json",
+      "pass": true
+    },
+    {
+      "check": "instructor unchanged work/toy_agent_primary_prompt.txt",
+      "pass": true
+    },
+    {
+      "check": "instructor unchanged work/.gitkeep",
+      "pass": true
+    },
+    {
+      "check": "instructor unchanged tools/check_frozen_core.py",
+      "pass": true
+    },
+    {
+      "check": "instructor unchanged tools/validate_response.py",
+      "pass": true
+    },
+    {
+      "check": "instructor unchanged tools/build_prompt.py",
+      "pass": true
+    },
+    {
+      "check": "instructor unchanged tools/new_agent.py",
+      "pass": true
+    },
+    {
+      "check": "instructor unchanged agents/_template/agent_metadata.json",
+      "pass": true
+    },
+    {
+      "check": "instructor unchanged agents/_template/specialist_instructions.md",
+      "pass": true
+    },
+    {
+      "check": "instructor unchanged agents/_template/README.md",
+      "pass": true
+    },
+    {
+      "check": "instructor unchanged agents/_template/records/agent_record.md",
+      "pass": true
+    },
+    {
+      "check": "instructor unchanged agents/_template/cases/primary.json",
+      "pass": true
+    },
+    {
+      "check": "instructor unchanged agents/_template/cases/contrast_1.json",
+      "pass": true
+    },
+    {
+      "check": "instructor unchanged agents/_template/cases/contrast_2.json",
+      "pass": true
+    },
+    {
+      "check": "instructor unchanged agents/_template/responses/.gitkeep",
+      "pass": true
+    },
+    {
+      "check": "instructor unchanged core/output_schema.json",
+      "pass": true
+    },
+    {
+      "check": "instructor unchanged core/common_instructions.md",
+      "pass": true
+    },
+    {
+      "check": "instructor unchanged core/input_schema.json",
+      "pass": true
+    },
+    {
+      "check": "instructor unchanged docs/Emerging_Technologies_Common_Agent_Scaffold_Student_Guide_v2.docx",
+      "pass": true
+    },
+    {
+      "check": "instructor unchanged docs/Emerging_Technologies_Agent_Record_Template.docx",
+      "pass": true
+    },
+    {
+      "check": "member snapshot evidence/member_snapshots/yufei/specialist/agent_metadata.json",
+      "pass": true
+    },
+    {
+      "check": "member snapshot evidence/member_snapshots/yufei/specialist/specialist_instructions.md",
+      "pass": true
+    },
+    {
+      "check": "member snapshot evidence/member_snapshots/yufei/specialist/responses/primary_response.json",
+      "pass": true
+    },
+    {
+      "check": "member snapshot evidence/member_snapshots/yufei/original_agent_record.docx",
+      "pass": true
+    },
+    {
+      "check": "member snapshot evidence/member_snapshots/chutong/specialist/agent_metadata.json",
+      "pass": true
+    },
+    {
+      "check": "member snapshot evidence/member_snapshots/chutong/specialist/specialist_instructions.md",
+      "pass": true
+    },
+    {
+      "check": "member snapshot evidence/member_snapshots/chutong/specialist/evidence/source_register.json",
+      "pass": true
+    },
+    {
+      "check": "member snapshot evidence/member_snapshots/chutong/specialist/responses/final/primary.json",
+      "pass": true
+    },
+    {
+      "check": "member snapshot evidence/member_snapshots/chutong/specialist/responses/final/fixed_schema_contrast.json",
+      "pass": true
+    },
+    {
+      "check": "member snapshot evidence/member_snapshots/chutong/original_agent_record.docx",
+      "pass": true
+    },
+    {
+      "check": "member snapshot evidence/member_snapshots/jianbo/specialist/agent_metadata.json",
+      "pass": true
+    },
+    {
+      "check": "member snapshot evidence/member_snapshots/jianbo/specialist/specialist_instructions.md",
+      "pass": true
+    },
+    {
+      "check": "member snapshot evidence/member_snapshots/jianbo/specialist/evidence/source_register.json",
+      "pass": true
+    },
+    {
+      "check": "member snapshot evidence/member_snapshots/jianbo/specialist/responses/primary_v0.json",
+      "pass": true
+    },
+    {
+      "check": "member snapshot evidence/member_snapshots/jianbo/specialist/responses/primary.json",
+      "pass": true
+    },
+    {
+      "check": "member snapshot evidence/member_snapshots/jianbo/specialist/responses/contrast.json",
+      "pass": true
+    },
+    {
+      "check": "member snapshot evidence/member_snapshots/jianbo/original_agent_record.pdf",
+      "pass": true
+    },
+    {
+      "check": "member snapshot evidence/member_snapshots/minghan/specialist/agent_metadata.json",
+      "pass": true
+    },
+    {
+      "check": "member snapshot evidence/member_snapshots/minghan/specialist/specialist_instructions.md",
+      "pass": true
+    },
+    {
+      "check": "member snapshot evidence/member_snapshots/minghan/specialist/evidence/source_register.json",
+      "pass": true
+    },
+    {
+      "check": "member snapshot evidence/member_snapshots/minghan/specialist/records/landscape_framework.md",
+      "pass": true
+    },
+    {
+      "check": "member snapshot evidence/member_snapshots/minghan/specialist/records/signal_filter.md",
+      "pass": true
+    },
+    {
+      "check": "member snapshot evidence/member_snapshots/minghan/specialist/responses/contrast_1_response.json",
+      "pass": true
+    },
+    {
+      "check": "member snapshot evidence/member_snapshots/minghan/specialist/responses/contrast_2_response.json",
+      "pass": true
+    },
+    {
+      "check": "member snapshot evidence/member_snapshots/minghan/specialist/responses/primary_response.json",
+      "pass": true
+    },
+    {
+      "check": "member snapshot evidence/member_snapshots/minghan/specialist/responses/hype_probe_response.json",
+      "pass": true
+    },
+    {
+      "check": "member snapshot evidence/member_snapshots/minghan/original_agent_record.docx",
+      "pass": true
+    },
+    {
+      "check": "input fixed_schema_contrast",
+      "pass": true
+    },
+    {
+      "check": "response fields fixed_schema_contrast",
+      "pass": true
+    },
+    {
+      "check": "response metadata fixed_schema_contrast",
+      "pass": true
+    },
+    {
+      "check": "trigger fields fixed_schema_contrast 0",
+      "pass": true
+    },
+    {
+      "check": "trigger fields fixed_schema_contrast 1",
+      "pass": true
+    },
+    {
+      "check": "populated evidence fixed_schema_contrast",
+      "pass": true
+    },
+    {
+      "check": "prompt reproducible fixed_schema_contrast",
+      "pass": true
+    },
+    {
+      "check": "original validator fixed_schema_contrast",
+      "pass": true
+    },
+    {
+      "check": "input hype_probe",
+      "pass": true
+    },
+    {
+      "check": "response fields hype_probe",
+      "pass": true
+    },
+    {
+      "check": "response metadata hype_probe",
+      "pass": true
+    },
+    {
+      "check": "trigger fields hype_probe 0",
+      "pass": true
+    },
+    {
+      "check": "trigger fields hype_probe 1",
+      "pass": true
+    },
+    {
+      "check": "trigger fields hype_probe 2",
+      "pass": true
+    },
+    {
+      "check": "trigger fields hype_probe 3",
+      "pass": true
+    },
+    {
+      "check": "populated evidence hype_probe",
+      "pass": true
+    },
+    {
+      "check": "prompt reproducible hype_probe",
+      "pass": true
+    },
+    {
+      "check": "original validator hype_probe",
+      "pass": true
+    },
+    {
+      "check": "input missing_context",
+      "pass": true
+    },
+    {
+      "check": "response fields missing_context",
+      "pass": true
+    },
+    {
+      "check": "response metadata missing_context",
+      "pass": true
+    },
+    {
+      "check": "trigger fields missing_context 0",
+      "pass": true
+    },
+    {
+      "check": "populated evidence missing_context",
+      "pass": true
+    },
+    {
+      "check": "prompt reproducible missing_context",
+      "pass": true
+    },
+    {
+      "check": "original validator missing_context",
+      "pass": true
+    },
+    {
+      "check": "input organization_contrast",
+      "pass": true
+    },
+    {
+      "check": "response fields organization_contrast",
+      "pass": true
+    },
+    {
+      "check": "response metadata organization_contrast",
+      "pass": true
+    },
+    {
+      "check": "trigger fields organization_contrast 0",
+      "pass": true
+    },
+    {
+      "check": "trigger fields organization_contrast 1",
+      "pass": true
+    },
+    {
+      "check": "trigger fields organization_contrast 2",
+      "pass": true
+    },
+    {
+      "check": "populated evidence organization_contrast",
+      "pass": true
+    },
+    {
+      "check": "prompt reproducible organization_contrast",
+      "pass": true
+    },
+    {
+      "check": "original validator organization_contrast",
+      "pass": true
+    },
+    {
+      "check": "input primary",
+      "pass": true
+    },
+    {
+      "check": "response fields primary",
+      "pass": true
+    },
+    {
+      "check": "response metadata primary",
+      "pass": true
+    },
+    {
+      "check": "trigger fields primary 0",
+      "pass": true
+    },
+    {
+      "check": "trigger fields primary 1",
+      "pass": true
+    },
+    {
+      "check": "trigger fields primary 2",
+      "pass": true
+    },
+    {
+      "check": "trigger fields primary 3",
+      "pass": true
+    },
+    {
+      "check": "populated evidence primary",
+      "pass": true
+    },
+    {
+      "check": "prompt reproducible primary",
+      "pass": true
+    },
+    {
+      "check": "original validator primary",
+      "pass": true
+    },
+    {
+      "check": "input stale_claim_probe",
+      "pass": true
+    },
+    {
+      "check": "response fields stale_claim_probe",
+      "pass": true
+    },
+    {
+      "check": "response metadata stale_claim_probe",
+      "pass": true
+    },
+    {
+      "check": "trigger fields stale_claim_probe 0",
+      "pass": true
+    },
+    {
+      "check": "trigger fields stale_claim_probe 1",
+      "pass": true
+    },
+    {
+      "check": "trigger fields stale_claim_probe 2",
+      "pass": true
+    },
+    {
+      "check": "trigger fields stale_claim_probe 3",
+      "pass": true
+    },
+    {
+      "check": "populated evidence stale_claim_probe",
+      "pass": true
+    },
+    {
+      "check": "prompt reproducible stale_claim_probe",
+      "pass": true
+    },
+    {
+      "check": "original validator stale_claim_probe",
+      "pass": true
+    },
+    {
+      "check": "six team cases",
+      "pass": true
+    },
+    {
+      "check": "stable broad evidence fixed_schema_contrast",
+      "pass": true
+    },
+    {
+      "check": "stable broad evidence hype_probe",
+      "pass": true
+    },
+    {
+      "check": "stable broad evidence missing_context",
+      "pass": true
+    },
+    {
+      "check": "stable broad evidence organization_contrast",
+      "pass": true
+    },
+    {
+      "check": "stable broad evidence primary",
+      "pass": true
+    },
+    {
+      "check": "stable broad evidence stale_claim_probe",
+      "pass": true
+    },
+    {
+      "check": "same task preserved in organization contrast",
+      "pass": true
+    },
+    {
+      "check": "same application mechanism across organizations",
+      "pass": true
+    },
+    {
+      "check": "organization radar changes",
+      "pass": true
+    },
+    {
+      "check": "prepared contrast recognizes supplied route",
+      "pass": true
+    },
+    {
+      "check": "fixed comparator changes",
+      "pass": true
+    },
+    {
+      "check": "fixed trigger changes",
+      "pass": true
+    },
+    {
+      "check": "stale claim rejected",
+      "pass": true
+    },
+    {
+      "check": "hype injection blocked",
+      "pass": true
+    },
+    {
+      "check": "missing context abstains",
+      "pass": true
+    },
+    {
+      "check": "eight unique sources",
+      "pass": true
+    },
+    {
+      "check": "source types diverse",
+      "pass": true
+    },
+    {
+      "check": "source provenance L1 publisher",
+      "pass": true
+    },
+    {
+      "check": "source provenance L1 url",
+      "pass": true
+    },
+    {
+      "check": "source provenance L1 type",
+      "pass": true
+    },
+    {
+      "check": "source provenance L1 date_kind",
+      "pass": true
+    },
+    {
+      "check": "source provenance L1 observation_period",
+      "pass": true
+    },
+    {
+      "check": "source provenance L1 checked_on",
+      "pass": true
+    },
+    {
+      "check": "source provenance L1 limit",
+      "pass": true
+    },
+    {
+      "check": "source provenance L1 maintenance_status",
+      "pass": true
+    },
+    {
+      "check": "source provenance L1 refresh",
+      "pass": true
+    },
+    {
+      "check": "source provenance L1 decision_role",
+      "pass": true
+    },
+    {
+      "check": "source provenance L2 publisher",
+      "pass": true
+    },
+    {
+      "check": "source provenance L2 url",
+      "pass": true
+    },
+    {
+      "check": "source provenance L2 type",
+      "pass": true
+    },
+    {
+      "check": "source provenance L2 date_kind",
+      "pass": true
+    },
+    {
+      "check": "source provenance L2 observation_period",
+      "pass": true
+    },
+    {
+      "check": "source provenance L2 checked_on",
+      "pass": true
+    },
+    {
+      "check": "source provenance L2 limit",
+      "pass": true
+    },
+    {
+      "check": "source provenance L2 maintenance_status",
+      "pass": true
+    },
+    {
+      "check": "source provenance L2 refresh",
+      "pass": true
+    },
+    {
+      "check": "source provenance L2 decision_role",
+      "pass": true
+    },
+    {
+      "check": "source provenance L3 publisher",
+      "pass": true
+    },
+    {
+      "check": "source provenance L3 url",
+      "pass": true
+    },
+    {
+      "check": "source provenance L3 type",
+      "pass": true
+    },
+    {
+      "check": "source provenance L3 date_kind",
+      "pass": true
+    },
+    {
+      "check": "source provenance L3 observation_period",
+      "pass": true
+    },
+    {
+      "check": "source provenance L3 checked_on",
+      "pass": true
+    },
+    {
+      "check": "source provenance L3 limit",
+      "pass": true
+    },
+    {
+      "check": "source provenance L3 maintenance_status",
+      "pass": true
+    },
+    {
+      "check": "source provenance L3 refresh",
+      "pass": true
+    },
+    {
+      "check": "source provenance L3 decision_role",
+      "pass": true
+    },
+    {
+      "check": "source provenance L4 publisher",
+      "pass": true
+    },
+    {
+      "check": "source provenance L4 url",
+      "pass": true
+    },
+    {
+      "check": "source provenance L4 type",
+      "pass": true
+    },
+    {
+      "check": "source provenance L4 date_kind",
+      "pass": true
+    },
+    {
+      "check": "source provenance L4 observation_period",
+      "pass": true
+    },
+    {
+      "check": "source provenance L4 checked_on",
+      "pass": true
+    },
+    {
+      "check": "source provenance L4 limit",
+      "pass": true
+    },
+    {
+      "check": "source provenance L4 maintenance_status",
+      "pass": true
+    },
+    {
+      "check": "source provenance L4 refresh",
+      "pass": true
+    },
+    {
+      "check": "source provenance L4 decision_role",
+      "pass": true
+    },
+    {
+      "check": "source provenance L5 publisher",
+      "pass": true
+    },
+    {
+      "check": "source provenance L5 url",
+      "pass": true
+    },
+    {
+      "check": "source provenance L5 type",
+      "pass": true
+    },
+    {
+      "check": "source provenance L5 date_kind",
+      "pass": true
+    },
+    {
+      "check": "source provenance L5 observation_period",
+      "pass": true
+    },
+    {
+      "check": "source provenance L5 checked_on",
+      "pass": true
+    },
+    {
+      "check": "source provenance L5 limit",
+      "pass": true
+    },
+    {
+      "check": "source provenance L5 maintenance_status",
+      "pass": true
+    },
+    {
+      "check": "source provenance L5 refresh",
+      "pass": true
+    },
+    {
+      "check": "source provenance L5 decision_role",
+      "pass": true
+    },
+    {
+      "check": "source provenance L6 publisher",
+      "pass": true
+    },
+    {
+      "check": "source provenance L6 url",
+      "pass": true
+    },
+    {
+      "check": "source provenance L6 type",
+      "pass": true
+    },
+    {
+      "check": "source provenance L6 date_kind",
+      "pass": true
+    },
+    {
+      "check": "source provenance L6 observation_period",
+      "pass": true
+    },
+    {
+      "check": "source provenance L6 checked_on",
+      "pass": true
+    },
+    {
+      "check": "source provenance L6 limit",
+      "pass": true
+    },
+    {
+      "check": "source provenance L6 maintenance_status",
+      "pass": true
+    },
+    {
+      "check": "source provenance L6 refresh",
+      "pass": true
+    },
+    {
+      "check": "source provenance L6 decision_role",
+      "pass": true
+    },
+    {
+      "check": "source provenance L7 publisher",
+      "pass": true
+    },
+    {
+      "check": "source provenance L7 url",
+      "pass": true
+    },
+    {
+      "check": "source provenance L7 type",
+      "pass": true
+    },
+    {
+      "check": "source provenance L7 date_kind",
+      "pass": true
+    },
+    {
+      "check": "source provenance L7 observation_period",
+      "pass": true
+    },
+    {
+      "check": "source provenance L7 checked_on",
+      "pass": true
+    },
+    {
+      "check": "source provenance L7 limit",
+      "pass": true
+    },
+    {
+      "check": "source provenance L7 maintenance_status",
+      "pass": true
+    },
+    {
+      "check": "source provenance L7 refresh",
+      "pass": true
+    },
+    {
+      "check": "source provenance L7 decision_role",
+      "pass": true
+    },
+    {
+      "check": "source provenance L8 publisher",
+      "pass": true
+    },
+    {
+      "check": "source provenance L8 url",
+      "pass": true
+    },
+    {
+      "check": "source provenance L8 type",
+      "pass": true
+    },
+    {
+      "check": "source provenance L8 date_kind",
+      "pass": true
+    },
+    {
+      "check": "source provenance L8 observation_period",
+      "pass": true
+    },
+    {
+      "check": "source provenance L8 checked_on",
+      "pass": true
+    },
+    {
+      "check": "source provenance L8 limit",
+      "pass": true
+    },
+    {
+      "check": "source provenance L8 maintenance_status",
+      "pass": true
+    },
+    {
+      "check": "source provenance L8 refresh",
+      "pass": true
+    },
+    {
+      "check": "source provenance L8 decision_role",
+      "pass": true
+    },
+    {
+      "check": "inactive status explicit",
+      "pass": true
+    },
+    {
+      "check": "unknown date retained",
+      "pass": true
+    },
+    {
+      "check": "vendor update after individual run",
+      "pass": true
+    },
+    {
+      "check": "four candidates two common cases",
+      "pass": true
+    },
+    {
+      "check": "walk prompt yufei primary",
+      "pass": true
+    },
+    {
+      "check": "walk output yufei primary",
+      "pass": true
+    },
+    {
+      "check": "walk exact candidate rules yufei primary",
+      "pass": true
+    },
+    {
+      "check": "walk rule packet provenance yufei primary",
+      "pass": true
+    },
+    {
+      "check": "walk prompt yufei organization_contrast",
+      "pass": true
+    },
+    {
+      "check": "walk output yufei organization_contrast",
+      "pass": true
+    },
+    {
+      "check": "walk exact candidate rules yufei organization_contrast",
+      "pass": true
+    },
+    {
+      "check": "walk rule packet provenance yufei organization_contrast",
+      "pass": true
+    },
+    {
+      "check": "walk prompt chutong primary",
+      "pass": true
+    },
+    {
+      "check": "walk output chutong primary",
+      "pass": true
+    },
+    {
+      "check": "walk exact candidate rules chutong primary",
+      "pass": true
+    },
+    {
+      "check": "walk rule packet provenance chutong primary",
+      "pass": true
+    },
+    {
+      "check": "walk prompt chutong organization_contrast",
+      "pass": true
+    },
+    {
+      "check": "walk output chutong organization_contrast",
+      "pass": true
+    },
+    {
+      "check": "walk exact candidate rules chutong organization_contrast",
+      "pass": true
+    },
+    {
+      "check": "walk rule packet provenance chutong organization_contrast",
+      "pass": true
+    },
+    {
+      "check": "walk prompt jianbo primary",
+      "pass": true
+    },
+    {
+      "check": "walk output jianbo primary",
+      "pass": true
+    },
+    {
+      "check": "walk exact candidate rules jianbo primary",
+      "pass": true
+    },
+    {
+      "check": "walk rule packet provenance jianbo primary",
+      "pass": true
+    },
+    {
+      "check": "walk prompt jianbo organization_contrast",
+      "pass": true
+    },
+    {
+      "check": "walk output jianbo organization_contrast",
+      "pass": true
+    },
+    {
+      "check": "walk exact candidate rules jianbo organization_contrast",
+      "pass": true
+    },
+    {
+      "check": "walk rule packet provenance jianbo organization_contrast",
+      "pass": true
+    },
+    {
+      "check": "walk prompt minghan primary",
+      "pass": true
+    },
+    {
+      "check": "walk output minghan primary",
+      "pass": true
+    },
+    {
+      "check": "walk exact candidate rules minghan primary",
+      "pass": true
+    },
+    {
+      "check": "walk rule packet provenance minghan primary",
+      "pass": true
+    },
+    {
+      "check": "walk prompt minghan organization_contrast",
+      "pass": true
+    },
+    {
+      "check": "walk output minghan organization_contrast",
+      "pass": true
+    },
+    {
+      "check": "walk exact candidate rules minghan organization_contrast",
+      "pass": true
+    },
+    {
+      "check": "walk rule packet provenance minghan organization_contrast",
+      "pass": true
+    },
+    {
+      "check": "seven slots exact",
+      "pass": true
+    },
+    {
+      "check": "common counts slot1",
+      "pass": true
+    },
+    {
+      "check": "pinned commit slot1",
+      "pass": true
+    },
+    {
+      "check": "prior frozen slot1 core/input_schema.json",
+      "pass": true
+    },
+    {
+      "check": "prior frozen slot1 core/output_schema.json",
+      "pass": true
+    },
+    {
+      "check": "prior frozen slot1 core/common_instructions.md",
+      "pass": true
+    },
+    {
+      "check": "prior frozen slot1 tools/build_prompt.py",
+      "pass": true
+    },
+    {
+      "check": "prior frozen slot1 tools/validate_response.py",
+      "pass": true
+    },
+    {
+      "check": "prior frozen slot1 tools/check_frozen_core.py",
+      "pass": true
+    },
+    {
+      "check": "prior frozen slot1 tools/new_agent.py",
+      "pass": true
+    },
+    {
+      "check": "prior metadata slot1",
+      "pass": true
+    },
+    {
+      "check": "prior saved test pair slot1",
+      "pass": true
+    },
+    {
+      "check": "common counts slot2",
+      "pass": true
+    },
+    {
+      "check": "pinned commit slot2",
+      "pass": true
+    },
+    {
+      "check": "prior frozen slot2 core/input_schema.json",
+      "pass": true
+    },
+    {
+      "check": "prior frozen slot2 core/output_schema.json",
+      "pass": true
+    },
+    {
+      "check": "prior frozen slot2 core/common_instructions.md",
+      "pass": true
+    },
+    {
+      "check": "prior frozen slot2 tools/build_prompt.py",
+      "pass": true
+    },
+    {
+      "check": "prior frozen slot2 tools/validate_response.py",
+      "pass": true
+    },
+    {
+      "check": "prior frozen slot2 tools/check_frozen_core.py",
+      "pass": true
+    },
+    {
+      "check": "prior frozen slot2 tools/new_agent.py",
+      "pass": true
+    },
+    {
+      "check": "prior metadata slot2",
+      "pass": true
+    },
+    {
+      "check": "prior saved test pair slot2",
+      "pass": true
+    },
+    {
+      "check": "common counts slot3",
+      "pass": true
+    },
+    {
+      "check": "pinned commit slot3",
+      "pass": true
+    },
+    {
+      "check": "prior frozen slot3 core/input_schema.json",
+      "pass": true
+    },
+    {
+      "check": "prior frozen slot3 core/output_schema.json",
+      "pass": true
+    },
+    {
+      "check": "prior frozen slot3 core/common_instructions.md",
+      "pass": true
+    },
+    {
+      "check": "prior frozen slot3 tools/build_prompt.py",
+      "pass": true
+    },
+    {
+      "check": "prior frozen slot3 tools/validate_response.py",
+      "pass": true
+    },
+    {
+      "check": "prior frozen slot3 tools/check_frozen_core.py",
+      "pass": true
+    },
+    {
+      "check": "prior frozen slot3 tools/new_agent.py",
+      "pass": true
+    },
+    {
+      "check": "prior metadata slot3",
+      "pass": true
+    },
+    {
+      "check": "prior saved test pair slot3",
+      "pass": true
+    },
+    {
+      "check": "common counts slot4",
+      "pass": true
+    },
+    {
+      "check": "pinned commit slot4",
+      "pass": true
+    },
+    {
+      "check": "prior frozen slot4 core/input_schema.json",
+      "pass": true
+    },
+    {
+      "check": "prior frozen slot4 core/output_schema.json",
+      "pass": true
+    },
+    {
+      "check": "prior frozen slot4 core/common_instructions.md",
+      "pass": true
+    },
+    {
+      "check": "prior frozen slot4 tools/build_prompt.py",
+      "pass": true
+    },
+    {
+      "check": "prior frozen slot4 tools/validate_response.py",
+      "pass": true
+    },
+    {
+      "check": "prior frozen slot4 tools/check_frozen_core.py",
+      "pass": true
+    },
+    {
+      "check": "prior frozen slot4 tools/new_agent.py",
+      "pass": true
+    },
+    {
+      "check": "prior metadata slot4",
+      "pass": true
+    },
+    {
+      "check": "prior saved test pair slot4",
+      "pass": true
+    },
+    {
+      "check": "common counts slot5",
+      "pass": true
+    },
+    {
+      "check": "pinned commit slot5",
+      "pass": true
+    },
+    {
+      "check": "prior frozen slot5 core/input_schema.json",
+      "pass": true
+    },
+    {
+      "check": "prior frozen slot5 core/output_schema.json",
+      "pass": true
+    },
+    {
+      "check": "prior frozen slot5 core/common_instructions.md",
+      "pass": true
+    },
+    {
+      "check": "prior frozen slot5 tools/build_prompt.py",
+      "pass": true
+    },
+    {
+      "check": "prior frozen slot5 tools/validate_response.py",
+      "pass": true
+    },
+    {
+      "check": "prior frozen slot5 tools/check_frozen_core.py",
+      "pass": true
+    },
+    {
+      "check": "prior frozen slot5 tools/new_agent.py",
+      "pass": true
+    },
+    {
+      "check": "prior metadata slot5",
+      "pass": true
+    },
+    {
+      "check": "prior saved test pair slot5",
+      "pass": true
+    },
+    {
+      "check": "common counts slot6",
+      "pass": true
+    },
+    {
+      "check": "pinned commit slot6",
+      "pass": true
+    },
+    {
+      "check": "prior frozen slot6 core/input_schema.json",
+      "pass": true
+    },
+    {
+      "check": "prior frozen slot6 core/output_schema.json",
+      "pass": true
+    },
+    {
+      "check": "prior frozen slot6 core/common_instructions.md",
+      "pass": true
+    },
+    {
+      "check": "prior frozen slot6 tools/build_prompt.py",
+      "pass": true
+    },
+    {
+      "check": "prior frozen slot6 tools/validate_response.py",
+      "pass": true
+    },
+    {
+      "check": "prior frozen slot6 tools/check_frozen_core.py",
+      "pass": true
+    },
+    {
+      "check": "prior frozen slot6 tools/new_agent.py",
+      "pass": true
+    },
+    {
+      "check": "prior metadata slot6",
+      "pass": true
+    },
+    {
+      "check": "prior saved test pair slot6",
+      "pass": true
+    },
+    {
+      "check": "common counts slot7",
+      "pass": true
+    },
+    {
+      "check": "not assembled claim",
+      "pass": true
+    },
+    {
+      "check": "negative missing evidence date rejected",
+      "pass": true
+    },
+    {
+      "check": "negative extra output field rejected",
+      "pass": true
+    },
+    {
+      "check": "negative future source rejected",
+      "pass": true
+    },
+    {
+      "check": "package hash .gitignore",
+      "pass": true
+    },
+    {
+      "check": "package hash CHATGPT_CODEX_WORKFLOW.md",
+      "pass": true
+    },
+    {
+      "check": "package hash FROZEN_CORE_SHA256.txt",
+      "pass": true
+    },
+    {
+      "check": "package hash GITHUB_WORKING_COPY.md",
+      "pass": true
+    },
+    {
+      "check": "package hash README.md",
+      "pass": true
+    },
+    {
+      "check": "package hash START_HERE.md",
+      "pass": true
+    },
+    {
+      "check": "package hash VERSION.txt",
+      "pass": true
+    },
+    {
+      "check": "package hash agents/_template/README.md",
+      "pass": true
+    },
+    {
+      "check": "package hash agents/_template/agent_metadata.json",
+      "pass": true
+    },
+    {
+      "check": "package hash agents/_template/cases/contrast_1.json",
+      "pass": true
+    },
+    {
+      "check": "package hash agents/_template/cases/contrast_2.json",
+      "pass": true
+    },
+    {
+      "check": "package hash agents/_template/cases/primary.json",
+      "pass": true
+    },
+    {
+      "check": "package hash agents/_template/records/agent_record.md",
+      "pass": true
+    },
+    {
+      "check": "package hash agents/_template/responses/.gitkeep",
+      "pass": true
+    },
+    {
+      "check": "package hash agents/_template/specialist_instructions.md",
+      "pass": true
+    },
+    {
+      "check": "package hash core/common_instructions.md",
+      "pass": true
+    },
+    {
+      "check": "package hash core/input_schema.json",
+      "pass": true
+    },
+    {
+      "check": "package hash core/output_schema.json",
+      "pass": true
+    },
+    {
+      "check": "package hash docs/Emerging_Technologies_Agent_Record_Template.docx",
+      "pass": true
+    },
+    {
+      "check": "package hash docs/Emerging_Technologies_Common_Agent_Scaffold_Student_Guide_v2.docx",
+      "pass": true
+    },
+    {
+      "check": "package hash examples/toy_agent/agent_metadata.json",
+      "pass": true
+    },
+    {
+      "check": "package hash examples/toy_agent/cases/primary.json",
+      "pass": true
+    },
+    {
+      "check": "package hash examples/toy_agent/responses/primary_response.json",
+      "pass": true
+    },
+    {
+      "check": "package hash examples/toy_agent/specialist_instructions.md",
+      "pass": true
+    },
+    {
+      "check": "package hash requirements.txt",
+      "pass": true
+    },
+    {
+      "check": "package hash tools/build_prompt.py",
+      "pass": true
+    },
+    {
+      "check": "package hash tools/check_frozen_core.py",
+      "pass": true
+    },
+    {
+      "check": "package hash tools/new_agent.py",
+      "pass": true
+    },
+    {
+      "check": "package hash tools/validate_response.py",
+      "pass": true
+    },
+    {
+      "check": "package hash work/.gitkeep",
+      "pass": true
+    }
+  ]
+}
