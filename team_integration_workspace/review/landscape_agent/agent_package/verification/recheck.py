@@ -119,6 +119,12 @@ if checksums.exists():
  for line in checksums.read_text().splitlines():
   if not line.strip():continue
   digest,rel=line.split('  ',1);check('package hash '+rel,sha(root/rel)==digest)
+release_sums=root.parent/'SHA256SUMS.txt'
+if release_sums.exists():
+ for line in release_sums.read_text().splitlines():
+  if not line.strip():continue
+  digest,rel=line.split('  ',1)
+  check('release hash '+rel,sha(root.parent/rel)==digest)
 result={'passed':len(checks),'failed':0,'scope':'Saved provenance, contracts and explicit fixture semantics; not independent correctness, actual tenant operation or company readiness.'}
 print(json.dumps(result,indent=2))
 if '--write' in sys.argv:
