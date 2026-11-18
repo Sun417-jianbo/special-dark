@@ -1,0 +1,48 @@
+{
+  "checked_by": "Codex, not independently verified by student",
+  "checked_on": "2026-11-01",
+  "sources": [
+    {
+      "id": "S1",
+      "citation": "Brynjolfsson, Li and Raymond (2025), Generative AI at Work, QJE 140(2), 889-942.",
+      "url": "https://doi.org/10.1093/qje/qjae044",
+      "published": "2025-02-04; May 2025 issue",
+      "location": "Published article abstract and introduction",
+      "claim": "Study of 5,172 customer-support agents reports 15% average increase in issues resolved per hour; effects differ across workers.",
+      "boundary": "Historical single-firm customer-support setting; not current retail-reporting accuracy, a local ROI forecast or a vendor/model guarantee. Use final publication, not 2023 working-paper figures of 5,179 and 14%.",
+      "verification": "Codex opened original publisher article and checked abstract/introduction on 2026-11-01."
+    },
+    {
+      "id": "S2",
+      "citation": "Dell'Acqua et al. (2026), Navigating the Jagged Technological Frontier, Organization Science, DOI 10.1287/orsc.2025.21838.",
+      "url": "https://doi.org/10.1287/orsc.2025.21838",
+      "original_pdf": "https://www.hbs.edu/ris/Publication%20Files/dell-acqua-et-al-2026-navigating-the-jagged-technological-frontier_5c589c8c-fbb5-458f-b285-c944746cd717.pdf",
+      "published": "2026-03-11 online; experiment used June 2023 GPT-4",
+      "location": "Abstract; study design; section 4.2, PDF page 12, printed article page 11",
+      "claim": "Randomized study of 758 consultants found task-dependent gains and harm. On one outside-frontier task, combined AI groups were approximately 19 percentage points less likely to be correct.",
+      "boundary": "A single difficult task in an earlier model setting; not a universal error rate for 2026 tools. Body specifies percentage points; avoid treating the abstract wording as a relative percentage.",
+      "verification": "Codex opened author-hosted published PDF and checked abstract, design and section 4.2 on 2026-11-01."
+    },
+    {
+      "id": "S3",
+      "citation": "Autio et al. (2024), NIST AI 600-1, Generative Artificial Intelligence Profile.",
+      "url": "https://doi.org/10.6028/NIST.AI.600-1",
+      "original_pdf": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf",
+      "published": "2024-07-26",
+      "location": "Section 2.2; MEASURE 2.3 and 2.5, printed pages 30-31 / PDF pages 34-35",
+      "claim": "Voluntary guidance supports empirical capability evaluation, deployment-relevant testing and limits on extrapolation from narrow assessments.",
+      "boundary": "Risk-management guidance, not law, a compliance certificate, or proof that the hypothetical organization is ready. Numerical experiment gates below are analyst proposals, not NIST thresholds.",
+      "verification": "Codex checked NIST original publication page, PDF text and table screenshots on 2026-11-01."
+    },
+    {
+      "id": "S4",
+      "citation": "Bick, Blandin and Deming, RPS work-use series RPSGENAIUSAGESHAREWORK, FRED.",
+      "url": "https://fred.stlouisfed.org/series/RPSGENAIUSAGESHAREWORK",
+      "published": "Updated 2026-10-20; observations Q3 2026 and Q2 2026",
+      "location": "Observations and Notes",
+      "claim": "Q3 2026: 40.54550% of U.S. employed adults aged 18-64 report using generative AI for work; Q2: 45.19932%.",
+      "boundary": "Self-reported workers, not retail firms or the reporting task. Not seasonally adjusted; not retained-user cohorts, local benefit, or an automatic adopter-category threshold. Data may be revised.",
+      "verification": "Codex reopened original FRED series and checked observations, date and Notes on 2026-11-01."
+    }
+  ]
+}

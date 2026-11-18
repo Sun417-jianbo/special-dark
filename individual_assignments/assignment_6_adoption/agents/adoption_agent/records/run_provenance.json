@@ -1,0 +1,20 @@
+{
+  "date": "2026-11-01",
+  "agent_version": "0.2",
+  "runtime": "Current ChatGPT/Codex conversation",
+  "model_authored_outputs": 5,
+  "external_inference_api_used": false,
+  "independent_model_repetitions": 0,
+  "independent_evaluator": false,
+  "organization_pilot_run": false,
+  "case_status": "Hypothetical; manager demo claim is adversarial synthetic input",
+  "mechanical_work": "Supplied prompt builder, response validator and frozen-core checker actually executed locally; subset contract, exact contrast, packet matching and original byte comparison also executed. Python serialized model-authored responses.",
+  "semantic_review": "Same assistant; shared general evidence retained across cases deliberately, not independent stochastic repeatability evidence.",
+  "verification_actor": "Codex inspected original sources on 2026-11-01; student source review not asserted",
+  "limitations": [
+    "Only four revised cases, one explicit posture contrast.",
+    "ADOPT, MONITOR and REJECT FOR PRESENT definitions lack positive-control tests.",
+    "No present vendor/model price, capability or contract verified.",
+    "Proposed gates require managerial approval; no automatic rollout."
+  ]
+}

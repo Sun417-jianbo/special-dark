@@ -1,0 +1,37 @@
+COMMAND: tools/check_frozen_core.py
+FROZEN CORE INTACT
+EXIT: 0
+COMMAND: tools/validate_response.py agents/adoption_agent/responses/contrast_1_v0.2.json
+VALIDATION PASSED
+EXIT: 0
+COMMAND: tools/validate_response.py agents/adoption_agent/responses/contrast_2_v0.2.json
+VALIDATION PASSED
+EXIT: 0
+COMMAND: tools/validate_response.py agents/adoption_agent/responses/pilot_challenge_v0.2.json
+VALIDATION PASSED
+EXIT: 0
+COMMAND: tools/validate_response.py agents/adoption_agent/responses/primary_v0.1.json
+VALIDATION PASSED
+EXIT: 0
+COMMAND: tools/validate_response.py agents/adoption_agent/responses/primary_v0.2.json
+VALIDATION PASSED
+EXIT: 0
+COMMAND: agents/adoption_agent/records/recheck_contracts.py
+PASS contrast_2.json
+PASS pilot_challenge.json
+PASS contrast_1.json
+PASS primary.json
+PASS contrast_1_v0.2.json
+PASS contrast_2_v0.2.json
+PASS primary_v0.1.json
+PASS primary_v0.2.json
+PASS pilot_challenge_v0.2.json
+Checks only the schema keywords used by these contracts, not general JSON Schema certification.
+EXIT: 0
+CASE DIFFERENCE PASS contrast_1: adoption_posture
+CASE DIFFERENCE PASS contrast_2: capabilities_constraints, organization, users_stakeholders
+CASE DIFFERENCE PASS pilot_challenge: additional_context
+PROMPT PACKETS MATCH CURRENT INSTRUCTIONS AND CASES: 4
+ORIGINAL FILE BYTE COMPARISON PASS: 32 unchanged
+CONDITIONAL DENOMINATOR ILLUSTRATION PASS: 0.85/0.80 - 1 = 6.25%; not a measured outcome
+Semantic review is separate and same-assistant. Structure and arithmetic checks do not validate factual truth or demonstrate independent model performance.
