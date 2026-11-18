@@ -1,0 +1,66 @@
+[
+  {
+    "member": "yufei",
+    "case": "primary",
+    "instructions_sha256": "faad92d9238b4d4669c6885ca8521848e69cd6780fdfd523429d3b3e0c237e8e",
+    "prompt_sha256": "1c9978bbc3ba5a4b87828d0ebdc2c2ca9c4e378ea019e3142b22033b98052446",
+    "response_sha256": "adf2eb1863828b11c9d08e1671714d1e8ec563cd7817f2375a74017dff6d74c1",
+    "mode": "same-assistant interactive qualitative walkthrough; serializer is not a model call"
+  },
+  {
+    "member": "yufei",
+    "case": "organization_contrast",
+    "instructions_sha256": "faad92d9238b4d4669c6885ca8521848e69cd6780fdfd523429d3b3e0c237e8e",
+    "prompt_sha256": "ebc075c96dce448a996aa2bcbdfe1da4bfec924b5a4a676e5ceda473fb3693fd",
+    "response_sha256": "46769b3cd47048a4ebcfe4c802407383338f1fdddff34fa3ddbfccb0540f330c",
+    "mode": "same-assistant interactive qualitative walkthrough; serializer is not a model call"
+  },
+  {
+    "member": "chutong",
+    "case": "primary",
+    "instructions_sha256": "7534dce57296403e7b9dd84a99466049f8bedb033497e4420d2a3b57b3e1db56",
+    "prompt_sha256": "d2d1792079b43f10b880e30db8fccfbf5b19ffd6db9887ebac6587d54cb13fc3",
+    "response_sha256": "94e3922d525013cb5785f38a69465af0fee553751eea0a4a12b6700dc8bff4d6",
+    "mode": "same-assistant interactive qualitative walkthrough; serializer is not a model call"
+  },
+  {
+    "member": "chutong",
+    "case": "organization_contrast",
+    "instructions_sha256": "7534dce57296403e7b9dd84a99466049f8bedb033497e4420d2a3b57b3e1db56",
+    "prompt_sha256": "eb56df59c1852454d5e33a685d9c4fe080975277e82e255b1b4023935fea3447",
+    "response_sha256": "67d878728e463fa6d550d1c3ef9308f95bb0287e4349a97838dbefddc4d71eec",
+    "mode": "same-assistant interactive qualitative walkthrough; serializer is not a model call"
+  },
+  {
+    "member": "jianbo",
+    "case": "primary",
+    "instructions_sha256": "c32b60b88f8b588d269b8ed349ca661f9e67b820c2b31b0ba8e9b7e179dcd813",
+    "prompt_sha256": "ff448bd6efb202168ee5a0777f23c900d07030f945317b7d56f823b5d75b0899",
+    "response_sha256": "4b1cbfac40bf894af0fce9633470659c497c0c88886ab5051cbaef72c373a8dd",
+    "mode": "same-assistant interactive qualitative walkthrough; serializer is not a model call"
+  },
+  {
+    "member": "jianbo",
+    "case": "organization_contrast",
+    "instructions_sha256": "c32b60b88f8b588d269b8ed349ca661f9e67b820c2b31b0ba8e9b7e179dcd813",
+    "prompt_sha256": "b9d18688a1acd139d048eba4dcc4fdc9591b779ee37db5c71d948cc78ad3cba1",
+    "response_sha256": "8aa078b0907255a906050ca2a07624c2da7a78c35eb62e9e7db96f77fe48d612",
+    "mode": "same-assistant interactive qualitative walkthrough; serializer is not a model call"
+  },
+  {
+    "member": "minghan",
+    "case": "primary",
+    "instructions_sha256": "9e36417559b054e451d8a50d53ec0395f846136c3934eb8f24eedb32e4fc9781",
+    "prompt_sha256": "a4f0b6dc6bee1ef63e2e88f672d89d9d183db1f3b32223784b4eb6f3fa59f494",
+    "response_sha256": "af641d7d6754412bb054b173d3021f4c10db18c852fe580a6aad68cab2698c09",
+    "mode": "same-assistant interactive qualitative walkthrough; serializer is not a model call"
+  },
+  {
+    "member": "minghan",
+    "case": "organization_contrast",
+    "instructions_sha256": "9e36417559b054e451d8a50d53ec0395f846136c3934eb8f24eedb32e4fc9781",
+    "prompt_sha256": "7f8c3043cad867edaee3e0be0a64a58b522bc391dc1380fa8e40a7ab00ac4277",
+    "response_sha256": "5137a887675fcac304b0793a24485f06259c90e87f717ea75306f722506aa5e4",
+    "mode": "same-assistant interactive qualitative walkthrough; serializer is not a model call"
+  }
+]

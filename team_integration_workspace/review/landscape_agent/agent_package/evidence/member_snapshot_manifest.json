@@ -1,0 +1,164 @@
+[
+  {
+    "member": "yufei",
+    "path": "evidence/member_snapshots/yufei/specialist/agent_metadata.json",
+    "sha256": "3fb999cbb7aac3be48641863cfc64ec0204229daff7f455b8b9f41ed24633526",
+    "kind": "attributed original, not endorsed current team evidence"
+  },
+  {
+    "member": "yufei",
+    "path": "evidence/member_snapshots/yufei/specialist/specialist_instructions.md",
+    "sha256": "faad92d9238b4d4669c6885ca8521848e69cd6780fdfd523429d3b3e0c237e8e",
+    "kind": "attributed original, not endorsed current team evidence"
+  },
+  {
+    "member": "yufei",
+    "path": "evidence/member_snapshots/yufei/specialist/responses/primary_response.json",
+    "sha256": "217bbdb1ffecfe377bde38e158199bfb59dbc3ea311f0b0b7a6a17f851131eb1",
+    "kind": "attributed original, not endorsed current team evidence"
+  },
+  {
+    "member": "yufei",
+    "path": "evidence/member_snapshots/yufei/original_agent_record.docx",
+    "sha256": "5c7d94d29edb97760b130e6c7f2fe7ea8d5110656655df21f153106643d50005",
+    "kind": "attributed original Agent Record, not an alternative team submission"
+  },
+  {
+    "member": "chutong",
+    "path": "evidence/member_snapshots/chutong/specialist/agent_metadata.json",
+    "sha256": "744247a4db809db211ac811bd8a4e3202171f5866a242e0a356bbbcbeb109333",
+    "kind": "attributed original, not endorsed current team evidence"
+  },
+  {
+    "member": "chutong",
+    "path": "evidence/member_snapshots/chutong/specialist/specialist_instructions.md",
+    "sha256": "7534dce57296403e7b9dd84a99466049f8bedb033497e4420d2a3b57b3e1db56",
+    "kind": "attributed original, not endorsed current team evidence"
+  },
+  {
+    "member": "chutong",
+    "path": "evidence/member_snapshots/chutong/specialist/evidence/source_register.json",
+    "sha256": "6712d7a055a3ff7c93819560a8ce0fbb7abdfdfe9d7d815eff0250243de7f676",
+    "kind": "attributed original, not endorsed current team evidence"
+  },
+  {
+    "member": "chutong",
+    "path": "evidence/member_snapshots/chutong/specialist/responses/final/primary.json",
+    "sha256": "3b783262095f6c02031b8200061051c4260526a0be045ee6e03e446e6e3d3a1a",
+    "kind": "attributed original, not endorsed current team evidence"
+  },
+  {
+    "member": "chutong",
+    "path": "evidence/member_snapshots/chutong/specialist/responses/final/fixed_schema_contrast.json",
+    "sha256": "c2a6452238c15ac750577634552acdd1b3a00e5cf747c7a73583148c9cb71ada",
+    "kind": "attributed original, not endorsed current team evidence"
+  },
+  {
+    "member": "chutong",
+    "path": "evidence/member_snapshots/chutong/original_agent_record.docx",
+    "sha256": "87c96ee7759ec832e47ce24120a29ad851423a63ad63bcbad944dfc4a794882b",
+    "kind": "attributed original Agent Record, not an alternative team submission"
+  },
+  {
+    "member": "jianbo",
+    "path": "evidence/member_snapshots/jianbo/specialist/agent_metadata.json",
+    "sha256": "eca59648f56c9ae25abdd48d6f455a35507c71353695bc330fb7ea09c4bd521d",
+    "kind": "attributed original, not endorsed current team evidence"
+  },
+  {
+    "member": "jianbo",
+    "path": "evidence/member_snapshots/jianbo/specialist/specialist_instructions.md",
+    "sha256": "c32b60b88f8b588d269b8ed349ca661f9e67b820c2b31b0ba8e9b7e179dcd813",
+    "kind": "attributed original, not endorsed current team evidence"
+  },
+  {
+    "member": "jianbo",
+    "path": "evidence/member_snapshots/jianbo/specialist/evidence/source_register.json",
+    "sha256": "aca33dbce2efca832d3da54f711cbe91f20531dbdd35741ab9d70f185ae4b0e8",
+    "kind": "attributed original, not endorsed current team evidence"
+  },
+  {
+    "member": "jianbo",
+    "path": "evidence/member_snapshots/jianbo/specialist/responses/primary_v0.json",
+    "sha256": "7085f4f1c8d97d66b240e9549943c25703f9ebdb811a28727c5e77dfae6d143b",
+    "kind": "attributed original, not endorsed current team evidence"
+  },
+  {
+    "member": "jianbo",
+    "path": "evidence/member_snapshots/jianbo/specialist/responses/primary.json",
+    "sha256": "83b7e4143bd2df584271610b54abcdef081184ac1fb63ea588836e326c09a0e9",
+    "kind": "attributed original, not endorsed current team evidence"
+  },
+  {
+    "member": "jianbo",
+    "path": "evidence/member_snapshots/jianbo/specialist/responses/contrast.json",
+    "sha256": "8e399c064182b8c6897be6586739abc00566579b28e6078950634af4ac00d8e9",
+    "kind": "attributed original, not endorsed current team evidence"
+  },
+  {
+    "member": "jianbo",
+    "path": "evidence/member_snapshots/jianbo/original_agent_record.pdf",
+    "sha256": "7ea89e9016145e4657bb782c95a0222e3fbfaa35877f5cf9373a88528fa07649",
+    "kind": "attributed original Agent Record, not an alternative team submission"
+  },
+  {
+    "member": "minghan",
+    "path": "evidence/member_snapshots/minghan/specialist/agent_metadata.json",
+    "sha256": "32206a00194f8565bcd31dcc7377658270ba16ab52e98a9ba3f3208526257e6f",
+    "kind": "attributed original, not endorsed current team evidence"
+  },
+  {
+    "member": "minghan",
+    "path": "evidence/member_snapshots/minghan/specialist/specialist_instructions.md",
+    "sha256": "9e36417559b054e451d8a50d53ec0395f846136c3934eb8f24eedb32e4fc9781",
+    "kind": "attributed original, not endorsed current team evidence"
+  },
+  {
+    "member": "minghan",
+    "path": "evidence/member_snapshots/minghan/specialist/evidence/source_register.json",
+    "sha256": "70c90896b2a4dcbd11d41ac385621d7f010db96e5e6651f0fa496787c5ef3f6e",
+    "kind": "attributed original, not endorsed current team evidence"
+  },
+  {
+    "member": "minghan",
+    "path": "evidence/member_snapshots/minghan/specialist/records/landscape_framework.md",
+    "sha256": "a1fb83cfc31b9238bcc098c04724ce3a7f00b37f62301c25b85e1df5ea259cd2",
+    "kind": "attributed original, not endorsed current team evidence"
+  },
+  {
+    "member": "minghan",
+    "path": "evidence/member_snapshots/minghan/specialist/records/signal_filter.md",
+    "sha256": "350f6bed6fa0131ae9818d223ec84c93a666b4afc998f9062f1ee7710172893c",
+    "kind": "attributed original, not endorsed current team evidence"
+  },
+  {
+    "member": "minghan",
+    "path": "evidence/member_snapshots/minghan/specialist/responses/contrast_1_response.json",
+    "sha256": "f127de9fd1216be5a0c7a5cd0abcf803cd790de50e298d33786a538373f35535",
+    "kind": "attributed original, not endorsed current team evidence"
+  },
+  {
+    "member": "minghan",
+    "path": "evidence/member_snapshots/minghan/specialist/responses/contrast_2_response.json",
+    "sha256": "11eb51b60e0c08e1325dce6afafb3ae10e95d45d666e631bb7e5114dab963862",
+    "kind": "attributed original, not endorsed current team evidence"
+  },
+  {
+    "member": "minghan",
+    "path": "evidence/member_snapshots/minghan/specialist/responses/primary_response.json",
+    "sha256": "590e66f7170c9754908439b5a8e8df6290bcb3251c0b519d69cb15403890f567",
+    "kind": "attributed original, not endorsed current team evidence"
+  },
+  {
+    "member": "minghan",
+    "path": "evidence/member_snapshots/minghan/specialist/responses/hype_probe_response.json",
+    "sha256": "c9d9d74faa40ec06a4e2294e973642112cb7311f433fdb141628534e1f47b2ea",
+    "kind": "attributed original, not endorsed current team evidence"
+  },
+  {
+    "member": "minghan",
+    "path": "evidence/member_snapshots/minghan/original_agent_record.docx",
+    "sha256": "dddfe325f3108cb33798d8e00a1b4379f5dfda90e729004e86555890e60917c8",
+    "kind": "attributed original Agent Record, not an alternative team submission"
+  }
+]

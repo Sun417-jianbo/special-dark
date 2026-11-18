@@ -1,0 +1,54 @@
+[
+  {
+    "id": "S1",
+    "title": "Microsoft Copilot overview",
+    "url": "https://learn.microsoft.com/en-us/copilot/plan/copilot-overview",
+    "date": "2026-11-10",
+    "type": "vendor documentation",
+    "claim": "Grounding, integration and licensing differ across Copilot experiences; access is scoped by permissions.",
+    "limit": "Vendor capability documentation, not independent accuracy or ROI evidence. No tenant entitlement or price verified.",
+    "refresh": "Before any pilot and monthly; immediately on licensing or feature change",
+    "checked_on": "2026-11-15",
+    "date_kind": "publication or displayed update date",
+    "evidence_period": "Historical deployment for S3; documentation state for S1/S2; framework publication for S4"
+  },
+  {
+    "id": "S2",
+    "title": "Generative AI in Google Workspace Privacy Hub",
+    "url": "https://knowledge.workspace.google.com/admin/generative-ai/generative-ai-in-google-workspace-privacy-hub",
+    "date": "2026-10-06",
+    "type": "vendor documentation",
+    "claim": "For covered qualifying Workspace services, content access follows permissions and customer data is not used for model training without prior permission or instruction.",
+    "limit": "Applies to specified covered services and editions, not all consumer or third-party tools. No comparative accuracy evidence.",
+    "refresh": "Before any pilot and monthly; immediately on terms or connector change",
+    "checked_on": "2026-11-15",
+    "date_kind": "publication or displayed update date",
+    "evidence_period": "Historical deployment for S3; documentation state for S1/S2; framework publication for S4"
+  },
+  {
+    "id": "S3",
+    "title": "Generative AI at Work",
+    "url": "https://doi.org/10.1093/qje/qjae044",
+    "date": "2025-02-04",
+    "type": "independent empirical research",
+    "claim": "Study of 5,172 customer-support agents reports a 15% mean improvement in issues resolved per hour, with heterogeneous effects.",
+    "limit": "Historical single-company deployment; not a 2026 market adoption measure, syllabus accuracy result, or cost-saving guarantee. Do not mix earlier working-paper estimates with final article.",
+    "refresh": "Quarterly literature check; never relabel study results as current market data",
+    "checked_on": "2026-11-15",
+    "date_kind": "publication or displayed update date",
+    "evidence_period": "Historical deployment for S3; documentation state for S1/S2; framework publication for S4"
+  },
+  {
+    "id": "S4",
+    "title": "NIST AI 600-1 Generative Artificial Intelligence Profile",
+    "url": "https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-generative-artificial-intelligence",
+    "date": "2024-07-26",
+    "type": "standards body guidance",
+    "claim": "Cross-sectoral companion to the voluntary AI Risk Management Framework for generative AI.",
+    "limit": "Guidance, not a binding law, product certification or proof of local compliance.",
+    "refresh": "Quarterly and on announced revisions",
+    "checked_on": "2026-11-15",
+    "date_kind": "publication or displayed update date",
+    "evidence_period": "Historical deployment for S3; documentation state for S1/S2; framework publication for S4"
+  }
+]

@@ -1,0 +1,79 @@
+{
+  "agent": {
+    "name": "Emerging Technology Landscape Agent",
+    "specialty": "Dated technology landscape and decision triggers",
+    "version": "0.1-student"
+  },
+  "analytical_question": "Which alternative leads for this application, what landscape change would justify reassessment, and what can management do within current authority?",
+  "general_et_finding": "As of 2026-11-11, the supplied record documents agent experimentation and some scaling across functions (S6), emerging shared tool interfaces (S4), and adjacent embedded BI summarization (S1). These signals indicate an active ecosystem with some scaled use. The maturity of reliable, permissioned multi-step chart review remains unverified. ChartQA (S3) illustrates the reasoning problem, and NIST (S5) identifies confabulation and the need for contextual evaluation and oversight.",
+  "application_finding": "A hybrid of deterministic checks and manual review leads as the near-term baseline. Checks can reconcile known values, filters and denominators where rules exist. Analysts can interpret visual context and review proposed corrections. An agent has the strongest potential to assist the open-ended work by selecting read-only tools, comparing charts and claims against source tables and drafting corrections, but its incremental accuracy and effort savings are unmeasured. Embedded BI can summarize with visual citations, but the supplied documentation does not demonstrate source-row reconciliation or reliable correction drafting.",
+  "organization_specific_finding": "Organization A has BI tables, analysts and mandatory human sign-off. Its conservative posture and the consequences of a misleading report favor retaining manual interpretation with traceable checks where approved. The agent is a candidate for authorized learning because visual interpretation and correction drafting may create value.",
+  "evidence": [
+    {
+      "claim": "Documents report summaries with visual citations; prerequisites and scope limits include tenant enablement, eligible capacity and limitations on filters and sampled data.",
+      "source_or_reference": "S1 | Microsoft Learn, Summarize a report with Copilot | https://learn.microsoft.com/en-us/power-bi/create-reports/copilot-pane-summarize-content",
+      "date_or_recency": "Live documentation checked 2026-11-11",
+      "evidence_type": "Vendor capability documentation",
+      "notes": "Summary citations point to visuals, not proof of exact source-row, denominator or filter reconciliation. Tenant eligibility, price and accuracy are unverified."
+    },
+    {
+      "claim": "Documents pairwise column equality and custom SQL checks, including cross-table integrity.",
+      "source_or_reference": "S2 | Great Expectations, Validate data integrity with GX | https://legacy.docs.greatexpectations.io/docs/reference/learn/data_quality_use_cases/integrity/",
+      "date_or_recency": "Documentation checked 2026-11-11",
+      "evidence_type": "Implementation documentation",
+      "notes": "Illustrates a deterministic baseline; does not establish that the firm uses GX or that checks cover visual interpretation. Verify exact installed version before use."
+    },
+    {
+      "claim": "Chart QA combines visual and logical reasoning, with human-authored and generated questions.",
+      "source_or_reference": "S3 | Masry et al., ChartQA | https://aclanthology.org/2022.findings-acl.177/",
+      "date_or_recency": "May 2022; checked 2026-11-11",
+      "evidence_type": "Peer-reviewed benchmark",
+      "notes": "Historical benchmark, not current model ranking or evidence of this exact workflow, cost or reliability."
+    },
+    {
+      "claim": "Dated MCP release illustrates evolving shared tool interfaces.",
+      "source_or_reference": "S4 | Model Context Protocol, One Year of MCP | https://blog.modelcontextprotocol.io/posts/2025-11-25-first-mcp-anniversary/",
+      "date_or_recency": "2025-11-25; checked 2026-11-11",
+      "evidence_type": "Protocol maintainer release note",
+      "notes": "Example edition, not a latest-version claim; protocol availability does not ensure compatibility, read-only enforcement or permission."
+    },
+    {
+      "claim": "Confabulation and contextual evaluation support measuring task performance and retaining human oversight and monitoring.",
+      "source_or_reference": "S5 | NIST AI 600-1, Generative AI Profile | https://doi.org/10.6028/NIST.AI.600-1",
+      "date_or_recency": "July 2024; checked 2026-11-11",
+      "evidence_type": "Voluntary public guidance",
+      "notes": "No assertion of legal compliance, certification or local effectiveness."
+    },
+    {
+      "claim": "In the 2025 survey 23% of respondents reported scaling agents in at least one function and another 39% reported experimenting.",
+      "source_or_reference": "S6 | McKinsey, The state of AI in 2025 | https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai-2025",
+      "date_or_recency": "2025-11-05; checked 2026-11-11",
+      "evidence_type": "Consulting survey",
+      "notes": "Historical self-report across functions, not a current population estimate or financial chart-review adoption."
+    },
+    {
+      "claim": "Constructed TW8 baseline: BI tables and analysts exist; human sign-off required. No approved model route or approved substitute is supplied; owner/deputy, protected review capacity and workflow evidence are unresolved.",
+      "source_or_reference": "Supplied hypothetical Organization A case, based on Special Dark TW8 Organizational Adoption team record",
+      "date_or_recency": "2026-11-10 record, case dated 2026-11-11",
+      "evidence_type": "Constructed case context",
+      "notes": "Fictional scenario with no observed enterprise results, contract, approval or task validation."
+    }
+  ],
+  "contrary_evidence_or_limitations": [
+    "Hype-sensitive claim: survey evidence of agent scaling proves agents are ready to review regulated charts. S6 is historical cross-function self-report and supplies no evidence for this workflow.",
+    "S2 illustrates deterministic implementation patterns. Local tooling and compatibility are unresolved. S3 provides historical benchmark context and cannot establish current model performance. S4 does not verify local permissions or compatibility."
+  ],
+  "confidence_and_uncertainty": "Moderate confidence that manual interpretation with deterministic checks is the defensible baseline and that an agent could add flexibility. Low confidence in local accuracy, incremental value and operating readiness.",
+  "value_opportunity_implication": "Measure net analyst minutes including correction and sign-off, missed and false findings by severity, and source traceability against the manual and deterministic baseline. Include visual interpretation and correction quality.",
+  "risk_governance_implication": "A wrong denominator, fabricated claim or privacy breach could affect reporting decisions. Require approved read-only access, a traceable link from each proposed correction to source evidence, human stopping authority and sign-off. No autonomous publication or financial or customer decisions.",
+  "recommendation_management_implication": "Keep the existing manual workflow and spend two weeks mapping the review process and comparing paper designs for manual review, deterministic checks, embedded BI and agent assistance. No approved model route or substitute is supplied. Confirm the authorization path, accountable owner and deputy, and protected reviewer capacity. Any subsequent four-week learning is isolated, uses public or synthetic material and requires independent authorization. Routine use requires a separate decision.",
+  "change_monitoring_triggers": [
+    "Reassess the agent if task-specific evidence demonstrates reliable chart and claim interpretation, reproducible source-row and filter traceability, and lower total review effort than the baseline.",
+    "Review changes in BI prerequisites, connector compatibility or tool interfaces when they alter feasible access, control enforcement or cost. Verify the applicable version and tenant conditions.",
+    "Review scope after a written authorization decision, confirmed operating ownership and protected review capacity. Treat routine use as a separate decision."
+  ],
+  "abstention_or_more_information_needed": [
+    "Abstain from a deployment, ROI or current vendor ranking judgment. Obtain authorized access terms, tenant eligibility, verified cost, accountable owner/deputy, protected capacity and workflow evidence.",
+    "Obtain representative charts, claims and approved source mappings, labeled errors and corrections, and the manual review effort and severity baseline."
+  ]
+}

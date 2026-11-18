@@ -1,0 +1,161 @@
+{
+  "agent": {
+    "name": "Emerging Technology Landscape Agent",
+    "specialty": "Dated technology-landscape assessment that separates broad signals from the few that can change this organization's decision, with typed evidence and monitoring triggers",
+    "version": "1.1"
+  },
+  "analytical_question": "Where does this emerging technology and application sit in the current technology landscape, which development matters most for this organization within its horizon, and what signals should it monitor next?",
+  "general_et_finding": "As of 2026-11-15 [broad landscape for agentic AI in general; identical for every case]. Capability is rising fast but unevenly. On TheAgentCompany's simulated workplace tasks, the best listed result rose from 24.0% (a model published October 2024) to 42.9% (a model published September 2025) (D35); the 30% figure the team has used since Assignment 6 (E11) is therefore stale, and the leaderboard itself lags because no model released after September 2025 is listed. In peer-reviewed tests, reliability on multi-turn, policy-bound service tasks was the weak point (pass^8 below 25% in retail for 2024 models, D34); the register holds no newer independent figure. The price of reaching a given performance level fell 9x to 900x a year depending on the task (D46), while vendors price agents per action (D22: a May 2025 list price, STALE-RISK). Standards are consolidating: MCP, AGENTS.md and goose have sat under the Linux Foundation's Agentic AI Foundation since 2025-12-09 (D38), and OWASP published the first agent-specific security risk list in December 2025 (D45). Regulation is arriving unevenly: in the EU, the Article 50 transparency duties apply from 2 August 2026 (D33), and Annex III high-risk obligations are scheduled for 2 December 2027 (D23). Adoption is real but concentrated: 40% of large organizations report scaling agents, most often in IT, knowledge management and software engineering (D42). Investment forecasts are very large (D43), and so are forecast cancellation rates (D7); both are background for any single organization's decision.",
+  "application_finding": "[Application landscape: agent-based applicant support in admissions; identical for every case with this application] Position: existence proofs, not rates. Named deployments exist: Unity Environmental University's Agentforce agent (D39, March 2025); the University of Nottingham Malaysia's agent, which answers questions and books advisor calls and tours (D40, December 2025); and Element451's Bolt agents, including one college where agents 'processed incoming applications' (D41, May 2026). A vendor also offers a pre-built recruitment and admissions skill (D15). None of these reports a measured outcome. The time-saving figures are vendor estimates (D39: 17 hours a week) or vendor claims with undisclosed methods (D41). No survey with a stated denominator measures agent use in admissions: EDUCAUSE's January 2026 survey of 1,960 higher-ed staff has no agent findings (D44), and Ellucian reports FAQ chatbots (36% of admissions/enrollment respondents) but no agent share (D11). Under the denominator rule (C3) the application's diffusion is therefore unmeasured, which is consistent with the Adoption specialist's bleeding-edge class (C4); that class is cited here, not re-scored. Competing technologies: a plain self-scheduling link in a chatbot does the appointment step deterministically (INFERENCE; the D40 deployment itself advertises 'self-schedule in seconds'), and CRM workflow rules and templates cover outreach. Ecosystem direction: agent features are being added to the CRM and engagement platforms that institutions already run (D15, D40, D41), so the realistic path is to configure a platform agent rather than build one. Vendors are also marketing scope beyond applicant support, into application processing (D41). Strongest competing or conventional alternative: a generative or FAQ chatbot over approved content, with staff hand-off and a self-scheduling link. It is past take-off (D11), already in use at NYU (D17), and improving on the same platforms.",
+  "organization_specific_finding": "Landscape position for the Dutch university (as of 2026-11-15): the technology and the application landscape are the same as for SPS, but in this jurisdiction regulation and vendor scope are part of the decision now, not items to watch.\nPosition summary (no single score):\n1 Maturity & capability: rising fast, reliability uneven (rising) | WATCH | D35, D34 (independent); E11 stale\n2 Performance & cost trends: unit prices falling; agents priced per action (falling) | BACKGROUND | D46 (independent), D22 (vendor, stale-risk)\n3 Competing technologies: deterministic scheduling links and CRM rules (stable) | WATCH | D40 (vendor), INFERENCE\n4 Incumbent / conventional alternative: the vendor's FAQ chatbot already in use (improving) | DECISION-RELEVANT | case facts; D11 (industry); the baseline, and the lower-risk path if it gains a scheduling action\n5 Complementary technologies: approved content, EU-hosted data processing, permissions (stable) | WATCH | case facts (data protection officer)\n6 Vendors & ecosystem: a US-based vendor marketing pre-screening and application processing; the market pattern is the same (rising) | DECISION-RELEVANT | case facts; D41 (vendor), D15 (vendor); decides contract scope and provider/deployer status (counsel)\n7 Standards & interoperability: MCP and AGENTS.md under a neutral foundation; agent security list (consolidating) | WATCH | D38, D45 (standard)\n8 Regulation: Article 50 applies since 2026-08-02 (D33); GDPR Article 22 limits decisions based solely on automated processing (D47); Annex III point 3(a) high-risk obligations from 2027-12-02 (D23, D24) (stable but binding) | DECISION-RELEVANT | D33, D47, D23, D24 (standard-reg); decides disclosure design now, excludes pre-screening without a human decision, and shapes any contract that runs past December 2027\n9 Investment & forecasts: very large forecasts (rising noise) | BACKGROUND | D43, D7 (industry forecasts)\n10 Industry adoption: none measured for admissions agents (D44, D11) (stable) | WATCH | industry surveys\nMost decision-relevant development [8 Regulation]: vendor scope creep meeting the EU high-risk boundary. The vendor already markets pre-screening and processing (case facts; D41 shows the market pattern). Uses that determine access or admission are listed as high-risk (D24), with obligations from 2 December 2027 (D23). Decisions based solely on automated processing with significant effects engage GDPR Article 22 (D47). For this university the decision turns less on the agent's capability than on where the contract draws the line: a contract signed in 2026-27 will run past the 2027 date.\nStale/hype-sensitive claim: 'the most competitive agent completes 30% of realistic workplace tasks' (E11). It has anchored the team's maturity statements since Assignment 6. The same benchmark now lists 42.9% for a model published in September 2025 (D35), and the leaderboard lags newer models. The refresh shows capability rising faster than the team's records, but it contains no evidence about this application, so it changes no class and no step. Refresh class: FAST (quarterly).\nPopular but not decision-changing for this university: the 40% forecast (D43), large-organization scaling rates (D42), coding-benchmark records (D48) and vendor time-saving totals (D41).",
+  "evidence": [
+    {
+      "claim": "Best listed TheAgentCompany result 42.9% (model published 2025-09-29), up from 24.0% for a model published 2024-10-22.",
+      "source_or_reference": "[D35] TheAgentCompany leaderboard, Epoch AI data via BenchLeader",
+      "date_or_recency": "data as of 2026-11-15",
+      "evidence_type": "INDEPENDENT; grade B; refresh FAST",
+      "notes": "Harness-dependent; the leaderboard lags newer models."
+    },
+    {
+      "claim": "'The most competitive agent can complete 30% of tasks autonomously.'",
+      "source_or_reference": "[E11] TheAgentCompany paper (NeurIPS 2025)",
+      "date_or_recency": "2025 (v3 2025-09-10)",
+      "evidence_type": "INDEPENDENT; grade B; refresh FAST",
+      "notes": "STALE-RISK: superseded by D35."
+    },
+    {
+      "claim": "gpt-4o succeeds on <50% of tau-bench tasks; pass^8 < 25% in retail.",
+      "source_or_reference": "[D34] Yao et al., ICLR 2025",
+      "date_or_recency": "2024-06 / ICLR 2025",
+      "evidence_type": "INDEPENDENT; grade B; refresh FAST",
+      "notes": "2024 models; STALE-RISK; no newer independent figure in the register."
+    },
+    {
+      "claim": "Price to reach a given performance level fell 9x-900x per year.",
+      "source_or_reference": "[D46] Epoch AI",
+      "date_or_recency": "2025-03-12",
+      "evidence_type": "INDEPENDENT; grade B; refresh FAST",
+      "notes": "Task-dependent; STALE-RISK (over 6 months)."
+    },
+    {
+      "claim": "Agent actions priced per action ($0.10 via Flex Credits).",
+      "source_or_reference": "[D22] Salesforce press release",
+      "date_or_recency": "2025-05-15",
+      "evidence_type": "VENDOR; grade B; refresh FAST",
+      "notes": "List price only; STALE-RISK."
+    },
+    {
+      "claim": "'Article 50 of the AI Act applies from 2 August 2026'; people must be informed when they interact directly with an AI system.",
+      "source_or_reference": "[D33] European Commission",
+      "date_or_recency": "page updated 2026-08-06",
+      "evidence_type": "STANDARD-REG; grade A; refresh SLOW",
+      "notes": "Scope for a given organization is for counsel."
+    },
+    {
+      "claim": "Right not to be subject to a decision based solely on automated processing with legal or similarly significant effects; right to human intervention.",
+      "source_or_reference": "[D47] GDPR Article 22",
+      "date_or_recency": "in force 2018-05-25",
+      "evidence_type": "STANDARD-REG; grade A; refresh SLOW",
+      "notes": ""
+    },
+    {
+      "claim": "Annex III high-risk obligations moved to 2 December 2027.",
+      "source_or_reference": "[D23] Future of Privacy Forum",
+      "date_or_recency": "2026-07-28 (updated 2026-08-05)",
+      "evidence_type": "STANDARD-REG; grade B; refresh SLOW",
+      "notes": "Secondary legal analysis."
+    },
+    {
+      "claim": "Annex III point 3(a): AI to determine access or admission to education is high-risk.",
+      "source_or_reference": "[D24] EU AI Act Service Desk",
+      "date_or_recency": "accessed 2026-11-01",
+      "evidence_type": "STANDARD-REG; grade A; refresh SLOW",
+      "notes": ""
+    },
+    {
+      "claim": "Bolt agents include application processing at one college; '67+ work years' claim with undisclosed method (11.8M minutes is ~95 work-years at 2,080 h).",
+      "source_or_reference": "[D41] Element451",
+      "date_or_recency": "2026-05-28 / 2025-12-17",
+      "evidence_type": "VENDOR; grade C; refresh FAST",
+      "notes": "Arithmetic check is INFERENCE."
+    },
+    {
+      "claim": "Pre-built recruitment and admissions agent skill.",
+      "source_or_reference": "[D15] Salesforce Agentforce for Education",
+      "date_or_recency": "accessed 2026-10-25",
+      "evidence_type": "VENDOR; grade C; refresh FAST",
+      "notes": ""
+    },
+    {
+      "claim": "Nottingham Malaysia's agent answers questions and books advisor calls and tours; outcomes stated as aims.",
+      "source_or_reference": "[D40] Salesforce press release",
+      "date_or_recency": "2025-12-15",
+      "evidence_type": "VENDOR; grade B; refresh MEDIUM",
+      "notes": "Existence proof only."
+    },
+    {
+      "claim": "36% of admissions/enrollment respondents use FAQ chatbots; no agent share reported.",
+      "source_or_reference": "[D11] Ellucian 2026 AI report",
+      "date_or_recency": "survey Sept-Nov 2025",
+      "evidence_type": "INDUSTRY; grade B; refresh MEDIUM",
+      "notes": "Vendor-sponsored survey with stated sample."
+    },
+    {
+      "claim": "94% of higher-ed staff respondents used AI for work; no findings on agents; 6% use AI for application screening.",
+      "source_or_reference": "[D44] EDUCAUSE, The Impact of AI on Work in Higher Education",
+      "date_or_recency": "2026-01 (survey Sept-Oct 2025)",
+      "evidence_type": "INDUSTRY; grade B; refresh MEDIUM",
+      "notes": ""
+    },
+    {
+      "claim": "MCP, goose and AGENTS.md placed under the Agentic AI Foundation; 10,000+ MCP servers and 60,000+ AGENTS.md projects (self-reported).",
+      "source_or_reference": "[D38] Linux Foundation press release",
+      "date_or_recency": "2025-12-09",
+      "evidence_type": "STANDARD-REG; grade A; refresh SLOW",
+      "notes": ""
+    },
+    {
+      "claim": "OWASP Top 10 for Agentic Applications: ASI01 goal hijack ... ASI10 rogue agents.",
+      "source_or_reference": "[D45] OWASP GenAI Security Project (via Giskard summary)",
+      "date_or_recency": "2025-12",
+      "evidence_type": "STANDARD-REG; grade B; refresh SLOW",
+      "notes": "Secondary summary."
+    },
+    {
+      "claim": "Forecast: 40% of enterprise apps with task-specific agents by 2026; ~$450 billion by 2035 (best case).",
+      "source_or_reference": "[D43] Gartner press release",
+      "date_or_recency": "2025-08-26",
+      "evidence_type": "INDUSTRY; grade C; refresh MEDIUM",
+      "notes": "Forecast: background only."
+    },
+    {
+      "claim": "Forecast: over 40% of agentic AI projects cancelled by end-2027.",
+      "source_or_reference": "[D7] Gartner",
+      "date_or_recency": "2025-06-25",
+      "evidence_type": "INDUSTRY; grade B; refresh MEDIUM",
+      "notes": "Forecast: background only."
+    }
+  ],
+  "contrary_evidence_or_limitations": [
+    "No representative rate of agent use in admissions exists in the register; application-level adoption rests on existence proofs (D39-D41).",
+    "Several key sources are secondary summaries (D36 via a blog report, D45 via a vendor summary, D35 via a mirror of Epoch AI data).",
+    "Independent reliability evidence for service agents dates from 2024 models (D34) and is STALE-RISK.",
+    "Generation and review occurred in the same session with Claude in place of ChatGPT; tiers are judgments and were not blinded.",
+    "The organization is synthetic; national (Dutch) guidance is not in the register.",
+    "The upstream SPS class and readiness findings (C4, C6) do not transfer to this university."
+  ],
+  "confidence_and_uncertainty": "Moderate-to-high that regulation is decision-relevant here, because the official texts are binding and dated (D33, D47, D24). Low on the exact obligations, which depend on the provider/deployer question and the final scope (counsel).",
+  "value_opportunity_implication": "The value case is the same as for any admissions office, but compliance work is part of the cost from the start. A FAQ chatbot that gains a scheduling action may deliver most of the value inside a simpler compliance perimeter.",
+  "risk_governance_implication": "The main risk is drifting into high-risk use: pre-screening or processing applications through vendor features that are bundled or enabled by default (D24, D41). Decisions that are, in effect, solely automated engage GDPR Article 22 (D47). AI interaction must be disclosed (D33).",
+  "recommendation_management_implication": "Position implication: keep any trial limited to applicant information and appointment requests, with staff approval. Disclose AI interaction in the interface (D33). By contract, exclude pre-screening, processing and any decision 'based solely on automated processing' (D47). Ask counsel to settle the provider/deployer question before anything is configured, and require EU data-processing terms (case, data protection officer). Refresh regulation on every official change. The application landscape is the same as for SPS; only relevance differs. The SPS class and readiness findings do not transfer: the Adoption and Readiness specialists would need to run for this university. Not this agent's call: legal obligations (legal counsel).",
+  "change_monitoring_triggers": [
+    "TRIGGER 1 [8 Regulation]: Watch Commission guidance on Article 50 and on high-risk classification for education, national supervisory-authority statements and any change to the 2 December 2027 date | Cadence event-driven, checked monthly until a contract is signed | Threshold guidance that places applicant-support or pre-screening agents in Annex III point 3(a), or a change to the date | Then re-scope the contract with counsel | Watcher legal counsel",
+    "TRIGGER 2 [6 Vendors & ecosystem]: Watch the vendor's feature releases and default settings | Cadence quarterly | Threshold any feature that scores, ranks or screens applicants is enabled by default or bundled | Then disable it by contract and re-assess with the data protection officer | Watcher data protection officer",
+    "TRIGGER 3 [4 Incumbent / conventional alternative]: Watch the existing FAQ chatbot's roadmap | Cadence quarterly | Threshold the vendor adds a self-scheduling or appointment action to the FAQ chatbot without agentic scope | Then test that lower-risk option first | Watcher university IT",
+    "TRIGGER 4 [10 Industry adoption]: Watch for measured outcomes from EU peer universities | Cadence semiannual | Threshold two or more named EU institutions publish measured results not authored by the vendor | Then ask the Adoption specialist to classify the application for this university | Watcher director of admissions",
+    "REFRESH: SLOW claims (regulation) on every official change and monthly until the contract is signed; FAST claims (vendor features) quarterly; MEDIUM claims (adoption) semiannually."
+  ],
+  "abstention_or_more_information_needed": [
+    "INFORMATION REQUEST: counsel's view on whether the university would be the provider or the deployer of an agent built on the vendor's platform, and the vendor's EU data-processing terms. Who has it: legal counsel and the data protection officer. Why it matters: both decide the obligations under Article 50 and the scope of any contract. Not decided here."
+  ]
+}

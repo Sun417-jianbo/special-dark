@@ -1,0 +1,111 @@
+{
+  "agent": {
+    "name": "Emerging Technology Landscape Agent",
+    "specialty": "Dated technology-landscape assessment that separates broad signals from the few that can change this organization's decision, with typed evidence and monitoring triggers",
+    "version": "1.1"
+  },
+  "analytical_question": "Where does this emerging technology and application sit in the current technology landscape, which development matters most for this organization within its horizon, and what signals should it monitor next?",
+  "general_et_finding": "As of 2026-11-15 [broad landscape for agentic AI in general; identical for every case]. Capability is rising fast but unevenly. On TheAgentCompany's simulated workplace tasks, the best listed result rose from 24.0% (a model published October 2024) to 42.9% (a model published September 2025) (D35); the 30% figure the team has used since Assignment 6 (E11) is therefore stale, and the leaderboard itself lags because no model released after September 2025 is listed. In peer-reviewed tests, reliability on multi-turn, policy-bound service tasks was the weak point (pass^8 below 25% in retail for 2024 models, D34); the register holds no newer independent figure. The price of reaching a given performance level fell 9x to 900x a year depending on the task (D46), while vendors price agents per action (D22: a May 2025 list price, STALE-RISK). Standards are consolidating: MCP, AGENTS.md and goose have sat under the Linux Foundation's Agentic AI Foundation since 2025-12-09 (D38), and OWASP published the first agent-specific security risk list in December 2025 (D45). Regulation is arriving unevenly: in the EU, the Article 50 transparency duties apply from 2 August 2026 (D33), and Annex III high-risk obligations are scheduled for 2 December 2027 (D23). Adoption is real but concentrated: 40% of large organizations report scaling agents, most often in IT, knowledge management and software engineering (D42). Investment forecasts are very large (D43), and so are forecast cancellation rates (D7); both are background for any single organization's decision.",
+  "application_finding": "[Application landscape: coding agents for a software engineering team] Position: the most developed application of agentic AI, with contested evidence on net productivity. Agents are scaled most often in IT, knowledge management and software engineering (D42). 80% of developers use AI tools, but trust in their accuracy fell to 29%, and the answer to whether the agent revolution is here was 'not yet', although 52% say agents have changed how they work (D37). Coding leads the standards activity: AGENTS.md is used in more than 60,000 open-source projects, and goose is an open-source agent; both sit under the Agentic AI Foundation (D38). The evidence is split. The headline benchmark is saturated: the top SWE-bench Verified scores of 88.6% to 96% are all vendor self-reports on a benchmark that the aggregator marks as contaminated (D48). The one randomized trial in the register found experienced developers 19% slower with early-2025 tools, although they believed they were 20% faster (D36). The security risks are specific to this application: unexpected code execution (ASI05), supply-chain vulnerabilities (ASI04) and goal hijack (ASI01) are listed agent risks (D45). Competing technologies: the IDE assistants the team already uses, CI automation and conventional refactoring tools. Strongest competing or conventional alternative: the existing IDE assistant (autocomplete and chat) with mandatory human code review. It is already deployed and trusted, so an agent must beat it on net cycle time without more defects. No upstream course classification exists for this application; the Adoption specialist would have to classify it.",
+  "organization_specific_finding": "Landscape position for the software company (as of 2026-11-15): coding is where agentic AI is furthest along, but the decision-relevant evidence is the company's own measured productivity, not public benchmarks or peers' adoption.\nPosition summary (no single score):\n1 Maturity & capability: rising fast; the public coding benchmark is saturated; independent productivity evidence is mixed (rising) | DECISION-RELEVANT | D36, D35 (independent); D48 (vendor self-reports); decides whether a broad rollout or a measured trial comes first\n2 Performance & cost trends: unit prices falling; agents consume many more tokens than an assistant (falling unit cost) | DECISION-RELEVANT | D46 (independent), INFERENCE; tool spend is a stated constraint and decides usage vs seat plans\n3 Competing technologies: IDE assistants, CI automation, refactoring tools (stable) | WATCH | D37 (industry)\n4 Incumbent / conventional alternative: the existing IDE assistant plus human code review (stable) | DECISION-RELEVANT | case facts; D36 (independent); the baseline the trial must beat\n5 Complementary technologies: CI test coverage, code review, repository permissions (stable) | WATCH | INFERENCE; agents are only as safe as the tests and reviews that catch their errors\n6 Vendors & ecosystem: many vendors; open conventions (AGENTS.md, goose) lower lock-in (rising) | WATCH | D38 (standard)\n7 Standards & interoperability: the agent security list names code execution, supply-chain and goal-hijack risks (rising) | DECISION-RELEVANT | D45 (standard); with the customer-code contracts, decides sandboxing and data terms\n8 Regulation: nothing specific to coding agents in the register; customer contracts matter more (stable) | BACKGROUND | none in register\n9 Investment & forecasts: very large forecasts (rising noise) | BACKGROUND | D43, D7 (industry forecasts)\n10 Industry adoption: widespread AI-tool use, partial agent use (rising) | BACKGROUND | D37, D42 (industry); peers' adoption does not tell this team whether it gets faster\nMost decision-relevant development [1 Maturity & capability]: the gap between perceived and measured productivity. The public benchmark has saturated on vendor self-reports (D48). The only randomized evidence found experienced developers slower on their own codebases while they believed they were faster (D36). The rollout decision therefore depends on the company's own controlled comparison against its IDE assistant, not on the market's direction.\nStale/hype-sensitive claim: 'the most competitive agent completes 30% of realistic workplace tasks' (E11). It has anchored the team's maturity statements since Assignment 6. The same benchmark now lists 42.9% for a model published in September 2025 (D35), and the leaderboard lags newer models. The refresh shows capability rising faster than the team's records, but it contains no evidence about this application, so it changes no class and no step. Refresh class: FAST (quarterly). For this application the more hype-prone figure is the near-ceiling SWE-bench Verified score (D48), which is vendor-reported, saturated and not evidence of productivity.\nPopular but not decision-changing for this company: adoption rates (D37, D42), the agentic revenue forecasts (D43) and benchmark records (D48).",
+  "evidence": [
+    {
+      "claim": "Best listed TheAgentCompany result 42.9% (model published 2025-09-29), up from 24.0% for a model published 2024-10-22.",
+      "source_or_reference": "[D35] TheAgentCompany leaderboard, Epoch AI data via BenchLeader",
+      "date_or_recency": "data as of 2026-11-15",
+      "evidence_type": "INDEPENDENT; grade B; refresh FAST",
+      "notes": "Harness-dependent; the leaderboard lags newer models."
+    },
+    {
+      "claim": "'The most competitive agent can complete 30% of tasks autonomously.'",
+      "source_or_reference": "[E11] TheAgentCompany paper (NeurIPS 2025)",
+      "date_or_recency": "2025 (v3 2025-09-10)",
+      "evidence_type": "INDEPENDENT; grade B; refresh FAST",
+      "notes": "STALE-RISK: superseded by D35."
+    },
+    {
+      "claim": "Randomized trial: experienced developers took 19% longer with early-2025 AI tools; they believed AI sped them up by 20%.",
+      "source_or_reference": "[D36] METR study, via Simon Willison",
+      "date_or_recency": "2025-07-10",
+      "evidence_type": "INDEPENDENT; grade B; refresh MEDIUM",
+      "notes": "n=16; secondary summary."
+    },
+    {
+      "claim": "80% use AI tools; trust 29%; agents 'not yet' a revolution; 52% say agents affected their work.",
+      "source_or_reference": "[D37] Stack Overflow 2025 Developer Survey",
+      "date_or_recency": "2025 (results page dated 2025-12-29)",
+      "evidence_type": "INDUSTRY; grade B; refresh MEDIUM",
+      "notes": "Self-selected sample."
+    },
+    {
+      "claim": "MCP, goose and AGENTS.md placed under the Agentic AI Foundation; 10,000+ MCP servers and 60,000+ AGENTS.md projects (self-reported).",
+      "source_or_reference": "[D38] Linux Foundation press release",
+      "date_or_recency": "2025-12-09",
+      "evidence_type": "STANDARD-REG; grade A; refresh SLOW",
+      "notes": ""
+    },
+    {
+      "claim": "40% of large organizations scaling agents (from 27%); most often in IT, knowledge management, software engineering.",
+      "source_or_reference": "[D42] McKinsey, The state of AI",
+      "date_or_recency": "2026-08-25 (survey May-June 2026)",
+      "evidence_type": "INDUSTRY; grade B; refresh MEDIUM",
+      "notes": "Self-reported."
+    },
+    {
+      "claim": "OWASP Top 10 for Agentic Applications: ASI01 goal hijack ... ASI10 rogue agents.",
+      "source_or_reference": "[D45] OWASP GenAI Security Project (via Giskard summary)",
+      "date_or_recency": "2025-12",
+      "evidence_type": "STANDARD-REG; grade B; refresh SLOW",
+      "notes": "Secondary summary."
+    },
+    {
+      "claim": "Price to reach a given performance level fell 9x-900x per year.",
+      "source_or_reference": "[D46] Epoch AI",
+      "date_or_recency": "2025-03-12",
+      "evidence_type": "INDEPENDENT; grade B; refresh FAST",
+      "notes": "Task-dependent; STALE-RISK (over 6 months)."
+    },
+    {
+      "claim": "Top SWE-bench Verified scores 88.6-96%, all vendor self-reports; benchmark marked saturated and contaminated.",
+      "source_or_reference": "[D48] BenchLM aggregator",
+      "date_or_recency": "data verified 2026-11-13",
+      "evidence_type": "VENDOR; grade C; refresh FAST",
+      "notes": "Aggregator of self-reports."
+    },
+    {
+      "claim": "Forecast: 40% of enterprise apps with task-specific agents by 2026; ~$450 billion by 2035 (best case).",
+      "source_or_reference": "[D43] Gartner press release",
+      "date_or_recency": "2025-08-26",
+      "evidence_type": "INDUSTRY; grade C; refresh MEDIUM",
+      "notes": "Forecast: background only."
+    },
+    {
+      "claim": "Forecast: over 40% of agentic AI projects cancelled by end-2027.",
+      "source_or_reference": "[D7] Gartner",
+      "date_or_recency": "2025-06-25",
+      "evidence_type": "INDUSTRY; grade B; refresh MEDIUM",
+      "notes": "Forecast: background only."
+    }
+  ],
+  "contrary_evidence_or_limitations": [
+    "Several key sources are secondary summaries (D36 via a blog report, D45 via a vendor summary, D35 via a mirror of Epoch AI data).",
+    "Independent reliability evidence for service agents dates from 2024 models (D34) and is STALE-RISK.",
+    "Generation and review occurred in the same session with Claude in place of ChatGPT; tiers are judgments and were not blinded.",
+    "The organization is synthetic.",
+    "D36 studied early-2025 tools and 16 experienced developers; newer tools or other teams may differ."
+  ],
+  "confidence_and_uncertainty": "Moderate: the broad picture is well documented, but the one decision-relevant measurement (the company's own productivity) does not exist yet, and the independent evidence base is small (D36).",
+  "value_opportunity_implication": "Value is plausible and large if agents raise net throughput, but perceived speed-ups have been overstated before (D36). Measuring before scaling protects the budget and the codebase.",
+  "risk_governance_implication": "The main risks: prompt injection through repository content or dependencies, and unexpected code execution (D45: ASI01, ASI04, ASI05); customer code leaving the company (case contract); and cost overrun from token-heavy agents.",
+  "recommendation_management_implication": "Position implication: run a time-boxed, randomized comparison inside the company before any broad rollout. For example, assign matched tasks at random to 'agent allowed' or 'IDE assistant only', and measure cycle time, review effort and escaped defects, following the method of D36. Keep agents in sandboxed environments with no customer code sent to vendors (D45; case contract). Use usage-based pricing for the trial, and compare the cost per merged change with the IDE assistant's. Keep public benchmark scores out of the business case (D48). Not this agent's call: formal classification (Adoption specialist) and readiness (Readiness specialist).",
+  "change_monitoring_triggers": [
+    "TRIGGER 1 [4 Incumbent / conventional alternative]: Watch the company's own trial results against the IDE assistant | Cadence monthly during the trial | Threshold net cycle time improves on matched tasks with no rise in escaped defects or review time | Then expand beyond the trial teams; if not met, stay with the IDE assistant | Watcher engineering managers",
+    "TRIGGER 2 [1 Maturity & capability]: Watch independent randomized or field studies that replicate D36 with newer tools | Cadence semiannual | Threshold an independent study shows a net speed-up for experienced developers on their own codebases | Then shorten the trial or widen its scope | Watcher VP of Engineering",
+    "TRIGGER 3 [7 Standards & interoperability]: Watch OWASP agentic guidance and the security advisories of the tools in use | Cadence quarterly | Threshold a disclosed prompt-injection or code-execution incident in a tool the team uses | Then suspend agent write access pending review | Watcher security team",
+    "TRIGGER 4 [2 Performance & cost trends]: Watch vendor pricing and the team's cost per merged change | Cadence monthly | Threshold agent cost per merged change exceeds the IDE assistant's by a margin finance sets | Then cap usage or renegotiate | Watcher finance (tool spend)",
+    "REFRESH: FAST claims (benchmarks, prices, tool features) quarterly; MEDIUM claims (developer surveys, productivity studies) semiannually; the internal trial monthly."
+  ],
+  "abstention_or_more_information_needed": [
+    "INFORMATION REQUEST: the team's current baseline (cycle time per change, review time and escaped-defect rate). Who has it: engineering managers and the platform/DevOps team. Why it matters: without it, the threshold in trigger 1 cannot be set."
+  ]
+}

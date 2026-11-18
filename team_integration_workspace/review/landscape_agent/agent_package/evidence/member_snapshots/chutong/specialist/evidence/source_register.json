@@ -1,0 +1,56 @@
+[
+  {
+    "id": "S1",
+    "title": "Microsoft Learn, Summarize a report with Copilot",
+    "date_or_recency": "Live documentation checked 2026-11-11",
+    "url": "https://learn.microsoft.com/en-us/power-bi/create-reports/copilot-pane-summarize-content",
+    "type": "Vendor capability documentation",
+    "claim": "Documents report summaries with visual citations; prerequisites and scope limits include tenant enablement, eligible capacity and limitations on filters and sampled data.",
+    "limit": "Summary citations point to visuals, not proof of exact source-row, denominator or filter reconciliation. Tenant eligibility, price and accuracy are unverified."
+  },
+  {
+    "id": "S2",
+    "title": "Great Expectations, Validate data integrity with GX",
+    "date_or_recency": "Documentation checked 2026-11-11",
+    "url": "https://legacy.docs.greatexpectations.io/docs/reference/learn/data_quality_use_cases/integrity/",
+    "type": "Implementation documentation",
+    "claim": "Documents pairwise column equality and custom SQL checks, including cross-table integrity.",
+    "limit": "Illustrates a deterministic baseline; does not establish that the firm uses GX or that checks cover visual interpretation. Verify exact installed version before use."
+  },
+  {
+    "id": "S3",
+    "title": "Masry et al., ChartQA",
+    "date_or_recency": "May 2022; checked 2026-11-11",
+    "url": "https://aclanthology.org/2022.findings-acl.177/",
+    "type": "Peer-reviewed benchmark",
+    "claim": "Chart QA combines visual and logical reasoning, with human-authored and generated questions.",
+    "limit": "Historical benchmark, not current model ranking or evidence of this exact workflow, cost or reliability."
+  },
+  {
+    "id": "S4",
+    "title": "Model Context Protocol, One Year of MCP",
+    "date_or_recency": "2025-11-25; checked 2026-11-11",
+    "url": "https://blog.modelcontextprotocol.io/posts/2025-11-25-first-mcp-anniversary/",
+    "type": "Protocol maintainer release note",
+    "claim": "Dated MCP release illustrates evolving shared tool interfaces.",
+    "limit": "Example edition, not a latest-version claim; protocol availability does not ensure compatibility, read-only enforcement or permission."
+  },
+  {
+    "id": "S5",
+    "title": "NIST AI 600-1, Generative AI Profile",
+    "date_or_recency": "July 2024; checked 2026-11-11",
+    "url": "https://doi.org/10.6028/NIST.AI.600-1",
+    "type": "Voluntary public guidance",
+    "claim": "Confabulation and contextual evaluation support measuring task performance and retaining human oversight and monitoring.",
+    "limit": "No assertion of legal compliance, certification or local effectiveness."
+  },
+  {
+    "id": "S6",
+    "title": "McKinsey, The state of AI in 2025",
+    "date_or_recency": "2025-11-05; checked 2026-11-11",
+    "url": "https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai-2025",
+    "type": "Consulting survey",
+    "claim": "In the 2025 survey 23% of respondents reported scaling agents in at least one function and another 39% reported experimenting.",
+    "limit": "Historical self-report across functions, not a current population estimate or financial chart-review adoption."
+  }
+]

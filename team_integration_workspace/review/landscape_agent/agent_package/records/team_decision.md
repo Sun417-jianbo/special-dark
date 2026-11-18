@@ -1,0 +1,14 @@
+# Team decision
+Yufei Cai reported team acceptance on November18,2026: “团队认可，可标记为认可版”. This accepts the synthesized analytical policy, not a real organization's permission, a claim of all-member source verification, or a main-branch merge.
+
+Retain the TW8 human-supervised chart/source-review anchor. Carry forward ten landscape dimensions with a decision-relevance flip test; preserve an analyst-plus-deterministic baseline; distinguish substitutes from complements; use typed claim-specific evidence and actionable owner/cadence/signal/action triggers. An inactive benchmark, a visual citation, a free-licence story or general market attention cannot approve chart-agent use.
+
+Material contributions: Yufei's dated source/maintenance policy and context-specific radar form the packaging base; Chutong's fixed-field comparator and source-row/period/filter/denominator distinction sharpen task fit; Jianbo's source-date separation and owner/cadence/signal/action rules make monitoring usable; Minghan's ten dimensions and flip test focus relevance. Do not average their different application conclusions. The team makes a new chart-anchor policy choice, not a vote on whose prose is best.
+
+Modify two imported rules. Vendor documents can establish their own described availability/terms and trigger a recheck; they cannot establish independent local benefit. Also, same-application reasoning retains task mechanisms but may change platform and permission relevance with organization. Fix template dates at intake rather than hardcoding a previous assessment date. These changes preserve the useful minority concern that a conservative evidence policy should not prevent proportionate learning or noticing a newly changed vendor surface.
+
+Current primary: keep analyst/rule review; no agent execution while the upstream route remains unapproved. A separately prepared public/synthetic organization can compare an authorized read-only learning option without borrowing private-data permission or routine value. Fixed-field validation retains a rules-first comparator. Landscape only requests relevant specialist reassessment.
+
+Integration judgment: seven versioned specialist candidates and common contracts are available for Team Lab10 design. They are distributed across review branches, not assembled into one executable MoE. Freeze audited snapshots/locators, harmonize labels and source-date policies, then design explicit conflict handling and human authority. Do not merge branches, invent runtime orchestration or silently turn uncertainty into approval.
+
+Reopen for an actual permitted and traceable route, exact platform/feature change, loss of control/owner, maintained task-relevant independent evidence, changed complete local effort/quality or contrary comparative results. The Microsoft17November notice warrants checking the exact candidate surface; underlying linked announcement could not be fetched, so no exact retirement date is asserted.

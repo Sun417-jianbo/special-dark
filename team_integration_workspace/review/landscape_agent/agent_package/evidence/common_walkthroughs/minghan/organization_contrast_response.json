@@ -1,0 +1,88 @@
+{
+  "agent": {
+    "name": "Emerging Technology Landscape Agent",
+    "specialty": "Dated technology-landscape assessment that separates broad signals from the few that can change this organization's decision, with typed evidence and monitoring triggers",
+    "version": "1.1"
+  },
+  "analytical_question": "Common organization_contrast case evaluated under minghan candidate rules, not its original personal scenario.",
+  "general_et_finding": "As of 2026-11-18, agentic capability is uneven and application-specific. L1/L2 describe native BI assistance and mutable experience-specific prerequisites, not chart-validation guarantees; L1 now flags retirement of some standalone/app surfaces while report-scoped use is unaffected by that notice. Exact retirement dates remain unverified. L3 illustrates deterministic integrity checks, and L5 is an integration complement rather than permission. L4 is archival chart-reasoning research, not current model leadership. L6 is inactive historical software-task measurement, not autonomous runtime or chart accuracy. L7 is voluntary guidance, not binding law. L8 is a dated analyst interpretation, not our maturity score or a matching penetration statistic. Current exact-task adoption, investment trends, total cost and comparative performance are UNKNOWN. No single score, current vendor ranking or adoption forecast is justified.",
+  "application_finding": "Strongest competing or conventional alternative: analyst review plus deterministic source checks. Use ten-dimension relevance and the flip test; distinguish source mechanisms from local permission. Candidate rule conflict: its fixed November15 prefix is not accepted as current because the supplied case is November18 and L1 updated November17. Report that portability defect instead of inventing earlier availability.",
+  "organization_specific_finding": "The relevant decision changes to observable quality/effort within allowed learning, not another generic market summary. KEEP_BASELINE: analysts/rules remain comparator and fallback. COMPARE_IF_AUTHORIZED: the case already stipulates an allowed public/synthetic read-only learning route and protected reviewer/deputy; do not demand those facts again or import A’s prohibition. Prioritize traceable corrections and complete effort in that limited scope. WATCH: maintained task-relevant evidence and connector changes. NOT_ENOUGH_EVIDENCE: local task value, recurring support and any native tenant. Ten dimensions: capability WATCH; performance/complete cost DECISION_RELEVANT to the learning comparison; competing approaches DECISION_RELEVANT; incumbent alternative DECISION_RELEVANT; complements DECISION_RELEVANT, especially exact lineage and protected review; vendor/ecosystem BACKGROUND now because no qualifying Power BI tenant is supplied; standards WATCH on actual connector choice; governance/regulatory dependencies WATCH on allowed-scope change; investment/forecasts BACKGROUND/unknown; exact-task adoption UNKNOWN and broad attention BACKGROUND. Most consequential development would be matched source-linked quality/effort evidence within the stipulated learning route; if favorable it could change a request for a later value review, not approve routine service. Do not compare paid native BI as though it were available for free.",
+  "evidence": [
+    {
+      "claim": "Documents prerequisites and warns that standalone/app-scoped experiences are retiring while the report-scoped experience is not affected by that notice.",
+      "source_or_reference": "L1 | Microsoft | https://learn.microsoft.com/en-us/power-bi/create-reports/copilot-introduction",
+      "date_or_recency": "Publication/update/version: 2026-11-17; checked_on 2026-11-18; Product documentation state, not a field study",
+      "evidence_type": "VENDOR",
+      "notes": "Vendor description, not local qualification, a complete retirement schedule or comparative performance. Linked retirement announcement timed out; confirm dates and exact tenant surface before relying on it. Do not equate a generic Copilot label with an approved feature. Maintenance: Live mutable documentation; changed since individual assessment"
+    },
+    {
+      "claim": "Describes visual references and report-data summaries with stated filtering/data limitations.",
+      "source_or_reference": "L2 | Microsoft | https://learn.microsoft.com/en-us/power-bi/explore-reports/copilot-pane-summarize-content",
+      "date_or_recency": "Publication/update/version: 2026-09-30; checked_on 2026-11-18; Feature description, no local outcome period",
+      "evidence_type": "VENDOR",
+      "notes": "Visual references do not establish exact source-row, filter, period and denominator reconciliation. The documentation itself has surface-specific caveats; do not generalize to all experiences or local accuracy. Maintenance: Mutable feature documentation"
+    },
+    {
+      "claim": "Documents deterministic data-integrity checks as an example of a conventional technical approach.",
+      "source_or_reference": "L3 | Great Expectations | https://legacy.docs.greatexpectations.io/docs/reference/learn/data_quality_use_cases/integrity/",
+      "date_or_recency": "Publication/update/version: unknown; checked_on 2026-11-18; Illustrative software examples, not observed firm deployment",
+      "evidence_type": "VENDOR_IMPLEMENTATION",
+      "notes": "Does not prove this firm uses GX, that a particular version is installed, or that table checks cover visual interpretation. Version/route and actual rule validity require confirmation. Maintenance: Version-labelled documentation under legacy hostname"
+    },
+    {
+      "claim": "Historical research distinguishes chart visual and logical/arithmetic reasoning challenges.",
+      "source_or_reference": "L4 | Masry et al and ACL Anthology | https://aclanthology.org/2022.findings-acl.177/",
+      "date_or_recency": "Publication/update/version: 2022-05; checked_on 2026-11-18; Historical benchmark task/model evaluation; not a current product trial",
+      "evidence_type": "INDEPENDENT_RESEARCH",
+      "notes": "Not a November2026 model ranking, a finance source-reconciliation validation or a local cost measure. No current success percentage is inferred. Maintenance: Archival paper; useful for task design, not current capability leadership"
+    },
+    {
+      "claim": "Specifies context/tool integration and implementation responsibilities for consent and access controls.",
+      "source_or_reference": "L5 | Model Context Protocol maintainers | https://modelcontextprotocol.io/specification/2026-07-28",
+      "date_or_recency": "Publication/update/version: 2026-07-28; checked_on 2026-11-18; Protocol requirements, no local implementation result",
+      "evidence_type": "STANDARD_PROTOCOL",
+      "notes": "Not a legal certification or enforced read-only guarantee; host/server compatibility and local permission remain untested. Maintenance: Version-identified reference; check compatibility and notices"
+    },
+    {
+      "claim": "The page states it is no longer actively updated; horizons index human-expert task duration for specified software tasks.",
+      "source_or_reference": "L6 | METR | https://metr.org/time-horizons/",
+      "date_or_recency": "Publication/update/version: 2026-09-08; checked_on 2026-11-18; Dated software-task measurements with incomplete model coverage",
+      "evidence_type": "INDEPENDENT_RESEARCH",
+      "notes": "Not uninterrupted autonomy, chart accuracy or a current November ranking. A recent access date does not refresh the observation. Do not transfer the metric to the chart task. Maintenance: INACTIVE historical as of2026-09-08"
+    },
+    {
+      "claim": "Identifies a cross-sector companion to the voluntary AI Risk Management Framework.",
+      "source_or_reference": "L7 | NIST | https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-generative-artificial-intelligence",
+      "date_or_recency": "Publication/update/version: 2024-07-26; checked_on 2026-11-18; Cross-sector methodological guidance, not outcome measurements",
+      "evidence_type": "PUBLIC_GUIDANCE",
+      "notes": "Not binding finance law, legal advice, product certification or local proof of implemented controls. No current legal status is inferred from historical legal references. Maintenance: Identified guidance edition; check for revisions"
+    },
+    {
+      "claim": "Gartner gives a dated high-expectations interpretation and distinguishes uneven maturity across agentic capabilities.",
+      "source_or_reference": "L8 | Gartner | https://www.gartner.com/en/articles/hype-cycle-for-agentic-ai",
+      "date_or_recency": "Publication/update/version: 2026-04-15; checked_on 2026-11-18; Dated analyst interpretation; underlying survey methodology not extracted",
+      "evidence_type": "INDUSTRY_ANALYST",
+      "notes": "Not the team's score, a matched financial-chart adoption denominator, local reliability or permission. No survey percentage, mainstream date or investment forecast is carried into the team conclusion. Maintenance: Dated industry interpretation"
+    }
+  ],
+  "contrary_evidence_or_limitations": [
+    "Native platforms could reduce custom integration work if genuinely available and permitted; this remains a candidate hypothesis, not proof of chart accuracy.",
+    "An agent might add value to residual interpretive work that validated fixed rules cannot cover. Local measured advantage is unknown.",
+    "Same-assistant qualitative prompt runs and structural checks are not independent reliability tests or a company pilot.",
+    "The candidate blanket non-vendor gate would be too strict for observing a vendor retirement/availability fact. Vendor-origin feature evidence can justify a recheck, not benefit or approval. Organization-specific platform relevance need not have identical application prose.",
+    "Fresh same-assistant qualitative walkthrough, normalized to the frozen contract; not an independent candidate score or model comparison. Hardcoded date/upstream admissions examples, identical-application rule and blanket non-vendor gate need repair for portable current use."
+  ],
+  "confidence_and_uncertainty": "Moderate confidence in the attributed documentation/comparison approach; low confidence in local quality, complete cost, current task diffusion or a model/vendor choice. Source retrieval does not refresh a historical observation.",
+  "value_opportunity_implication": "Investigate quality-adjusted full effort at a matched task volume. No savings, total-cost amount or ROI is established by feature announcements or an existing licence.",
+  "risk_governance_implication": "Landscape intelligence never grants data/tool permission, legal certification or release authority. Preserve human sign-off and the relevant upstream stage limits.",
+  "recommendation_management_implication": "Use the supplied authorized learning premises for a bounded comparison request; do not infer routine permission or retain A’s route prohibition.",
+  "change_monitoring_triggers": [
+    "Owner: stipulated learning reviewer and deputy | Cadence: each authorized batch and at learning review | Signal/evidence: correct source-linked findings, false corrections, abstentions and complete effort versus analyst/rules | Action: return quality/value evidence to Adoption; no routine release implied by trial permission.",
+    "Owner: stipulated data steward | Cadence: immediately on input/tool/owner change | Signal/evidence: private/student data, missing cover, control loss or a route outside the permitted read-only scope | Action: stop the affected exercise, retain manual baseline and obtain the relevant human decision.",
+    "Owner: proposed IT/landscape reviewer | Cadence: before connector changes and monthly; research quarterly | Signal/evidence: original version/security evidence and a maintained task-relevant dataset | Action: compare portable low-commitment tools; keep native paid BI out unless an actual eligible tenant is supplied. Never promote inactive L6 measurements to current model leadership."
+  ],
+  "abstention_or_more_information_needed": [
+    "Obtain task-quality/full-effort results and separate routine support evidence; no actual native tenant is supplied."
+  ]
+}
