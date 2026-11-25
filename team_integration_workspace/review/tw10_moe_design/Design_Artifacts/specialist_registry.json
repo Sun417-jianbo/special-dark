@@ -1,0 +1,138 @@
+{
+  "registry_version": "SD-TW10-PINS-1.0",
+  "origin": "TW9 verified source release and saved readiness audit; local byte and hash comparison on 2026-11-24, no new claim on live branch state.",
+  "tw9_release_sha256": "cf9a983d19cbf078052f598102157c3290c22504d847bac70d3db0535930cbe2",
+  "frozen_core_sha256": {
+    "core/input_schema.json": "3fb90f28fe012797c7f06449f76cbec4a7fdf3361ea5ab5172f6ae04925d788a",
+    "core/output_schema.json": "02f991f08e02e43139e4aa80d9f5898aa022ed6ccf4dcf0c329fae670f03698e",
+    "core/common_instructions.md": "a7cd11f59a00f03d26a13fca6ab9c8428ed9c5584b24deb2bcba0cc05b8629c6"
+  },
+  "specialists": [
+    {
+      "id": "S1",
+      "slot": 1,
+      "purpose": "Technology Creation",
+      "expected_metadata": {
+        "name": "Special Dark Technology Creation Agent",
+        "specialty": "Technology creation and evolution analysis",
+        "version": "1.0"
+      },
+      "branch_at_tw9_audit": "tw3-creation-agent-20261006",
+      "source_commit": "bfd3a1af736722c338ff9395d6715acec1691d99",
+      "agent_source": "https://github.com/Sun417-jianbo/special-dark/tree/bfd3a1af736722c338ff9395d6715acec1691d99/team_integration_workspace/review/creation_agent_v1_0/agents/creation_agent",
+      "record_source": "https://github.com/Sun417-jianbo/special-dark/blob/bfd3a1af736722c338ff9395d6715acec1691d99/team_integration_workspace/review/creation_agent_v1_0/Special_Dark_TW3_Team_Agent_Record.docx",
+      "rule_sha256": "5e7435b3642e9c295e733ae8bf862b891b6e06d528b3bccaeaa7ea47f7b45bdc",
+      "metadata_sha256": "0bd77a029b52cb31279feab8a5d5829507ce53411ff3e296d36594455212c755",
+      "saved_case_count_at_tw9": 4,
+      "saved_response_count_at_tw9": 4
+    },
+    {
+      "id": "S2",
+      "slot": 2,
+      "purpose": "Innovation Classification",
+      "expected_metadata": {
+        "name": "Special Dark Innovation Classification Agent",
+        "specialty": "Innovation classification, organizational significance and ambiguity handling",
+        "version": "1.0"
+      },
+      "branch_at_tw9_audit": "tw4-innovation-classification-20261013",
+      "source_commit": "334d3cfb4637b12796b54902adf1f52a85723c8c",
+      "agent_source": "https://github.com/Sun417-jianbo/special-dark/tree/334d3cfb4637b12796b54902adf1f52a85723c8c/team_integration_workspace/review/innovation_classification_v1_0/agent_package/agents/innovation_classification_agent",
+      "record_source": "https://github.com/Sun417-jianbo/special-dark/blob/334d3cfb4637b12796b54902adf1f52a85723c8c/team_integration_workspace/review/innovation_classification_v1_0/Special_Dark_TW4_Team_Agent_Record.docx",
+      "rule_sha256": "08f83de43febb911dea437ed52864ffa7e12644898509cdc86436b318df345ad",
+      "metadata_sha256": "1c0e79c2810e9923a8cff76a17b16af5bd7a555f4e245c8257991779bc71f664",
+      "saved_case_count_at_tw9": 4,
+      "saved_response_count_at_tw9": 4
+    },
+    {
+      "id": "S3",
+      "slot": 3,
+      "purpose": "Promethean Classification",
+      "expected_metadata": {
+        "name": "Special Dark Promethean Technology Classification Agent",
+        "specialty": "Technological significance, contrary evidence and anti-hype qualification",
+        "version": "1.0"
+      },
+      "branch_at_tw9_audit": "tw5-promethean-classification-20261020",
+      "source_commit": "5169bd81601e96f27f014570e8944bab2005eddf",
+      "agent_source": "https://github.com/Sun417-jianbo/special-dark/tree/5169bd81601e96f27f014570e8944bab2005eddf/team_integration_workspace/review/promethean_classification/agent_package/agents/promethean_classification_agent",
+      "record_source": "https://github.com/Sun417-jianbo/special-dark/blob/5169bd81601e96f27f014570e8944bab2005eddf/team_integration_workspace/review/promethean_classification/Special_Dark_TW5_Team_Agent_Record.docx",
+      "rule_sha256": "cff91baac924f26fd1e56bb5cc47b5b52090956169f863d7c36396268fc0d055",
+      "metadata_sha256": "81821768b49560c62de09cfb2500bbbfc9e0d796c58fcae3e856f99d6fc7b28c",
+      "saved_case_count_at_tw9": 7,
+      "saved_response_count_at_tw9": 7
+    },
+    {
+      "id": "S4",
+      "slot": 4,
+      "purpose": "Diffusion",
+      "expected_metadata": {
+        "name": "Special Dark Emerging Technology Diffusion Agent",
+        "specialty": "SubAgent 4 Rogers diffusion evidence and conditional timing",
+        "version": "1.0"
+      },
+      "branch_at_tw9_audit": "tw6-diffusion-20261027",
+      "source_commit": "94213651ff5acb7973c58b485714ee6488e365b2",
+      "agent_source": "https://github.com/Sun417-jianbo/special-dark/tree/94213651ff5acb7973c58b485714ee6488e365b2/team_integration_workspace/review/diffusion_agent/agent_package/agents/diffusion_agent",
+      "record_source": "https://github.com/Sun417-jianbo/special-dark/blob/94213651ff5acb7973c58b485714ee6488e365b2/team_integration_workspace/review/diffusion_agent/Special_Dark_TW6_Team_Agent_Record.docx",
+      "rule_sha256": "3e02380eb6edae0216f0b30b4b0ad00fa93b228e4372f1f8691295d8d74d5b9e",
+      "metadata_sha256": "96716a8f54e459aa7cf83259b6c9cae1f93934a0d0e3e50931ce6b28ee592dca",
+      "saved_case_count_at_tw9": 7,
+      "saved_response_count_at_tw9": 7
+    },
+    {
+      "id": "S5",
+      "slot": 5,
+      "purpose": "Adoption",
+      "expected_metadata": {
+        "name": "Special Dark Emerging Technology Adoption Agent",
+        "specialty": "SubAgent 5 - bounded current adoption action and reversal conditions",
+        "version": "1.0"
+      },
+      "branch_at_tw9_audit": "tw7-adoption-20261103",
+      "source_commit": "51a76f76726ea348fd3c84aca5cf7713e3e921ba",
+      "agent_source": "https://github.com/Sun417-jianbo/special-dark/tree/51a76f76726ea348fd3c84aca5cf7713e3e921ba/team_integration_workspace/review/adoption_agent/agent_package/agents/adoption_agent",
+      "record_source": "https://github.com/Sun417-jianbo/special-dark/blob/51a76f76726ea348fd3c84aca5cf7713e3e921ba/team_integration_workspace/review/adoption_agent/Special_Dark_TW7_Team_Agent_Record.docx",
+      "rule_sha256": "ad7b37591afcab36e7c8f6f0f647ba18f66594b0f16cae17e18fe88fa557220d",
+      "metadata_sha256": "43ca8b02c2ebc2a37cdbe04e93663ea92056e783d576c527db35ede765949619",
+      "saved_case_count_at_tw9": 10,
+      "saved_response_count_at_tw9": 10
+    },
+    {
+      "id": "S6",
+      "slot": 6,
+      "purpose": "Organizational Adoption",
+      "expected_metadata": {
+        "name": "Special Dark Organizational Adoption Agent",
+        "specialty": "SubAgent 6 - organizational readiness and implementation conditions",
+        "version": "1.0"
+      },
+      "branch_at_tw9_audit": "tw8-organizational-adoption-20261110",
+      "source_commit": "f2b38235373bd9dc38257f3df7551893bec70580",
+      "agent_source": "https://github.com/Sun417-jianbo/special-dark/tree/f2b38235373bd9dc38257f3df7551893bec70580/team_integration_workspace/review/organizational_adoption_agent/agent_package/agents/organizational_adoption_agent",
+      "record_source": "https://github.com/Sun417-jianbo/special-dark/blob/f2b38235373bd9dc38257f3df7551893bec70580/team_integration_workspace/review/organizational_adoption_agent/Special_Dark_TW8_Team_Agent_Record.docx",
+      "rule_sha256": "5045b8d2576383a69395afdabac19c1f1fe5eda89ffcc17a00ba2c6c5006db0e",
+      "metadata_sha256": "b2758d798db65cdf82f25725131953c0b06118404bffd661ee1db7aa4efc5e6c",
+      "saved_case_count_at_tw9": 8,
+      "saved_response_count_at_tw9": 8
+    },
+    {
+      "id": "S7",
+      "slot": 7,
+      "purpose": "Technology Landscape",
+      "expected_metadata": {
+        "name": "Special Dark Emerging Technology Landscape Agent",
+        "specialty": "SubAgent 7 dated technology intelligence, alternatives and monitoring",
+        "version": "1.0"
+      },
+      "branch_at_tw9_audit": "tw9-landscape-20261118",
+      "source_commit": "49a97de452d5723d3484d41a27d1763307f61490",
+      "agent_source": "https://github.com/Sun417-jianbo/special-dark/tree/49a97de452d5723d3484d41a27d1763307f61490/team_integration_workspace/review/landscape_agent/agent_package/agents/landscape_agent",
+      "record_source": "https://github.com/Sun417-jianbo/special-dark/blob/49a97de452d5723d3484d41a27d1763307f61490/team_integration_workspace/review/landscape_agent/Special_Dark_TW9_Team_Agent_Record.docx",
+      "rule_sha256": "fd479c0d422a647b5865329de1fcc3e06fbfb19ad87dcee73a05857c2c5b1c8e",
+      "metadata_sha256": "d469327ba7fd923199e0848cf4b97306bd25e349cd3a6f93c8b46f32cfc94896",
+      "saved_case_count_at_tw9": 6,
+      "saved_response_count_at_tw9": 6
+    }
+  ]
+}

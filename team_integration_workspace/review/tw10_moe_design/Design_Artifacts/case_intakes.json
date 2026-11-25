@@ -1,0 +1,62 @@
+{
+  "as_of": "2026-11-24",
+  "purpose": "Canonical frozen context examples; inject simulated failures and signed-scope fixtures via a separate adapter/test harness in TW11. No operational permissions or live records.",
+  "cases": {
+    "A": {
+      "emerging_technology": "Bounded agentic AI uses a model to choose permitted tools, observe results and continue a supervised digital task.",
+      "intended_application": "Read-only review of charts against source tables and draft discrepancy notes. No write or publication.",
+      "organization": "Fictional mid-sized US financial-services reporting unit",
+      "industry_sector": "Financial services and internal management reporting",
+      "business_need": "Reduce review effort without losing accuracy or traceability",
+      "users_stakeholders": "Analysts, reporting lead, data and security authority, and management",
+      "adoption_posture": "Conservative, willing to learn",
+      "capabilities_constraints": "Analysts and deterministic checks available; proposed external data/tool route expressly unapproved. Eligible tenant and protected cover unknown.",
+      "risk_consequence_context": "Material wrong denominator, filter or period; private-data exposure and erroneous report reliance.",
+      "management_question": "Should management start the proposed chart review trial now or take a less committal step?",
+      "time_horizon": "2026-11-24 plus 30 days for a planning reassessment",
+      "additional_context": "Constructed input C-A. Evidence snapshot SD-TW10-D1. No client data, models, external tools or production systems invoked."
+    },
+    "B": {
+      "emerging_technology": "Federated analytics with bounded synthetic aggregation",
+      "intended_application": "Test reproducible cross-site aggregate counts without collecting individual records centrally",
+      "organization": "Fictional consortium of two university teaching labs",
+      "industry_sector": "Higher education and synthetic analytics",
+      "business_need": "Find out whether the toy aggregate agrees with a simple precomputed answer under controlled feasibility conditions",
+      "users_stakeholders": "Two lab operators, data steward, trial owner and faculty decision owner",
+      "adoption_posture": "Exploratory; isolated technical feasibility only",
+      "capabilities_constraints": "Simulated approval B-AUTH covers only synthetic isolated two-node test, vetted tool/client version and no live networking. Named owner/deputy and stop authority, eight staff hours cap; no real records, production or procurement. Proof of incremental workflow value is absent.",
+      "risk_consequence_context": "Incorrect aggregation, tool configuration drift, scope expansion, inappropriate inference about privacy",
+      "management_question": "What action should management recommend now, and what evidence could reopen it?",
+      "time_horizon": "Two weeks",
+      "additional_context": "Constructed test premise. Best baseline: Exchange approved precomputed aggregate counts, check totals manually"
+    },
+    "C": {
+      "emerging_technology": "Humanoid mobile manipulation",
+      "intended_application": "Restricted stockroom transfer of lightweight teaching supplies from shelf to cart",
+      "organization": "Fictional urban university facilities unit; no statement about actual NYU approval",
+      "industry_sector": "Higher education and facilities operations",
+      "business_need": "Assess whether the form factor merits investigation over staff/cart or simpler equipment",
+      "users_stakeholders": "Facilities, lab operator, safety authority and accountable decision owner",
+      "adoption_posture": "Interested in learning but hands-on trial not cleared",
+      "capabilities_constraints": "No verified equipment availability, operator/deputy cover or approved safety plan. Operations sponsor asks for a same-day demonstration.",
+      "risk_consequence_context": "Unexpected movement, dropped objects, bystander exposure",
+      "management_question": "What action should management recommend now, and what evidence could reopen it?",
+      "time_horizon": "Next 30 days",
+      "additional_context": "Constructed test premise. Best baseline: Staff and cart; simpler handling aid if adequate"
+    },
+    "A2": {
+      "emerging_technology": "Bounded agentic AI uses a model to choose permitted tools, observe results and continue a supervised digital task.",
+      "intended_application": "Read-only review of charts against source tables and draft discrepancy notes. No write or publication.",
+      "organization": "Fictional mid-sized US financial-services reporting unit",
+      "industry_sector": "Financial services and internal management reporting",
+      "business_need": "Reduce review effort without losing accuracy or traceability",
+      "users_stakeholders": "Analysts, reporting lead, data and security authority, and management",
+      "adoption_posture": "Conservative, willing to learn",
+      "capabilities_constraints": "Constructed approved isolated public/synthetic read-only route, trained owner and deputy with stop authority, 8-hour cap, predefined trace-feasibility objective. No production approval or results.",
+      "risk_consequence_context": "Material wrong denominator, filter or period; private-data exposure and erroneous report reliance.",
+      "management_question": "Should management start the proposed chart review trial now or take a less committal step?",
+      "time_horizon": "2026-11-24 plus 30 days for a planning reassessment",
+      "additional_context": "Constructed A/A2 scope contrast; use the same dated external evidence as A."
+    }
+  }
+}

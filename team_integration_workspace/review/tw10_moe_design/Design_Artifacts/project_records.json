@@ -1,0 +1,37 @@
+{
+  "release":"SD-TW10-MOE-DESIGN-1.0",
+  "date":"2026-11-24",
+  "decision_log":{
+    "status":"Team endorsement reported by Yufei Cai",
+    "accepted":"Full assessment defaults to seven experts; focused requests use rule-based routing. Independent of synthesis, check evidence, scoped authorization and readiness. Produce one recommended action, with final disposition reserved for humans.",
+    "alternative":"Always run all seven for every question to maximize visibility. This reduces missed dependencies but adds cost, wait and irrelevant discussion in a narrow brief. Another alternative, allowing autonomous model-based routing and resolution, was not taken because it can silently omit decisive authority.",
+    "reopen":"Expand focused routing or remove it if tests omit a material issue; re-evaluate scheduling after TW11 measures burden. Any unclear action label or detected permission bypass blocks release until repaired. Preserve the material tradeoff between speed to learn and avoiding out-of-scope execution."
+  },
+  "contribution_record":{
+    "Yufei Cai":"Supplied TW10 assignment, carried forward the team's prior integration work and reported TW10 architecture endorsement.",
+    "Jianbo Sun":"Attribution carried forward from TW1 strategic timing and TW9 actionable monitoring, not a claimed new TW10 assignment.",
+    "Minghan Liu":"Attribution carried forward from TW1 maturity/evidence fit and TW9 relevance filter, not a claimed new TW10 assignment.",
+    "Chutong Wang":"Attribution carried forward from TW1 follow-up ownership and TW9 source-lineage and conventional-comparator criteria, not a claimed new TW10 assignment.",
+    "ChatGPT and Codex":"Design drafting and challenge, source checks, file audit, tabletop walk-through and package verification; no independent peer sign-off claimed."
+  },
+  "production_record":"The endorsement concerns this design. The package does not assert a workshop completion percentage, actual classroom sequence or each member's work hours. Tabletop exercise is design evidence, not actual classroom or runtime evidence.",
+  "integration_issues":[
+    {"id":"I1","severity":"Blocking for TW11 release","topic":"Pin commits and integrity across seven separate releases; validate common hashes and map canonical slots before any specialist calls.","proposed_owner":"Integration maintainer","exit_evidence":"Seven verified pins, hashes and version-bound raw replay logs."},
+    {"id":"I2","severity":"Blocking for positive action","topic":"Adoption enthusiasm versus readiness or missing scoped approval. Reject claim-based authority and stage promotion.","proposed_owner":"Orchestration implementer and data/risk human reviewer","exit_evidence":"A, C and R4 preserve the blocker; B only recommends the permitted stage."},
+    {"id":"I3","severity":"Blocking for material claims","topic":"Date drift, vendor independence and task-scope mismatch; no silent evidence replacement.","proposed_owner":"Evidence steward","exit_evidence":"E1/E2 and R5 dispositions in claim-to-source audit."},
+    {"id":"I4","severity":"Usability and ambiguity","topic":"A single action can hide dissent, and full routing can add avoidable time to a narrow question.","proposed_owner":"Independent peer reviewer","exit_evidence":"A4/A5 two-person review, routing comparison and an exact reroute test."}
+  ],
+  "tw11_handoff":[
+    "Confirm actual integration repository and appoint implementation/review roles; copy rather than edit pinned cores.",
+    "Implement envelope validation, deterministic routing and append-only logging; replay full/focused/missing-scope controls.",
+    "Wire the seven interactive expert adapters, independent gate, decision card and human disposition. No external model API or operating connector is required for the first integration tests.",
+    "Run the predefined matrix with synthetic data; keep failed traces, conduct independent human review, and freeze a named version only after all release assertions pass."
+  ],
+  "rubric_map":{
+    "Synthesis and professional artifact":"Word architecture map and rules, versioned seven-agent registry, JSON interface and three-case acceptance plan.",
+    "Evidence and traceability":"Official source bounds, three-level tabletop outputs, preserved injected failure and correction, hashes and frozen-contract checks.",
+    "Professional judgment":"Single action, decision authority, preserved alternative, confidence and reversal triggers.",
+    "Classroom and handoff":"Team endorsement and dated handoff are recorded. The approximately 90 percent in-class criterion cannot be verified from the supplied materials. Follow the live Brightspace deadline; the generic memo and rubric use different posting windows."
+  },
+  "workspace":"This design exists locally as SD-TW10-MOE-DESIGN-1.0. The upstream shared repository is Sun417-jianbo/special-dark. No TW10 branch push, merge or course upload is represented."
+}

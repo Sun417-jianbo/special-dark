@@ -1,0 +1,60 @@
+{
+  "run_id":"TW10-DR-01",
+  "date":"2026-11-24",
+  "mode":"Same-assistant tabletop walkthrough of Case A using the seven pinned specialist responsibilities and existing TW6-TW9 evidence. Human classroom execution, seven independent calls, field trial and TW11 integrated execution are not claimed.",
+  "intake":{
+    "emerging_technology":"Bounded agentic AI uses a model to choose permitted tools, observe results and continue a supervised digital task.",
+    "intended_application":"Read-only review of charts against source tables and draft discrepancy notes. No write or publication.",
+    "organization":"Fictional mid-sized US financial-services reporting unit",
+    "industry_sector":"Financial services and internal management reporting",
+    "business_need":"Reduce review effort without losing accuracy or traceability",
+    "users_stakeholders":"Analysts, reporting lead, data and security authority, and management",
+    "adoption_posture":"Conservative, willing to learn",
+    "capabilities_constraints":"Analysts and deterministic checks available; proposed external data/tool route expressly unapproved. Eligible tenant and protected cover unknown.",
+    "risk_consequence_context":"Material wrong denominator, filter or period; private-data exposure and erroneous report reliance.",
+    "management_question":"Should management start the proposed chart review trial now or take a less committal step?",
+    "time_horizon":"2026-11-24 plus 30 days for a planning reassessment",
+    "additional_context":"Constructed input C-A. Evidence snapshot SD-TW10-D1. No client data, models, external tools or production systems invoked."
+  },
+  "slots":[
+    {"slot":1,"status":"OK","general":"Tool selection and observation are distinct from fixed workflows.","application":"Deterministic checks can still handle explicit reconciliation rules.","organization":"Mechanism explains a candidate design, not a permitted data route.","evidence_refs":["S1","U2"]},
+    {"slot":2,"status":"OK","general":"Process value and business-model disruption are different claims.","application":"Potential residual-task improvement; no demonstrated advantage over analyst plus rules.","organization":"No evidence of material change to this firm's business model or complete review cost.","evidence_refs":["S2","U7","C-A"]},
+    {"slot":3,"status":"ABSTAINED","general":"A transformative classification requires qualifying evidence.","application":"An assistance workflow alone does not establish removal of a categorical barrier.","organization":"Withhold Promethean assignment; this does not prevent comparing bounded learning options.","evidence_refs":["S3","C-A"]},
+    {"slot":4,"status":"ABSTAINED","general":"General adoption indicators do not establish diffusion for an exact task.","application":"No chart-agent use definition and peer denominator in this packet.","organization":"Do not infer peer pressure or permission from general market attention.","evidence_refs":["S4","U7"]},
+    {"slot":7,"status":"OK","general":"Microsoft advertises changing Copilot surfaces; METR page is historical for its measured tasks.","application":"A feature listing or software benchmark does not establish chart source lineage.","organization":"Tenant unknown; keep analyst/rules. Recheck exact surface, applicable terms and allowed route.","evidence_refs":["S7","E1","E2","C-A"]},
+    {"slot":6,"status":"OK","general":"Readiness is stage dependent.","application":"Trial requires a permitted route and competent protected reviewer/stop coverage.","organization":"NOT_READY: explicit route block; capacity and tenant unresolved. Existing manual sign-off remains.","evidence_refs":["S6","U6","C-A"]},
+    {"slot":5,"status":"OK","general":"Feasibility evidence is distinct from demonstrated benefit.","application":"Compare any future test to analyst plus rules; first prove traceability.","organization":"DEFER the proposed trial; non-executing scope and baseline work may proceed.","evidence_refs":["S5","U5","C-A"]}
+  ],
+  "source_dispositions":[
+    {"id":"E1","status":"QUALIFIED","use":"Consider provider-documented retirement warning for exact-surface recheck.","exclude":"No inferred tenant eligibility, actual retirement date, chart reliability or operating clearance."},
+    {"id":"E2","status":"HISTORICAL","use":"Track software-task methodology and coverage limits.","exclude":"No current model ranking, chart accuracy or claim of unattended duration."},
+    {"id":"C-A","status":"USABLE","use":"Apply constructed denial to this case only.","exclude":"No inference about any real financial firm."}
+  ],
+  "challenge_and_retest":{
+    "nature":"Deliberately injected design counterexample, then a manually traced correction; neither is a model-produced failure transcript.",
+    "injected_candidate":"Recommend a proof of concept now because a newly announced BI feature and a software-duration graph look promising; the positive reviewer can accept it.",
+    "caught":"A1: feature/benchmark scope mismatch. A4/A7: readiness and route prohibit the trial, and accepting advice cannot create permission.",
+    "revision":"Make scope-checked authorization and stage readiness a pre-composition gate. Preserve raw proposal as a rejected alternative, constrain the final primary action, and independently recheck final text after synthesis.",
+    "retest":"Same intake and same claims. Quarantine unsupported upgrade claims. Retain learning opportunity as dissent. Final action DEFER; no movement into a trial; no fabricated human authorization. The tabletop checked reasoning, not implementation enforcement."
+  },
+  "management_card":{
+    "run_id":"TW10-DR-01","revision":1,"as_of":"2026-11-24","scope":"Proposed chart-to-source agent trial in fictional Organization A over next 30 days",
+    "primary_action":"DEFER",
+    "decision_reason":"The proposed route is not approved. Protected review and exact tenant remain unverified; outside evidence does not establish local comparative benefit.",
+    "findings_by_level":{"general":"Feature availability and software benchmarks are narrow signals.","application":"Chart corrections require exact source row, period, filter, unit and denominator.","organization":"Continue analysts plus validated deterministic checks; no agent execution."},
+    "best_baseline":"Analyst plus deterministic reconciliation and human sign-off.",
+    "value_and_risk_tradeoff":"Delaying the trial slows learning; unauthorized access and false reporting have greater immediate consequence. Continue bounded paper design, not model processing.",
+    "source_map":[{"claim":"Route denied in this scenario","refs":["C-A","S6"]},{"claim":"Microsoft notice warrants feature review only","refs":["E1","S7"]},{"claim":"METR cannot qualify chart reliability","refs":["E2","S7"]}],
+    "confidence_and_gaps":"High confidence in supplied route denial; uncertain exact tenant, peer adoption and comparative task performance. Missing local results are not zero value.",
+    "material_dissent":"Investigate whether a strictly isolated PoC can speed learning; promoted launch proposal rejected because scope-matched permission and cover are absent.",
+    "blocked_options":["PROOF_OF_CONCEPT on proposed route","BOUNDED_EXPERIMENT","ADOPT"],
+    "conditions_and_stops":"Stop at analysis; no private table access, model call with company data or publication. Recheck scoped authority, owner and cover before any later trial recommendation.",
+    "monitoring_owner_signal_review":"Proposed BI/data steward and reporting owner: check documented route and traceability on scope change and no later than 2026-12-24. Then re-run readiness and action advice.",
+    "human_disposition":"PENDING_REVIEW","audit_ref":"TW10-DR-01 source dispositions and challenge/retest"
+  },
+  "report_out":{
+    "architecture_choice":"Deterministic full or focused routing; separately validated readiness and authority; one management recommendation.",
+    "largest_open_conflict":"Adoption may see reversible learning value while the exact data/tool or operating-stage approval is unavailable. The missing approval must block that stage, not block all planning.",
+    "most_likely_to_fail":"A4: keeping a single clear action while showing scope-mismatched dissent and why it did not prevail. Test a mixed favorable proposal and decisive hard gate."
+  }
+}

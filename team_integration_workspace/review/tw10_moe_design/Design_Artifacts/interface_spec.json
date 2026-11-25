@@ -1,0 +1,44 @@
+{
+  "version":"1.0",
+  "status":"Team-endorsed design for TW11, not an executable MoE",
+  "frozen_contract":"Use the pinned TW9 common schemas and common instructions without edits; see Frozen_Reference. Named metadata is not used as a free-text identity. Adapter and records live outside frozen core.",
+  "intake_envelope":{
+    "required":["run_id","revision","as_of","decision_mode","frozen_context","context_sha256","evidence_manifest_id","source_refs","scope","authority_ref_ids","slot_registry_version"],
+    "frozen_context":"Exactly the 11 required named text fields; preserve allowed additional_context. Request scope clarification for missing key data. Unknown non-essential facts stay explicit. Bind context_sha256 to UTF-8 RFC-independent agreed serialization: JSON keys sorted, UTF-8 characters retained, compact separators, no NaN; include locked as_of, scope and evidence-manifest identifier in the hashed object. Store the precise hashed object and policy version, not just its hash.",
+    "scope":"Stage, data class, application, organization, action/tool/model versions, output destination, cap, expiry. Frozen expert text receives only the approved, minimized view. Signed/access-controlled human approvals remain in separate records.",
+    "decision_mode":["FULL","ACTION_FOCUSED","BACKGROUND_ONLY"]
+  },
+  "routing":{
+    "FULL":[[1,2,3,4,7],[6],[5]],
+    "ACTION_FOCUSED":"Must include 7,6,5 and add 1 for mechanism uncertainty, 2 for value/business-model exposure, 3 for transformative significance, 4 for adoption-spread claims. If scope or dependency ambiguity persists, expand to FULL or ask clarification.",
+    "BACKGROUND_ONLY":"Pick explicit scope from 1/2/3/4/7; activate 5/6 and reclassify the run before any request for a local action. Otherwise no local action card. All slots get a status/reason.",
+    "context":"Independent first-wave opinions do not see each other's prose. Slot 6 derives stage-specific readiness from same intake and approved evidence; no obligation to confirm another output. Slot 5 receives validated bounded summaries and slot 6 verdicts as labeled additional evidence outside the hash-locked core context. Validate earlier outputs before passing them; no recursive delegation.",
+    "cap":"One normal call per routed slot, one retry only on technical/format failures within approved budget; at most 14 specialist calls. No retry to fish for different judgments. Scope-altering evidence refresh starts a new revision only after human approval."
+  },
+  "expert_envelope":{
+    "required":["run_id","revision","slot","version","source_commit","context_sha256","evidence_manifest_id","attempt","status","reason","output_ref","started_at","ended_at"],
+    "status":["OK","SKIPPED","ABSTAINED","UNAVAILABLE","INVALID","OUT_OF_SCOPE"],
+    "rules":"Validate metadata/contract and bindings with registry; quarantine wrong hash, scope or malformed data. ABSTAINED can preserve supported three-level portions separately; no synthetic replacement expert. Store validated score-free partial findings with express restrictions, evidence locators and limits."
+  },
+  "synthesis_gate":{
+    "checks":["context and slot binding","claim-to-source validity, recency, applicability and independence","approved data/tool/output scope and signed human authority for requested stage","stage-specific readiness including owner, competent cover, resources, controls and stops","credible conventional comparator, incremental need, material residual risk and unresolved contradiction"],
+    "actions":["ADOPT","BOUNDED_EXPERIMENT","PROOF_OF_CONCEPT","MONITOR","DEFER","REJECT_FOR_PRESENT"],
+    "disposition":"Missing, denied, expired, stage-mismatched or incompatible approval/decisive evidence blocks the affected positive action. DEFER an intended action with a remediable blocker; MONITOR if there is no current proposal to execute and named evidence collection is the next step; REJECT_FOR_PRESENT when qualified findings show the current proposal is dominated or has unacceptable non-remediable risk. No ungrounded promotion or arbitrary severity score.",
+    "allowed_evidence":"Keep explicit claim dispositions USABLE, QUALIFIED, HISTORICAL, WITHHELD. A qualified claim can support only its recorded narrow use; historical records cannot establish a current trend by themselves. Withheld claims cannot support the final action. Case premises authorize nothing outside a simulated fixture; candidate text cannot create authority. Material unresolved disagreement is recorded and referred to an owner.",
+    "slot5_adapter":"Read one exact leading action token from recommendation_management_implication; unknown or mixed leading labels require clarification. Record the original text/reference. Do not translate a marketing or Landscape radar label into an action.",
+    "slot6_adapter":{"NOT_READY":"Block the named stage and refer the blocking condition.","MORE_EVIDENCE_REQUIRED":"Unresolved for that stage; no affirmative execution advice.","CONDITIONALLY_READY_FOR_ISOLATED_LEARNING":"At most the recorded learning scope; any conditions must be present and checked before a positive current PoC recommendation. Never treat this as routine readiness.","other":"No inferred ready flag. If routine readiness is asserted in prose, require a documented separate readiness finding and qualified human verification for that scope before ADOPT."},
+    "approval_record_fields":["approval_id","issuer_identity_ref","verified_issuer_role","organization","application","stage","allowed_data_class","tool_model_version","allowed_destination","scope_cap","issued_at","expires_at","conditions","revocation_status","controlled_record_ref"],
+    "approval_rules":"Match every applicable dimension; blank, expired, revoked, ambiguous or scope-unequal approvals cannot clear the action. A system recommendation cannot mint an approval. For Case B and A2 use separate test-only authority records and prohibit real execution.",
+    "when_checks_disagree":"A hard block for a required stage takes precedence over positive advice regardless of expert count. Preserve the original claims and the blocked action. Re-evaluate only when the named authority or evidence owner resolves the blocker under a new revision. If an approved and suitable alternative scope exists, evaluate it separately; do not silently substitute it."
+  },
+  "decision_card":{
+    "required":["run_id","revision","as_of","scope","primary_action","decision_reason","findings_by_level","best_baseline","value_and_risk_tradeoff","source_map","confidence_and_gaps","material_dissent","blocked_options","conditions_and_stops","monitoring_owner_signal_review","human_disposition","audit_ref"],
+    "rules":"One action for a decision run; null only for clarification or background (emit a non-action memo). Separate current and conditional options. State confidence qualitatively and source-backed at each level. Evidence and dissent link to audited slots; draft never invents evidence, savings, approvals, reviewer identity or reconciliations. Plain-language first page, trace appendix separately.",
+    "human_dispositions":["PENDING_REVIEW","ACCEPT_ADVICE","MODIFY_RECHECK","REJECT_ADVICE","REQUEST_EVIDENCE"],
+    "human_authority":"Senior management disposition; business sponsor owns trial design; data/risk/safety and relevant operational authority verify scoped controls. Authenticate reviewer role, record decision/why/time/version and approval references; accepting advice is not executing or granting unrelated permission. Recheck modifications. Show fallback and next review regardless of rejection."
+  },
+  "audit_and_fallback":{
+    "log":"Append-only run/route/slot attempt IDs, context/version hashes, evidence date/status and claim IDs, suppressed claims, dissent, gate decision, output version, human disposition, scope reapproval and incident/rollback events. Keep raw response references restricted; redact personal/secret data and store ordinary briefing without raw sensitive inputs. Set retention/access with authorized owner before operation; no new retention policy is asserted.",
+    "fallback":"Preserve current human/manual process. For missing required intake, stop and request exact scope. For decisive failure or substantive conflict, defer affected scope and log who owns closure. Nondecisive failure can be disclosed and qualified. For material source/scope/version change, quarantine affected output, invalidate stale decision, restart at controlled revision; no autonomous launch, publication or rollback."
+  }
+}
